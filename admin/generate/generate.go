@@ -304,6 +304,9 @@ func buildIndexData(rc *renderCtx) indexData {
 		data.Collections = append(data.Collections, collectionView{Collection: c, Cover: findCollectionCover(rc.m.Photos, c)})
 	}
 	data.Featured = filterByCollection(rc.m.Photos, manifest.FeaturedSlug)
+	for i, j := 0, len(data.Featured)-1; i < j; i, j = i+1, j-1 {
+		data.Featured[i], data.Featured[j] = data.Featured[j], data.Featured[i]
+	}
 	data.Months = buildMonths(rc.m.Photos)
 	return data
 }
