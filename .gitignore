@@ -1,0 +1,9 @@
+.env
+.env.local
+admin/admin
+admin/classifications.tsv
+photos/
+*.log
+.DS_Store
+*.tmp
+.idea

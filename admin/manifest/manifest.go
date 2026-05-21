@@ -1,0 +1,164 @@
+package manifest
+
+import (
+	"encoding/json"
+	"fmt"
+	"os"
+	"path/filepath"
+	"sync"
+	"time"
+)
+
+type Store struct {
+	path string
+	mu   sync.RWMutex
+	data Manifest
+}
+
+func New(path string) (*Store, error) {
+	s := &Store{path: path}
+	if err := s.load(); err != nil {
+		return nil, err
+	}
+	return s, nil
+}
+
+func (s *Store) load() error {
+	f, err := os.Open(s.path)
+	if err != nil {
+		if os.IsNotExist(err) {
+			if err := os.MkdirAll(filepath.Dir(s.path), 0o755); err != nil {
+				return err
+			}
+			s.data = Manifest{
+				Photos:      []Photo{},
+				Genres:      []Genre{},
+				Collections: []Collection{},
+				UpdatedAt:   time.Now().UTC(),
+			}
+			return s.save()
+		}
+		return err
+	}
+	defer f.Close()
+	if err := json.NewDecoder(f).Decode(&s.data); err != nil {
+		return err
+	}
+	if s.data.Photos == nil {
+		s.data.Photos = []Photo{}
+	}
+	if s.data.Genres == nil {
+		s.data.Genres = []Genre{}
+	}
+	if s.data.Collections == nil {
+		s.data.Collections = []Collection{}
+	}
+	return nil
+}
+
+func (s *Store) save() error {
+	tmp := s.path + ".tmp"
+	f, err := os.Create(tmp)
+	if err != nil {
+		return err
+	}
+	s.data.UpdatedAt = time.Now().UTC()
+	enc := json.NewEncoder(f)
+	enc.SetIndent("", "  ")
+	if err := enc.Encode(&s.data); err != nil {
+		f.Close()
+		os.Remove(tmp)
+		return err
+	}
+	if err := f.Close(); err != nil {
+		return err
+	}
+	return os.Rename(tmp, s.path)
+}
+
+func (s *Store) Snapshot() Manifest {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return s.data
+}
+
+func (s *Store) AddPhoto(p Photo) error {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	s.data.Photos = append(s.data.Photos, p)
+	return s.save()
+}
+
+func (s *Store) UpdatePhoto(id string, fn func(*Photo)) error {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	for i := range s.data.Photos {
+		if s.data.Photos[i].ID == id {
+			fn(&s.data.Photos[i])
+			return s.save()
+		}
+	}
+	return fmt.Errorf("photo %s not found", id)
+}
+
+func (s *Store) DeletePhoto(id string) (Photo, error) {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	for i, p := range s.data.Photos {
+		if p.ID == id {
+			s.data.Photos = append(s.data.Photos[:i], s.data.Photos[i+1:]...)
+			return p, s.save()
+		}
+	}
+	return Photo{}, fmt.Errorf("photo %s not found", id)
+}
+
+func (s *Store) UpsertGenre(g Genre) error {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	for i := range s.data.Genres {
+		if s.data.Genres[i].Slug == g.Slug {
+			s.data.Genres[i] = g
+			return s.save()
+		}
+	}
+	s.data.Genres = append(s.data.Genres, g)
+	return s.save()
+}
+
+func (s *Store) DeleteGenre(slug string) error {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	for i, g := range s.data.Genres {
+		if g.Slug == slug {
+			s.data.Genres = append(s.data.Genres[:i], s.data.Genres[i+1:]...)
+			return s.save()
+		}
+	}
+	return fmt.Errorf("genre %s not found", slug)
+}
+
+func (s *Store) UpsertCollection(c Collection) error {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	for i := range s.data.Collections {
+		if s.data.Collections[i].Slug == c.Slug {
+			s.data.Collections[i] = c
+			return s.save()
+		}
+	}
+	s.data.Collections = append(s.data.Collections, c)
+	return s.save()
+}
+
+func (s *Store) DeleteCollection(slug string) error {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	for i, c := range s.data.Collections {
+		if c.Slug == slug {
+			s.data.Collections = append(s.data.Collections[:i], s.data.Collections[i+1:]...)
+			return s.save()
+		}
+	}
+	return fmt.Errorf("collection %s not found", slug)
+}

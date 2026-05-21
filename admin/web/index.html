@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Admin · masnun.photos</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>masnun.photos <span>admin</span></h1>
+    <nav>
+      <button class="tab active" data-tab="photos">Photos</button>
+      <button class="tab" data-tab="genres">Genres</button>
+      <button class="tab" data-tab="collections">Collections</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="photos" class="panel active">
+      <form id="upload-form">
+        <input type="file" name="file" multiple accept="image/*" required>
+        <button type="submit">Upload</button>
+        <span id="upload-status"></span>
+      </form>
+      <div id="photo-grid"></div>
+    </section>
+
+    <section id="genres" class="panel">
+      <form id="genre-form">
+        <input name="slug" placeholder="slug (e.g. street)" required pattern="[a-z0-9-]+">
+        <input name="name" placeholder="Name" required>
+        <input name="description" placeholder="Description (optional)">
+        <button type="submit">Save</button>
+      </form>
+      <ul id="genre-list"></ul>
+    </section>
+
+    <section id="collections" class="panel">
+      <form id="collection-form">
+        <input name="slug" placeholder="slug (e.g. tokyo-2024)" required pattern="[a-z0-9-]+">
+        <input name="name" placeholder="Name" required>
+        <input name="description" placeholder="Description (optional)">
+        <input name="cover" placeholder="Cover photo id (optional)">
+        <button type="submit">Save</button>
+      </form>
+      <ul id="collection-list"></ul>
+    </section>
+  </main>
+
+  <dialog id="edit-photo">
+    <form method="dialog" id="edit-form">
+      <h2>Edit Photo</h2>
+      <input type="hidden" name="id">
+      <label>Caption
+        <textarea name="caption" rows="2"></textarea>
+      </label>
+      <fieldset><legend>Genres</legend><div id="edit-genres" class="check-grid"></div></fieldset>
+      <fieldset><legend>Collections</legend><div id="edit-collections" class="check-grid"></div></fieldset>
+      <menu>
+        <button value="cancel">Cancel</button>
+        <button value="save">Save</button>
+        <button id="edit-delete" type="button" class="danger">Delete</button>
+      </menu>
+    </form>
+  </dialog>
+
+  <script src="/app.js"></script>
+</body>
+</html>

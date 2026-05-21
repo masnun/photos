@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>masnun.photos</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1><a href="/">masnun<span>.photos</span></a></h1>
+  </header>
+  <main>
+    <h2 id="title">Loading…</h2>
+    <p id="desc" class="lede"></p>
+    <div id="gallery" class="gallery"></div>
+  </main>
+  <script src="/assets/js/app.js"></script>
+  <script>
+    (async () => {
+      const slug = new URLSearchParams(location.search).get('s');
+      const m = await loadManifest();
+      const c = m.collections.find(x => x.slug === slug);
+      if (!c) { document.querySelector('#title').textContent = 'Not found'; return; }
+      document.title = `${c.name} · masnun.photos`;
+      document.querySelector('#title').textContent = c.name;
+      document.querySelector('#desc').textContent = c.description || '';
+      const photos = m.photos.filter(p => p.collections.includes(slug));
+      renderGallery('#gallery', photos);
+    })();
+  </script>
+</body>
+</html>

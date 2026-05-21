@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>masnun.photos</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1><a href="/">masnun<span>.photos</span></a></h1>
+    <nav>
+      <a href="#genres-section">Genres</a>
+      <a href="#collections-section">Collections</a>
+    </nav>
+  </header>
+  <main>
+    <section id="genres-section">
+      <h2>Genres</h2>
+      <div id="genres-grid" class="tile-grid"></div>
+    </section>
+    <section id="collections-section">
+      <h2>Collections</h2>
+      <div id="collections-grid" class="tile-grid"></div>
+    </section>
+  </main>
+  <footer>masnun.photos</footer>
+  <script src="/assets/js/app.js"></script>
+  <script>
+    (async () => {
+      const m = await loadManifest();
+      renderTaxonomy('#genres-grid', m.genres, m.photos, 'genre');
+      renderTaxonomy('#collections-grid', m.collections, m.photos, 'collection');
+    })();
+  </script>
+</body>
+</html>

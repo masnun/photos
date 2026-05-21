@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Review · masnun.photos</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>Review classifications</h1>
+    <div class="stats">
+      <span id="stat-total">0</span> rows ·
+      <span id="stat-untagged">0</span> untagged ·
+      <span id="stat-visible">0</span> shown
+    </div>
+    <div class="filters">
+      <input id="search" placeholder="search filename or caption">
+      <select id="genre-filter">
+        <option value="">all genres</option>
+      </select>
+      <label><input type="checkbox" id="untagged-only"> untagged only</label>
+      <button id="reload" title="reread TSV from disk">Reload</button>
+    </div>
+  </header>
+
+  <main id="grid"></main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
