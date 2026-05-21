@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Personal photography portfolio for **masnun.photos**. Two halves:
 
-1. **`site/`** — static gallery deployed to GitHub Pages. Vanilla HTML/CSS/JS, no build step. Reads `site/data/photos.json` at runtime.
+1. **`site/`** — static gallery deployed to GitHub Pages. HTML is pre-rendered from `site/data/photos.json` by `admin generate` (CI runs this before deploy). Only `assets/`, `data/`, and `CNAME` are checked in; `index.html` and the per-photo/genre/collection pages are generated build artifacts (gitignored).
 2. **`admin/`** — local-only Go HTTP server. Uploads photos to Cloudflare R2, generates resized variants, edits the manifest. Never deployed; runs on the operator's machine.
 
 Photo binaries live in R2, not in the repo. The repo only stores the manifest plus markup/CSS/JS.
@@ -21,13 +21,14 @@ make run          # admin serve   -> http://127.0.0.1:7777 (admin UI)
 make classify     # admin classify -dir ../photos -> admin/classifications.tsv
 make review       # admin review  -> http://127.0.0.1:7778 (verify/edit TSV with thumbs)
 make ingest       # admin ingest  -tsv classifications.tsv (upload + register)
+make generate     # admin generate -> render static HTML into site/ from photos.json
 make site-serve   # python3 -m http.server 8000 in site/
 
 # Single Go test (when tests exist)
 cd admin && go test ./manifest -run TestName -v
 ```
 
-The admin binary is a subcommand CLI: `admin serve | classify | ingest`. Always pass the
+The admin binary is a subcommand CLI: `admin serve | classify | review | ingest | generate`. Always pass the
 subcommand explicitly when calling `go run .` directly. Older invocations without a
 subcommand will print usage and exit non-zero.
 
@@ -68,17 +69,19 @@ Routing uses Go 1.22 stdlib mux with method patterns (`GET /api/photos`) and `{i
 
 Bound to `127.0.0.1` only. There is no auth — never expose the admin port to the network.
 
-### Frontend (no build)
+### Frontend (static, generated)
 
-Pages: `site/index.html` (genre + collection tiles), `site/genre/index.html?s=<slug>`, `site/collection/index.html?s=<slug>`, `site/photo/index.html?id=<uuid>`. All four fetch `/data/photos.json` and render client-side via helpers in `site/assets/js/app.js`.
+Pages rendered by `admin generate` from `photos.json`: `site/index.html` (genre + collection tiles), `site/genre/<slug>/index.html`, `site/collection/<slug>/index.html`, `site/photo/<uuid>/index.html`. Pretty URLs (`/genre/<slug>/`, `/photo/<uuid>/`). No runtime fetch, no client JS — every page is fully rendered HTML with OpenGraph meta tags for sharing.
 
-The query-string routing is deliberate: avoids needing a build step or per-genre HTML files. Trade-off is uglier URLs and a single fetch on every page load; acceptable for a personal portfolio where the manifest is small.
+Templates live in `admin/generate/templates/` (embedded via `embed.FS`). Each per-page template extends `base.html` via Go `html/template` composition (`{{define "title"}}` / `{{define "head"}}` / `{{define "content"}}` overrides). Generator code is in `admin/generate/generate.go`. Trade-off vs. the previous client-rendered approach: a build step is now mandatory, but SEO and social previews work, and pages render with zero JS.
 
 ### Deploy
 
-`.github/workflows/deploy.yml` uploads `site/` as a Pages artifact on push to `main`. `site/CNAME` configures the custom domain. The admin half is never built or deployed in CI.
+`.github/workflows/deploy.yml` runs `make generate` (Go-based render step) and then uploads `site/` as a Pages artifact on push to `main`. `site/CNAME` configures the custom domain. The admin half is never deployed in CI — only the generator runs.
 
-The publish loop: run admin locally → upload/edit → commit the changed `site/data/photos.json` → push → Pages rebuilds. R2 objects are pushed directly by the admin server, not via git.
+Generated HTML is gitignored (`site/index.html`, `site/genre/*/`, `site/collection/*/`, `site/photo/*/`). The repo only commits the manifest, CSS, CNAME, and templates; CI rebuilds the static site from `photos.json` every push.
+
+The publish loop: run admin locally → upload/edit → commit the changed `site/data/photos.json` → push → CI runs `make generate` → Pages rebuilds. R2 objects are pushed directly by the admin server, not via git.
 
 ## Conventions
 

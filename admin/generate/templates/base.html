@@ -1,0 +1,24 @@
+{{define "base"}}<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{template "title" .}}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  {{template "head" .}}
+</head>
+<body>
+  <header class="site-header">
+    <h1><a href="/">masnun<span>.photos</span></a></h1>
+    <nav>
+      <a href="/#genres-section">Genres</a>
+      <a href="/#collections-section">Collections</a>
+    </nav>
+  </header>
+  <main>
+    {{template "content" .}}
+  </main>
+  <footer>masnun.photos</footer>
+</body>
+</html>
+{{end}}

@@ -1,4 +1,4 @@
-.PHONY: tidy admin run classify ingest site-serve
+.PHONY: tidy admin run classify ingest generate site-serve
 
 tidy:
 	cd admin && go mod tidy
@@ -21,6 +21,10 @@ review:
 # upload + register everything from admin/classifications.tsv
 ingest:
 	cd admin && set -a; [ -f ../.env ] && . ../.env; set +a; go run . ingest -dir ../photos -manifest ../site/data/photos.json
+
+# render static HTML pages into site/ from photos.json
+generate:
+	cd admin && go run . generate -manifest ../site/data/photos.json -out ../site
 
 # preview the static site locally
 site-serve:

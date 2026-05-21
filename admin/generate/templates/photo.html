@@ -1,0 +1,28 @@
+{{define "title"}}{{if .Photo.Caption}}{{.Photo.Caption}} · {{end}}masnun.photos{{end}}
+{{define "head"}}<meta property="og:title" content="{{if .Photo.Caption}}{{.Photo.Caption}}{{else}}masnun.photos{{end}}">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="{{.Photo.URLs.Web}}">
+  {{with .Photo.Caption}}<meta property="og:description" content="{{.}}">{{end}}
+  <meta name="twitter:card" content="summary_large_image">{{end}}
+{{define "content"}}
+<figure class="photo-detail">
+  <img src="{{.Photo.URLs.Web}}" alt="{{.Photo.Caption}}">
+  {{with .Photo.Caption}}<figcaption>{{.}}</figcaption>{{end}}
+</figure>
+<div class="photo-meta">
+  {{with .TakenFormatted}}<p><strong>Taken:</strong> {{.}}</p>{{end}}
+  {{with .GenreLinks}}<p><strong>Genres:</strong> {{range $i, $g := .}}{{if $i}}, {{end}}<a href="/genre/{{$g.Slug}}/">{{$g.Name}}</a>{{end}}</p>{{end}}
+  {{with .CollectionLinks}}<p><strong>Collections:</strong> {{range $i, $c := .}}{{if $i}}, {{end}}<a href="/collection/{{$c.Slug}}/">{{$c.Name}}</a>{{end}}</p>{{end}}
+  {{with .Photo.EXIF}}
+  <dl class="exif">
+    {{with .Camera}}<dt>Camera</dt><dd>{{.}}</dd>{{end}}
+    {{with .Lens}}<dt>Lens</dt><dd>{{.}}</dd>{{end}}
+    {{if or .FocalLength .Aperture .Shutter .ISO}}
+    <dt>Settings</dt><dd>{{with .FocalLength}}{{.}}{{end}}{{if and .FocalLength .Aperture}} · {{end}}{{with .Aperture}}{{.}}{{end}}{{if and (or .FocalLength .Aperture) .Shutter}} · {{end}}{{with .Shutter}}{{.}}{{end}}{{if and (or .FocalLength .Aperture .Shutter) .ISO}} · {{end}}{{with .ISO}}ISO {{.}}{{end}}</dd>
+    {{end}}
+  </dl>
+  {{end}}
+  <p><a href="{{.Photo.URLs.Full}}" target="_blank" rel="noopener">View full size</a></p>
+</div>
+{{end}}
+{{template "base" .}}

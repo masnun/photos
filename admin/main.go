@@ -21,6 +21,8 @@ func main() {
 		cmd.Review(os.Args[2:])
 	case "ingest":
 		cmd.Ingest(os.Args[2:])
+	case "generate":
+		cmd.Generate(os.Args[2:])
 	case "-h", "--help", "help":
 		usage()
 	default:
@@ -38,6 +40,7 @@ commands:
   classify   walk a directory, call Claude vision, write classifications.tsv
   review     open browser UI to verify/edit classifications.tsv with thumbnails
   ingest     read classifications.tsv, upload originals to R2, register in manifest
+  generate   render static HTML pages into site/ from photos.json
 
 env vars:
   R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET, R2_PUBLIC_URL

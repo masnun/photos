@@ -1,0 +1,18 @@
+{{define "title"}}{{.Genre.Name}} · masnun.photos{{end}}
+{{define "head"}}<meta property="og:title" content="{{.Genre.Name}} · masnun.photos">
+  <meta property="og:type" content="website">
+  {{with .Genre.Description}}<meta property="og:description" content="{{.}}">{{end}}
+  {{with .Cover}}<meta property="og:image" content="{{.URLs.Web}}">{{end}}{{end}}
+{{define "content"}}
+<h2>{{.Genre.Name}}</h2>
+{{with .Genre.Description}}<p class="lede">{{.}}</p>{{end}}
+<div class="gallery">
+  {{if not .Photos}}<p class="empty">No photos yet.</p>{{end}}
+  {{range .Photos}}
+  <a class="gallery-item" href="/photo/{{.ID}}/">
+    <img src="{{.URLs.Thumb}}" alt="{{.Caption}}" loading="lazy">
+  </a>
+  {{end}}
+</div>
+{{end}}
+{{template "base" .}}

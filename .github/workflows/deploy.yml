@@ -22,6 +22,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+          cache-dependency-path: admin/go.sum
+      - name: Generate static site
+        run: make generate
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
