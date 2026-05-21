@@ -11,13 +11,13 @@ import (
 	"github.com/masnun/photos/admin/manifest"
 )
 
-// ExtractEXIF parses EXIF metadata from image bytes. Returns zero values
+// ExtractEXIF parses EXIF metadata from image bytes. Returns (nil, nil, nil)
 // when the image has no parsable EXIF — that is not an error condition for
 // upload (PNGs, screenshots, exported web copies often lack it).
-func ExtractEXIF(data []byte) (*manifest.EXIF, *time.Time, *float64, *float64, error) {
+func ExtractEXIF(data []byte) (*manifest.EXIF, *time.Time, error) {
 	x, err := exif.Decode(bytes.NewReader(data))
 	if err != nil {
-		return nil, nil, nil, nil, nil
+		return nil, nil, nil
 	}
 
 	e := &manifest.EXIF{}
@@ -62,46 +62,7 @@ func ExtractEXIF(data []byte) (*manifest.EXIF, *time.Time, *float64, *float64, e
 	if e.Camera == "" && e.Lens == "" && e.ISO == 0 && e.Aperture == "" && e.Shutter == "" && e.FocalLength == "" {
 		e = nil
 	}
-
-	lat, lon := extractGPS(x)
-	return e, taken, lat, lon, nil
-}
-
-func extractGPS(x *exif.Exif) (*float64, *float64) {
-	lat, latOK := readGPSCoord(x, exif.GPSLatitude, exif.GPSLatitudeRef, "S")
-	lon, lonOK := readGPSCoord(x, exif.GPSLongitude, exif.GPSLongitudeRef, "W")
-	if !latOK || !lonOK {
-		return nil, nil
-	}
-	if lat == 0 && lon == 0 {
-		return nil, nil
-	}
-	return &lat, &lon
-}
-
-func readGPSCoord(x *exif.Exif, coord, ref exif.FieldName, negativeRef string) (float64, bool) {
-	t, err := x.Get(coord)
-	if err != nil {
-		return 0, false
-	}
-	parts := make([]float64, 3)
-	for i := 0; i < 3; i++ {
-		n, d, err := t.Rat2(i)
-		if err != nil || d == 0 {
-			return 0, false
-		}
-		parts[i] = float64(n) / float64(d)
-	}
-	val := parts[0] + parts[1]/60 + parts[2]/3600
-	if r, err := x.Get(ref); err == nil {
-		if s, err := r.StringVal(); err == nil {
-			s = strings.TrimSpace(strings.Trim(s, "\x00"))
-			if strings.EqualFold(s, negativeRef) {
-				val = -val
-			}
-		}
-	}
-	return val, true
+	return e, taken, nil
 }
 
 func tagString(x *exif.Exif, name exif.FieldName) string {

@@ -87,10 +87,26 @@ type listData struct {
 }
 
 type photoData struct {
-	Photo            manifest.Photo
-	TakenFormatted   string
-	GenreLinks       []manifest.Genre
-	CollectionLinks  []manifest.Collection
+	Photo           manifest.Photo
+	TakenFormatted  string
+	GenreLinks      []manifest.Genre
+	CollectionLinks []manifest.Collection
+	Prev            *manifest.Photo
+	Next            *manifest.Photo
+	ContextKind     string // "genre" | "collection" | "calendar"
+	ContextSlug     string
+	ContextName     string
+	ContextURL      string
+	PrevURL         string
+	NextURL         string
+}
+
+type renderCtx struct {
+	tmpls       map[string]*template.Template
+	m           *manifest.Manifest
+	outDir      string
+	genreBySlug map[string]manifest.Genre
+	colBySlug   map[string]manifest.Collection
 }
 
 func Run(opts Options) error {
@@ -108,19 +124,33 @@ func Run(opts Options) error {
 		return fmt.Errorf("parse templates: %w", err)
 	}
 
-	if err := renderIndex(tmpls, m, opts.OutDir); err != nil {
+	rc := &renderCtx{
+		tmpls:       tmpls,
+		m:           m,
+		outDir:      opts.OutDir,
+		genreBySlug: map[string]manifest.Genre{},
+		colBySlug:   map[string]manifest.Collection{},
+	}
+	for _, g := range m.Genres {
+		rc.genreBySlug[g.Slug] = g
+	}
+	for _, c := range m.Collections {
+		rc.colBySlug[c.Slug] = c
+	}
+
+	if err := renderIndex(rc); err != nil {
 		return err
 	}
-	if err := renderGenres(tmpls, m, opts.OutDir); err != nil {
+	if err := renderGenres(rc); err != nil {
 		return err
 	}
-	if err := renderCollections(tmpls, m, opts.OutDir); err != nil {
+	if err := renderCollections(rc); err != nil {
 		return err
 	}
-	if err := renderPhotos(tmpls, m, opts.OutDir); err != nil {
+	if err := renderPhotos(rc); err != nil {
 		return err
 	}
-	if err := renderCalendar(tmpls, m, opts.OutDir); err != nil {
+	if err := renderCalendar(rc); err != nil {
 		return err
 	}
 	return nil
@@ -174,25 +204,22 @@ func filterByMonth(photos []manifest.Photo, slug string) []manifest.Photo {
 			out = append(out, p)
 		}
 	}
-	sort.SliceStable(out, func(i, j int) bool {
-		ai, bi := out[i].TakenAt, out[j].TakenAt
-		if ai != nil && bi != nil {
-			return ai.After(*bi)
-		}
-		return out[i].UploadedAt.After(out[j].UploadedAt)
-	})
+	sortByTaken(out)
 	return out
 }
 
-func renderCalendar(tmpls map[string]*template.Template, m *manifest.Manifest, outDir string) error {
-	months := buildMonths(m.Photos)
+func renderCalendar(rc *renderCtx) error {
+	months := buildMonths(rc.m.Photos)
 	for _, mv := range months {
-		photos := filterByMonth(m.Photos, mv.Slug)
+		photos := filterByMonth(rc.m.Photos, mv.Slug)
 		mvCopy := mv
 		data := listData{Month: &mvCopy, Cover: mv.Cover, Photos: photos}
-		path := filepath.Join(outDir, "calendar", mv.Slug, "index.html")
-		if err := writeTemplate(tmpls["calendar.html"], path, data); err != nil {
+		path := filepath.Join(rc.outDir, "calendar", mv.Slug, "index.html")
+		if err := writeTemplate(rc.tmpls["calendar.html"], path, data); err != nil {
 			return fmt.Errorf("calendar %s: %w", mv.Slug, err)
+		}
+		if err := renderContextPhotos(rc, photos, "calendar", mv.Slug, mv.Label, fmt.Sprintf("/calendar/%s/", mv.Slug)); err != nil {
+			return err
 		}
 	}
 	return nil
@@ -224,78 +251,108 @@ func parseTemplates() (map[string]*template.Template, error) {
 	return out, nil
 }
 
-func renderIndex(tmpls map[string]*template.Template, m *manifest.Manifest, outDir string) error {
+func renderIndex(rc *renderCtx) error {
 	data := indexData{
-		Genres:      make([]genreView, 0, len(m.Genres)),
-		Collections: make([]collectionView, 0, len(m.Collections)),
+		Genres:      make([]genreView, 0, len(rc.m.Genres)),
+		Collections: make([]collectionView, 0, len(rc.m.Collections)),
 	}
-	for _, g := range m.Genres {
-		photos := filterByGenre(m.Photos, g.Slug)
+	for _, g := range rc.m.Genres {
+		photos := filterByGenre(rc.m.Photos, g.Slug)
 		thumbs := make([]string, 0, len(photos))
 		for _, p := range photos {
 			thumbs = append(thumbs, p.URLs.Thumb)
 		}
 		buf, _ := json.Marshal(thumbs)
-		data.Genres = append(data.Genres, genreView{Genre: g, Cover: findGenreCover(m.Photos, g), ThumbsJSON: string(buf)})
+		data.Genres = append(data.Genres, genreView{Genre: g, Cover: findGenreCover(rc.m.Photos, g), ThumbsJSON: string(buf)})
 	}
-	for _, c := range m.Collections {
-		data.Collections = append(data.Collections, collectionView{Collection: c, Cover: findCollectionCover(m.Photos, c)})
+	for _, c := range rc.m.Collections {
+		data.Collections = append(data.Collections, collectionView{Collection: c, Cover: findCollectionCover(rc.m.Photos, c)})
 	}
-	data.Months = buildMonths(m.Photos)
-	return writeTemplate(tmpls["index.html"], filepath.Join(outDir, "index.html"), data)
+	data.Months = buildMonths(rc.m.Photos)
+	return writeTemplate(rc.tmpls["index.html"], filepath.Join(rc.outDir, "index.html"), data)
 }
 
-func renderGenres(tmpls map[string]*template.Template, m *manifest.Manifest, outDir string) error {
-	for _, g := range m.Genres {
-		photos := filterByGenre(m.Photos, g.Slug)
-		data := listData{Genre: &g, Cover: findGenreCover(m.Photos, g), Photos: photos}
-		path := filepath.Join(outDir, "genre", g.Slug, "index.html")
-		if err := writeTemplate(tmpls["genre.html"], path, data); err != nil {
+func renderGenres(rc *renderCtx) error {
+	for _, g := range rc.m.Genres {
+		photos := filterByGenre(rc.m.Photos, g.Slug)
+		gCopy := g
+		data := listData{Genre: &gCopy, Cover: findGenreCover(rc.m.Photos, g), Photos: photos}
+		path := filepath.Join(rc.outDir, "genre", g.Slug, "index.html")
+		if err := writeTemplate(rc.tmpls["genre.html"], path, data); err != nil {
 			return fmt.Errorf("genre %s: %w", g.Slug, err)
 		}
+		if err := renderContextPhotos(rc, photos, "genre", g.Slug, g.Name, fmt.Sprintf("/genre/%s/", g.Slug)); err != nil {
+			return err
+		}
 	}
 	return nil
 }
 
-func renderCollections(tmpls map[string]*template.Template, m *manifest.Manifest, outDir string) error {
-	for _, c := range m.Collections {
-		photos := filterByCollection(m.Photos, c.Slug)
-		data := listData{Collection: &c, Cover: findCollectionCover(m.Photos, c), Photos: photos}
-		path := filepath.Join(outDir, "collection", c.Slug, "index.html")
-		if err := writeTemplate(tmpls["collection.html"], path, data); err != nil {
+func renderCollections(rc *renderCtx) error {
+	for _, c := range rc.m.Collections {
+		photos := filterByCollection(rc.m.Photos, c.Slug)
+		cCopy := c
+		data := listData{Collection: &cCopy, Cover: findCollectionCover(rc.m.Photos, c), Photos: photos}
+		path := filepath.Join(rc.outDir, "collection", c.Slug, "index.html")
+		if err := writeTemplate(rc.tmpls["collection.html"], path, data); err != nil {
 			return fmt.Errorf("collection %s: %w", c.Slug, err)
 		}
+		if err := renderContextPhotos(rc, photos, "collection", c.Slug, c.Name, fmt.Sprintf("/collection/%s/", c.Slug)); err != nil {
+			return err
+		}
 	}
 	return nil
 }
 
-func renderPhotos(tmpls map[string]*template.Template, m *manifest.Manifest, outDir string) error {
-	genreBySlug := map[string]manifest.Genre{}
-	for _, g := range m.Genres {
-		genreBySlug[g.Slug] = g
-	}
-	colBySlug := map[string]manifest.Collection{}
-	for _, c := range m.Collections {
-		colBySlug[c.Slug] = c
-	}
-	for _, p := range m.Photos {
-		data := photoData{Photo: p}
-		if p.TakenAt != nil {
-			data.TakenFormatted = p.TakenAt.Format("January 2, 2006")
-		}
-		for _, slug := range p.Genres {
-			if g, ok := genreBySlug[slug]; ok {
-				data.GenreLinks = append(data.GenreLinks, g)
-			}
-		}
-		for _, slug := range p.Collections {
-			if c, ok := colBySlug[slug]; ok {
-				data.CollectionLinks = append(data.CollectionLinks, c)
-			}
-		}
-		path := filepath.Join(outDir, "photo", p.ID, "index.html")
-		if err := writeTemplate(tmpls["photo.html"], path, data); err != nil {
+func renderPhotos(rc *renderCtx) error {
+	for _, p := range rc.m.Photos {
+		data := buildPhotoData(rc, p)
+		path := filepath.Join(rc.outDir, "photo", p.ID, "index.html")
+		if err := writeTemplate(rc.tmpls["photo.html"], path, data); err != nil {
 			return fmt.Errorf("photo %s: %w", p.ID, err)
+		}
+	}
+	return nil
+}
+
+func buildPhotoData(rc *renderCtx, p manifest.Photo) photoData {
+	data := photoData{Photo: p}
+	if p.TakenAt != nil {
+		data.TakenFormatted = p.TakenAt.Format("January 2, 2006")
+	}
+	for _, slug := range p.Genres {
+		if g, ok := rc.genreBySlug[slug]; ok {
+			data.GenreLinks = append(data.GenreLinks, g)
+		}
+	}
+	for _, slug := range p.Collections {
+		if c, ok := rc.colBySlug[slug]; ok {
+			data.CollectionLinks = append(data.CollectionLinks, c)
+		}
+	}
+	return data
+}
+
+func renderContextPhotos(rc *renderCtx, photos []manifest.Photo, kind, slug, name, ctxURL string) error {
+	for i, p := range photos {
+		data := buildPhotoData(rc, p)
+		data.ContextKind = kind
+		data.ContextSlug = slug
+		data.ContextName = name
+		data.ContextURL = ctxURL
+		if i > 0 {
+			prev := photos[i-1]
+			data.Prev = &prev
+			data.PrevURL = fmt.Sprintf("%sphoto/%s/", ctxURL, prev.ID)
+		}
+		if i < len(photos)-1 {
+			next := photos[i+1]
+			data.Next = &next
+			data.NextURL = fmt.Sprintf("%sphoto/%s/", ctxURL, next.ID)
+		}
+		path := filepath.Join(rc.outDir, kind, slug, "photo", p.ID, "index.html")
+		if err := writeTemplate(rc.tmpls["photo.html"], path, data); err != nil {
+			return fmt.Errorf("%s/%s/photo/%s: %w", kind, slug, p.ID, err)
 		}
 	}
 	return nil
@@ -332,6 +389,7 @@ func filterByGenre(photos []manifest.Photo, slug string) []manifest.Photo {
 			}
 		}
 	}
+	sortByTaken(out)
 	return out
 }
 
@@ -345,7 +403,25 @@ func filterByCollection(photos []manifest.Photo, slug string) []manifest.Photo {
 			}
 		}
 	}
+	sortByTaken(out)
 	return out
+}
+
+// sortByTaken orders photos newest-first by TakenAt with UploadedAt fallback.
+func sortByTaken(out []manifest.Photo) {
+	sort.SliceStable(out, func(i, j int) bool {
+		ai, bi := out[i].TakenAt, out[j].TakenAt
+		switch {
+		case ai != nil && bi != nil:
+			return ai.After(*bi)
+		case ai != nil:
+			return true
+		case bi != nil:
+			return false
+		default:
+			return out[i].UploadedAt.After(out[j].UploadedAt)
+		}
+	})
 }
 
 func findGenreCover(photos []manifest.Photo, g manifest.Genre) *manifest.Photo {

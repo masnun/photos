@@ -25,8 +25,6 @@ func main() {
 		cmd.Reclassify(os.Args[2:])
 	case "generate":
 		cmd.Generate(os.Args[2:])
-	case "backfill-gps":
-		cmd.BackfillGPS(os.Args[2:])
 	case "-h", "--help", "help":
 		usage()
 	default:
@@ -46,7 +44,6 @@ commands:
   ingest     read classifications.tsv, upload originals to R2, register in manifest
   reclassify re-run Claude on every photo in photos.json, lock genres to current list
   generate   render static HTML pages into site/ from photos.json
-  backfill-gps  scan local photos dir, extract GPS from EXIF, write Lat/Lon into manifest
 
 env vars:
   R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET, R2_PUBLIC_URL

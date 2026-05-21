@@ -21,8 +21,6 @@ type Photo struct {
 	Height      int        `json:"height"`
 	URLs        URLs       `json:"urls"`
 	EXIF        *EXIF      `json:"exif,omitempty"`
-	Lat         *float64   `json:"lat,omitempty"`
-	Lon         *float64   `json:"lon,omitempty"`
 	SourceHash  string     `json:"source_hash,omitempty"`
 }
 

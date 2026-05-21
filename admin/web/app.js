@@ -130,10 +130,19 @@ function renderDateRow(box) {
   });
 }
 
+function sortedPhotos() {
+  return [...photos].sort((a, b) => {
+    const ad = a.taken_at || a.uploaded_at || '';
+    const bd = b.taken_at || b.uploaded_at || '';
+    if (ad === bd) return 0;
+    return ad < bd ? 1 : -1;
+  });
+}
+
 function renderPhotos() {
   const grid = $('#photo-grid');
   grid.innerHTML = '';
-  [...photos].reverse().filter(photoMatchesFilter).forEach(p => {
+  sortedPhotos().filter(photoMatchesFilter).forEach(p => {
     const el = document.createElement('div');
     el.className = 'photo-card';
     if (selectMode && selected.has(p.id)) el.classList.add('selected');

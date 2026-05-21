@@ -8,7 +8,7 @@
     {{if not .Collections}}<p class="empty">Nothing here yet.</p>{{end}}
     {{range .Collections}}
     <a class="tile" href="/collection/{{.Slug}}/">
-      {{with .Cover}}<img src="{{.URLs.Thumb}}" alt="" loading="lazy">{{else}}<div class="tile-empty"></div>{{end}}
+      <div class="tile-img-wrap">{{with .Cover}}<img src="{{.URLs.Web}}" alt="" loading="lazy">{{else}}<div class="tile-empty"></div>{{end}}</div>
       <div class="tile-label"><strong>{{.Name}}</strong>{{with .Description}}<span>{{. | markdownInline}}</span>{{end}}</div>
     </a>
     {{end}}
@@ -20,7 +20,7 @@
     {{if not .Genres}}<p class="empty">Nothing here yet.</p>{{end}}
     {{range .Genres}}
     <a class="tile" href="/genre/{{.Slug}}/">
-      {{with .Cover}}<img src="{{.URLs.Thumb}}" alt="" loading="lazy">{{else}}<div class="tile-empty"></div>{{end}}
+      <div class="tile-img-wrap">{{with .Cover}}<img src="{{.URLs.Web}}" alt="" loading="lazy">{{else}}<div class="tile-empty"></div>{{end}}</div>
       <div class="tile-label"><strong>{{.Name}}</strong>{{with .Description}}<span>{{. | markdownInline}}</span>{{end}}</div>
     </a>
     {{end}}
@@ -32,7 +32,7 @@
     {{if not .Months}}<p class="empty">Nothing here yet.</p>{{end}}
     {{range .Months}}
     <a class="tile" href="/calendar/{{.Slug}}/">
-      {{with .Cover}}<img src="{{.URLs.Thumb}}" alt="" loading="lazy">{{else}}<div class="tile-empty"></div>{{end}}
+      <div class="tile-img-wrap">{{with .Cover}}<img src="{{.URLs.Web}}" alt="" loading="lazy">{{else}}<div class="tile-empty"></div>{{end}}</div>
       <div class="tile-label"><strong>{{.Label}}</strong><span>{{.Count}} photo{{if ne .Count 1}}s{{end}}</span></div>
     </a>
     {{end}}

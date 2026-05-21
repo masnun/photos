@@ -5,10 +5,19 @@
   {{with .Photo.Caption}}<meta property="og:description" content="{{.}}">{{end}}
   <meta name="twitter:card" content="summary_large_image">{{end}}
 {{define "content"}}
+{{if .ContextURL}}
+<p class="context-back"><a href="{{.ContextURL}}">← {{.ContextName}}</a></p>
+{{end}}
 <figure class="photo-detail">
   <img src="{{.Photo.URLs.Web}}" alt="{{.Photo.Caption}}">
   {{with .Photo.Caption}}<figcaption>{{.}}</figcaption>{{end}}
 </figure>
+{{if or .PrevURL .NextURL}}
+<nav class="photo-nav">
+  {{if .PrevURL}}<a class="prev" href="{{.PrevURL}}" rel="prev">← Previous</a>{{else}}<span class="prev disabled">← Previous</span>{{end}}
+  {{if .NextURL}}<a class="next" href="{{.NextURL}}" rel="next">Next →</a>{{else}}<span class="next disabled">Next →</span>{{end}}
+</nav>
+{{end}}
 <div class="photo-meta">
   {{with .TakenFormatted}}<p><strong>Taken:</strong> {{.}}</p>{{end}}
   {{with .GenreLinks}}<p><strong>Genres:</strong> {{range $i, $g := .}}{{if $i}}, {{end}}<a href="/genre/{{$g.Slug}}/">{{$g.Name}}</a>{{end}}</p>{{end}}

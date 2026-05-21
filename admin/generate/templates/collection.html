@@ -9,8 +9,8 @@
 <div class="gallery">
   {{if not .Photos}}<p class="empty">No photos yet.</p>{{end}}
   {{range .Photos}}
-  <a class="gallery-item" href="/photo/{{.ID}}/">
-    <img src="{{.URLs.Thumb}}" alt="{{.Caption}}" loading="lazy">
+  <a class="gallery-item" href="/collection/{{$.Collection.Slug}}/photo/{{.ID}}/">
+    <img src="{{.URLs.Web}}" alt="{{.Caption}}" loading="lazy">
   </a>
   {{end}}
 </div>
