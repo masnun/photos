@@ -1,4 +1,4 @@
-.PHONY: tidy admin run classify review ingest reclassify generate site-serve
+.PHONY: tidy admin run classify review ingest reclassify generate backfill-gps site-serve
 
 tidy:
 	cd admin && go mod tidy
@@ -33,6 +33,10 @@ reclassify-dry:
 # render static HTML pages into site/ from photos.json
 generate:
 	cd admin && go run . generate -manifest ../site/data/photos.json -out ../site
+
+# scan local originals, extract GPS, write Lat/Lon into manifest (idempotent)
+backfill-gps:
+	cd admin && go run . backfill-gps -dir ../photos -manifest ../site/data/photos.json
 
 # preview the static site locally
 site-serve:

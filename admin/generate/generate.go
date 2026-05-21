@@ -2,6 +2,7 @@
 package generate
 
 import (
+	"bytes"
 	"embed"
 	"encoding/json"
 	"fmt"
@@ -12,8 +13,36 @@ import (
 	"strings"
 	"time"
 
+	"github.com/yuin/goldmark"
+
 	"github.com/masnun/photos/admin/manifest"
 )
+
+var md = goldmark.New()
+
+func renderMarkdown(src string) template.HTML {
+	if strings.TrimSpace(src) == "" {
+		return ""
+	}
+	var buf bytes.Buffer
+	if err := md.Convert([]byte(src), &buf); err != nil {
+		return template.HTML(template.HTMLEscapeString(src))
+	}
+	return template.HTML(buf.String())
+}
+
+func renderMarkdownInline(src string) template.HTML {
+	out := string(renderMarkdown(src))
+	out = strings.TrimSpace(out)
+	out = strings.TrimPrefix(out, "<p>")
+	out = strings.TrimSuffix(out, "</p>")
+	return template.HTML(out)
+}
+
+var templateFuncs = template.FuncMap{
+	"markdown":       renderMarkdown,
+	"markdownInline": renderMarkdownInline,
+}
 
 //go:embed templates/*.html
 var templatesFS embed.FS
@@ -186,7 +215,7 @@ func parseTemplates() (map[string]*template.Template, error) {
 	names := []string{"index.html", "genre.html", "collection.html", "photo.html", "calendar.html"}
 	out := make(map[string]*template.Template, len(names))
 	for _, n := range names {
-		t, err := template.ParseFS(templatesFS, "templates/base.html", "templates/"+n)
+		t, err := template.New("base.html").Funcs(templateFuncs).ParseFS(templatesFS, "templates/base.html", "templates/"+n)
 		if err != nil {
 			return nil, fmt.Errorf("%s: %w", n, err)
 		}

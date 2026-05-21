@@ -202,16 +202,51 @@ function renderGenres() {
   ul.innerHTML = '';
   genres.forEach(g => {
     const li = document.createElement('li');
-    li.innerHTML = `<strong>${escapeHtml(g.name)}</strong> <code>${escapeHtml(g.slug)}</code>
-      <span>${escapeHtml(g.description || '')}</span>
-      <button class="danger">Delete</button>`;
-    li.querySelector('button').addEventListener('click', async () => {
-      if (!confirm(`Delete genre "${g.slug}"? Photos referencing it will keep the dangling slug.`)) return;
-      await api(`/genres/${encodeURIComponent(g.slug)}`, { method: 'DELETE' });
-      refresh();
-    });
+    renderGenreRow(li, g);
     ul.appendChild(li);
   });
+}
+
+function renderGenreRow(li, g) {
+  li.classList.remove('edit-row');
+  li.innerHTML = `<strong>${escapeHtml(g.name)}</strong> <code>${escapeHtml(g.slug)}</code>
+    <span>${escapeHtml(g.description || '')}</span>
+    <button class="edit-btn">Edit</button>
+    <button class="danger">Delete</button>`;
+  li.querySelector('.edit-btn').addEventListener('click', () => renderGenreEdit(li, g));
+  li.querySelector('.danger').addEventListener('click', async () => {
+    if (!confirm(`Delete genre "${g.slug}"? Photos referencing it will keep the dangling slug.`)) return;
+    await api(`/genres/${encodeURIComponent(g.slug)}`, { method: 'DELETE' });
+    refresh();
+  });
+}
+
+function renderGenreEdit(li, g) {
+  li.classList.add('edit-row');
+  li.innerHTML = `
+    <code>${escapeHtml(g.slug)}</code>
+    <input class="edit-name" value="${escapeHtml(g.name)}" placeholder="Name">
+    <textarea class="edit-desc" rows="3" placeholder="Description (Markdown supported)">${escapeHtml(g.description || '')}</textarea>
+    <button class="save-btn">Save</button>
+    <button class="cancel-btn">Cancel</button>`;
+  const nameInput = li.querySelector('.edit-name');
+  const descInput = li.querySelector('.edit-desc');
+  li.querySelector('.save-btn').addEventListener('click', async () => {
+    const payload = {
+      slug: g.slug,
+      name: nameInput.value.trim() || g.name,
+      description: descInput.value,
+      cover: g.cover || '',
+    };
+    await api('/genres', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    refresh();
+  });
+  li.querySelector('.cancel-btn').addEventListener('click', () => renderGenreRow(li, g));
+  nameInput.focus();
 }
 
 function renderCollections() {
@@ -219,16 +254,53 @@ function renderCollections() {
   ul.innerHTML = '';
   collections.forEach(c => {
     const li = document.createElement('li');
-    li.innerHTML = `<strong>${escapeHtml(c.name)}</strong> <code>${escapeHtml(c.slug)}</code>
-      <span>${escapeHtml(c.description || '')}</span>
-      <button class="danger">Delete</button>`;
-    li.querySelector('button').addEventListener('click', async () => {
-      if (!confirm(`Delete collection "${c.slug}"? Photos referencing it will keep the dangling slug.`)) return;
-      await api(`/collections/${encodeURIComponent(c.slug)}`, { method: 'DELETE' });
-      refresh();
-    });
+    renderCollectionRow(li, c);
     ul.appendChild(li);
   });
+}
+
+function renderCollectionRow(li, c) {
+  li.innerHTML = `<strong>${escapeHtml(c.name)}</strong> <code>${escapeHtml(c.slug)}</code>
+    <span>${escapeHtml(c.description || '')}</span>
+    <button class="edit-btn">Edit</button>
+    <button class="danger">Delete</button>`;
+  li.querySelector('.edit-btn').addEventListener('click', () => renderCollectionEdit(li, c));
+  li.querySelector('.danger').addEventListener('click', async () => {
+    if (!confirm(`Delete collection "${c.slug}"? Photos referencing it will keep the dangling slug.`)) return;
+    await api(`/collections/${encodeURIComponent(c.slug)}`, { method: 'DELETE' });
+    refresh();
+  });
+}
+
+function renderCollectionEdit(li, c) {
+  li.classList.add('edit-row');
+  li.innerHTML = `
+    <code>${escapeHtml(c.slug)}</code>
+    <input class="edit-name" value="${escapeHtml(c.name)}" placeholder="Name">
+    <textarea class="edit-desc" rows="3" placeholder="Description (Markdown supported)">${escapeHtml(c.description || '')}</textarea>
+    <button class="save-btn">Save</button>
+    <button class="cancel-btn">Cancel</button>`;
+  const nameInput = li.querySelector('.edit-name');
+  const descInput = li.querySelector('.edit-desc');
+  li.querySelector('.save-btn').addEventListener('click', async () => {
+    const payload = {
+      slug: c.slug,
+      name: nameInput.value.trim() || c.name,
+      description: descInput.value,
+      cover: c.cover || '',
+    };
+    await api('/collections', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    refresh();
+  });
+  li.querySelector('.cancel-btn').addEventListener('click', () => {
+    li.classList.remove('edit-row');
+    renderCollectionRow(li, c);
+  });
+  nameInput.focus();
 }
 
 function openEdit(p) {

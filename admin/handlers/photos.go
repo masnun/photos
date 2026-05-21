@@ -59,7 +59,7 @@ func (h *Photos) Upload(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 
-		exifData, takenAt, _ := images.ExtractEXIF(data)
+		exifData, takenAt, lat, lon, _ := images.ExtractEXIF(data)
 
 		sum := sha256.Sum256(data)
 		hash := hex.EncodeToString(sum[:])
@@ -101,6 +101,8 @@ func (h *Photos) Upload(w http.ResponseWriter, r *http.Request) {
 			Height:      v.Height,
 			URLs:        manifest.URLs{Thumb: thumbURL, Web: webURL, Full: fullURL},
 			EXIF:        exifData,
+			Lat:         lat,
+			Lon:         lon,
 			SourceHash:  hash,
 		}
 		if err := h.Store.AddPhoto(p); err != nil {

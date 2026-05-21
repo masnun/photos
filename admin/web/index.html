@@ -37,20 +37,20 @@
     </section>
 
     <section id="genres" class="panel">
-      <form id="genre-form">
+      <form id="genre-form" class="tax-form">
         <input name="slug" placeholder="slug (e.g. street)" required pattern="[a-z0-9-]+">
         <input name="name" placeholder="Name" required>
-        <input name="description" placeholder="Description (optional)">
+        <textarea name="description" placeholder="Description (Markdown supported)" rows="3"></textarea>
         <button type="submit">Save</button>
       </form>
       <ul id="genre-list"></ul>
     </section>
 
     <section id="collections" class="panel">
-      <form id="collection-form">
+      <form id="collection-form" class="tax-form">
         <input name="slug" placeholder="slug (e.g. tokyo-2024)" required pattern="[a-z0-9-]+">
         <input name="name" placeholder="Name" required>
-        <input name="description" placeholder="Description (optional)">
+        <textarea name="description" placeholder="Description (Markdown supported)" rows="3"></textarea>
         <input name="cover" placeholder="Cover photo id (optional)">
         <button type="submit">Save</button>
       </form>

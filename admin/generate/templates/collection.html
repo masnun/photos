@@ -5,7 +5,7 @@
   {{with .Cover}}<meta property="og:image" content="{{.URLs.Web}}">{{end}}{{end}}
 {{define "content"}}
 <h2>{{.Collection.Name}}</h2>
-{{with .Collection.Description}}<p class="lede">{{.}}</p>{{end}}
+{{with .Collection.Description}}<div class="lede prose">{{. | markdown}}</div>{{end}}
 <div class="gallery">
   {{if not .Photos}}<p class="empty">No photos yet.</p>{{end}}
   {{range .Photos}}

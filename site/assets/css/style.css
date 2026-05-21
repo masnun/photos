@@ -34,6 +34,12 @@ h2 {
   color: #111;
 }
 .lede { color: #555; margin-top: -0.8rem; margin-bottom: 1.5rem; max-width: 60ch; }
+.prose p { margin: 0 0 0.8rem; }
+.prose p:last-child { margin-bottom: 0; }
+.prose a { color: #7c3aed; }
+.prose code { background: #f0f0f0; padding: 0.1rem 0.3rem; border-radius: 3px; font-size: 0.95em; }
+.prose ul, .prose ol { margin: 0 0 0.8rem; padding-left: 1.4rem; }
+.prose blockquote { margin: 0 0 0.8rem; padding-left: 0.8rem; border-left: 3px solid #d0d0d0; color: #666; }
 
 .tile-grid {
   display: grid;
@@ -94,6 +100,24 @@ h2 {
 .exif dd { margin: 0; color: #222; }
 
 .empty { color: #999; font-style: italic; }
+
+.photo-map {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+.photo-map h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 0 0.75rem;
+  color: #111;
+}
+.photo-map iframe {
+  display: block;
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
+}
+.map-link { margin: 0.6rem 0 0; font-size: 0.85rem; }
+.map-link a { color: #7c3aed; }
 
 footer {
   text-align: center;

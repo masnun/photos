@@ -96,7 +96,7 @@ func Ingest(args []string) {
 				return
 			}
 
-			exifData, takenAt, _ := images.ExtractEXIF(data)
+			exifData, takenAt, lat, lon, _ := images.ExtractEXIF(data)
 
 			id := uuid.NewString()
 			ext := strings.ToLower(filepath.Ext(row.Path))
@@ -138,6 +138,8 @@ func Ingest(args []string) {
 				Height:      v.Height,
 				URLs:        manifest.URLs{Thumb: thumbURL, Web: webURL, Full: fullURL},
 				EXIF:        exifData,
+				Lat:         lat,
+				Lon:         lon,
 				SourceHash:  hash,
 			}
 			if err := store.AddPhoto(p); err != nil {

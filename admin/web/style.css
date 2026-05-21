@@ -157,6 +157,31 @@ li {
 li code { background: #f0f0f0; padding: 0.1rem 0.4rem; border-radius: 2px; font-size: 0.8rem; color: #555; }
 li span { color: #666; font-size: 0.9rem; }
 li button { margin-left: auto; }
+li button + button { margin-left: 0.4rem; }
+li input.edit-name, li textarea.edit-desc {
+  font-size: 0.9rem;
+  padding: 0.3rem 0.5rem;
+}
+li textarea.edit-desc {
+  flex: 1;
+  min-width: 240px;
+  resize: vertical;
+  font-family: inherit;
+}
+li.edit-row {
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+li.edit-row .save-btn, li.edit-row .cancel-btn { margin-left: 0; }
+li.edit-row .save-btn { margin-left: auto; }
+
+.tax-form textarea {
+  flex: 1;
+  min-width: 220px;
+  resize: vertical;
+  font-family: inherit;
+  padding: 0.4rem 0.6rem;
+}
 
 dialog {
   background: #fff;

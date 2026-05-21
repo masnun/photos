@@ -9,7 +9,7 @@
     {{range .Collections}}
     <a class="tile" href="/collection/{{.Slug}}/">
       {{with .Cover}}<img src="{{.URLs.Thumb}}" alt="" loading="lazy">{{else}}<div class="tile-empty"></div>{{end}}
-      <div class="tile-label"><strong>{{.Name}}</strong>{{with .Description}}<span>{{.}}</span>{{end}}</div>
+      <div class="tile-label"><strong>{{.Name}}</strong>{{with .Description}}<span>{{. | markdownInline}}</span>{{end}}</div>
     </a>
     {{end}}
   </div>
@@ -21,7 +21,7 @@
     {{range .Genres}}
     <a class="tile" href="/genre/{{.Slug}}/">
       {{with .Cover}}<img src="{{.URLs.Thumb}}" alt="" loading="lazy">{{else}}<div class="tile-empty"></div>{{end}}
-      <div class="tile-label"><strong>{{.Name}}</strong>{{with .Description}}<span>{{.}}</span>{{end}}</div>
+      <div class="tile-label"><strong>{{.Name}}</strong>{{with .Description}}<span>{{. | markdownInline}}</span>{{end}}</div>
     </a>
     {{end}}
   </div>
