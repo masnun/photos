@@ -24,6 +24,15 @@
         <span id="upload-status"></span>
       </form>
       <div id="photo-filter"></div>
+      <div id="photo-bulkbar" class="bulkbar">
+        <button type="button" id="select-toggle" class="chip">Select</button>
+        <span id="select-count" class="bulk-count" hidden></span>
+        <div id="bulk-actions" hidden>
+          <select id="bulk-genre"><option value="">Add to genre…</option></select>
+          <select id="bulk-collection"><option value="">Add to collection…</option></select>
+          <button type="button" id="bulk-clear" class="chip">Clear</button>
+        </div>
+      </div>
       <div id="photo-grid"></div>
     </section>
 

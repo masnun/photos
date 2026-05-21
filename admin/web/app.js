@@ -20,15 +20,24 @@ let genreFilter = 'all';
 let collectionFilter = 'all';
 let dateFrom = '';
 let dateTo = '';
+let selectMode = false;
+let selected = new Set();
 
 async function refresh() {
   [photos, genres, collections] = await Promise.all([
     api('/photos'), api('/genres'), api('/collections')
   ]);
+  pruneSelection();
   renderFilter();
   renderPhotos();
   renderGenres();
   renderCollections();
+  renderBulkBar();
+}
+
+function pruneSelection() {
+  const ids = new Set(photos.map(p => p.id));
+  for (const id of [...selected]) if (!ids.has(id)) selected.delete(id);
 }
 
 function matchOne(filter, list) {
@@ -127,15 +136,65 @@ function renderPhotos() {
   [...photos].reverse().filter(photoMatchesFilter).forEach(p => {
     const el = document.createElement('div');
     el.className = 'photo-card';
+    if (selectMode && selected.has(p.id)) el.classList.add('selected');
     const tags = [...p.genres, ...p.collections].map(t => `<span>${escapeHtml(t)}</span>`).join('');
     el.innerHTML = `
       <img src="${escapeHtml(p.urls.thumb)}" alt="">
       <div class="meta">
         <div class="tags">${tags || '<em>untagged</em>'}</div>
       </div>`;
-    el.addEventListener('click', () => openEdit(p));
+    el.addEventListener('click', () => {
+      if (selectMode) {
+        if (selected.has(p.id)) selected.delete(p.id); else selected.add(p.id);
+        el.classList.toggle('selected');
+        updateSelectCount();
+      } else {
+        openEdit(p);
+      }
+    });
     grid.appendChild(el);
   });
+}
+
+function renderBulkBar() {
+  const bg = $('#bulk-genre');
+  const bc = $('#bulk-collection');
+  bg.innerHTML = '<option value="">Add to genre…</option>' +
+    genres.map(g => `<option value="${escapeHtml(g.slug)}">${escapeHtml(g.name)}</option>`).join('');
+  bc.innerHTML = '<option value="">Add to collection…</option>' +
+    collections.map(c => `<option value="${escapeHtml(c.slug)}">${escapeHtml(c.name)}</option>`).join('');
+  updateSelectCount();
+}
+
+function updateSelectCount() {
+  const count = $('#select-count');
+  const actions = $('#bulk-actions');
+  if (selectMode) {
+    count.hidden = false;
+    actions.hidden = selected.size === 0;
+    count.textContent = `${selected.size} selected`;
+  } else {
+    count.hidden = true;
+    actions.hidden = true;
+  }
+}
+
+async function bulkAdd(kind, slug) {
+  if (!slug || selected.size === 0) return;
+  const ids = [...selected];
+  const targets = photos.filter(p => ids.includes(p.id));
+  for (const p of targets) {
+    const list = kind === 'genres' ? p.genres : p.collections;
+    if (list.includes(slug)) continue;
+    const next = [...list, slug];
+    const body = kind === 'genres' ? { genres: next } : { collections: next };
+    await api(`/photos/${encodeURIComponent(p.id)}`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    });
+  }
+  await refresh();
 }
 
 function renderGenres() {
@@ -199,20 +258,22 @@ function openEdit(p) {
 
 function renderCoverActions(p) {
   const box = $('#edit-covers');
-  if (!genres.length && !collections.length) {
-    box.innerHTML = '<em>Create a genre or collection first.</em>';
+  const memberGenres = genres.filter(g => p.genres.includes(g.slug));
+  const memberCols = collections.filter(c => p.collections.includes(c.slug));
+  if (!memberGenres.length && !memberCols.length) {
+    box.innerHTML = '<em>Assign this photo to a genre or collection to set it as a cover.</em>';
     return;
   }
-  const row = (label, isCover, isMember, kind, slug) => `
+  const row = (label, isCover, kind, slug) => `
     <div class="cover-row">
-      <span>${escapeHtml(label)}${isMember ? '' : ' <em>(not assigned)</em>'} ${isCover ? '<strong>(current cover)</strong>' : ''}</span>
+      <span>${escapeHtml(label)} ${isCover ? '<strong>(current cover)</strong>' : ''}</span>
       <button type="button" data-kind="${kind}" data-slug="${escapeHtml(slug)}" data-set="${isCover ? '0' : '1'}">
         ${isCover ? 'Remove cover' : 'Set as cover'}
       </button>
     </div>`;
   box.innerHTML = [
-    ...genres.map(g => row(`Genre · ${g.name}`, g.cover === p.id, p.genres.includes(g.slug), 'genres', g.slug)),
-    ...collections.map(c => row(`Collection · ${c.name}`, c.cover === p.id, p.collections.includes(c.slug), 'collections', c.slug)),
+    ...memberGenres.map(g => row(`Genre · ${g.name}`, g.cover === p.id, 'genres', g.slug)),
+    ...memberCols.map(c => row(`Collection · ${c.name}`, c.cover === p.id, 'collections', c.slug)),
   ].join('');
 
   box.querySelectorAll('button').forEach(btn => {
@@ -294,6 +355,33 @@ $('#collection-form').addEventListener('submit', async (e) => {
   });
   e.target.reset();
   refresh();
+});
+
+$('#select-toggle').addEventListener('click', () => {
+  selectMode = !selectMode;
+  $('#select-toggle').classList.toggle('active', selectMode);
+  $('#select-toggle').textContent = selectMode ? 'Done' : 'Select';
+  if (!selectMode) selected.clear();
+  renderPhotos();
+  updateSelectCount();
+});
+
+$('#bulk-clear').addEventListener('click', () => {
+  selected.clear();
+  renderPhotos();
+  updateSelectCount();
+});
+
+$('#bulk-genre').addEventListener('change', async (e) => {
+  const slug = e.target.value;
+  e.target.value = '';
+  await bulkAdd('genres', slug);
+});
+
+$('#bulk-collection').addEventListener('change', async (e) => {
+  const slug = e.target.value;
+  e.target.value = '';
+  await bulkAdd('collections', slug);
 });
 
 $$('.tab').forEach(btn => {

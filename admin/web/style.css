@@ -99,6 +99,26 @@ button.danger:hover { border-color: #c0392b; }
 }
 .chip.active .count { background: #fff; color: #7c3aed; }
 
+.bulkbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.bulkbar #bulk-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+.bulkbar select { font-size: 0.85rem; padding: 0.3rem 0.5rem; }
+.bulk-count { color: #555; font-size: 0.85rem; }
+.photo-card.selected {
+  border-color: #7c3aed;
+  box-shadow: 0 0 0 2px #7c3aed inset;
+}
+
 #photo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
