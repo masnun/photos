@@ -2,6 +2,54 @@
 {{define "head"}}<meta property="og:title" content="masnun.photos">
   <meta property="og:type" content="website">{{end}}
 {{define "content"}}
+{{if .Featured}}
+<section id="featured-section" class="featured">
+  <h2>Featured</h2>
+  <div class="slideshow" data-count="{{len .Featured}}">
+    <div class="slides">
+      {{range $i, $p := .Featured}}
+      <a class="slide{{if eq $i 0}} active{{end}}" href="/photo/{{$p.ID}}/" data-index="{{$i}}">
+        <img src="{{$p.URLs.Web}}" alt="{{$p.Caption}}" {{if eq $i 0}}fetchpriority="high"{{else}}loading="lazy"{{end}}>
+        {{with $p.Caption}}<figcaption class="slide-caption">{{.}}</figcaption>{{end}}
+      </a>
+      {{end}}
+    </div>
+    {{if gt (len .Featured) 1}}
+    <button type="button" class="slide-nav prev" aria-label="Previous">&#8249;</button>
+    <button type="button" class="slide-nav next" aria-label="Next">&#8250;</button>
+    <div class="slide-dots">
+      {{range $i, $p := .Featured}}<button type="button" class="dot{{if eq $i 0}} active{{end}}" data-index="{{$i}}" aria-label="Slide {{$i}}"></button>{{end}}
+    </div>
+    {{end}}
+  </div>
+</section>
+<script>
+(function () {
+  var box = document.querySelector('.slideshow');
+  if (!box) return;
+  var slides = box.querySelectorAll('.slide');
+  var dots = box.querySelectorAll('.dot');
+  var n = slides.length;
+  if (n < 2) return;
+  var cur = 0, timer = null;
+  function show(i) {
+    cur = (i + n) % n;
+    slides.forEach(function (s, k) { s.classList.toggle('active', k === cur); });
+    dots.forEach(function (d, k) { d.classList.toggle('active', k === cur); });
+  }
+  function start() { stop(); timer = setInterval(function () { show(cur + 1); }, 5000); }
+  function stop() { if (timer) { clearInterval(timer); timer = null; } }
+  box.querySelector('.prev').addEventListener('click', function (e) { e.preventDefault(); show(cur - 1); start(); });
+  box.querySelector('.next').addEventListener('click', function (e) { e.preventDefault(); show(cur + 1); start(); });
+  dots.forEach(function (d) {
+    d.addEventListener('click', function () { show(parseInt(d.dataset.index, 10)); start(); });
+  });
+  box.addEventListener('mouseenter', stop);
+  box.addEventListener('mouseleave', start);
+  start();
+})();
+</script>
+{{end}}
 <section id="collections-section">
   <h2>Collections</h2>
   <div class="tile-grid">
@@ -19,9 +67,9 @@
   <div class="tile-grid">
     {{if not .Genres}}<p class="empty">Nothing here yet.</p>{{end}}
     {{range .Genres}}
-    <a class="tile" href="/genre/{{.Slug}}/">
-      <div class="tile-img-wrap">{{with .Cover}}<img src="{{.URLs.Web}}" alt="" loading="lazy">{{else}}<div class="tile-empty"></div>{{end}}</div>
+    <a class="tile tile-title-top" href="/genre/{{.Slug}}/">
       <div class="tile-label"><strong>{{.Name}}</strong>{{with .Description}}<span>{{. | markdownInline}}</span>{{end}}</div>
+      <div class="tile-img-wrap">{{with .Cover}}<img src="{{.URLs.Web}}" alt="" loading="lazy">{{else}}<div class="tile-empty"></div>{{end}}</div>
     </a>
     {{end}}
   </div>
@@ -31,9 +79,9 @@
   <div class="tile-grid">
     {{if not .Months}}<p class="empty">Nothing here yet.</p>{{end}}
     {{range .Months}}
-    <a class="tile" href="/calendar/{{.Slug}}/">
-      <div class="tile-img-wrap">{{with .Cover}}<img src="{{.URLs.Web}}" alt="" loading="lazy">{{else}}<div class="tile-empty"></div>{{end}}</div>
+    <a class="tile tile-title-top" href="/calendar/{{.Slug}}/">
       <div class="tile-label"><strong>{{.Label}}</strong><span>{{.Count}} photo{{if ne .Count 1}}s{{end}}</span></div>
+      <div class="tile-img-wrap">{{with .Cover}}<img src="{{.URLs.Web}}" alt="" loading="lazy">{{else}}<div class="tile-empty"></div>{{end}}</div>
     </a>
     {{end}}
   </div>

@@ -129,8 +129,6 @@
         "shutter": "1/1150",
         "focal_length": "4mm"
       },
-      "lat": 22.815088,
-      "lon": 89.55481,
       "source_hash": "036c6f134e5731d655519117988e96ae3d3e1c673161f2b22e2d27ea3a48521f"
     },
     {
@@ -157,8 +155,6 @@
         "shutter": "1/220",
         "focal_length": "4mm"
       },
-      "lat": 22.824659,
-      "lon": 89.550827,
       "source_hash": "db81eea32069e8053011040b202d97e9be9752b17e563213c9d25832c6ee7bc6"
     },
     {
@@ -236,8 +232,6 @@
         "shutter": "1/470",
         "focal_length": "6mm"
       },
-      "lat": 22.803223,
-      "lon": 89.531296,
       "source_hash": "bb9ea127c55817291cf91092ab958215798bdb0068738c46540859a89136e68a"
     },
     {
@@ -264,8 +258,6 @@
         "shutter": "1/1050",
         "focal_length": "5mm"
       },
-      "lat": 22.800396,
-      "lon": 89.533272,
       "source_hash": "c2c743cec82301e5f04a484fa4d9c70fe78127584bc8f2e3b76dac84812a1e23"
     },
     {
@@ -293,8 +285,6 @@
         "shutter": "1/125",
         "focal_length": "14mm"
       },
-      "lat": 22.803272,
-      "lon": 89.534103,
       "source_hash": "203d6e7e768423ea7ca9fc6106f9493fcba3f174c30c7a15b18a5a84f5b7c072"
     },
     {
@@ -348,8 +338,6 @@
         "shutter": "1/120",
         "focal_length": "14mm"
       },
-      "lat": 22.803333,
-      "lon": 89.534103,
       "source_hash": "7aea56f3fcef747888ffc7332643413d8c3b437d27ca6c8206e73cd025b8531e"
     },
     {
@@ -1872,10 +1860,12 @@
       "id": "5eba9214-2885-443d-9be9-6d246c3503de",
       "filename": "51622646469.jpg",
       "genres": [
-        "wildlife",
-        "macro"
+        "macro",
+        "wildlife"
       ],
-      "collections": [],
+      "collections": [
+        "featured"
+      ],
       "taken_at": "2021-10-23T10:46:54Z",
       "uploaded_at": "2026-05-21T14:31:31.4306Z",
       "width": 5333,
@@ -1926,10 +1916,12 @@
       "id": "c36b490d-7370-4cd0-a2e1-8c06529f6490",
       "filename": "51630605018.jpg",
       "genres": [
-        "wildlife",
-        "macro"
+        "macro",
+        "wildlife"
       ],
-      "collections": [],
+      "collections": [
+        "featured"
+      ],
       "taken_at": "2021-10-26T10:13:21Z",
       "uploaded_at": "2026-05-21T14:31:34.052069Z",
       "width": 4602,
@@ -2384,7 +2376,9 @@
         "wildlife",
         "portrait"
       ],
-      "collections": [],
+      "collections": [
+        "featured"
+      ],
       "taken_at": "2022-01-02T09:55:41Z",
       "uploaded_at": "2026-05-21T14:31:51.11872Z",
       "width": 4611,
@@ -3124,7 +3118,9 @@
         "street",
         "documentary"
       ],
-      "collections": [],
+      "collections": [
+        "featured"
+      ],
       "taken_at": "2022-02-13T11:36:34Z",
       "uploaded_at": "2026-05-21T14:32:20.438335Z",
       "width": 4149,
@@ -4088,8 +4084,6 @@
         "shutter": "1/4",
         "focal_length": "4mm"
       },
-      "lat": 22.799775,
-      "lon": 89.553522,
       "source_hash": "7224d6b1c7b15d2894c283723702fea5303cdd175dcc642e0ebed20db03954f6"
     },
     {
@@ -4779,7 +4773,8 @@
         "documentary"
       ],
       "collections": [
-        "july-reovolution"
+        "july-reovolution",
+        "featured"
       ],
       "taken_at": "2024-08-05T10:45:24Z",
       "uploaded_at": "2026-05-21T14:33:24.152898Z",
@@ -4945,7 +4940,8 @@
         "documentary"
       ],
       "collections": [
-        "july-reovolution"
+        "july-reovolution",
+        "featured"
       ],
       "taken_at": "2024-08-05T10:59:30Z",
       "uploaded_at": "2026-05-21T14:33:31.374921Z",
@@ -5795,7 +5791,9 @@
         "architecture",
         "black-and-white"
       ],
-      "collections": [],
+      "collections": [
+        "featured"
+      ],
       "taken_at": "2025-09-24T11:26:36Z",
       "uploaded_at": "2026-05-21T14:34:02.634143Z",
       "width": 4160,
@@ -7059,8 +7057,6 @@
         "shutter": "1/125",
         "focal_length": "35mm"
       },
-      "lat": 22.82095,
-      "lon": 89.55003611111111,
       "source_hash": "8d741ccd74d9868ef43164cf1a61fec5b329d39b980790737733ac96ef48a670"
     },
     {
@@ -7417,10 +7413,12 @@
       "id": "4a2aa4f0-7c71-4512-b9f5-01cfa335b1df",
       "filename": "AAM05832_DxO.jpg",
       "genres": [
-        "wildlife",
-        "macro"
+        "macro",
+        "wildlife"
       ],
-      "collections": [],
+      "collections": [
+        "featured"
+      ],
       "taken_at": "2022-01-02T09:53:17Z",
       "uploaded_at": "2026-05-21T14:35:07.855595Z",
       "width": 3364,
@@ -9222,11 +9220,13 @@
       "id": "275818ec-af87-4819-8e63-748fe220708e",
       "filename": "AAM08076.jpg",
       "genres": [
-        "documentary",
         "landscape",
-        "street"
+        "street",
+        "documentary"
       ],
-      "collections": [],
+      "collections": [
+        "featured"
+      ],
       "taken_at": "2022-07-11T11:11:59Z",
       "uploaded_at": "2026-05-21T14:36:13.783635Z",
       "width": 4130,
@@ -9516,8 +9516,6 @@
         "shutter": "1/100",
         "focal_length": "23mm"
       },
-      "lat": 22.825723333333332,
-      "lon": 89.55125833333334,
       "source_hash": "16ba5e9e31d55734181c901fa013ebf3636806b5e27a42272cae23b1ce5f8e41"
     },
     {
@@ -9571,8 +9569,6 @@
         "shutter": "1/80",
         "focal_length": "23mm"
       },
-      "lat": 22.808573333333335,
-      "lon": 89.54059166666667,
       "source_hash": "cd587152132f27fc099b586385867e3fc03014e8cc310a3ce6d2366a104fb839"
     },
     {
@@ -9705,8 +9701,6 @@
         "shutter": "1/30",
         "focal_length": "23mm"
       },
-      "lat": 22.825738333333334,
-      "lon": 89.55111833333333,
       "source_hash": "4f8800f97fc018e569e12994d23f2131cbf480f9c5c831bce3d0a0d08602ddf4"
     },
     {
@@ -9821,7 +9815,9 @@
         "architecture",
         "landscape"
       ],
-      "collections": [],
+      "collections": [
+        "featured"
+      ],
       "taken_at": "2024-03-11T02:17:25Z",
       "uploaded_at": "2026-05-21T14:36:31.978734Z",
       "width": 4075,
@@ -10973,8 +10969,6 @@
         "shutter": "1/125",
         "focal_length": "6mm"
       },
-      "lat": 21.424867,
-      "lon": 91.972353,
       "source_hash": "fd8e1d9d923082cab75cfc7a36ace7e4b3df3ab44dd9f192bbc3641f33b7f6ac"
     },
     {
@@ -11001,8 +10995,6 @@
         "shutter": "1/4000",
         "focal_length": "25mm"
       },
-      "lat": 22.816204,
-      "lon": 89.565421,
       "source_hash": "150713ebf8e485189292631a2b53a5165b9ce73d7494c3ed14ae9a74606b1157"
     },
     {
@@ -11029,8 +11021,6 @@
         "shutter": "1/30",
         "focal_length": "33mm"
       },
-      "lat": 22.825817999999998,
-      "lon": 89.551151,
       "source_hash": "811dce8f01b151be01e31bf6a8bf86fccc791735debbd50f3874aff5ac89da72"
     },
     {
@@ -14027,7 +14017,9 @@
         "night",
         "street"
       ],
-      "collections": [],
+      "collections": [
+        "featured"
+      ],
       "taken_at": "2022-06-11T13:16:51Z",
       "uploaded_at": "2026-05-21T14:39:22.795199Z",
       "width": 5454,
@@ -15430,8 +15422,6 @@
         "shutter": "1/35",
         "focal_length": "4mm"
       },
-      "lat": 22.819075,
-      "lon": 89.553222,
       "source_hash": "122bec778bbd55dfb6459ce7a3e3a4ad69c4d5ee4c7f7066ed1f64b4412358ba"
     },
     {
@@ -15567,8 +15557,6 @@
         "shutter": "1/1000",
         "focal_length": "4mm"
       },
-      "lat": 22.820575,
-      "lon": 89.557694,
       "source_hash": "d4ad36a76ca4369a71674476798ff153fc3ec571620d93ca7391e37b646609a9"
     },
     {
@@ -15596,8 +15584,6 @@
         "shutter": "1/25",
         "focal_length": "6mm"
       },
-      "lat": 21.433894,
-      "lon": 91.972053,
       "source_hash": "c9660b9a225f919df3db96adc53dcb1a38b2f41e5f27d155078d860320f80832"
     },
     {
@@ -15625,8 +15611,6 @@
         "shutter": "1/4",
         "focal_length": "4mm"
       },
-      "lat": 22.802528,
-      "lon": 89.5356,
       "source_hash": "ca8f547ca1d740b2d556b4d4e5e04d839fa2376cb33301963b8c7964170469ca"
     },
     {
@@ -15708,8 +15692,6 @@
         "shutter": "1/50",
         "focal_length": "4mm"
       },
-      "lat": 21.434242,
-      "lon": 91.972839,
       "source_hash": "5ea43c90c4b934bf7a815e08785cd6adf5c7bf27079cd9dde71b2a8bf79b5da0"
     },
     {
@@ -15789,8 +15771,6 @@
         "shutter": "1/4000",
         "focal_length": "4mm"
       },
-      "lat": 21.428742,
-      "lon": 91.969414,
       "source_hash": "aa01578888220b3ba9acf4e6601d76bb4585cf05afac163f6b33d7a21cc7914a"
     },
     {
@@ -15899,8 +15879,6 @@
         "shutter": "1/310",
         "focal_length": "6mm"
       },
-      "lat": 21.427208,
-      "lon": 91.970244,
       "source_hash": "32576b37903077131a917f7ecc27e74ecd826680aa2094cbc824634ad8f3ff4d"
     },
     {
@@ -16315,8 +16293,6 @@
         "shutter": "1/500",
         "focal_length": "23mm"
       },
-      "lat": 22.831008333333333,
-      "lon": 89.55432833333333,
       "source_hash": "3d43e7748b127137640a961795f9ed5234b82c077c9635a67d2051f41b471e32"
     },
     {
@@ -16373,8 +16349,6 @@
         "shutter": "1/320",
         "focal_length": "23mm"
       },
-      "lat": 22.809966666666668,
-      "lon": 89.54499833333334,
       "source_hash": "294872b872bb0958eec206c318a573b75f2aedcb86774e014690e62b333d94cf"
     },
     {
@@ -16457,8 +16431,6 @@
         "shutter": "1/250",
         "focal_length": "23mm"
       },
-      "lat": 22.809966666666668,
-      "lon": 89.54499833333334,
       "source_hash": "65bf75cce7ffea6b1b11d2db26e2431a6b780ee9471cc796a18d3561066b35d9"
     },
     {
@@ -16486,8 +16458,6 @@
         "shutter": "1/500",
         "focal_length": "21mm"
       },
-      "lat": 22.803995,
-      "lon": 89.54135666666667,
       "source_hash": "110e80d2081ec5543f101a19210bb3bfc4fdddef9e53bec1d9ea494e52e846f2"
     },
     {
@@ -16516,8 +16486,6 @@
         "shutter": "1/320",
         "focal_length": "23mm"
       },
-      "lat": 22.809966666666668,
-      "lon": 89.54499833333334,
       "source_hash": "4915db80da6629b07b95d3f9bfa7c06f4f03b1d97e806391b904fa146bc1f5cb"
     },
     {
@@ -16545,8 +16513,6 @@
         "shutter": "1/250",
         "focal_length": "23mm"
       },
-      "lat": 22.809966666666668,
-      "lon": 89.54499833333334,
       "source_hash": "1c9cdf7d3742fb47899232b7354fec015513dbebc7e328dd3c38981c38f15853"
     },
     {
@@ -16717,7 +16683,9 @@
         "architecture",
         "street"
       ],
-      "collections": [],
+      "collections": [
+        "featured"
+      ],
       "taken_at": "2021-12-01T05:58:16Z",
       "uploaded_at": "2026-05-21T14:40:54.214313Z",
       "width": 3893,
@@ -17098,7 +17066,8 @@
         "documentary"
       ],
       "collections": [
-        "july-reovolution"
+        "july-reovolution",
+        "featured"
       ],
       "taken_at": "2024-08-05T10:57:44Z",
       "uploaded_at": "2026-05-21T14:41:11.02119Z",
@@ -17283,7 +17252,9 @@
         "wildlife",
         "portrait"
       ],
-      "collections": [],
+      "collections": [
+        "featured"
+      ],
       "taken_at": "2022-01-02T09:52:51Z",
       "uploaded_at": "2026-05-21T14:41:19.321346Z",
       "width": 3202,
@@ -17690,7 +17661,9 @@
         "documentary",
         "food"
       ],
-      "collections": [],
+      "collections": [
+        "featured"
+      ],
       "taken_at": "2025-12-30T11:38:20Z",
       "uploaded_at": "2026-05-21T14:41:33.897012Z",
       "width": 3524,
@@ -18200,7 +18173,9 @@
         "street",
         "documentary"
       ],
-      "collections": [],
+      "collections": [
+        "featured"
+      ],
       "taken_at": "2022-06-24T11:56:17Z",
       "uploaded_at": "2026-05-21T14:41:57.361681Z",
       "width": 5229,
@@ -18245,8 +18220,6 @@
         "shutter": "1/400",
         "focal_length": "2mm"
       },
-      "lat": 22.819847,
-      "lon": 89.557633,
       "source_hash": "16abb4cfabf08f717dc6db3645313b42683edda5835a9d410a0f9eca79e6dc66"
     },
     {
@@ -18407,8 +18380,6 @@
         "shutter": "1/1500",
         "focal_length": "6mm"
       },
-      "lat": 21.426322,
-      "lon": 91.971261,
       "source_hash": "74b3c15434f450ab39e610cf28815d4a13cf0259d5e9f3169c893f6e0d3191b3"
     }
   ],
@@ -18468,7 +18439,12 @@
       "name": "July Revolution",
       "description": "*The July Revolution in July 2024* - the mass revolution that ousted the fascist regime of 17 years. ",
       "cover": "371a3a21-d20f-4279-affd-f7081a1b483d"
+    },
+    {
+      "slug": "featured",
+      "name": "Featured",
+      "description": "Highlights shown in the home-page slideshow."
     }
   ],
-  "updated_at": "2026-05-21T16:45:02.787451Z"
+  "updated_at": "2026-05-21T17:27:21.719508Z"
 }

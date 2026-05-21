@@ -73,6 +73,7 @@ type monthView struct {
 }
 
 type indexData struct {
+	Featured    []manifest.Photo
 	Genres      []genreView
 	Collections []collectionView
 	Months      []monthView
@@ -266,8 +267,12 @@ func renderIndex(rc *renderCtx) error {
 		data.Genres = append(data.Genres, genreView{Genre: g, Cover: findGenreCover(rc.m.Photos, g), ThumbsJSON: string(buf)})
 	}
 	for _, c := range rc.m.Collections {
+		if c.Slug == manifest.FeaturedSlug {
+			continue
+		}
 		data.Collections = append(data.Collections, collectionView{Collection: c, Cover: findCollectionCover(rc.m.Photos, c)})
 	}
+	data.Featured = filterByCollection(rc.m.Photos, manifest.FeaturedSlug)
 	data.Months = buildMonths(rc.m.Photos)
 	return writeTemplate(rc.tmpls["index.html"], filepath.Join(rc.outDir, "index.html"), data)
 }

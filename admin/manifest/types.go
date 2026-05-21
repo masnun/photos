@@ -2,6 +2,10 @@ package manifest
 
 import "time"
 
+// FeaturedSlug is the reserved collection slug whose members appear in the
+// home-page slideshow. The collection is auto-created on store load.
+const FeaturedSlug = "featured"
+
 type Manifest struct {
 	Photos      []Photo      `json:"photos"`
 	Genres      []Genre      `json:"genres"`
