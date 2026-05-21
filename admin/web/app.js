@@ -146,10 +146,17 @@ function renderPhotos() {
     const el = document.createElement('div');
     el.className = 'photo-card';
     if (selectMode && selected.has(p.id)) el.classList.add('selected');
-    const tags = [...p.genres, ...p.collections].map(t => `<span>${escapeHtml(t)}</span>`).join('');
+    const genreTags = p.genres.map(t => `<span class="pill pill-genre">${escapeHtml(t)}</span>`).join('');
+    const colTags = p.collections.map(t => {
+      const cls = t === 'featured' ? 'pill pill-featured' : 'pill pill-collection';
+      return `<span class="${cls}">${escapeHtml(t)}</span>`;
+    }).join('');
+    const tags = genreTags + colTags;
+    const caption = p.caption ? `<div class="caption">${escapeHtml(p.caption)}</div>` : '';
     el.innerHTML = `
-      <img src="${escapeHtml(p.urls.thumb)}" alt="">
+      <div class="photo-frame"><img src="${escapeHtml(p.urls.thumb)}" alt=""></div>
       <div class="meta">
+        ${caption}
         <div class="tags">${tags || '<em>untagged</em>'}</div>
       </div>`;
     el.addEventListener('click', () => {
@@ -261,7 +268,7 @@ function renderGenreEdit(li, g) {
 function renderCollections() {
   const ul = $('#collection-list');
   ul.innerHTML = '';
-  collections.forEach(c => {
+  collections.filter(c => c.slug !== 'featured').forEach(c => {
     const li = document.createElement('li');
     renderCollectionRow(li, c);
     ul.appendChild(li);

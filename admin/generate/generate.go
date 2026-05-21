@@ -142,6 +142,9 @@ func Run(opts Options) error {
 	if err := renderIndex(rc); err != nil {
 		return err
 	}
+	if err := renderTaxonomyIndexes(rc); err != nil {
+		return err
+	}
 	if err := renderGenres(rc); err != nil {
 		return err
 	}
@@ -153,6 +156,20 @@ func Run(opts Options) error {
 	}
 	if err := renderCalendar(rc); err != nil {
 		return err
+	}
+	return nil
+}
+
+func renderTaxonomyIndexes(rc *renderCtx) error {
+	data := buildIndexData(rc)
+	if err := writeTemplate(rc.tmpls["genres-index.html"], filepath.Join(rc.outDir, "genre", "index.html"), data); err != nil {
+		return fmt.Errorf("genres index: %w", err)
+	}
+	if err := writeTemplate(rc.tmpls["collections-index.html"], filepath.Join(rc.outDir, "collection", "index.html"), data); err != nil {
+		return fmt.Errorf("collections index: %w", err)
+	}
+	if err := writeTemplate(rc.tmpls["calendar-index.html"], filepath.Join(rc.outDir, "calendar", "index.html"), data); err != nil {
+		return fmt.Errorf("calendar index: %w", err)
 	}
 	return nil
 }
@@ -240,7 +257,16 @@ func loadManifest(path string) (*manifest.Manifest, error) {
 }
 
 func parseTemplates() (map[string]*template.Template, error) {
-	names := []string{"index.html", "genre.html", "collection.html", "photo.html", "calendar.html"}
+	names := []string{
+		"index.html",
+		"genre.html",
+		"collection.html",
+		"photo.html",
+		"calendar.html",
+		"genres-index.html",
+		"collections-index.html",
+		"calendar-index.html",
+	}
 	out := make(map[string]*template.Template, len(names))
 	for _, n := range names {
 		t, err := template.New("base.html").Funcs(templateFuncs).ParseFS(templatesFS, "templates/base.html", "templates/"+n)
@@ -253,6 +279,11 @@ func parseTemplates() (map[string]*template.Template, error) {
 }
 
 func renderIndex(rc *renderCtx) error {
+	data := buildIndexData(rc)
+	return writeTemplate(rc.tmpls["index.html"], filepath.Join(rc.outDir, "index.html"), data)
+}
+
+func buildIndexData(rc *renderCtx) indexData {
 	data := indexData{
 		Genres:      make([]genreView, 0, len(rc.m.Genres)),
 		Collections: make([]collectionView, 0, len(rc.m.Collections)),
@@ -274,7 +305,7 @@ func renderIndex(rc *renderCtx) error {
 	}
 	data.Featured = filterByCollection(rc.m.Photos, manifest.FeaturedSlug)
 	data.Months = buildMonths(rc.m.Photos)
-	return writeTemplate(rc.tmpls["index.html"], filepath.Join(rc.outDir, "index.html"), data)
+	return data
 }
 
 func renderGenres(rc *renderCtx) error {

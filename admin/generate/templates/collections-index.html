@@ -1,0 +1,18 @@
+{{define "title"}}Collections · masnun.photos{{end}}
+{{define "head"}}<meta property="og:title" content="Collections · masnun.photos">
+  <meta property="og:type" content="website">{{end}}
+{{define "content"}}
+<section id="collections-section">
+  <h2>Collections</h2>
+  <div class="tile-grid">
+    {{if not .Collections}}<p class="empty">Nothing here yet.</p>{{end}}
+    {{range .Collections}}
+    <a class="tile tile-title-top" href="/collection/{{.Slug}}/">
+      <div class="tile-label"><strong>{{.Name}}</strong>{{with .Description}}<span>{{. | markdownInline}}</span>{{end}}</div>
+      <div class="tile-img-wrap">{{with .Cover}}<img src="{{.URLs.Web}}" alt="" loading="lazy">{{else}}<div class="tile-empty"></div>{{end}}</div>
+    </a>
+    {{end}}
+  </div>
+</section>
+{{end}}
+{{template "base" .}}
