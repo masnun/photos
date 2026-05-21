@@ -33,6 +33,36 @@ func (h *Taxonomy) UpsertGenre(w http.ResponseWriter, r *http.Request) {
 	writeJSON(w, http.StatusOK, g)
 }
 
+func (h *Taxonomy) SetGenreCover(w http.ResponseWriter, r *http.Request) {
+	var body struct {
+		Cover string `json:"cover"`
+	}
+	if err := json.NewDecoder(r.Body).Decode(&body); err != nil {
+		writeErr(w, http.StatusBadRequest, err)
+		return
+	}
+	if err := h.Store.SetGenreCover(r.PathValue("slug"), body.Cover); err != nil {
+		writeErr(w, http.StatusNotFound, err)
+		return
+	}
+	writeJSON(w, http.StatusOK, map[string]string{"slug": r.PathValue("slug"), "cover": body.Cover})
+}
+
+func (h *Taxonomy) SetCollectionCover(w http.ResponseWriter, r *http.Request) {
+	var body struct {
+		Cover string `json:"cover"`
+	}
+	if err := json.NewDecoder(r.Body).Decode(&body); err != nil {
+		writeErr(w, http.StatusBadRequest, err)
+		return
+	}
+	if err := h.Store.SetCollectionCover(r.PathValue("slug"), body.Cover); err != nil {
+		writeErr(w, http.StatusNotFound, err)
+		return
+	}
+	writeJSON(w, http.StatusOK, map[string]string{"slug": r.PathValue("slug"), "cover": body.Cover})
+}
+
 func (h *Taxonomy) DeleteGenre(w http.ResponseWriter, r *http.Request) {
 	if err := h.Store.DeleteGenre(r.PathValue("slug")); err != nil {
 		writeErr(w, http.StatusNotFound, err)

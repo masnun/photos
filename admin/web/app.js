@@ -16,20 +16,115 @@ const escapeHtml = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({
 }[c]));
 
 let photos = [], genres = [], collections = [];
+let genreFilter = 'all';
+let collectionFilter = 'all';
+let dateFrom = '';
+let dateTo = '';
 
 async function refresh() {
   [photos, genres, collections] = await Promise.all([
     api('/photos'), api('/genres'), api('/collections')
   ]);
+  renderFilter();
   renderPhotos();
   renderGenres();
   renderCollections();
 }
 
+function matchOne(filter, list) {
+  if (filter === 'all') return true;
+  if (filter === 'untagged') return !list || list.length === 0;
+  return list && list.includes(filter);
+}
+
+function photoDate(p) {
+  return p.taken_at || p.uploaded_at || '';
+}
+
+function matchesDateRange(p) {
+  if (!dateFrom && !dateTo) return true;
+  const d = photoDate(p);
+  if (!d) return false;
+  const day = d.slice(0, 10);
+  if (dateFrom && day < dateFrom) return false;
+  if (dateTo && day > dateTo) return false;
+  return true;
+}
+
+function photoMatchesFilter(p) {
+  return matchOne(genreFilter, p.genres)
+    && matchOne(collectionFilter, p.collections)
+    && matchesDateRange(p);
+}
+
+function renderFilterRow(box, label, items, current, onPick, listKey) {
+  const counts = { all: photos.length, untagged: 0 };
+  items.forEach(it => counts[it.slug] = 0);
+  photos.forEach(p => {
+    const list = p[listKey] || [];
+    if (list.length === 0) counts.untagged++;
+    list.forEach(s => { if (s in counts) counts[s]++; });
+  });
+  const chip = (key, lbl) => `
+    <button type="button" class="chip${current === key ? ' active' : ''}" data-filter="${escapeHtml(key)}">
+      ${escapeHtml(lbl)} <span class="count">${counts[key] ?? 0}</span>
+    </button>`;
+  const row = document.createElement('div');
+  row.className = 'filter-row';
+  row.innerHTML = `<span class="filter-label">${escapeHtml(label)}</span>` + [
+    chip('all', 'All'),
+    ...items.map(it => chip(it.slug, it.name)),
+    chip('untagged', 'Untagged'),
+  ].join('');
+  row.querySelectorAll('.chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      onPick(btn.dataset.filter);
+      renderFilter();
+      renderPhotos();
+    });
+  });
+  box.appendChild(row);
+}
+
+function renderFilter() {
+  const box = $('#photo-filter');
+  if (!box) return;
+  box.innerHTML = '';
+  renderFilterRow(box, 'Genre', genres, genreFilter, v => genreFilter = v, 'genres');
+  renderFilterRow(box, 'Collection', collections, collectionFilter, v => collectionFilter = v, 'collections');
+  renderDateRow(box);
+}
+
+function renderDateRow(box) {
+  const row = document.createElement('div');
+  row.className = 'filter-row';
+  row.innerHTML = `
+    <span class="filter-label">Date</span>
+    <input type="date" id="date-from" value="${escapeHtml(dateFrom)}">
+    <span class="filter-sep">to</span>
+    <input type="date" id="date-to" value="${escapeHtml(dateTo)}">
+    <button type="button" id="date-clear" class="chip">Clear</button>`;
+  box.appendChild(row);
+  row.querySelector('#date-from').addEventListener('change', e => {
+    dateFrom = e.target.value;
+    renderPhotos();
+  });
+  row.querySelector('#date-to').addEventListener('change', e => {
+    dateTo = e.target.value;
+    renderPhotos();
+  });
+  row.querySelector('#date-clear').addEventListener('click', () => {
+    dateFrom = '';
+    dateTo = '';
+    renderFilter();
+    renderPhotos();
+  });
+}
+
 function renderPhotos() {
   const grid = $('#photo-grid');
   grid.innerHTML = '';
-  [...photos].reverse().forEach(p => {
+  [...photos].reverse().filter(photoMatchesFilter).forEach(p => {
     const el = document.createElement('div');
     el.className = 'photo-card';
     const tags = [...p.genres, ...p.collections].map(t => `<span>${escapeHtml(t)}</span>`).join('');
@@ -90,6 +185,8 @@ function openEdit(p) {
     <label><input type="checkbox" value="${escapeHtml(c.slug)}" ${p.collections.includes(c.slug) ? 'checked' : ''}> ${escapeHtml(c.name)}</label>
   `).join('') || '<em>No collections defined yet.</em>';
 
+  renderCoverActions(p);
+
   $('#edit-delete').onclick = async () => {
     if (!confirm('Delete this photo and its R2 objects?')) return;
     await api(`/photos/${encodeURIComponent(p.id)}`, { method: 'DELETE' });
@@ -98,6 +195,50 @@ function openEdit(p) {
   };
 
   dlg.showModal();
+}
+
+function renderCoverActions(p) {
+  const box = $('#edit-covers');
+  if (!genres.length && !collections.length) {
+    box.innerHTML = '<em>Create a genre or collection first.</em>';
+    return;
+  }
+  const row = (label, isCover, isMember, kind, slug) => `
+    <div class="cover-row">
+      <span>${escapeHtml(label)}${isMember ? '' : ' <em>(not assigned)</em>'} ${isCover ? '<strong>(current cover)</strong>' : ''}</span>
+      <button type="button" data-kind="${kind}" data-slug="${escapeHtml(slug)}" data-set="${isCover ? '0' : '1'}">
+        ${isCover ? 'Remove cover' : 'Set as cover'}
+      </button>
+    </div>`;
+  box.innerHTML = [
+    ...genres.map(g => row(`Genre · ${g.name}`, g.cover === p.id, p.genres.includes(g.slug), 'genres', g.slug)),
+    ...collections.map(c => row(`Collection · ${c.name}`, c.cover === p.id, p.collections.includes(c.slug), 'collections', c.slug)),
+  ].join('');
+
+  box.querySelectorAll('button').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const { kind, slug, set } = btn.dataset;
+      btn.disabled = true;
+      try {
+        await api(`/${kind}/${encodeURIComponent(slug)}/cover`, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ cover: set === '1' ? p.id : '' }),
+        });
+        if (kind === 'genres') {
+          const g = genres.find(x => x.slug === slug);
+          if (g) g.cover = set === '1' ? p.id : '';
+        } else {
+          const c = collections.find(x => x.slug === slug);
+          if (c) c.cover = set === '1' ? p.id : '';
+        }
+        renderCoverActions(p);
+      } catch (err) {
+        alert('Set cover failed: ' + err.message);
+        btn.disabled = false;
+      }
+    });
+  });
 }
 
 $('#edit-photo').addEventListener('close', async (e) => {

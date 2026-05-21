@@ -2,24 +2,36 @@
 {{define "head"}}<meta property="og:title" content="masnun.photos">
   <meta property="og:type" content="website">{{end}}
 {{define "content"}}
-<section id="genres-section">
-  <h2>Genres</h2>
-  <div class="tile-grid">
-    {{if not .Genres}}<p class="empty">Nothing here yet.</p>{{end}}
-    {{range .Genres}}
-    <a class="tile" href="/genre/{{.Slug}}/">
-      {{with .Cover}}<img src="{{.URLs.Thumb}}" alt="" loading="lazy">{{else}}<div class="tile-empty"></div>{{end}}
-      <div class="tile-label"><strong>{{.Name}}</strong>{{with .Description}}<span>{{.}}</span>{{end}}</div>
-    </a>
-    {{end}}
-  </div>
-</section>
 <section id="collections-section">
   <h2>Collections</h2>
   <div class="tile-grid">
     {{if not .Collections}}<p class="empty">Nothing here yet.</p>{{end}}
     {{range .Collections}}
     <a class="tile" href="/collection/{{.Slug}}/">
+      {{with .Cover}}<img src="{{.URLs.Thumb}}" alt="" loading="lazy">{{else}}<div class="tile-empty"></div>{{end}}
+      <div class="tile-label"><strong>{{.Name}}</strong>{{with .Description}}<span>{{.}}</span>{{end}}</div>
+    </a>
+    {{end}}
+  </div>
+</section>
+<section id="calendar-section">
+  <h2>Calendar</h2>
+  <div class="tile-grid">
+    {{if not .Months}}<p class="empty">Nothing here yet.</p>{{end}}
+    {{range .Months}}
+    <a class="tile" href="/calendar/{{.Slug}}/">
+      {{with .Cover}}<img src="{{.URLs.Thumb}}" alt="" loading="lazy">{{else}}<div class="tile-empty"></div>{{end}}
+      <div class="tile-label"><strong>{{.Label}}</strong><span>{{.Count}} photo{{if ne .Count 1}}s{{end}}</span></div>
+    </a>
+    {{end}}
+  </div>
+</section>
+<section id="genres-section">
+  <h2>Genres</h2>
+  <div class="tile-grid">
+    {{if not .Genres}}<p class="empty">Nothing here yet.</p>{{end}}
+    {{range .Genres}}
+    <a class="tile" href="/genre/{{.Slug}}/">
       {{with .Cover}}<img src="{{.URLs.Thumb}}" alt="" loading="lazy">{{else}}<div class="tile-empty"></div>{{end}}
       <div class="tile-label"><strong>{{.Name}}</strong>{{with .Description}}<span>{{.}}</span>{{end}}</div>
     </a>

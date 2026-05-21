@@ -8,6 +8,9 @@ import (
 	"html/template"
 	"os"
 	"path/filepath"
+	"sort"
+	"strings"
+	"time"
 
 	"github.com/masnun/photos/admin/manifest"
 )
@@ -23,7 +26,8 @@ type Options struct {
 // genreView pairs a Genre with a resolved cover photo for tile rendering.
 type genreView struct {
 	manifest.Genre
-	Cover *manifest.Photo
+	Cover      *manifest.Photo
+	ThumbsJSON string
 }
 
 type collectionView struct {
@@ -31,14 +35,24 @@ type collectionView struct {
 	Cover *manifest.Photo
 }
 
+type monthView struct {
+	Slug    string // "2024-08" or "undated"
+	Label   string // "August 2024" or "Undated"
+	Count   int
+	Cover   *manifest.Photo
+	Undated bool
+}
+
 type indexData struct {
 	Genres      []genreView
 	Collections []collectionView
+	Months      []monthView
 }
 
 type listData struct {
 	Genre      *manifest.Genre
 	Collection *manifest.Collection
+	Month      *monthView
 	Cover      *manifest.Photo
 	Photos     []manifest.Photo
 }
@@ -55,6 +69,10 @@ func Run(opts Options) error {
 	if err != nil {
 		return fmt.Errorf("load manifest: %w", err)
 	}
+
+	sort.SliceStable(m.Genres, func(i, j int) bool {
+		return strings.ToLower(m.Genres[i].Name) < strings.ToLower(m.Genres[j].Name)
+	})
 
 	tmpls, err := parseTemplates()
 	if err != nil {
@@ -73,6 +91,81 @@ func Run(opts Options) error {
 	if err := renderPhotos(tmpls, m, opts.OutDir); err != nil {
 		return err
 	}
+	if err := renderCalendar(tmpls, m, opts.OutDir); err != nil {
+		return err
+	}
+	return nil
+}
+
+func buildMonths(photos []manifest.Photo) []monthView {
+	groups := map[string][]manifest.Photo{}
+	for _, p := range photos {
+		key := monthKey(p)
+		groups[key] = append(groups[key], p)
+	}
+	out := make([]monthView, 0, len(groups))
+	for key, ps := range groups {
+		mv := monthView{Slug: key, Count: len(ps)}
+		if key == "undated" {
+			mv.Label = "Undated"
+			mv.Undated = true
+		} else {
+			if t, err := time.Parse("2006-01", key); err == nil {
+				mv.Label = t.Format("January 2006")
+			} else {
+				mv.Label = key
+			}
+		}
+		if len(ps) > 0 {
+			p := ps[0]
+			mv.Cover = &p
+		}
+		out = append(out, mv)
+	}
+	sort.Slice(out, func(i, j int) bool {
+		if out[i].Undated != out[j].Undated {
+			return !out[i].Undated
+		}
+		return out[i].Slug > out[j].Slug
+	})
+	return out
+}
+
+func monthKey(p manifest.Photo) string {
+	if p.TakenAt != nil && !p.TakenAt.IsZero() {
+		return p.TakenAt.Format("2006-01")
+	}
+	return "undated"
+}
+
+func filterByMonth(photos []manifest.Photo, slug string) []manifest.Photo {
+	out := make([]manifest.Photo, 0)
+	for _, p := range photos {
+		if monthKey(p) == slug {
+			out = append(out, p)
+		}
+	}
+	sort.SliceStable(out, func(i, j int) bool {
+		ai, bi := out[i].TakenAt, out[j].TakenAt
+		if ai != nil && bi != nil {
+			return ai.After(*bi)
+		}
+		return out[i].UploadedAt.After(out[j].UploadedAt)
+	})
+	return out
+}
+
+func renderCalendar(tmpls map[string]*template.Template, m *manifest.Manifest, outDir string) error {
+	months := buildMonths(m.Photos)
+	for _, mv := range months {
+		photos := filterByMonth(m.Photos, mv.Slug)
+		mvCopy := mv
+		data := listData{Month: &mvCopy, Cover: mv.Cover, Photos: photos}
+		path := filepath.Join(outDir, "calendar", mv.Slug, "index.html")
+		if err := writeTemplate(tmpls["calendar.html"], path, data); err != nil {
+			return fmt.Errorf("calendar %s: %w", mv.Slug, err)
+		}
+	}
 	return nil
 }
 
@@ -90,7 +183,7 @@ func loadManifest(path string) (*manifest.Manifest, error) {
 }
 
 func parseTemplates() (map[string]*template.Template, error) {
-	names := []string{"index.html", "genre.html", "collection.html", "photo.html"}
+	names := []string{"index.html", "genre.html", "collection.html", "photo.html", "calendar.html"}
 	out := make(map[string]*template.Template, len(names))
 	for _, n := range names {
 		t, err := template.ParseFS(templatesFS, "templates/base.html", "templates/"+n)
@@ -108,18 +201,25 @@ func renderIndex(tmpls map[string]*template.Template, m *manifest.Manifest, outD
 		Collections: make([]collectionView, 0, len(m.Collections)),
 	}
 	for _, g := range m.Genres {
-		data.Genres = append(data.Genres, genreView{Genre: g, Cover: findGenreCover(m.Photos, g.Slug)})
+		photos := filterByGenre(m.Photos, g.Slug)
+		thumbs := make([]string, 0, len(photos))
+		for _, p := range photos {
+			thumbs = append(thumbs, p.URLs.Thumb)
+		}
+		buf, _ := json.Marshal(thumbs)
+		data.Genres = append(data.Genres, genreView{Genre: g, Cover: findGenreCover(m.Photos, g), ThumbsJSON: string(buf)})
 	}
 	for _, c := range m.Collections {
 		data.Collections = append(data.Collections, collectionView{Collection: c, Cover: findCollectionCover(m.Photos, c)})
 	}
+	data.Months = buildMonths(m.Photos)
 	return writeTemplate(tmpls["index.html"], filepath.Join(outDir, "index.html"), data)
 }
 
 func renderGenres(tmpls map[string]*template.Template, m *manifest.Manifest, outDir string) error {
 	for _, g := range m.Genres {
 		photos := filterByGenre(m.Photos, g.Slug)
-		data := listData{Genre: &g, Cover: findGenreCover(m.Photos, g.Slug), Photos: photos}
+		data := listData{Genre: &g, Cover: findGenreCover(m.Photos, g), Photos: photos}
 		path := filepath.Join(outDir, "genre", g.Slug, "index.html")
 		if err := writeTemplate(tmpls["genre.html"], path, data); err != nil {
 			return fmt.Errorf("genre %s: %w", g.Slug, err)
@@ -219,10 +319,17 @@ func filterByCollection(photos []manifest.Photo, slug string) []manifest.Photo {
 	return out
 }
 
-func findGenreCover(photos []manifest.Photo, slug string) *manifest.Photo {
+func findGenreCover(photos []manifest.Photo, g manifest.Genre) *manifest.Photo {
+	if g.Cover != "" {
+		for i := range photos {
+			if photos[i].ID == g.Cover {
+				return &photos[i]
+			}
+		}
+	}
 	for i := range photos {
 		for _, s := range photos[i].Genres {
-			if s == slug {
+			if s == g.Slug {
 				return &photos[i]
 			}
 		}

@@ -43,6 +43,7 @@ type Genre struct {
 	Slug        string `json:"slug"`
 	Name        string `json:"name"`
 	Description string `json:"description,omitempty"`
+	Cover       string `json:"cover,omitempty"`
 }
 
 type Collection struct {

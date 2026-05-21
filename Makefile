@@ -1,4 +1,4 @@
-.PHONY: tidy admin run classify ingest generate site-serve
+.PHONY: tidy admin run classify review ingest reclassify generate site-serve
 
 tidy:
 	cd admin && go mod tidy
@@ -21,6 +21,14 @@ review:
 # upload + register everything from admin/classifications.tsv
 ingest:
 	cd admin && set -a; [ -f ../.env ] && . ../.env; set +a; go run . ingest -dir ../photos -manifest ../site/data/photos.json
+
+# re-classify all photos in manifest against current genre list (locked)
+reclassify:
+	cd admin && set -a; [ -f ../.env ] && . ../.env; set +a; go run . reclassify -manifest ../site/data/photos.json
+
+# preview reclassify changes without writing to manifest
+reclassify-dry:
+	cd admin && set -a; [ -f ../.env ] && . ../.env; set +a; go run . reclassify -manifest ../site/data/photos.json -dry-run
 
 # render static HTML pages into site/ from photos.json
 generate:

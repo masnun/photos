@@ -126,6 +126,30 @@ func (s *Store) UpsertGenre(g Genre) error {
 	return s.save()
 }
 
+func (s *Store) SetGenreCover(slug, photoID string) error {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	for i := range s.data.Genres {
+		if s.data.Genres[i].Slug == slug {
+			s.data.Genres[i].Cover = photoID
+			return s.save()
+		}
+	}
+	return fmt.Errorf("genre %s not found", slug)
+}
+
+func (s *Store) SetCollectionCover(slug, photoID string) error {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	for i := range s.data.Collections {
+		if s.data.Collections[i].Slug == slug {
+			s.data.Collections[i].Cover = photoID
+			return s.save()
+		}
+	}
+	return fmt.Errorf("collection %s not found", slug)
+}
+
 func (s *Store) DeleteGenre(slug string) error {
 	s.mu.Lock()
 	defer s.mu.Unlock()

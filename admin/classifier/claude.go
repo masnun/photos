@@ -84,10 +84,20 @@ type response struct {
 }
 
 func (c *Client) Classify(ctx context.Context, filename string, jpegData []byte) (*Result, error) {
+	return c.classify(ctx, filename, jpegData, SystemPrompt, nil)
+}
+
+// ClassifyLocked restricts genre output to allowedGenres. No new slugs proposed.
+// Any returned slug not in the allowed set is dropped.
+func (c *Client) ClassifyLocked(ctx context.Context, filename string, jpegData []byte, allowedGenres []string) (*Result, error) {
+	return c.classify(ctx, filename, jpegData, lockedSystemPrompt(allowedGenres), allowedGenres)
+}
+
+func (c *Client) classify(ctx context.Context, filename string, jpegData []byte, sysPrompt string, allowed []string) (*Result, error) {
 	body := requestBody{
 		Model:     c.model,
 		MaxTokens: 400,
-		System:    SystemPrompt,
+		System:    sysPrompt,
 		Messages: []message{{
 			Role: "user",
 			Content: []contentBlock{
@@ -124,7 +134,40 @@ func (c *Client) Classify(ctx context.Context, filename string, jpegData []byte)
 	}
 	r.Genres = normalizeSlugs(r.Genres)
 	r.CollectionHint = normalizeSlug(r.CollectionHint)
+	if allowed != nil {
+		r.Genres = filterToAllowed(r.Genres, allowed)
+	}
 	return &r, nil
+}
+
+func lockedSystemPrompt(allowed []string) string {
+	return `You classify photographs by genre. Respond with strict JSON only, no markdown fences.
+
+Schema:
+{"genres": ["..."], "caption": "...", "collection_hint": "..."}
+
+Available genres (kebab-case slugs). You MUST pick only from this list. Do NOT invent new slugs:
+` + strings.Join(allowed, ", ") + `
+
+Rules:
+- genres: 1-4 slugs from the list above, lowercase, kebab-case. No new slugs.
+- caption: under 100 chars, concrete description of the scene. Empty string if unsure.
+- collection_hint: optional kebab-case slug suggesting a logical group. Empty string if no obvious grouping.
+- If the image is monochrome and "black-and-white" is in the list, always include it.`
+}
+
+func filterToAllowed(in, allowed []string) []string {
+	set := make(map[string]bool, len(allowed))
+	for _, s := range allowed {
+		set[s] = true
+	}
+	out := make([]string, 0, len(in))
+	for _, s := range in {
+		if set[s] {
+			out = append(out, s)
+		}
+	}
+	return out
 }
 
 type retryable struct {
