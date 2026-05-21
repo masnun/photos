@@ -9,7 +9,9 @@
 <p class="context-back"><a href="{{.ContextURL}}">← {{.ContextName}}</a></p>
 {{end}}
 <figure class="photo-detail">
-  <img src="{{.Photo.URLs.Web}}" alt="{{.Photo.Caption}}">
+  <div class="photo-frame">
+    <img src="{{.Photo.URLs.Web}}" alt="{{.Photo.Caption}}">
+  </div>
   {{with .Photo.Caption}}<figcaption>{{.}}</figcaption>{{end}}
 </figure>
 {{if or .PrevURL .NextURL}}

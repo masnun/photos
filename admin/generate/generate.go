@@ -407,19 +407,19 @@ func filterByCollection(photos []manifest.Photo, slug string) []manifest.Photo {
 	return out
 }
 
-// sortByTaken orders photos newest-first by TakenAt with UploadedAt fallback.
+// sortByTaken orders photos oldest-first by TakenAt with UploadedAt fallback.
 func sortByTaken(out []manifest.Photo) {
 	sort.SliceStable(out, func(i, j int) bool {
 		ai, bi := out[i].TakenAt, out[j].TakenAt
 		switch {
 		case ai != nil && bi != nil:
-			return ai.After(*bi)
+			return ai.Before(*bi)
 		case ai != nil:
 			return true
 		case bi != nil:
 			return false
 		default:
-			return out[i].UploadedAt.After(out[j].UploadedAt)
+			return out[i].UploadedAt.Before(out[j].UploadedAt)
 		}
 	})
 }
