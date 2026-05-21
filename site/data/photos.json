@@ -14528,6 +14528,7 @@
     {
       "id": "0c677d3d-3f59-457c-83d5-d854a09ed3b4",
       "filename": "DSCF7868.jpg",
+      "caption": "Khulna railway station - a high contrast noon view!",
       "genres": [
         "architecture",
         "street"
@@ -18748,8 +18749,9 @@
     {
       "slug": "khulna-railway-station",
       "name": "Khulna Railway Station",
-      "description": "Photos from the local railway station"
+      "description": "Photos from the local railway station",
+      "cover": "b88da03b-8e0e-4064-a2a2-ed8638052e6e"
     }
   ],
-  "updated_at": "2026-05-21T21:28:59.137905Z"
+  "updated_at": "2026-05-21T21:31:53.465345Z"
 }

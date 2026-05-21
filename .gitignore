@@ -14,3 +14,6 @@ site/genre/*/
 site/collection/*/
 site/photo/*/
 site/calendar/*/
+site/sitemap.xml
+site/robots.txt
+site/site.webmanifest

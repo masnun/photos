@@ -18,6 +18,35 @@ import (
 	"github.com/masnun/photos/admin/manifest"
 )
 
+const (
+	siteBaseURL     = "https://masnun.photos"
+	siteName        = "masnun.photos"
+	siteLocale      = "en_US"
+	siteDescription = "Photography by Abu Ashraf Masnun — galleries by genre, collection, and date."
+)
+
+// seoMeta carries the per-page fields the base template needs for canonical,
+// OpenGraph, and meta-description tags. Every page data struct embeds one.
+type seoMeta struct {
+	BaseURL     string
+	SiteName    string
+	Locale      string
+	Path        string // absolute site path, e.g. "/genre/street/"
+	Description string
+	ImageURL    string // og:image; empty omits the tag
+}
+
+func newSEO(path, description, imageURL string) seoMeta {
+	return seoMeta{
+		BaseURL:     siteBaseURL,
+		SiteName:    siteName,
+		Locale:      siteLocale,
+		Path:        path,
+		Description: description,
+		ImageURL:    imageURL,
+	}
+}
+
 var md = goldmark.New()
 
 func renderMarkdown(src string) template.HTML {
@@ -73,6 +102,7 @@ type monthView struct {
 }
 
 type indexData struct {
+	SEO         seoMeta
 	Featured    []manifest.Photo
 	Genres      []genreView
 	Collections []collectionView
@@ -80,6 +110,7 @@ type indexData struct {
 }
 
 type listData struct {
+	SEO        seoMeta
 	Genre      *manifest.Genre
 	Collection *manifest.Collection
 	Month      *monthView
@@ -88,6 +119,8 @@ type listData struct {
 }
 
 type photoData struct {
+	SEO             seoMeta
+	JSONLD          template.JS
 	Photo           manifest.Photo
 	TakenFormatted  string
 	GenreLinks      []manifest.Genre
@@ -157,17 +190,29 @@ func Run(opts Options) error {
 	if err := renderCalendar(rc); err != nil {
 		return err
 	}
+	if err := renderSitemap(rc); err != nil {
+		return fmt.Errorf("sitemap: %w", err)
+	}
+	if err := renderRobots(rc); err != nil {
+		return fmt.Errorf("robots: %w", err)
+	}
+	if err := renderWebmanifest(rc); err != nil {
+		return fmt.Errorf("webmanifest: %w", err)
+	}
 	return nil
 }
 
 func renderTaxonomyIndexes(rc *renderCtx) error {
 	data := buildIndexData(rc)
+	data.SEO = newSEO("/genre/", "Browse photographs by genre.", "")
 	if err := writeTemplate(rc.tmpls["genres-index.html"], filepath.Join(rc.outDir, "genre", "index.html"), data); err != nil {
 		return fmt.Errorf("genres index: %w", err)
 	}
+	data.SEO = newSEO("/collection/", "Browse curated photo collections.", "")
 	if err := writeTemplate(rc.tmpls["collections-index.html"], filepath.Join(rc.outDir, "collection", "index.html"), data); err != nil {
 		return fmt.Errorf("collections index: %w", err)
 	}
+	data.SEO = newSEO("/calendar/", "Browse photographs by month.", "")
 	if err := writeTemplate(rc.tmpls["calendar-index.html"], filepath.Join(rc.outDir, "calendar", "index.html"), data); err != nil {
 		return fmt.Errorf("calendar index: %w", err)
 	}
@@ -232,6 +277,7 @@ func renderCalendar(rc *renderCtx) error {
 		photos := filterByMonth(rc.m.Photos, mv.Slug)
 		mvCopy := mv
 		data := listData{Month: &mvCopy, Cover: mv.Cover, Photos: photos}
+		data.SEO = newSEO(fmt.Sprintf("/calendar/%s/", mv.Slug), fmt.Sprintf("Photographs from %s.", mv.Label), coverURL(mv.Cover))
 		path := filepath.Join(rc.outDir, "calendar", mv.Slug, "index.html")
 		if err := writeTemplate(rc.tmpls["calendar.html"], path, data); err != nil {
 			return fmt.Errorf("calendar %s: %w", mv.Slug, err)
@@ -280,6 +326,11 @@ func parseTemplates() (map[string]*template.Template, error) {
 
 func renderIndex(rc *renderCtx) error {
 	data := buildIndexData(rc)
+	var heroImg string
+	if len(data.Featured) > 0 {
+		heroImg = data.Featured[0].URLs.Web
+	}
+	data.SEO = newSEO("/", siteDescription, heroImg)
 	return writeTemplate(rc.tmpls["index.html"], filepath.Join(rc.outDir, "index.html"), data)
 }
 
@@ -315,7 +366,13 @@ func renderGenres(rc *renderCtx) error {
 	for _, g := range rc.m.Genres {
 		photos := filterByGenre(rc.m.Photos, g.Slug)
 		gCopy := g
-		data := listData{Genre: &gCopy, Cover: findGenreCover(rc.m.Photos, g), Photos: photos}
+		cover := findGenreCover(rc.m.Photos, g)
+		data := listData{Genre: &gCopy, Cover: cover, Photos: photos}
+		desc := g.Description
+		if strings.TrimSpace(desc) == "" {
+			desc = fmt.Sprintf("Photographs in the %s genre.", g.Name)
+		}
+		data.SEO = newSEO(fmt.Sprintf("/genre/%s/", g.Slug), desc, coverURL(cover))
 		path := filepath.Join(rc.outDir, "genre", g.Slug, "index.html")
 		if err := writeTemplate(rc.tmpls["genre.html"], path, data); err != nil {
 			return fmt.Errorf("genre %s: %w", g.Slug, err)
@@ -331,7 +388,13 @@ func renderCollections(rc *renderCtx) error {
 	for _, c := range rc.m.Collections {
 		photos := filterByCollection(rc.m.Photos, c.Slug)
 		cCopy := c
-		data := listData{Collection: &cCopy, Cover: findCollectionCover(rc.m.Photos, c), Photos: photos}
+		cover := findCollectionCover(rc.m.Photos, c)
+		data := listData{Collection: &cCopy, Cover: cover, Photos: photos}
+		desc := c.Description
+		if strings.TrimSpace(desc) == "" {
+			desc = fmt.Sprintf("Photographs in the %s collection.", c.Name)
+		}
+		data.SEO = newSEO(fmt.Sprintf("/collection/%s/", c.Slug), desc, coverURL(cover))
 		path := filepath.Join(rc.outDir, "collection", c.Slug, "index.html")
 		if err := writeTemplate(rc.tmpls["collection.html"], path, data); err != nil {
 			return fmt.Errorf("collection %s: %w", c.Slug, err)
@@ -356,6 +419,12 @@ func renderPhotos(rc *renderCtx) error {
 
 func buildPhotoData(rc *renderCtx, p manifest.Photo) photoData {
 	data := photoData{Photo: p}
+	desc := p.Caption
+	if strings.TrimSpace(desc) == "" {
+		desc = siteDescription
+	}
+	data.SEO = newSEO(fmt.Sprintf("/photo/%s/", p.ID), desc, p.URLs.Web)
+	data.JSONLD = photoJSONLD(p)
 	if p.TakenAt != nil {
 		data.TakenFormatted = p.TakenAt.Format("January 2, 2006")
 	}
@@ -497,4 +566,117 @@ func findCollectionCover(photos []manifest.Photo, c manifest.Collection) *manife
 		}
 	}
 	return nil
+}
+
+func coverURL(p *manifest.Photo) string {
+	if p == nil {
+		return ""
+	}
+	return p.URLs.Web
+}
+
+// photoJSONLD builds a schema.org ImageObject blob for a photo detail page.
+func photoJSONLD(p manifest.Photo) template.JS {
+	ld := map[string]any{
+		"@context":     "https://schema.org",
+		"@type":        "ImageObject",
+		"contentUrl":   p.URLs.Full,
+		"thumbnailUrl": p.URLs.Thumb,
+		"url":          fmt.Sprintf("%s/photo/%s/", siteBaseURL, p.ID),
+		"creator": map[string]any{
+			"@type": "Person",
+			"name":  "Abu Ashraf Masnun",
+		},
+		"copyrightHolder": map[string]any{
+			"@type": "Person",
+			"name":  "Abu Ashraf Masnun",
+		},
+	}
+	if p.Caption != "" {
+		ld["name"] = p.Caption
+		ld["description"] = p.Caption
+		ld["caption"] = p.Caption
+	}
+	if p.Width > 0 {
+		ld["width"] = p.Width
+	}
+	if p.Height > 0 {
+		ld["height"] = p.Height
+	}
+	if p.TakenAt != nil && !p.TakenAt.IsZero() {
+		ld["dateCreated"] = p.TakenAt.Format(time.RFC3339)
+	}
+	buf, err := json.Marshal(ld)
+	if err != nil {
+		return ""
+	}
+	return template.JS(buf)
+}
+
+// renderSitemap writes sitemap.xml listing every canonical URL. Context photo
+// pages (/<kind>/<slug>/photo/<id>/) are intentionally omitted — they canonical
+// back to /photo/<id>/.
+func renderSitemap(rc *renderCtx) error {
+	var urls []string
+	urls = append(urls, "/", "/genre/", "/collection/", "/calendar/")
+	for _, g := range rc.m.Genres {
+		urls = append(urls, fmt.Sprintf("/genre/%s/", g.Slug))
+	}
+	for _, c := range rc.m.Collections {
+		urls = append(urls, fmt.Sprintf("/collection/%s/", c.Slug))
+	}
+	for _, mv := range buildMonths(rc.m.Photos) {
+		urls = append(urls, fmt.Sprintf("/calendar/%s/", mv.Slug))
+	}
+	for _, p := range rc.m.Photos {
+		urls = append(urls, fmt.Sprintf("/photo/%s/", p.ID))
+	}
+
+	var b strings.Builder
+	b.WriteString(`<?xml version="1.0" encoding="UTF-8"?>` + "\n")
+	b.WriteString(`<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">` + "\n")
+	for _, u := range urls {
+		b.WriteString("  <url><loc>")
+		b.WriteString(template.HTMLEscapeString(siteBaseURL + u))
+		b.WriteString("</loc></url>\n")
+	}
+	b.WriteString("</urlset>\n")
+	return writeFile(filepath.Join(rc.outDir, "sitemap.xml"), b.String())
+}
+
+func renderRobots(rc *renderCtx) error {
+	body := fmt.Sprintf("User-agent: *\nAllow: /\nSitemap: %s/sitemap.xml\n", siteBaseURL)
+	return writeFile(filepath.Join(rc.outDir, "robots.txt"), body)
+}
+
+func renderWebmanifest(rc *renderCtx) error {
+	m := map[string]any{
+		"name":             siteName,
+		"short_name":       siteName,
+		"description":      siteDescription,
+		"start_url":        "/",
+		"display":          "standalone",
+		"background_color": "#111111",
+		"theme_color":      "#111111",
+		"icons": []map[string]any{
+			{"src": "/assets/img/favicon-192x192.png", "sizes": "192x192", "type": "image/png"},
+			{"src": "/assets/img/favicon-512x512.png", "sizes": "512x512", "type": "image/png"},
+		},
+	}
+	buf, err := json.MarshalIndent(m, "", "  ")
+	if err != nil {
+		return err
+	}
+	return writeFile(filepath.Join(rc.outDir, "site.webmanifest"), string(buf)+"\n")
+}
+
+func writeFile(path, content string) error {
+	if err := os.MkdirAll(filepath.Dir(path), 0o755); err != nil {
+		return err
+	}
+	tmp := path + ".tmp"
+	if err := os.WriteFile(tmp, []byte(content), 0o644); err != nil {
+		return err
+	}
+	return os.Rename(tmp, path)
 }

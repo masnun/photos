@@ -1,7 +1,6 @@
 {{define "title"}}{{.Month.Label}} · masnun.photos{{end}}
 {{define "head"}}<meta property="og:title" content="{{.Month.Label}} · masnun.photos">
-  <meta property="og:type" content="website">
-  {{with .Cover}}<meta property="og:image" content="{{.URLs.Web}}">{{end}}{{end}}
+  <meta property="og:type" content="website">{{end}}
 {{define "content"}}
 <h2>{{.Month.Label}}</h2>
 <p class="lede">{{.Month.Count}} photo{{if ne .Month.Count 1}}s{{end}}</p>

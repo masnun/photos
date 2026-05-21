@@ -1,8 +1,7 @@
 {{define "title"}}{{.Collection.Name}} · masnun.photos{{end}}
 {{define "head"}}<meta property="og:title" content="{{.Collection.Name}} · masnun.photos">
   <meta property="og:type" content="website">
-  {{with .Collection.Description}}<meta property="og:description" content="{{.}}">{{end}}
-  {{with .Cover}}<meta property="og:image" content="{{.URLs.Web}}">{{end}}{{end}}
+  {{with .Collection.Description}}<meta property="og:description" content="{{.}}">{{end}}{{end}}
 {{define "content"}}
 <h2>{{.Collection.Name}}</h2>
 {{with .Collection.Description}}<div class="lede prose">{{. | markdown}}</div>{{end}}

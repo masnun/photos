@@ -1,9 +1,8 @@
 {{define "title"}}{{if .Photo.Caption}}{{.Photo.Caption}} · {{end}}masnun.photos{{end}}
 {{define "head"}}<meta property="og:title" content="{{if .Photo.Caption}}{{.Photo.Caption}}{{else}}masnun.photos{{end}}">
   <meta property="og:type" content="article">
-  <meta property="og:image" content="{{.Photo.URLs.Web}}">
   {{with .Photo.Caption}}<meta property="og:description" content="{{.}}">{{end}}
-  <meta name="twitter:card" content="summary_large_image">{{end}}
+  <script type="application/ld+json">{{.JSONLD}}</script>{{end}}
 {{define "content"}}
 {{if .ContextURL}}
 <p class="context-back"><a href="{{.ContextURL}}">← {{.ContextName}}</a></p>
