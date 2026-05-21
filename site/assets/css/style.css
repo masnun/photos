@@ -157,7 +157,11 @@ main { max-width: 1400px; margin: 0 auto; padding: 2rem; }
   }
   .hero-name { font-size: 2rem; }
   .hero-tag { font-size: 1.1rem; margin: 0 auto 1.25rem; }
-  .hero-collections { margin: 0 auto; text-align: left; }
+  .hero-collections {
+    margin: 0 auto;
+    text-align: left;
+    grid-template-columns: 1fr;
+  }
 }
 
 h1, h2, h3 {
@@ -432,8 +436,8 @@ h2 {
 @media (max-width: 640px) {
   .slideshow {
     border-radius: 0;
-    margin: 0 -1.25rem;
-    width: calc(100vw);
+    margin: 0 -1rem;
+    width: 100vw;
   }
   .slideshow .slide-caption { font-size: 1rem; padding: 1rem 1.25rem 1.5rem; }
   .slideshow .slide-nav { width: 36px; height: 36px; font-size: 1.2rem; }
@@ -499,7 +503,7 @@ footer {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 0.6rem;
   }
-  .photo-detail .photo-frame { border-radius: 0; margin: 0 -1.25rem; width: 100vw; }
+  .photo-detail .photo-frame { border-radius: 0; margin: 0 -1rem; width: 100vw; }
   .photo-meta { margin: 1.5rem auto; padding-top: 1rem; }
   .photo-nav { margin-top: 1rem; font-size: 0.9rem; }
   .exif { padding: 0.75rem; font-size: 0.85rem; }
