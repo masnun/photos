@@ -1141,32 +1141,6 @@
       "source_hash": "a6eb01d415bd542a60de38bb6afc48799215c9150851a7ec4210214a3196b162"
     },
     {
-      "id": "8bd27978-b9ad-46f0-beed-4d7fe3d2d987",
-      "filename": "51437452523.jpg",
-      "genres": [
-        "still-life",
-        "macro",
-        "flower"
-      ],
-      "collections": [],
-      "taken_at": "2021-09-08T11:23:48Z",
-      "uploaded_at": "2026-05-21T14:30:54.733457Z",
-      "width": 3996,
-      "height": 5328,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/8bd27978-b9ad-46f0-beed-4d7fe3d2d987/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/8bd27978-b9ad-46f0-beed-4d7fe3d2d987/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/8bd27978-b9ad-46f0-beed-4d7fe3d2d987/full.jpg"
-      },
-      "exif": {
-        "camera": "Canon EOS M50",
-        "lens": "0.0 mm f/0.0",
-        "iso": 250,
-        "shutter": "1/400"
-      },
-      "source_hash": "f1a5543826be74c541f4644ea608eca198619830b8b3510542b3fe508bc8c37c"
-    },
-    {
       "id": "d7c20e33-cfee-4a33-816a-b8acc3891ca3",
       "filename": "51437962494.jpg",
       "genres": [
@@ -1677,8 +1651,7 @@
       "id": "771625b5-cdcd-4289-9436-573df110a961",
       "filename": "51614110541.jpg",
       "genres": [
-        "wildlife",
-        "portrait"
+        "wildlife"
       ],
       "collections": [
         "khulna-university"
@@ -1706,7 +1679,6 @@
       "id": "6b334ec4-1cf5-4c2c-ac98-1ebadab98d0f",
       "filename": "51624169336.jpg",
       "genres": [
-        "macro",
         "wildlife"
       ],
       "collections": [
@@ -1735,8 +1707,7 @@
       "id": "d2efabf1-5f60-48fe-9dbd-dc31e210b372",
       "filename": "51626967577.jpg",
       "genres": [
-        "wildlife",
-        "macro"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2021-10-25T11:07:02Z",
@@ -1844,8 +1815,7 @@
       "id": "a0744ded-a3d5-49e3-a655-0d18c51deaec",
       "filename": "51633172370.jpg",
       "genres": [
-        "wildlife",
-        "macro"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2021-10-21T11:24:22Z",
@@ -1872,7 +1842,6 @@
       "filename": "51622646469.jpg",
       "caption": "Love is in the air, or on the tree in this case!",
       "genres": [
-        "macro",
         "wildlife"
       ],
       "collections": [
@@ -1930,7 +1899,6 @@
       "filename": "51630605018.jpg",
       "caption": "His majesty!",
       "genres": [
-        "macro",
         "wildlife"
       ],
       "collections": [
@@ -2039,7 +2007,6 @@
       "id": "16c9f054-6347-4ddb-be14-b992334d677f",
       "filename": "51669931676.jpg",
       "genres": [
-        "macro",
         "wildlife"
       ],
       "collections": [],
@@ -2254,8 +2221,7 @@
       "id": "81f875d3-16a5-4aad-88ea-3d35a702b45f",
       "filename": "51699880118.jpg",
       "genres": [
-        "wildlife",
-        "portrait"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2021-11-23T09:47:10Z",
@@ -2307,8 +2273,7 @@
       "id": "8d77efa0-caab-46ad-a518-c06a9bc41ee6",
       "filename": "51702129863.jpg",
       "genres": [
-        "wildlife",
-        "portrait"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2021-11-24T10:02:23Z",
@@ -2334,8 +2299,7 @@
       "id": "9ac237e7-bec4-439b-8187-10f36547c968",
       "filename": "51703016072.jpg",
       "genres": [
-        "wildlife",
-        "macro"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2021-11-25T10:34:10Z",
@@ -2389,8 +2353,7 @@
       "filename": "51795010145.jpg",
       "caption": "White breasted king fisher!",
       "genres": [
-        "wildlife",
-        "portrait"
+        "wildlife"
       ],
       "collections": [
         "featured"
@@ -2614,8 +2577,7 @@
       "id": "98571596-6274-4bd0-96c2-f86d45cfeb73",
       "filename": "51804096775.jpg",
       "genres": [
-        "wildlife",
-        "macro"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2021-10-29T10:28:40Z",
@@ -3618,8 +3580,7 @@
       "id": "b56a6e51-fa7f-42d0-ac37-a0535f7680c7",
       "filename": "51920312139.jpg",
       "genres": [
-        "wildlife",
-        "macro"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2022-03-03T10:01:51Z",
@@ -3704,8 +3665,8 @@
       "id": "233f3be3-81cd-4d85-b164-abc961a8f4d1",
       "filename": "51960321773.jpg",
       "genres": [
-        "documentary",
-        "portrait"
+        "street",
+        "documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -3993,8 +3954,7 @@
       "id": "75a31c26-a6f7-42ce-a495-a36e2e88174c",
       "filename": "51966363274.jpg",
       "genres": [
-        "wildlife",
-        "macro"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2022-03-28T07:38:27Z",
@@ -4020,8 +3980,7 @@
       "id": "25c4dfa5-9e97-4882-ac59-4075ec261dbe",
       "filename": "51966081361.jpg",
       "genres": [
-        "wildlife",
-        "macro"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2022-03-28T07:41:10Z",
@@ -4047,8 +4006,7 @@
       "id": "955eb5bd-4e2a-4870-ae9d-266a34678812",
       "filename": "51970026552.jpg",
       "genres": [
-        "wildlife",
-        "portrait"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2022-03-30T10:59:05Z",
@@ -4156,8 +4114,7 @@
       "id": "d2db2c2c-cc38-4624-8e01-22051c0b735e",
       "filename": "51971029616.jpg",
       "genres": [
-        "wildlife",
-        "portrait"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2022-03-30T10:57:26Z",
@@ -5309,7 +5266,7 @@
       "id": "f839bbc9-a92f-46c8-a597-714361f8ed05",
       "filename": "AAM00480.jpg",
       "genres": [
-        "macro",
+        "still-life",
         "flower"
       ],
       "collections": [
@@ -6067,7 +6024,6 @@
       "id": "933c47eb-06d4-4a22-8eb7-13c2c3830c4d",
       "filename": "AAM01027 3 Edited.jpg",
       "genres": [
-        "macro",
         "flower"
       ],
       "collections": [
@@ -6731,8 +6687,7 @@
       "id": "22e59e14-348d-4cbb-8175-881d35d8caa5",
       "filename": "AAM01267.jpg",
       "genres": [
-        "landscape",
-        "architecture"
+        "landscape"
       ],
       "collections": [],
       "taken_at": "2025-09-17T10:25:47Z",
@@ -7193,7 +7148,6 @@
       "id": "f075888a-2f3d-45b9-812d-1e9f321ca78b",
       "filename": "AAM01608.jpg",
       "genres": [
-        "architecture",
         "street"
       ],
       "collections": [
@@ -7360,8 +7314,7 @@
       "id": "d6d979f7-87ec-4cda-a04b-b2c9c7861b98",
       "filename": "AAM04817-ARW_DxO_DeepPRIME.jpg",
       "genres": [
-        "wildlife",
-        "portrait"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2021-11-24T10:02:11Z",
@@ -7523,7 +7476,6 @@
       "filename": "AAM05832_DxO.jpg",
       "caption": "White breasted king fisher!",
       "genres": [
-        "macro",
         "wildlife"
       ],
       "collections": [
@@ -7579,8 +7531,7 @@
       "id": "af3ec621-0b3b-43b5-a64e-1f00795ec19b",
       "filename": "AAM06085_DxO.jpg",
       "genres": [
-        "wildlife",
-        "portrait"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2022-01-20T09:21:04Z",
@@ -7606,8 +7557,7 @@
       "id": "c7ab6564-4f37-4bc9-922e-5c573081005d",
       "filename": "AAM06090_DxO.jpg",
       "genres": [
-        "wildlife",
-        "macro"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2022-01-20T09:30:17Z",
@@ -7633,8 +7583,7 @@
       "id": "6e33c99f-446b-406a-a690-11fb9389ac6a",
       "filename": "AAM06127_DxO.jpg",
       "genres": [
-        "wildlife",
-        "macro"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2022-01-20T10:00:47Z",
@@ -7686,8 +7635,7 @@
       "id": "643078ef-69a8-4d91-8652-6ed1e2d84041",
       "filename": "AAM06095_DxO.jpg",
       "genres": [
-        "wildlife",
-        "macro"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2022-01-20T09:31:44Z",
@@ -7713,8 +7661,7 @@
       "id": "395d8364-1139-4ba2-af29-857b76280771",
       "filename": "AAM06286_DxO.jpg",
       "genres": [
-        "wildlife",
-        "portrait"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2022-07-01T11:00:04Z",
@@ -7740,8 +7687,7 @@
       "id": "d2d3d372-52cf-4063-89d4-2e051b05571c",
       "filename": "AAM06382_DxO.jpg",
       "genres": [
-        "wildlife",
-        "macro"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2022-07-01T11:47:00Z",
@@ -7794,8 +7740,7 @@
       "id": "fbcd31e6-ea0a-4263-88ba-55bc16528cb7",
       "filename": "AAM06434_DxO.jpg",
       "genres": [
-        "wildlife",
-        "macro"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2022-07-01T11:54:53Z",
@@ -7848,8 +7793,7 @@
       "id": "476ee8b6-a730-40e2-90db-1b5279e659a1",
       "filename": "AAM06441_DxO.jpg",
       "genres": [
-        "wildlife",
-        "portrait"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2022-07-01T12:01:32Z",
@@ -7928,8 +7872,7 @@
       "id": "e705cd8b-c3f3-425f-9c73-f7d3bbac1246",
       "filename": "AAM06329_DxO.jpg",
       "genres": [
-        "wildlife",
-        "macro"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2022-07-01T11:19:01Z",
@@ -8257,7 +8200,6 @@
       "filename": "AAM06717.jpg",
       "genres": [
         "street",
-        "portrait",
         "documentary"
       ],
       "collections": [],
@@ -8311,39 +8253,9 @@
       "source_hash": "5d187ec2bd10973239ec2d777307d5c00001c8e803d99eec73e76c3d2e49a62f"
     },
     {
-      "id": "ed72f211-7c2f-4c84-88f4-bb8795215f65",
-      "filename": "AAM07167_DxO.jpg",
-      "genres": [
-        "macro",
-        "flower"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2022-05-31T10:39:41Z",
-      "uploaded_at": "2026-05-21T14:35:41.387563Z",
-      "width": 4144,
-      "height": 5525,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/ed72f211-7c2f-4c84-88f4-bb8795215f65/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/ed72f211-7c2f-4c84-88f4-bb8795215f65/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/ed72f211-7c2f-4c84-88f4-bb8795215f65/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T3",
-        "lens": "XF35mmF2 R WR",
-        "iso": 500,
-        "aperture": "f/2.0",
-        "shutter": "1/1000",
-        "focal_length": "35mm"
-      },
-      "source_hash": "89a53ab79bd00bb53cd2f87ab0d7e961c50bbb00db80f4f38fd048b04eab7a02"
-    },
-    {
       "id": "996d2aba-af94-4aa8-abe0-17ab2ad7ce98",
       "filename": "AAM07170_DxO.jpg",
       "genres": [
-        "macro",
         "flower"
       ],
       "collections": [
@@ -9322,8 +9234,7 @@
       "id": "4b7e4aae-4183-4a81-80c6-be7e5cb58c48",
       "filename": "AAM08036.jpg",
       "genres": [
-        "documentary",
-        "portrait"
+        "documentary"
       ],
       "collections": [],
       "taken_at": "2022-07-11T10:55:27Z",
@@ -9433,8 +9344,8 @@
       "id": "7babc3be-0355-4201-b985-ec744e3be35d",
       "filename": "AAM08107.jpg",
       "genres": [
-        "portrait",
-        "documentary"
+        "documentary",
+        "portrait"
       ],
       "collections": [],
       "taken_at": "2022-07-11T11:21:51Z",
@@ -9932,7 +9843,6 @@
       "filename": "AAMF0817.jpg",
       "genres": [
         "macro",
-        "wildlife",
         "flower"
       ],
       "collections": [
@@ -10046,7 +9956,6 @@
       "id": "4a6eee4f-0bc4-4858-8196-56a66e240dfc",
       "filename": "AAMF0766.jpg",
       "genres": [
-        "architecture",
         "street"
       ],
       "collections": [
@@ -10102,7 +10011,6 @@
       "id": "550af79a-56fc-4b5a-915d-ec19ba0743a5",
       "filename": "AAM_0543.jpg",
       "genres": [
-        "macro",
         "night"
       ],
       "collections": [],
@@ -10726,8 +10634,8 @@
       "id": "65855efe-913a-4724-9f2b-ae2548f2b32a",
       "filename": "AAM_2144.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "macro",
+        "flower"
       ],
       "collections": [],
       "taken_at": "2026-05-12T11:57:59Z",
@@ -11506,12 +11414,10 @@
     {
       "id": "6a6d3c05-529c-4874-9a28-e01fb11e6355",
       "filename": "DSCF0072.jpg",
-      "caption": "Man in hat operates steaming food cart under storefront at night, gathering crowd.",
       "genres": [
-        "street",
         "night",
-        "black-and-white",
-        "candid"
+        "street",
+        "black-and-white"
       ],
       "collections": [],
       "taken_at": "2021-11-19T14:30:23Z",
@@ -11701,7 +11607,6 @@
       "id": "baf9a431-ab9e-4c28-a471-3e2384931bb9",
       "filename": "DSCF0251_DxO.jpg",
       "genres": [
-        "portrait",
         "street"
       ],
       "collections": [],
@@ -12399,10 +12304,8 @@
     {
       "id": "3948ea4c-afad-4697-862f-f8ec9f1de00c",
       "filename": "DSCF0603.jpg",
-      "caption": "Vibrant red hibiscus flower with green leaves against blurred concrete wall",
       "genres": [
-        "nature",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2024-12-02T08:36:04Z",
@@ -12594,8 +12497,7 @@
       "id": "02caa469-ca14-416d-8bca-f28631bc63d4",
       "filename": "DSCF0609.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2024-12-02T08:38:12Z",
@@ -13964,8 +13866,7 @@
       "id": "11cb27f5-e554-435b-9be0-14e67da3ecb7",
       "filename": "DSCF7285_DxO.jpg",
       "genres": [
-        "night",
-        "macro"
+        "night"
       ],
       "collections": [],
       "taken_at": "2022-05-26T13:25:28Z",
@@ -14984,10 +14885,8 @@
     {
       "id": "56e7945b-c1c7-43f0-8b8a-7966c43a13f3",
       "filename": "DSCF8133.jpg",
-      "caption": "Spider web glistening on plant stem with backlit morning dew",
       "genres": [
-        "macro",
-        "nature"
+        "macro"
       ],
       "collections": [],
       "taken_at": "2022-07-09T00:32:11Z",
@@ -15069,8 +14968,7 @@
       "id": "fbf14c08-54ff-4c95-86e8-9c05aeaef8ca",
       "filename": "DSCF8549_DxO.jpg",
       "genres": [
-        "portrait",
-        "documentary"
+        "street"
       ],
       "collections": [],
       "taken_at": "2022-10-01T11:16:45Z",
@@ -15397,8 +15295,7 @@
       "id": "0cf37a11-9a90-4a8d-bf26-3f56f4b19ab2",
       "filename": "DSCF8828.jpg",
       "genres": [
-        "wildlife",
-        "portrait"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2023-02-11T10:39:46Z",
@@ -15670,8 +15567,8 @@
       "id": "38c3ea3a-051d-4fa4-acd1-878e644d8bc1",
       "filename": "DSCF9856.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "macro",
+        "flower"
       ],
       "collections": [],
       "taken_at": "2024-01-24T03:44:48Z",
@@ -16158,8 +16055,7 @@
       "id": "ad210871-642e-4abf-b982-77b127906689",
       "filename": "IMG_2021_09_05_1447-CR3_DxO_DeepPRIME.jpg",
       "genres": [
-        "wildlife",
-        "macro"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2021-09-05T11:23:57Z",
@@ -16185,9 +16081,8 @@
       "id": "4c21f467-bdbb-4580-9d4e-689ea20aa376",
       "filename": "IMG_2021_09_07_1655-CR3_DxO_DeepPRIME.jpg",
       "genres": [
-        "wildlife",
         "black-and-white",
-        "portrait"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2021-09-07T04:35:44Z",
@@ -16257,8 +16152,7 @@
       "filename": "IMG_2021_09_07_1661-CR3_DxO_DeepPRIME.jpg",
       "genres": [
         "black-and-white",
-        "wildlife",
-        "macro"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2021-09-07T04:36:52Z",
@@ -16868,33 +16762,6 @@
       "source_hash": "57d906d7c1eebbd590807ec95300614a7af8f6b386a2aecae206e3459a825aa0"
     },
     {
-      "id": "82df7e9d-5b86-49a1-8d25-1271267e3154",
-      "filename": "51654123799.jpg",
-      "caption": "Sunset through tall grass and grain stalks in a field.",
-      "genres": [
-        "landscape",
-        "nature",
-        "macro"
-      ],
-      "collections": [],
-      "taken_at": "2021-11-03T11:08:39Z",
-      "uploaded_at": "2026-05-21T14:40:51.399604Z",
-      "width": 4000,
-      "height": 5333,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/82df7e9d-5b86-49a1-8d25-1271267e3154/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/82df7e9d-5b86-49a1-8d25-1271267e3154/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/82df7e9d-5b86-49a1-8d25-1271267e3154/full.jpg"
-      },
-      "exif": {
-        "camera": "SONY ILCE-7C",
-        "lens": "----",
-        "iso": 100,
-        "shutter": "1/1000"
-      },
-      "source_hash": "8f17569e9e4386085752a13aa5b7d6ff82fd6a8e21e527a2d52e12d52e63ab1b"
-    },
-    {
       "id": "f0d2a237-f604-411c-96be-7e4e5a9a93da",
       "filename": "51507666019.jpg",
       "genres": [
@@ -17013,8 +16880,7 @@
       "id": "487f96cd-cfd5-4733-a8db-f96d30c5eccd",
       "filename": "51857341446.jpg",
       "genres": [
-        "wildlife",
-        "macro"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2021-11-23T10:17:01Z",
@@ -17537,8 +17403,7 @@
       "filename": "AAM05828_DxO.jpg",
       "caption": "White breasted king fisher!",
       "genres": [
-        "wildlife",
-        "portrait"
+        "wildlife"
       ],
       "collections": [
         "featured"
@@ -17816,10 +17681,8 @@
     {
       "id": "f16b76a8-7594-4edd-9f91-057545e29b08",
       "filename": "AAM_0357.jpg",
-      "caption": "Reddish-brown seed pods cluster on bare branches against clear sky",
       "genres": [
-        "nature",
-        "macro"
+        "still-life"
       ],
       "collections": [],
       "taken_at": "2025-12-27T09:14:46Z",
@@ -18568,8 +18431,7 @@
       "id": "0e534640-1822-4606-9528-9c150b65d2ab",
       "filename": "IMG_2021_09_04_1354-CR3_DxO_DeepPRIME.jpg",
       "genres": [
-        "wildlife",
-        "macro"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2021-09-04T11:42:06Z",
@@ -18676,51 +18538,63 @@
   "genres": [
     {
       "slug": "still-life",
-      "name": "Still Life"
+      "name": "Still Life",
+      "cover": "f78b820d-eecc-4a91-9143-87b0594ada0e"
     },
     {
       "slug": "macro",
-      "name": "Macro"
+      "name": "Macro",
+      "cover": "a36a5480-361f-427a-b661-07f63ab006b9"
     },
     {
       "slug": "architecture",
-      "name": "Architecture"
+      "name": "Architecture",
+      "cover": "393856f8-e236-4c7f-a36c-462422b6736d"
     },
     {
       "slug": "landscape",
-      "name": "Landscape"
+      "name": "Landscape",
+      "cover": "99dc454b-be1d-4b50-8c1c-27648ec7a470"
     },
     {
       "slug": "night",
-      "name": "Night"
+      "name": "Night",
+      "cover": "cb68590c-eac8-4ad9-86f8-06b3a89ca1f1"
     },
     {
       "slug": "street",
-      "name": "Street"
+      "name": "Street",
+      "cover": "fe778eda-a310-4625-9d51-1dbbdd7a3e67"
     },
     {
       "slug": "black-and-white",
-      "name": "Black And White"
+      "name": "Black And White",
+      "cover": "04dd312a-38d4-487f-9bff-29b71592dc5e"
     },
     {
       "slug": "documentary",
-      "name": "Documentary"
+      "name": "Documentary",
+      "cover": "60f32fb1-38ff-4c8b-8d0e-55658cbdb14e"
     },
     {
       "slug": "wildlife",
-      "name": "Wildlife"
+      "name": "Wildlife",
+      "cover": "cd46262c-1d24-44fa-b478-b4e362778c4f"
     },
     {
       "slug": "portrait",
-      "name": "Portrait"
+      "name": "Portrait",
+      "cover": "7babc3be-0355-4201-b985-ec744e3be35d"
     },
     {
       "slug": "food",
-      "name": "Food"
+      "name": "Food",
+      "cover": "c25e89c5-05b4-4434-9292-2a62620fa7a5"
     },
     {
       "slug": "flower",
-      "name": "Flower"
+      "name": "Flower",
+      "cover": "65855efe-913a-4724-9f2b-ae2548f2b32a"
     }
   ],
   "collections": [
@@ -18744,7 +18618,8 @@
     {
       "slug": "artyard-cafe",
       "name": "Artyard Cafe",
-      "description": "A very open and spacious restaurant with beautiful interior"
+      "description": "A very open and spacious restaurant with beautiful interior",
+      "cover": "06375593-e327-430a-b59c-6893174ef2c1"
     },
     {
       "slug": "khulna-railway-station",
@@ -18753,5 +18628,5 @@
       "cover": "b88da03b-8e0e-4064-a2a2-ed8638052e6e"
     }
   ],
-  "updated_at": "2026-05-21T21:31:53.465345Z"
+  "updated_at": "2026-05-21T21:57:12.073982Z"
 }
