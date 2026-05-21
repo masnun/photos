@@ -55,9 +55,9 @@
   <div class="tile-grid">
     {{if not .Collections}}<p class="empty">Nothing here yet.</p>{{end}}
     {{range .Collections}}
-    <a class="tile" href="/collection/{{.Slug}}/">
-      <div class="tile-img-wrap">{{with .Cover}}<img src="{{.URLs.Web}}" alt="" loading="lazy">{{else}}<div class="tile-empty"></div>{{end}}</div>
+    <a class="tile tile-title-top" href="/collection/{{.Slug}}/">
       <div class="tile-label"><strong>{{.Name}}</strong>{{with .Description}}<span>{{. | markdownInline}}</span>{{end}}</div>
+      <div class="tile-img-wrap">{{with .Cover}}<img src="{{.URLs.Web}}" alt="" loading="lazy">{{else}}<div class="tile-empty"></div>{{end}}</div>
     </a>
     {{end}}
   </div>

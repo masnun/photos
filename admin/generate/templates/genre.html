@@ -10,7 +10,8 @@
   {{if not .Photos}}<p class="empty">No photos yet.</p>{{end}}
   {{range .Photos}}
   <a class="gallery-item" href="/genre/{{$.Genre.Slug}}/photo/{{.ID}}/">
-    <img src="{{.URLs.Web}}" alt="{{.Caption}}" loading="lazy">
+    <div class="gallery-img"><img src="{{.URLs.Web}}" alt="{{.Caption}}" loading="lazy"></div>
+    {{with .Caption}}<div class="gallery-caption">{{.}}</div>{{end}}
   </a>
   {{end}}
 </div>

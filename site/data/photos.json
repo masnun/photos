@@ -1859,6 +1859,7 @@
     {
       "id": "5eba9214-2885-443d-9be9-6d246c3503de",
       "filename": "51622646469.jpg",
+      "caption": "Love is in the air, or on the tree in this case!",
       "genres": [
         "macro",
         "wildlife"
@@ -1915,6 +1916,7 @@
     {
       "id": "c36b490d-7370-4cd0-a2e1-8c06529f6490",
       "filename": "51630605018.jpg",
+      "caption": "His majesty!",
       "genres": [
         "macro",
         "wildlife"
@@ -2372,6 +2374,7 @@
     {
       "id": "cd46262c-1d24-44fa-b478-b4e362778c4f",
       "filename": "51795010145.jpg",
+      "caption": "White breasted king fisher!",
       "genres": [
         "wildlife",
         "portrait"
@@ -3114,6 +3117,7 @@
     {
       "id": "fe778eda-a310-4625-9d51-1dbbdd7a3e67",
       "filename": "51878159832.jpg",
+      "caption": "Where culture meets!",
       "genres": [
         "street",
         "documentary"
@@ -4768,6 +4772,7 @@
     {
       "id": "371a3a21-d20f-4279-affd-f7081a1b483d",
       "filename": "AAM00334.jpg",
+      "caption": "Victory to the people!",
       "genres": [
         "street",
         "documentary"
@@ -4935,6 +4940,7 @@
     {
       "id": "74654b05-7e9d-4ebd-9b59-d37b7be81ebb",
       "filename": "AAM00381.jpg",
+      "caption": "In this flag, we trust!",
       "genres": [
         "street",
         "documentary"
@@ -5787,6 +5793,7 @@
     {
       "id": "672cb5bd-e874-4a94-ad92-923a192cb6ef",
       "filename": "AAM00669.jpg",
+      "caption": "Cloudy noon",
       "genres": [
         "architecture",
         "black-and-white"
@@ -7412,6 +7419,7 @@
     {
       "id": "4a2aa4f0-7c71-4512-b9f5-01cfa335b1df",
       "filename": "AAM05832_DxO.jpg",
+      "caption": "White breasted king fisher!",
       "genres": [
         "macro",
         "wildlife"
@@ -9219,6 +9227,7 @@
     {
       "id": "275818ec-af87-4819-8e63-748fe220708e",
       "filename": "AAM08076.jpg",
+      "caption": "Coming home",
       "genres": [
         "landscape",
         "street",
@@ -9811,6 +9820,7 @@
     {
       "id": "e8791c4e-ef86-41c4-b3b9-197bc48dffc2",
       "filename": "AAMF0836.jpg",
+      "caption": "Sunflower diaries",
       "genres": [
         "architecture",
         "landscape"
@@ -14012,6 +14022,7 @@
     {
       "id": "b88da03b-8e0e-4064-a2a2-ed8638052e6e",
       "filename": "DSCF7615_DxO.jpg",
+      "caption": "Khulna railway station at night!",
       "genres": [
         "architecture",
         "night",
@@ -16679,6 +16690,7 @@
     {
       "id": "4da7a360-dcc4-4aad-8b03-87526787edd7",
       "filename": "51717439998.jpg",
+      "caption": "The puzzle of life!",
       "genres": [
         "architecture",
         "street"
@@ -17061,6 +17073,7 @@
     {
       "id": "697cf320-09f9-4447-9212-9194a3fa449d",
       "filename": "AAM00373.jpg",
+      "caption": "On top of the world!",
       "genres": [
         "street",
         "documentary"
@@ -17248,6 +17261,7 @@
     {
       "id": "91503d65-a7e4-46ba-864c-7fd28a3c5d79",
       "filename": "AAM05828_DxO.jpg",
+      "caption": "White breasted king fisher!",
       "genres": [
         "wildlife",
         "portrait"
@@ -17656,6 +17670,7 @@
     {
       "id": "e8e32116-07f3-44dd-b542-388c01f616e4",
       "filename": "AAM_0411.jpg",
+      "caption": "Smokey!",
       "genres": [
         "street",
         "documentary",
@@ -18169,6 +18184,7 @@
     {
       "id": "6421998f-fc31-439e-a932-2289a0a40b1f",
       "filename": "DSCF7931.jpg",
+      "caption": "Childhood - joy and freedom!",
       "genres": [
         "street",
         "documentary"
@@ -18446,5 +18462,5 @@
       "description": "Highlights shown in the home-page slideshow."
     }
   ],
-  "updated_at": "2026-05-21T17:27:21.719508Z"
+  "updated_at": "2026-05-21T17:42:16.756764Z"
 }
