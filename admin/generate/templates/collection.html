@@ -5,14 +5,40 @@
 {{define "content"}}
 <h2>{{.Collection.Name}}</h2>
 {{with .Collection.Description}}<div class="lede prose">{{. | markdown}}</div>{{end}}
-<div class="gallery">
-  {{if not .Photos}}<p class="empty">No photos yet.</p>{{end}}
-  {{range .Photos}}
-  <a class="gallery-item" href="/collection/{{$.Collection.Slug}}/photo/{{.ID}}/">
-    <div class="gallery-img"><img src="{{.URLs.Web}}" alt="{{.Caption}}" loading="lazy"></div>
-    {{with .Caption}}<div class="gallery-caption">{{.}}</div>{{end}}
-  </a>
-  {{end}}
+{{if not .Photos}}<p class="empty">No photos yet.</p>{{else}}
+<div class="view-switch">
+  <input type="radio" id="view-curated" name="view" class="view-radio view-radio-curated" checked>
+  <label for="view-curated">Curated</label>
+  <input type="radio" id="view-month" name="view" class="view-radio view-radio-month">
+  <label for="view-month">By month</label>
+
+  <div class="view-panel view-panel-curated">
+    <div class="gallery">
+      {{range .Photos}}
+      <a class="gallery-item" href="/collection/{{$.Collection.Slug}}/photo/{{.ID}}/">
+        <div class="gallery-img"><img src="{{.URLs.Web}}" alt="{{.Caption}}" loading="lazy"></div>
+        {{with .Caption}}<div class="gallery-caption">{{.}}</div>{{end}}
+      </a>
+      {{end}}
+    </div>
+  </div>
+
+  <div class="view-panel view-panel-month">
+    {{range .MonthGroups}}
+    <section class="month-group">
+      <h3 class="month-title">{{.Label}}</h3>
+      <div class="gallery">
+        {{range .Photos}}
+        <a class="gallery-item" href="/collection/{{$.Collection.Slug}}/photo/{{.ID}}/">
+          <div class="gallery-img"><img src="{{.URLs.Web}}" alt="{{.Caption}}" loading="lazy"></div>
+          {{with .Caption}}<div class="gallery-caption">{{.}}</div>{{end}}
+        </a>
+        {{end}}
+      </div>
+    </section>
+    {{end}}
+  </div>
 </div>
+{{end}}
 {{end}}
 {{template "base" .}}

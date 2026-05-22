@@ -109,13 +109,20 @@ type indexData struct {
 	Months      []monthView
 }
 
+type monthGroup struct {
+	Slug   string
+	Label  string
+	Photos []manifest.Photo
+}
+
 type listData struct {
-	SEO        seoMeta
-	Genre      *manifest.Genre
-	Collection *manifest.Collection
-	Month      *monthView
-	Cover      *manifest.Photo
-	Photos     []manifest.Photo
+	SEO         seoMeta
+	Genre       *manifest.Genre
+	Collection  *manifest.Collection
+	Month       *monthView
+	Cover       *manifest.Photo
+	Photos      []manifest.Photo
+	MonthGroups []monthGroup
 }
 
 type photoData struct {
@@ -340,7 +347,7 @@ func buildIndexData(rc *renderCtx) indexData {
 		Collections: make([]collectionView, 0, len(rc.m.Collections)),
 	}
 	for _, g := range rc.m.Genres {
-		photos := filterByGenre(rc.m.Photos, g.Slug)
+		photos := filterByGenre(rc.m.Photos, g.Slug, g.Order)
 		thumbs := make([]string, 0, len(photos))
 		for _, p := range photos {
 			thumbs = append(thumbs, p.URLs.Thumb)
@@ -354,20 +361,17 @@ func buildIndexData(rc *renderCtx) indexData {
 		}
 		data.Collections = append(data.Collections, collectionView{Collection: c, Cover: findCollectionCover(rc.m.Photos, c)})
 	}
-	data.Featured = filterByCollection(rc.m.Photos, manifest.FeaturedSlug)
-	for i, j := 0, len(data.Featured)-1; i < j; i, j = i+1, j-1 {
-		data.Featured[i], data.Featured[j] = data.Featured[j], data.Featured[i]
-	}
+	data.Featured = filterByCollection(rc.m.Photos, manifest.FeaturedSlug, rc.colBySlug[manifest.FeaturedSlug].Order)
 	data.Months = buildMonths(rc.m.Photos)
 	return data
 }
 
 func renderGenres(rc *renderCtx) error {
 	for _, g := range rc.m.Genres {
-		photos := filterByGenre(rc.m.Photos, g.Slug)
+		photos := filterByGenre(rc.m.Photos, g.Slug, g.Order)
 		gCopy := g
 		cover := findGenreCover(rc.m.Photos, g)
-		data := listData{Genre: &gCopy, Cover: cover, Photos: photos}
+		data := listData{Genre: &gCopy, Cover: cover, Photos: photos, MonthGroups: buildMonthGroups(photos)}
 		desc := g.Description
 		if strings.TrimSpace(desc) == "" {
 			desc = fmt.Sprintf("Photographs in the %s genre.", g.Name)
@@ -386,10 +390,10 @@ func renderGenres(rc *renderCtx) error {
 
 func renderCollections(rc *renderCtx) error {
 	for _, c := range rc.m.Collections {
-		photos := filterByCollection(rc.m.Photos, c.Slug)
+		photos := filterByCollection(rc.m.Photos, c.Slug, c.Order)
 		cCopy := c
 		cover := findCollectionCover(rc.m.Photos, c)
-		data := listData{Collection: &cCopy, Cover: cover, Photos: photos}
+		data := listData{Collection: &cCopy, Cover: cover, Photos: photos, MonthGroups: buildMonthGroups(photos)}
 		desc := c.Description
 		if strings.TrimSpace(desc) == "" {
 			desc = fmt.Sprintf("Photographs in the %s collection.", c.Name)
@@ -487,7 +491,7 @@ func writeTemplate(t *template.Template, path string, data any) error {
 	return os.Rename(tmp, path)
 }
 
-func filterByGenre(photos []manifest.Photo, slug string) []manifest.Photo {
+func filterByGenre(photos []manifest.Photo, slug string, order []string) []manifest.Photo {
 	out := make([]manifest.Photo, 0)
 	for _, p := range photos {
 		for _, s := range p.Genres {
@@ -497,11 +501,10 @@ func filterByGenre(photos []manifest.Photo, slug string) []manifest.Photo {
 			}
 		}
 	}
-	sortByTaken(out)
-	return out
+	return applyOrder(out, order)
 }
 
-func filterByCollection(photos []manifest.Photo, slug string) []manifest.Photo {
+func filterByCollection(photos []manifest.Photo, slug string, order []string) []manifest.Photo {
 	out := make([]manifest.Photo, 0)
 	for _, p := range photos {
 		for _, s := range p.Collections {
@@ -511,7 +514,67 @@ func filterByCollection(photos []manifest.Photo, slug string) []manifest.Photo {
 			}
 		}
 	}
-	sortByTaken(out)
+	return applyOrder(out, order)
+}
+
+// applyOrder sorts photos by the operator-defined order (a slice of photo IDs).
+// Photos absent from order (e.g. added after the last reorder) are appended
+// after the ordered ones, oldest-first by TakenAt. No order falls back to
+// chronological.
+func applyOrder(photos []manifest.Photo, order []string) []manifest.Photo {
+	if len(order) == 0 {
+		sortByTaken(photos)
+		return photos
+	}
+	idx := make(map[string]int, len(order))
+	for i, id := range order {
+		idx[id] = i
+	}
+	known := make([]manifest.Photo, 0, len(photos))
+	unknown := make([]manifest.Photo, 0)
+	for _, p := range photos {
+		if _, ok := idx[p.ID]; ok {
+			known = append(known, p)
+		} else {
+			unknown = append(unknown, p)
+		}
+	}
+	sort.SliceStable(known, func(i, j int) bool {
+		return idx[known[i].ID] < idx[known[j].ID]
+	})
+	sortByTaken(unknown)
+	return append(known, unknown...)
+}
+
+// buildMonthGroups buckets photos into month sections (newest month first,
+// undated last), each section's photos oldest-first by TakenAt. Powers the
+// "by month" toggle on genre and collection pages.
+func buildMonthGroups(photos []manifest.Photo) []monthGroup {
+	groups := map[string][]manifest.Photo{}
+	for _, p := range photos {
+		key := monthKey(p)
+		groups[key] = append(groups[key], p)
+	}
+	out := make([]monthGroup, 0, len(groups))
+	for key, ps := range groups {
+		mg := monthGroup{Slug: key, Photos: ps}
+		if key == "undated" {
+			mg.Label = "Undated"
+		} else if t, err := time.Parse("2006-01", key); err == nil {
+			mg.Label = t.Format("January 2006")
+		} else {
+			mg.Label = key
+		}
+		sortByTaken(mg.Photos)
+		out = append(out, mg)
+	}
+	sort.Slice(out, func(i, j int) bool {
+		ui, uj := out[i].Slug == "undated", out[j].Slug == "undated"
+		if ui != uj {
+			return !ui
+		}
+		return out[i].Slug > out[j].Slug
+	})
 	return out
 }
 

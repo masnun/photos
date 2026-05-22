@@ -134,12 +134,27 @@ func (s *Store) UpsertGenre(g Genre) error {
 	defer s.mu.Unlock()
 	for i := range s.data.Genres {
 		if s.data.Genres[i].Slug == g.Slug {
+			if g.Order == nil {
+				g.Order = s.data.Genres[i].Order
+			}
 			s.data.Genres[i] = g
 			return s.save()
 		}
 	}
 	s.data.Genres = append(s.data.Genres, g)
 	return s.save()
+}
+
+func (s *Store) SetGenreOrder(slug string, order []string) error {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	for i := range s.data.Genres {
+		if s.data.Genres[i].Slug == slug {
+			s.data.Genres[i].Order = order
+			return s.save()
+		}
+	}
+	return fmt.Errorf("genre %s not found", slug)
 }
 
 func (s *Store) SetGenreCover(slug, photoID string) error {
@@ -183,12 +198,27 @@ func (s *Store) UpsertCollection(c Collection) error {
 	defer s.mu.Unlock()
 	for i := range s.data.Collections {
 		if s.data.Collections[i].Slug == c.Slug {
+			if c.Order == nil {
+				c.Order = s.data.Collections[i].Order
+			}
 			s.data.Collections[i] = c
 			return s.save()
 		}
 	}
 	s.data.Collections = append(s.data.Collections, c)
 	return s.save()
+}
+
+func (s *Store) SetCollectionOrder(slug string, order []string) error {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	for i := range s.data.Collections {
+		if s.data.Collections[i].Slug == slug {
+			s.data.Collections[i].Order = order
+			return s.save()
+		}
+	}
+	return fmt.Errorf("collection %s not found", slug)
 }
 
 func (s *Store) DeleteCollection(slug string) error {

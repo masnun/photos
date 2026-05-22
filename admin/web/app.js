@@ -227,8 +227,10 @@ function renderGenreRow(li, g) {
   li.classList.remove('edit-row');
   li.innerHTML = `<strong>${escapeHtml(g.name)}</strong> <code>${escapeHtml(g.slug)}</code>
     <span>${escapeHtml(g.description || '')}</span>
+    <button class="reorder-btn">Reorder</button>
     <button class="edit-btn">Edit</button>
     <button class="danger">Delete</button>`;
+  li.querySelector('.reorder-btn').addEventListener('click', () => openReorder('genres', g));
   li.querySelector('.edit-btn').addEventListener('click', () => renderGenreEdit(li, g));
   li.querySelector('.danger').addEventListener('click', async () => {
     if (!confirm(`Delete genre "${g.slug}"? Photos referencing it will keep the dangling slug.`)) return;
@@ -268,18 +270,24 @@ function renderGenreEdit(li, g) {
 function renderCollections() {
   const ul = $('#collection-list');
   ul.innerHTML = '';
-  collections.filter(c => c.slug !== 'featured').forEach(c => {
+  const featured = collections.find(c => c.slug === 'featured');
+  const rest = collections.filter(c => c.slug !== 'featured');
+  for (const c of featured ? [featured, ...rest] : rest) {
     const li = document.createElement('li');
     renderCollectionRow(li, c);
     ul.appendChild(li);
-  });
+  }
 }
 
 function renderCollectionRow(li, c) {
+  const isFeatured = c.slug === 'featured';
   li.innerHTML = `<strong>${escapeHtml(c.name)}</strong> <code>${escapeHtml(c.slug)}</code>
     <span>${escapeHtml(c.description || '')}</span>
-    <button class="edit-btn">Edit</button>
-    <button class="danger">Delete</button>`;
+    <button class="reorder-btn">Reorder</button>
+    ${isFeatured ? '' : `<button class="edit-btn">Edit</button>
+    <button class="danger">Delete</button>`}`;
+  li.querySelector('.reorder-btn').addEventListener('click', () => openReorder('collections', c));
+  if (isFeatured) return;
   li.querySelector('.edit-btn').addEventListener('click', () => renderCollectionEdit(li, c));
   li.querySelector('.danger').addEventListener('click', async () => {
     if (!confirm(`Delete collection "${c.slug}"? Photos referencing it will keep the dangling slug.`)) return;
@@ -479,6 +487,89 @@ $$('.tab').forEach(btn => {
     btn.classList.add('active');
     $(`#${btn.dataset.tab}`).classList.add('active');
   });
+});
+
+// ---- Reorder ----
+let reorderKind = null;   // 'genres' | 'collections'
+let reorderSlug = null;
+
+function photoDateAsc(a, b) {
+  const ad = a.taken_at || a.uploaded_at || '';
+  const bd = b.taken_at || b.uploaded_at || '';
+  if (ad === bd) return 0;
+  return ad < bd ? -1 : 1;
+}
+
+// Mirror the generator: ordered IDs first, then unordered photos oldest-first.
+function orderedMembers(members, order) {
+  if (!order || !order.length) return [...members].sort(photoDateAsc);
+  const idx = new Map(order.map((id, i) => [id, i]));
+  const known = members.filter(p => idx.has(p.id)).sort((a, b) => idx.get(a.id) - idx.get(b.id));
+  const unknown = members.filter(p => !idx.has(p.id)).sort(photoDateAsc);
+  return [...known, ...unknown];
+}
+
+function openReorder(kind, tax) {
+  reorderKind = kind;
+  reorderSlug = tax.slug;
+  const listKey = kind === 'genres' ? 'genres' : 'collections';
+  const members = photos.filter(p => (p[listKey] || []).includes(tax.slug));
+  const ordered = orderedMembers(members, tax.order);
+
+  $('#reorder-title').textContent = `Reorder · ${tax.name}`;
+  const grid = $('#reorder-grid');
+  grid.innerHTML = '';
+  if (!ordered.length) {
+    grid.innerHTML = '<p class="empty">No photos in this group yet.</p>';
+  }
+  ordered.forEach(p => {
+    const el = document.createElement('div');
+    el.className = 'reorder-card';
+    el.draggable = true;
+    el.dataset.id = p.id;
+    el.innerHTML = `<img src="${escapeHtml(p.urls.thumb)}" alt="" draggable="false">`;
+    wireDrag(el, grid);
+    grid.appendChild(el);
+  });
+  $('#reorder-dialog').showModal();
+}
+
+let dragEl = null;
+
+function wireDrag(el, grid) {
+  el.addEventListener('dragstart', () => {
+    dragEl = el;
+    el.classList.add('dragging');
+  });
+  el.addEventListener('dragend', () => {
+    el.classList.remove('dragging');
+    dragEl = null;
+  });
+  el.addEventListener('dragover', (e) => {
+    e.preventDefault();
+    if (!dragEl || dragEl === el) return;
+    const rect = el.getBoundingClientRect();
+    const after = (e.clientY - rect.top) > rect.height / 2 ||
+      ((e.clientY - rect.top) > 0 && (e.clientX - rect.left) > rect.width / 2);
+    grid.insertBefore(dragEl, after ? el.nextSibling : el);
+  });
+}
+
+$('#reorder-cancel').addEventListener('click', () => $('#reorder-dialog').close());
+
+$('#reorder-save').addEventListener('click', async () => {
+  const order = $$('#reorder-grid .reorder-card').map(el => el.dataset.id);
+  try {
+    await api(`/${reorderKind}/${encodeURIComponent(reorderSlug)}/order`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ order }),
+    });
+    $('#reorder-dialog').close();
+    refresh();
+  } catch (err) {
+    alert('Save order failed: ' + err.message);
+  }
 });
 
 refresh().catch(err => alert('Load failed: ' + err.message));

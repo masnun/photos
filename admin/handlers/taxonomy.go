@@ -63,6 +63,36 @@ func (h *Taxonomy) SetCollectionCover(w http.ResponseWriter, r *http.Request) {
 	writeJSON(w, http.StatusOK, map[string]string{"slug": r.PathValue("slug"), "cover": body.Cover})
 }
 
+func (h *Taxonomy) SetGenreOrder(w http.ResponseWriter, r *http.Request) {
+	var body struct {
+		Order []string `json:"order"`
+	}
+	if err := json.NewDecoder(r.Body).Decode(&body); err != nil {
+		writeErr(w, http.StatusBadRequest, err)
+		return
+	}
+	if err := h.Store.SetGenreOrder(r.PathValue("slug"), body.Order); err != nil {
+		writeErr(w, http.StatusNotFound, err)
+		return
+	}
+	w.WriteHeader(http.StatusNoContent)
+}
+
+func (h *Taxonomy) SetCollectionOrder(w http.ResponseWriter, r *http.Request) {
+	var body struct {
+		Order []string `json:"order"`
+	}
+	if err := json.NewDecoder(r.Body).Decode(&body); err != nil {
+		writeErr(w, http.StatusBadRequest, err)
+		return
+	}
+	if err := h.Store.SetCollectionOrder(r.PathValue("slug"), body.Order); err != nil {
+		writeErr(w, http.StatusNotFound, err)
+		return
+	}
+	w.WriteHeader(http.StatusNoContent)
+}
+
 func (h *Taxonomy) DeleteGenre(w http.ResponseWriter, r *http.Request) {
 	if err := h.Store.DeleteGenre(r.PathValue("slug")); err != nil {
 		writeErr(w, http.StatusNotFound, err)

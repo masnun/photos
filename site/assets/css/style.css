@@ -1,5 +1,5 @@
 * { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; }
+html, body { margin: 0; padding: 0; width: 100%; max-width: 100%; overflow-x: hidden; }
 body {
   font-family: "Lato", "Helvetica Neue", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
   background: #fafafa;
@@ -303,6 +303,39 @@ h2 {
   line-height: 1.4;
   padding: 1rem 1.4rem 1.1rem;
   border-top: 1px solid #f0f0f0;
+}
+
+.view-radio { position: absolute; opacity: 0; pointer-events: none; }
+.view-switch > label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.4rem 1rem;
+  margin: 0 0.4rem 1.5rem 0;
+  border: 1px solid #d8d8d8;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  color: #555;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.view-switch > label:hover { border-color: #999; }
+.view-radio-curated:checked ~ label[for="view-curated"],
+.view-radio-month:checked ~ label[for="view-month"] {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+}
+.view-radio:focus-visible ~ label[for="view-curated"],
+.view-radio:focus-visible ~ label[for="view-month"] { outline: 2px solid #111; outline-offset: 2px; }
+.view-panel-month { display: none; }
+.view-radio-month:checked ~ .view-panel-curated { display: none; }
+.view-radio-month:checked ~ .view-panel-month { display: block; }
+.month-group { margin-bottom: 2.75rem; }
+.month-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 1.1rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid #ececec;
 }
 
 .photo-detail { margin: 0; text-align: center; }

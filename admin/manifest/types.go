@@ -44,15 +44,17 @@ type EXIF struct {
 }
 
 type Genre struct {
-	Slug        string `json:"slug"`
-	Name        string `json:"name"`
-	Description string `json:"description,omitempty"`
-	Cover       string `json:"cover,omitempty"`
+	Slug        string   `json:"slug"`
+	Name        string   `json:"name"`
+	Description string   `json:"description,omitempty"`
+	Cover       string   `json:"cover,omitempty"`
+	Order       []string `json:"order,omitempty"`
 }
 
 type Collection struct {
-	Slug        string `json:"slug"`
-	Name        string `json:"name"`
-	Description string `json:"description,omitempty"`
-	Cover       string `json:"cover,omitempty"`
+	Slug        string   `json:"slug"`
+	Name        string   `json:"name"`
+	Description string   `json:"description,omitempty"`
+	Cover       string   `json:"cover,omitempty"`
+	Order       []string `json:"order,omitempty"`
 }
