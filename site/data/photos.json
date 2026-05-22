@@ -5612,33 +5612,6 @@
       "source_hash": "580633bba3e3775159e02adcd624a9b606fff3b019aa7197e54b12d124efaec9"
     },
     {
-      "id": "2a3d52c4-6e43-4e1d-a18c-1e3089a39998",
-      "filename": "AAM07874.jpg",
-      "genres": [
-        "architecture",
-        "black-and-white"
-      ],
-      "collections": [],
-      "taken_at": "2022-07-04T00:21:41Z",
-      "uploaded_at": "2026-05-21T14:36:07.362562Z",
-      "width": 4160,
-      "height": 6240,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/2a3d52c4-6e43-4e1d-a18c-1e3089a39998/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/2a3d52c4-6e43-4e1d-a18c-1e3089a39998/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/2a3d52c4-6e43-4e1d-a18c-1e3089a39998/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T3",
-        "lens": "XF27mmF2.8 R WR",
-        "iso": 200,
-        "aperture": "f/4.0",
-        "shutter": "1/125",
-        "focal_length": "27mm"
-      },
-      "source_hash": "35ee8f5a381d27c34357f268e4289e2163e8651930f68bd1ee3d5cb74ef91bec"
-    },
-    {
       "id": "f7404e30-fbbe-4581-a367-3ffda27408ac",
       "filename": "AAM07867.jpg",
       "genres": [
@@ -5961,36 +5934,6 @@
         "focal_length": "21mm"
       },
       "source_hash": "3836e9ae90478d862d9fb629b54a10b79626fdb13393744017df32d94d18f2c0"
-    },
-    {
-      "id": "f747c9ea-f8ea-42e4-9128-e52fa594b0f0",
-      "filename": "AAM08308.jpg",
-      "genres": [
-        "architecture",
-        "street-and-documentary",
-        "black-and-white"
-      ],
-      "collections": [
-        "khulna-railway-station"
-      ],
-      "taken_at": "2022-09-15T12:01:43Z",
-      "uploaded_at": "2026-05-21T14:36:18.749212Z",
-      "width": 3369,
-      "height": 4493,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/f747c9ea-f8ea-42e4-9128-e52fa594b0f0/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/f747c9ea-f8ea-42e4-9128-e52fa594b0f0/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/f747c9ea-f8ea-42e4-9128-e52fa594b0f0/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T3",
-        "lens": "21.0 mm",
-        "iso": 500,
-        "aperture": "f/1.0",
-        "shutter": "1/125",
-        "focal_length": "21mm"
-      },
-      "source_hash": "89e720388bac3ad2155bbf6141ee78430918af7f405b56b8ce2ce79ccfb7d7d9"
     },
     {
       "id": "746011be-5806-4b1a-b146-0a254e0108c6",
@@ -8695,33 +8638,6 @@
       "source_hash": "c95f7df4c0ae4a0e563ee4944cc91273134136e4d793ccb1648f01655f00896e"
     },
     {
-      "id": "b7584d40-80da-4a73-85d8-8cb3381c15c2",
-      "filename": "DSCF6883.jpg",
-      "genres": [
-        "architecture",
-        "street-and-documentary"
-      ],
-      "collections": [],
-      "taken_at": "2022-05-19T11:07:38Z",
-      "uploaded_at": "2026-05-21T14:38:55.140295Z",
-      "width": 5416,
-      "height": 4062,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/b7584d40-80da-4a73-85d8-8cb3381c15c2/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/b7584d40-80da-4a73-85d8-8cb3381c15c2/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/b7584d40-80da-4a73-85d8-8cb3381c15c2/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "7artisans 35mm f/1.2",
-        "iso": 250,
-        "aperture": "f/1.0",
-        "shutter": "1/4000",
-        "focal_length": "35mm"
-      },
-      "source_hash": "082e625b65e3a334520636f69f26da2a5f51e266a5db03a9d81b7d4d6b0d5c29"
-    },
-    {
       "id": "e0b1ed4e-7adb-4ec8-b979-67b47db1ca0f",
       "filename": "DSCF6880.jpg",
       "genres": [
@@ -8911,35 +8827,6 @@
       "source_hash": "4e533d121627c00d1583b8c2efad315bba7cfffa935b5b3fc84cf06b0719f91b"
     },
     {
-      "id": "f1e7de77-6578-4352-8b71-ca59686469cf",
-      "filename": "DSCF7218_DxO.jpg",
-      "genres": [
-        "architecture",
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-railway-station"
-      ],
-      "taken_at": "2022-05-26T11:35:42Z",
-      "uploaded_at": "2026-05-21T14:39:07.905391Z",
-      "width": 5547,
-      "height": 4160,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/f1e7de77-6578-4352-8b71-ca59686469cf/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/f1e7de77-6578-4352-8b71-ca59686469cf/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/f1e7de77-6578-4352-8b71-ca59686469cf/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "XF35mmF2 R WR",
-        "iso": 160,
-        "aperture": "f/4.0",
-        "shutter": "1/1000",
-        "focal_length": "35mm"
-      },
-      "source_hash": "9cd26bdab5426d3d8c0cffa3967f2e12f7c0618c0bc446f9a9cde818b88695aa"
-    },
-    {
       "id": "eb85534c-d95b-4219-ab91-2e870364e079",
       "filename": "DSCF7189.jpg",
       "genres": [
@@ -9023,35 +8910,6 @@
         "focal_length": "35mm"
       },
       "source_hash": "f527dd848b7469af4996e333870d55948d5b05dcfa58ef2c6782c2da7ab1daec"
-    },
-    {
-      "id": "d2c7adf5-52fe-4c43-8b79-cb67db35ae9f",
-      "filename": "DSCF7256_DxO.jpg",
-      "genres": [
-        "architecture",
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-railway-station"
-      ],
-      "taken_at": "2022-05-26T12:06:33Z",
-      "uploaded_at": "2026-05-21T14:39:13.649947Z",
-      "width": 4089,
-      "height": 5452,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/d2c7adf5-52fe-4c43-8b79-cb67db35ae9f/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/d2c7adf5-52fe-4c43-8b79-cb67db35ae9f/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/d2c7adf5-52fe-4c43-8b79-cb67db35ae9f/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "XF35mmF2 R WR",
-        "iso": 800,
-        "aperture": "f/2.8",
-        "shutter": "1/500",
-        "focal_length": "35mm"
-      },
-      "source_hash": "53b58242f19f0f14d2ad4f7f62f64b117c98887279e78c98f87a2eb2c949779c"
     },
     {
       "id": "11cb27f5-e554-435b-9be0-14e67da3ecb7",
@@ -9407,7 +9265,6 @@
       "id": "541cbf55-d640-483c-8a06-c57fb8df4c76",
       "filename": "DSCF7842_DxO 10 Edited.jpg",
       "genres": [
-        "architecture",
         "street-and-documentary"
       ],
       "collections": [
@@ -9519,7 +9376,6 @@
       "id": "0c677d3d-3f59-457c-83d5-d854a09ed3b4",
       "filename": "DSCF7868.jpg",
       "genres": [
-        "architecture",
         "street-and-documentary"
       ],
       "collections": [
@@ -9766,7 +9622,6 @@
       "id": "99dc454b-be1d-4b50-8c1c-27648ec7a470",
       "filename": "DSCF8056.jpg",
       "genres": [
-        "architecture",
         "landscape"
       ],
       "collections": [
@@ -9823,7 +9678,6 @@
       "id": "162cba3a-774f-48c3-9018-0502a6a94491",
       "filename": "DSCF8092.jpg",
       "genres": [
-        "architecture",
         "landscape"
       ],
       "collections": [
@@ -11620,35 +11474,6 @@
       "source_hash": "45af7b2f5d2897f6188eb2a10cf776f8a5cbe2b5cee930f6316a13d3a317a752"
     },
     {
-      "id": "d8c763e6-e03a-4b15-ad45-8b0d4ac3d45f",
-      "filename": "AAM07762.jpg",
-      "genres": [
-        "architecture",
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-railway-station"
-      ],
-      "taken_at": "2022-07-02T11:33:37Z",
-      "uploaded_at": "2026-05-21T14:41:26.137502Z",
-      "width": 4151,
-      "height": 5534,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/d8c763e6-e03a-4b15-ad45-8b0d4ac3d45f/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/d8c763e6-e03a-4b15-ad45-8b0d4ac3d45f/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/d8c763e6-e03a-4b15-ad45-8b0d4ac3d45f/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T3",
-        "lens": "XF35mmF1.4 R",
-        "iso": 250,
-        "aperture": "f/8.0",
-        "shutter": "1/250",
-        "focal_length": "35mm"
-      },
-      "source_hash": "7b582ed5fcb0251184125119bca98241555f6b63d727f50163c5f8554b5fecbd"
-    },
-    {
       "id": "bd5e3147-adde-4fde-9d46-d6acea7b123c",
       "filename": "AAM07986.jpg",
       "genres": [
@@ -12414,7 +12239,90 @@
     {
       "slug": "architecture",
       "name": "আর্কিটেকচার",
-      "cover": "f9d567f5-e415-4e2e-a0b8-f46c1358a09d"
+      "cover": "f9d567f5-e415-4e2e-a0b8-f46c1358a09d",
+      "order": [
+        "4da7a360-dcc4-4aad-8b03-87526787edd7",
+        "ebf1695d-d511-4383-a7a0-4de700a3e897",
+        "a8c03798-c2f0-47fd-8451-1ef4f64eeb0f",
+        "f9d567f5-e415-4e2e-a0b8-f46c1358a09d",
+        "cb68590c-eac8-4ad9-86f8-06b3a89ca1f1",
+        "b7584d40-80da-4a73-85d8-8cb3381c15c2",
+        "845ffdb8-862e-45de-945d-cf40ce061ba9",
+        "b9830b5d-ee00-4069-a87a-35e4bb18aa47",
+        "7b0561eb-b185-41b2-9a87-d4704b778f89",
+        "f26e78c4-4a69-4a28-b7db-771a7ba64d10",
+        "c2e0205f-c1f7-4c8b-8d8a-8f3241d235a8",
+        "3a022bb8-d12c-4196-8025-1bfc6cd0267d",
+        "e6d53a39-d287-4e6e-a367-90e6816643bd",
+        "4f5f0d1c-8c44-4ace-88c1-085e09fa7cb6",
+        "8f99ccac-7a5e-4dc0-acb3-31c0f6aeac82",
+        "c7f7da88-c019-4353-b147-f2e2f8f51218",
+        "1286a6f6-6b2b-4623-9cd3-45652ff84d94",
+        "e80915fd-0b9f-461a-a407-530e1760c49d",
+        "7023e664-db96-4603-9d4f-5d6c3c1ac0f8",
+        "f1e7de77-6578-4352-8b71-ca59686469cf",
+        "d2c7adf5-52fe-4c43-8b79-cb67db35ae9f",
+        "4f5e2d41-b58f-42e5-970e-48a793ce4f28",
+        "b88da03b-8e0e-4064-a2a2-ed8638052e6e",
+        "a7a5d3ac-6185-435a-9cba-3659cf4dbb2e",
+        "541cbf55-d640-483c-8a06-c57fb8df4c76",
+        "2fcacab1-51aa-412b-83fb-daeca9f61cc1",
+        "df288e92-5798-4417-944e-f1064dcce315",
+        "7378acac-a28c-4d53-bfa1-718c344dcc06",
+        "cb79d1d4-e7ab-4f5a-91aa-e326a01a18e7",
+        "7db1968d-d812-418d-a827-69641e0eb0b7",
+        "0c677d3d-3f59-457c-83d5-d854a09ed3b4",
+        "6001794a-8d32-48e6-809c-4bfdc755900f",
+        "99dc454b-be1d-4b50-8c1c-27648ec7a470",
+        "162cba3a-774f-48c3-9018-0502a6a94491",
+        "088dab98-bfd0-49c9-b227-8b8b2316deb9",
+        "d8c763e6-e03a-4b15-ad45-8b0d4ac3d45f",
+        "2a3d52c4-6e43-4e1d-a18c-1e3089a39998",
+        "cd286c18-6984-4a5f-8174-402975ee2257",
+        "10d96c7b-9a9b-4084-b577-935dc7a2645f",
+        "401b4c05-0db6-411a-9a0c-feddcae401bf",
+        "f747c9ea-f8ea-42e4-9128-e52fa594b0f0",
+        "7b10536b-edd2-40e5-8bcc-6d62b4ffeb13",
+        "e0850838-65fc-4191-ac84-159e7fbdc7ae",
+        "39bb7cbb-fdbf-4db2-9b40-a05326ded8ae",
+        "0839c3cd-6da5-4ac7-85be-b5a8cae204f2",
+        "f43046c2-ed76-4d93-88a9-6b68297e9020",
+        "d86c4931-856e-452a-9845-32ce2e169635",
+        "b9d9f258-c367-4cb4-a922-1b5c841969cd",
+        "8e59cf8f-c1f5-4f9d-9c3d-95dcd80d021a",
+        "d210c449-0b05-4777-a9b9-0c2e211d969f",
+        "7365f983-93e6-4a27-b668-b24632419adf",
+        "b84b146c-7cad-4a11-90ca-08bec5bb72ad",
+        "694f1865-2c60-49ff-aa00-ef26e92c1b86",
+        "329bab45-3464-4af5-87c0-5ea638910658",
+        "672cb5bd-e874-4a94-ad92-923a192cb6ef",
+        "81b82385-9cbf-4cbc-9904-175d9bbba5e6",
+        "881c1d71-4310-4837-b91f-cbb1caad3f71",
+        "29e7d0fc-47ad-4110-9ebb-cd2903f07e6f",
+        "37795770-2955-4647-aeab-cf6131b17ed7",
+        "5d7c00d8-6c5b-4088-94bd-23199e49dd69",
+        "fb84b86d-7016-4f77-9139-a63046fbdc7a",
+        "892f726e-2701-4575-9e09-03cd68f16b07",
+        "935de98d-b3e8-4a04-8dc6-389e025a699c",
+        "6697085d-3f1b-4074-82e7-509ba8a21845",
+        "c1428b09-8eda-4a73-83ba-cc5e6a6d5724",
+        "b1807bed-d40a-4c03-87bc-09d8a7d1c912",
+        "120040fb-f07f-4574-9a60-dd9841e65177",
+        "d01a539d-859a-4bc6-b40a-c1b6f262d27f",
+        "393856f8-e236-4c7f-a36c-462422b6736d",
+        "f32892ed-9f50-438b-b1a3-bebb238858f8",
+        "36b1c0f6-d52c-4d42-b1e9-d10f9eff78bb",
+        "26fd6653-ba64-4595-878c-ca43a6c8cbc5",
+        "9c45f5d8-2a3e-48eb-91e1-cf107ec6b6cb",
+        "d48ab9b9-eaa0-415d-b2e5-f077426ca90c",
+        "ee4c9df3-a96e-4146-a7bc-e93a06364e73",
+        "1c8dead1-c259-4daf-8549-36d4ca55453a",
+        "624c59e2-30fd-478f-b126-81cbf8001e93",
+        "74b15860-8abf-4a87-afde-94530268afdf",
+        "06375593-e327-430a-b59c-6893174ef2c1",
+        "21f49cdc-67ce-469b-bdca-541f446fd36c",
+        "f11927b5-3f7a-4616-9901-e90ada87e896"
+      ]
     },
     {
       "slug": "landscape",
@@ -12986,5 +12894,5 @@
       "cover": "b88da03b-8e0e-4064-a2a2-ed8638052e6e"
     }
   ],
-  "updated_at": "2026-05-22T20:10:21.735667Z"
+  "updated_at": "2026-05-22T20:27:51.968881Z"
 }
