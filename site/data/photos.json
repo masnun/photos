@@ -264,35 +264,6 @@
       "source_hash": "c2c743cec82301e5f04a484fa4d9c70fe78127584bc8f2e3b76dac84812a1e23"
     },
     {
-      "id": "0390fea5-d6a7-422a-884a-780f70f5a5bb",
-      "filename": "20201128_170141.jpg",
-      "genres": [
-        "landscape",
-        "low-light"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2020-11-28T11:01:41Z",
-      "uploaded_at": "2026-05-21T14:30:18.736691Z",
-      "width": 2923,
-      "height": 3897,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/0390fea5-d6a7-422a-884a-780f70f5a5bb/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/0390fea5-d6a7-422a-884a-780f70f5a5bb/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/0390fea5-d6a7-422a-884a-780f70f5a5bb/full.jpg"
-      },
-      "exif": {
-        "camera": "samsung SM-N986B",
-        "lens": "Samsung Galaxy Note 20 Ultra Rear Telephoto Camera",
-        "iso": 50,
-        "aperture": "f/3.0",
-        "shutter": "1/125",
-        "focal_length": "14mm"
-      },
-      "source_hash": "203d6e7e768423ea7ca9fc6106f9493fcba3f174c30c7a15b18a5a84f5b7c072"
-    },
-    {
       "id": "1bf6bc92-e055-4b2b-851c-a02450eeba25",
       "filename": "20200926_171202.jpg",
       "genres": [
@@ -319,35 +290,6 @@
         "focal_length": "7mm"
       },
       "source_hash": "8c78d2e8d969fa2b48974f2feba14e834b78c4fa890c53661a559d52a87a5b0d"
-    },
-    {
-      "id": "02916769-8af0-4ee1-9e62-2531a7f03758",
-      "filename": "20201128_165438.jpg",
-      "genres": [
-        "architecture",
-        "low-light"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2020-11-28T10:54:38Z",
-      "uploaded_at": "2026-05-21T14:30:19.433476Z",
-      "width": 2942,
-      "height": 3922,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/02916769-8af0-4ee1-9e62-2531a7f03758/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/02916769-8af0-4ee1-9e62-2531a7f03758/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/02916769-8af0-4ee1-9e62-2531a7f03758/full.jpg"
-      },
-      "exif": {
-        "camera": "samsung SM-N986B",
-        "lens": "Samsung Galaxy Note 20 Ultra Rear Telephoto Camera",
-        "iso": 50,
-        "aperture": "f/3.0",
-        "shutter": "1/120",
-        "focal_length": "14mm"
-      },
-      "source_hash": "7aea56f3fcef747888ffc7332643413d8c3b437d27ca6c8206e73cd025b8531e"
     },
     {
       "id": "a10f61a7-5d19-45c3-821f-1d587a708b48",
@@ -1157,34 +1099,6 @@
       "source_hash": "53a9f806af33bdb8e12a67ab8d1eaafe660482ef7284b76dd475b016744c93d7"
     },
     {
-      "id": "beccb34c-2f47-49ae-933c-8e635323e588",
-      "filename": "51605610337.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2021-10-19T08:40:08Z",
-      "uploaded_at": "2026-05-21T14:31:10.070339Z",
-      "width": 3501,
-      "height": 4668,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/beccb34c-2f47-49ae-933c-8e635323e588/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/beccb34c-2f47-49ae-933c-8e635323e588/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/beccb34c-2f47-49ae-933c-8e635323e588/full.jpg"
-      },
-      "exif": {
-        "camera": "SONY ILCE-7C",
-        "lens": "24-70mm F2.8 DG DN | Art 019",
-        "iso": 160,
-        "aperture": "f/2.8",
-        "shutter": "1/750",
-        "focal_length": "70mm"
-      },
-      "source_hash": "c9265a3a227e79a2e837396fd51635552d1128d96bed4cc7f12207e285667e89"
-    },
-    {
       "id": "780ee70a-c905-47f4-84cc-08d3423227f7",
       "filename": "51587593802.jpg",
       "genres": [
@@ -1211,63 +1125,6 @@
         "focal_length": "24mm"
       },
       "source_hash": "1e8700a5f2a876ce008224135643d7a0715c8ece865de9b5cbf0572c77733f8e"
-    },
-    {
-      "id": "51d4c2a0-55b8-4512-bab7-a55f278bf123",
-      "filename": "51606443451.jpg",
-      "genres": [
-        "architecture",
-        "landscape"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2021-10-19T08:19:11Z",
-      "uploaded_at": "2026-05-21T14:31:13.857419Z",
-      "width": 3794,
-      "height": 2846,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/51d4c2a0-55b8-4512-bab7-a55f278bf123/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/51d4c2a0-55b8-4512-bab7-a55f278bf123/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/51d4c2a0-55b8-4512-bab7-a55f278bf123/full.jpg"
-      },
-      "exif": {
-        "camera": "SONY ILCE-7C",
-        "lens": "24-70mm F2.8 DG DN | Art 019",
-        "iso": 640,
-        "aperture": "f/2.8",
-        "shutter": "1/200",
-        "focal_length": "29mm"
-      },
-      "source_hash": "3e3b3d770a31f4a89b3f4a33728c92fcc7c096eb26d3d5714a70d8de873b6444"
-    },
-    {
-      "id": "1409941e-3fd9-4995-b8b3-b184fe4ecd1c",
-      "filename": "51607324500.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2021-10-19T08:09:55Z",
-      "uploaded_at": "2026-05-21T14:31:15.037427Z",
-      "width": 4697,
-      "height": 3523,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/1409941e-3fd9-4995-b8b3-b184fe4ecd1c/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/1409941e-3fd9-4995-b8b3-b184fe4ecd1c/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/1409941e-3fd9-4995-b8b3-b184fe4ecd1c/full.jpg"
-      },
-      "exif": {
-        "camera": "SONY ILCE-7C",
-        "lens": "24-70mm F2.8 DG DN | Art 019",
-        "iso": 200,
-        "aperture": "f/2.8",
-        "shutter": "1/200",
-        "focal_length": "70mm"
-      },
-      "source_hash": "50c4f3c2bea41dbd21ace7491553b4d2d2bb97108e75f71e4f02580a937223e6"
     },
     {
       "id": "8f111db4-e8fc-4686-bff6-8d10f9c7cc28",
@@ -1330,9 +1187,7 @@
       "genres": [
         "birds-and-wildlife"
       ],
-      "collections": [
-        "khulna-university"
-      ],
+      "collections": [],
       "taken_at": "2021-10-21T11:28:17Z",
       "uploaded_at": "2026-05-21T14:31:19.235207Z",
       "width": 3871,
@@ -1351,34 +1206,6 @@
         "focal_length": "467mm"
       },
       "source_hash": "a6319ecacc51514a5e86be4f77d3eb3d0282316dadbccd10009dcbbb3e29bb7b"
-    },
-    {
-      "id": "6b334ec4-1cf5-4c2c-ac98-1ebadab98d0f",
-      "filename": "51624169336.jpg",
-      "genres": [
-        "birds-and-wildlife"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2021-10-23T10:34:02Z",
-      "uploaded_at": "2026-05-21T14:31:23.042438Z",
-      "width": 4717,
-      "height": 3538,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/6b334ec4-1cf5-4c2c-ac98-1ebadab98d0f/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/6b334ec4-1cf5-4c2c-ac98-1ebadab98d0f/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/6b334ec4-1cf5-4c2c-ac98-1ebadab98d0f/full.jpg"
-      },
-      "exif": {
-        "camera": "SONY ILCE-7C",
-        "lens": "FE 200-600mm F5.6-6.3 G OSS",
-        "iso": 12800,
-        "aperture": "f/6.3",
-        "shutter": "1/1500",
-        "focal_length": "600mm"
-      },
-      "source_hash": "15cbfff5f6447a6e44ab3c487309968f095afc9a3d89afa7234f226fd789abb2"
     },
     {
       "id": "d2efabf1-5f60-48fe-9dbd-dc31e210b372",
@@ -16341,6 +16168,173 @@
       "name": "খুলনা ইউনিভার্সিটি",
       "description": "আমার বিশ্ববিদ্যালয়, বাড়ির কাছে হওয়ায় নিত্যদিনের ফটোগ্রাফির জায়গা",
       "cover": "7bb716f3-5920-4fed-b356-77781a73c77f",
+      "order": [
+        "24558c44-3e4c-463a-a438-efd87e06b07b",
+        "46881d56-3902-47c1-a590-f6838434ffd2",
+        "d25f0836-b9df-4014-bd28-a918911b504f",
+        "50b0b59d-edc3-4243-aceb-e1fff4e54994",
+        "3a022bb8-d12c-4196-8025-1bfc6cd0267d",
+        "3c4e6320-9714-4fec-896c-910198c4c6a5",
+        "1bf6bc92-e055-4b2b-851c-a02450eeba25",
+        "da212210-2951-474e-9cf8-084f4bb05b4f",
+        "1e5dd408-1482-47eb-a9b5-39debeacb055",
+        "cc8833be-1b77-4d10-9b25-66ebc5cc45ac",
+        "44424b2b-f631-4dbd-8915-bbeaa6dce548",
+        "d2f0e5e1-b241-45bd-b93e-d014832e24cc",
+        "845ffdb8-862e-45de-945d-cf40ce061ba9",
+        "b9830b5d-ee00-4069-a87a-35e4bb18aa47",
+        "cb68590c-eac8-4ad9-86f8-06b3a89ca1f1",
+        "8d71420d-b3eb-4906-b2b0-0fd2447686ea",
+        "4c29b810-7f50-4cac-a2dd-cfa8633cf42f",
+        "e6d53a39-d287-4e6e-a367-90e6816643bd",
+        "9a50d1c8-00fc-477b-a876-a713a08d9b83",
+        "17a92e0b-642b-445a-a474-72733ba8c173",
+        "abc66403-763b-484c-a437-6793ef574596",
+        "c2e0205f-c1f7-4c8b-8d8a-8f3241d235a8",
+        "36372473-ecf2-491c-ae8d-fb4f4132f8bb",
+        "5eba9214-2885-443d-9be9-6d246c3503de",
+        "c36b490d-7370-4cd0-a2e1-8c06529f6490",
+        "adee0c0e-8386-43d5-a137-c1e91f602ac8",
+        "7ed65611-b166-429b-a948-c36ad68aafba",
+        "1384ead7-cbb5-405d-8d83-97094ad5cdb0",
+        "1568c06d-3201-404e-9bea-210c1a909570",
+        "3531f108-5ccc-458d-8aae-e08c283c5508",
+        "d3df613e-179a-408d-ae9e-375fcaecbece",
+        "d3f7a671-6705-4856-a2eb-5fd4842a17fc",
+        "b8920924-46b9-45ee-903b-937114384a14",
+        "92f03686-df5d-4c5d-9569-2c428bc9032b",
+        "7b5e4821-35c5-467d-8568-0e23c4fae101",
+        "5ced9c1d-9a5f-442d-bf50-8775d869edf0",
+        "517b1e18-cb9a-4026-99ae-7b25e0c147f6",
+        "1286a6f6-6b2b-4623-9cd3-45652ff84d94",
+        "5b6311b5-7b74-474d-9afc-3be7dbedbb2d",
+        "f26e78c4-4a69-4a28-b7db-771a7ba64d10",
+        "873afa28-c4a1-4771-838c-afdfb0813332",
+        "619e5d96-251f-4935-8c4e-31b5966fb181",
+        "e80915fd-0b9f-461a-a407-530e1760c49d",
+        "088dab98-bfd0-49c9-b227-8b8b2316deb9",
+        "a5e93a11-c650-47e9-8dcc-fbc9e54d2f34",
+        "4f5e2d41-b58f-42e5-970e-48a793ce4f28",
+        "91291565-83d8-46cb-9aa1-f96920bf6833",
+        "18277ea2-fcd3-47a4-a529-29c577513871",
+        "996d2aba-af94-4aa8-abe0-17ab2ad7ce98",
+        "8c428292-ebe5-42e3-8a93-b1b197765a5e",
+        "2f1f1600-e51b-41c0-972b-ec85429c72b9",
+        "e0d8e4ac-2896-4d61-ae89-44ecb0253639",
+        "6308855b-b3b2-41ff-bdda-8f1953e84d00",
+        "0677813b-9d85-4678-ba73-bd221b8d1b3b",
+        "7db1968d-d812-418d-a827-69641e0eb0b7",
+        "6001794a-8d32-48e6-809c-4bfdc755900f",
+        "99dc454b-be1d-4b50-8c1c-27648ec7a470",
+        "37fe5754-724b-4ac7-a1cc-d598ca7cb484",
+        "162cba3a-774f-48c3-9018-0502a6a94491",
+        "d4db13cf-142d-4e87-94d1-d937ec7f6ccd",
+        "f7404e30-fbbe-4581-a367-3ffda27408ac",
+        "44238e3a-39db-4eb0-af08-c87f5d2d8312",
+        "7b10536b-edd2-40e5-8bcc-6d62b4ffeb13",
+        "8dd9ce8a-7766-4783-807e-b1dc1c0d0f42",
+        "e0850838-65fc-4191-ac84-159e7fbdc7ae",
+        "39bb7cbb-fdbf-4db2-9b40-a05326ded8ae",
+        "f43046c2-ed76-4d93-88a9-6b68297e9020",
+        "2f26db99-3801-4b7c-9807-1a5dda32b9af",
+        "d86c4931-856e-452a-9845-32ce2e169635",
+        "84a4eb8b-e656-430c-9576-57c382051a95",
+        "0d56a2e8-0848-44ac-8f09-0525316d0198",
+        "e6afc70e-9b86-4dde-b358-ba392938840f",
+        "972d2fe4-99ed-44e9-8ad5-d097dbdef2d4",
+        "b9d9f258-c367-4cb4-a922-1b5c841969cd",
+        "07ebdad3-8920-4274-ad55-3db8f64624ca",
+        "fc116c0c-1243-48b7-882d-f5085384893b",
+        "8e59cf8f-c1f5-4f9d-9c3d-95dcd80d021a",
+        "af5e9f42-107e-43d0-9162-d0f030376988",
+        "d210c449-0b05-4777-a9b9-0c2e211d969f",
+        "73bde385-a258-4f5d-8d94-338bda7c1510",
+        "e206adf1-8300-43e6-bddc-fb2d7798e68b",
+        "87b357aa-50d9-4a2f-9906-9329d7faa08a",
+        "c50642b3-f5b5-4c62-a5b6-b2ce9034d6d5",
+        "28cb13cf-1e57-4274-bc0e-00a1a7a58e70",
+        "c336acb7-ddc0-43b4-9f61-d6bd703ea4fb",
+        "d19b0a0a-f0d8-418f-98eb-91f00411cee6",
+        "0ed21317-20f7-4237-a0a7-ee7680f9abdb",
+        "f9fa7a3f-2e87-4f81-bb4f-f144b41eed3d",
+        "59ba9d93-5220-46a4-bf18-3705656568be",
+        "04c2bbb6-417f-4694-b04f-a98a7bb07f17",
+        "eb19aa6a-d9d2-4449-bcd6-5c1c5d8dc075",
+        "7b0561eb-b185-41b2-9a87-d4704b778f89",
+        "d4b7f282-493b-445f-9873-526e394f350b",
+        "a424e899-888c-4f0a-9753-731a17c322ee",
+        "329bab45-3464-4af5-87c0-5ea638910658",
+        "881c1d71-4310-4837-b91f-cbb1caad3f71",
+        "29e7d0fc-47ad-4110-9ebb-cd2903f07e6f",
+        "7bb716f3-5920-4fed-b356-77781a73c77f",
+        "5d7c00d8-6c5b-4088-94bd-23199e49dd69",
+        "6d829d5c-3f5b-4a17-9a4d-179b72814b1a",
+        "fb84b86d-7016-4f77-9139-a63046fbdc7a",
+        "1391d814-0df9-46e2-9f1e-c30420301910",
+        "ff1ce8a3-cee7-4203-8987-0a9adc12945b",
+        "6bbe1509-f630-4dcd-803a-386fe85d7ead",
+        "4a6eee4f-0bc4-4858-8196-56a66e240dfc",
+        "754883f6-d761-48ee-a840-38b806dd7b24",
+        "892f726e-2701-4575-9e09-03cd68f16b07",
+        "44170aa2-831d-4e3f-8f0d-9608589e6077",
+        "67885228-31bb-4010-9cb5-b84d51a525d3",
+        "e8791c4e-ef86-41c4-b3b9-197bc48dffc2",
+        "935de98d-b3e8-4a04-8dc6-389e025a699c",
+        "6f38d519-26f3-427b-b56b-219060c76b00",
+        "bdaa173c-7b66-4d33-be92-37331bfbb84e",
+        "6697085d-3f1b-4074-82e7-509ba8a21845",
+        "401b4c05-0db6-411a-9a0c-feddcae401bf",
+        "1e58dc5f-ee47-43f4-8a04-b51a1174d8fc",
+        "368d090e-04ec-4875-b636-e73a0e5a69a3",
+        "f78b820d-eecc-4a91-9143-87b0594ada0e",
+        "b9d05b56-a580-4401-befd-b7920f64fec0",
+        "05b07b2c-6ce6-4634-8985-81e5601198a3",
+        "4214271e-13ac-4874-8ef9-634d9605c199",
+        "51c4cb36-7b0c-4815-8e41-0e225022355a",
+        "a7037e06-48b0-4adc-beb3-26eb727a2686",
+        "c1428b09-8eda-4a73-83ba-cc5e6a6d5724",
+        "3c4eacae-f4c3-4bc5-8fe6-7f0b106f36b4",
+        "f2f8d256-e405-46c0-8c97-7ff00ccf99d8",
+        "81b82385-9cbf-4cbc-9904-175d9bbba5e6",
+        "c7e1c43a-7929-4cb3-924d-61561bd91f26",
+        "3f1b034a-0371-47b3-becd-f75d330d55dc",
+        "777f992e-07d4-4ef9-95a6-767f81d8b828",
+        "d01a539d-859a-4bc6-b40a-c1b6f262d27f",
+        "f839bbc9-a92f-46c8-a597-714361f8ed05",
+        "31f7c09d-da23-4ce1-ac66-596a0560cb17",
+        "26fd6653-ba64-4595-878c-ca43a6c8cbc5",
+        "808311c4-48fe-4732-b854-fad52ce87be2",
+        "694f1865-2c60-49ff-aa00-ef26e92c1b86",
+        "80993ca7-b49f-4703-bdb2-5ca6524fbec4",
+        "3ec37bad-e568-44a4-b5f7-842b17c9d8c6",
+        "fd9af051-567f-424e-806b-d532f3167c18",
+        "31d8ecd3-38e0-4224-9735-c19a7c41b60a",
+        "6e1e606f-16ff-4601-8dca-15d49745ed89",
+        "e77ff596-4bb4-4b71-978e-019e0364dc04",
+        "50026fff-536c-440e-bc1b-d2e25364c249",
+        "e43bd642-6caf-4f31-86f8-8bf6664ac17a",
+        "ffbe9b1c-fe14-4d2d-8f50-d255fa1db438",
+        "93bfa093-8cca-4a69-a925-7cd1afe4aab1",
+        "19bb8762-cfd3-4360-abd0-7592e8ba4177",
+        "f3ade03c-6796-4bf8-b9cc-ae6cf545dbb1",
+        "ed1e245d-01ee-4fa4-bd4f-347b548c9e13",
+        "71e701e1-ebfa-469e-931a-4cdea459e54b",
+        "c31f77a3-b661-45db-bd6a-026be1adaa00",
+        "e2903218-a48d-410c-8a1c-85053fdf5c85",
+        "90ebba38-b7e4-40eb-b4e2-7012b0d1d513",
+        "641b0a9e-0e92-439d-a89c-57789d63b065",
+        "27889092-9869-4da2-a49b-88ba67ccc364",
+        "8c821b8b-7590-405f-8d44-083e1c39720a",
+        "335de2a4-3746-484a-8d3b-6efc666f0e6c",
+        "7406c7a7-6156-48a1-9884-a28a0df720a4",
+        "624c59e2-30fd-478f-b126-81cbf8001e93",
+        "74b15860-8abf-4a87-afde-94530268afdf",
+        "eff22aa6-1e62-4138-a14c-ca94abc2635f",
+        "f557ffbf-87f4-4454-861d-5997421517a3",
+        "b2bce27f-94f4-47c4-a6fc-fa4d36a3f218",
+        "b36f988d-e889-4149-a5c3-26a6389d0e15",
+        "f11927b5-3f7a-4616-9901-e90ada87e896"
+      ],
       "hero": true
     },
     {
@@ -16356,5 +16350,5 @@
       "cover": "b88da03b-8e0e-4064-a2a2-ed8638052e6e"
     }
   ],
-  "updated_at": "2026-05-22T14:08:29.778046Z"
+  "updated_at": "2026-05-22T14:32:57.17026Z"
 }
