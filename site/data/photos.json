@@ -137,8 +137,7 @@
       "id": "5d695f1b-2cc8-46a2-810f-1456841dabf0",
       "filename": "20200815_174155.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2020-08-15T11:41:55Z",
@@ -163,8 +162,7 @@
       "id": "c5f18228-0eeb-4934-a5ad-6a9a802ec96b",
       "filename": "1E3DD316-0E73-4565-84B4-FACA4F379912-1784-000006F49BC691A2.JPG",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2022-01-23T07:51:28Z",
@@ -190,8 +188,7 @@
       "id": "327bbbee-d5d5-4def-bb54-591d4c56a5f3",
       "filename": "1645887001.jpg",
       "genres": [
-        "still-life",
-        "macro"
+        "still-life"
       ],
       "collections": [],
       "taken_at": "2022-02-26T14:50:01Z",
@@ -371,24 +368,6 @@
       "source_hash": "aa067f061938274599c236770e264c248c1c0c986f1314918eda9962774dc6b8"
     },
     {
-      "id": "bf958ad8-e240-42a0-87f4-2cb88ac4fc78",
-      "filename": "20221114_172650.jpg",
-      "genres": [
-        "street",
-        "documentary"
-      ],
-      "collections": [],
-      "uploaded_at": "2026-05-21T14:30:22.473941Z",
-      "width": 4080,
-      "height": 4080,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/bf958ad8-e240-42a0-87f4-2cb88ac4fc78/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/bf958ad8-e240-42a0-87f4-2cb88ac4fc78/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/bf958ad8-e240-42a0-87f4-2cb88ac4fc78/full.jpg"
-      },
-      "source_hash": "129889c636ab0ef30038475f58379e1323799b93d65f2c671540268f6676be6b"
-    },
-    {
       "id": "2a33f86f-3a2d-4a2d-8d4d-cd99242ffed4",
       "filename": "20221026_225822.jpg",
       "genres": [
@@ -460,7 +439,7 @@
       "id": "04dd312a-38d4-487f-9bff-29b71592dc5e",
       "filename": "2022_0604_17421100-01.jpeg",
       "genres": [
-        "architecture",
+        "still-life",
         "black-and-white"
       ],
       "collections": [
@@ -480,8 +459,7 @@
       "id": "240875ab-404c-4f30-8939-97a08868cd0c",
       "filename": "2022_0316_06335800.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2022-03-16T00:33:58Z",
@@ -531,23 +509,6 @@
         "focal_length": "23mm"
       },
       "source_hash": "678b74d7ab50abcba8e708908125d088267b9847e64bd0f29bcf8263ebf9a343"
-    },
-    {
-      "id": "b41490d6-7052-475b-b134-3476ac17da1a",
-      "filename": "20221114_172744.jpg",
-      "genres": [
-        "landscape"
-      ],
-      "collections": [],
-      "uploaded_at": "2026-05-21T14:30:29.333732Z",
-      "width": 6240,
-      "height": 6240,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/b41490d6-7052-475b-b134-3476ac17da1a/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/b41490d6-7052-475b-b134-3476ac17da1a/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/b41490d6-7052-475b-b134-3476ac17da1a/full.jpg"
-      },
-      "source_hash": "c2c526d43685b1b99deafe99f937b38cc22ee47c0559073143ca7e7844121d14"
     },
     {
       "id": "0d56a2e8-0848-44ac-8f09-0525316d0198",
@@ -634,29 +595,10 @@
       "source_hash": "be8df38abffe928943fc965e76b33a00322d62a9f07903c0f6fa2a7f42d63502"
     },
     {
-      "id": "ad1ca839-6a8d-4c5b-bc9b-7ec24154b505",
-      "filename": "2022_0604_17340100-01.jpeg",
-      "genres": [
-        "landscape",
-        "documentary"
-      ],
-      "collections": [],
-      "uploaded_at": "2026-05-21T14:30:33.008445Z",
-      "width": 4082,
-      "height": 5443,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/ad1ca839-6a8d-4c5b-bc9b-7ec24154b505/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/ad1ca839-6a8d-4c5b-bc9b-7ec24154b505/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/ad1ca839-6a8d-4c5b-bc9b-7ec24154b505/full.jpeg"
-      },
-      "source_hash": "94858f89a6e8dd84d4493f12e131d0d2bb1880a51f4cee02d998f99fe33edfc3"
-    },
-    {
       "id": "4226b7ee-a99b-487b-9876-d52838666271",
       "filename": "4E150071-4971-418E-9D82-0548AA394FC9-1784-000006F4BB2D3BFA.JPG",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2022-01-23T07:50:36Z",
@@ -979,31 +921,6 @@
       "source_hash": "c704b4a70d55467b9722065eb4246056d8d23832ce1790070b9abf0942769705"
     },
     {
-      "id": "38d485bd-6cd3-47de-ab51-a987ef003bd3",
-      "filename": "51421081135.jpg",
-      "genres": [
-        "flower",
-        "macro"
-      ],
-      "collections": [],
-      "taken_at": "2021-08-28T13:13:32Z",
-      "uploaded_at": "2026-05-21T14:30:47.015165Z",
-      "width": 5131,
-      "height": 3848,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/38d485bd-6cd3-47de-ab51-a987ef003bd3/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/38d485bd-6cd3-47de-ab51-a987ef003bd3/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/38d485bd-6cd3-47de-ab51-a987ef003bd3/full.jpg"
-      },
-      "exif": {
-        "camera": "Canon EOS M50",
-        "lens": "0.0 mm f/0.0",
-        "iso": 1600,
-        "shutter": "1/60"
-      },
-      "source_hash": "5dd5c5631f5b8aaf04f58922934e94b3ea2882d9e6686d3d7569c02279dc763d"
-    },
-    {
       "id": "1a49fb86-c1be-4154-9ba3-ff3fe8cf42a3",
       "filename": "51430393428.jpg",
       "genres": [
@@ -1034,8 +951,7 @@
       "id": "e1e97e58-bb23-4ec8-9389-32eb33244e73",
       "filename": "51430293653.jpg",
       "genres": [
-        "wildlife",
-        "macro"
+        "wildlife"
       ],
       "collections": [],
       "taken_at": "2021-09-05T11:27:29Z",
@@ -1090,8 +1006,7 @@
       "id": "55f88e35-e890-41c1-90e6-6ce086e8cb9f",
       "filename": "51437573923.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2021-08-14T03:03:58Z",
@@ -1144,8 +1059,7 @@
       "id": "d7c20e33-cfee-4a33-816a-b8acc3891ca3",
       "filename": "51437962494.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2021-09-08T10:52:35Z",
@@ -1164,33 +1078,6 @@
         "shutter": "1/250"
       },
       "source_hash": "0071a08b9b8fb8113d662c58a4fec52e833bb9d2c146f360420f53d83e8de7ac"
-    },
-    {
-      "id": "67f04a5b-3f33-4b5f-8256-1966bdab88ab",
-      "filename": "51440405064.jpg",
-      "genres": [
-        "flower",
-        "macro"
-      ],
-      "collections": [],
-      "taken_at": "2021-09-09T11:27:56Z",
-      "uploaded_at": "2026-05-21T14:30:56.330858Z",
-      "width": 4000,
-      "height": 6000,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/67f04a5b-3f33-4b5f-8256-1966bdab88ab/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/67f04a5b-3f33-4b5f-8256-1966bdab88ab/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/67f04a5b-3f33-4b5f-8256-1966bdab88ab/full.jpg"
-      },
-      "exif": {
-        "camera": "Canon EOS M50",
-        "lens": "EF-S55-250mm f/4-5.6 IS STM",
-        "iso": 1250,
-        "aperture": "f/5.0",
-        "shutter": "1/250",
-        "focal_length": "135mm"
-      },
-      "source_hash": "d31983789683c29e614733be5b6486c4e476df59507a1600c65a1681028134f3"
     },
     {
       "id": "3a022bb8-d12c-4196-8025-1bfc6cd0267d",
@@ -1393,8 +1280,7 @@
       "id": "ccdd3707-d0d0-42eb-a49a-968354fb8fc7",
       "filename": "51568132695.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2021-10-02T11:17:23Z",
@@ -2463,8 +2349,7 @@
       "id": "fa3c3ed7-78ec-4ca4-8d2b-d52c5424bb3b",
       "filename": "51802526977.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2021-12-31T06:49:06Z",
@@ -2543,33 +2428,6 @@
         "focal_length": "23mm"
       },
       "source_hash": "774b4138116cbfecfeb81f10ef879ab19ba537320f9a81749d74c36bc803d12a"
-    },
-    {
-      "id": "19f0f83d-c059-4c40-a5f4-a71a7d440d86",
-      "filename": "51803550193.jpg",
-      "genres": [
-        "flower",
-        "macro"
-      ],
-      "collections": [],
-      "taken_at": "2021-12-27T08:01:27Z",
-      "uploaded_at": "2026-05-21T14:31:56.594977Z",
-      "width": 3724,
-      "height": 4965,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/19f0f83d-c059-4c40-a5f4-a71a7d440d86/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/19f0f83d-c059-4c40-a5f4-a71a7d440d86/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/19f0f83d-c059-4c40-a5f4-a71a7d440d86/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T3",
-        "lens": "XF23mmF1.4 R",
-        "iso": 320,
-        "aperture": "f/2.0",
-        "shutter": "1/2000",
-        "focal_length": "23mm"
-      },
-      "source_hash": "9444735b8fddaa061e84e7cee68fa48a05b5e3e907127962f207afcc41a495b9"
     },
     {
       "id": "98571596-6274-4bd0-96c2-f86d45cfeb73",
@@ -2834,8 +2692,7 @@
       "id": "2af45f13-8fea-422d-bec5-47139c2a2d3d",
       "filename": "51856859732.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2022-02-02T10:00:54Z",
@@ -2915,8 +2772,7 @@
       "id": "ba80600c-f3da-4efc-bbe7-da68db10e4bb",
       "filename": "51858474415.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2022-02-02T10:01:36Z",
@@ -2968,8 +2824,7 @@
       "id": "d8bfa258-e42c-4076-b741-704f78636203",
       "filename": "51858146484.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2022-02-02T10:05:16Z",
@@ -3136,8 +2991,7 @@
       "id": "b7186e53-aaaa-4bec-8707-a7b877e7dd60",
       "filename": "51858475985.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2022-02-02T10:04:04Z",
@@ -3216,8 +3070,7 @@
       "id": "b613d7aa-9ffc-413c-83fa-7578f80ace14",
       "filename": "51919990516.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2022-02-28T10:51:50Z",
@@ -3273,8 +3126,7 @@
       "id": "4ef22c9b-4431-4393-a207-87bbdd372982",
       "filename": "51920095873.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2022-02-28T09:53:33Z",
@@ -3750,8 +3602,7 @@
       "id": "7298955a-20a3-4ee5-856b-665acfbe63a7",
       "filename": "51964037251.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2022-03-27T10:22:58Z",
@@ -5207,8 +5058,7 @@
       "id": "e3a6966b-f567-49c2-9694-69461e3f1d4a",
       "filename": "AAM00461.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2025-11-25T03:41:37Z",
@@ -8023,33 +7873,6 @@
       "source_hash": "47d4b50e25ae545101b7626ada8b1f01ab6978a579a7c4eabd43abadc0ee4054"
     },
     {
-      "id": "fd142e71-96a6-48b1-88ee-e0b88a7834ed",
-      "filename": "AAM06669.jpg",
-      "genres": [
-        "food",
-        "macro"
-      ],
-      "collections": [],
-      "taken_at": "2022-05-11T09:41:00Z",
-      "uploaded_at": "2026-05-21T14:35:26.87666Z",
-      "width": 4160,
-      "height": 5547,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/fd142e71-96a6-48b1-88ee-e0b88a7834ed/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/fd142e71-96a6-48b1-88ee-e0b88a7834ed/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/fd142e71-96a6-48b1-88ee-e0b88a7834ed/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T3",
-        "lens": "XF35mmF2 R WR",
-        "iso": 160,
-        "aperture": "f/2.8",
-        "shutter": "1/500",
-        "focal_length": "35mm"
-      },
-      "source_hash": "6c8a522b5b333cdfe2ddcc7ecb3b0e6d1a918f58cfa32dee2785aebfaa272fb3"
-    },
-    {
       "id": "5b6311b5-7b74-474d-9afc-3be7dbedbb2d",
       "filename": "AAM06685.jpg",
       "genres": [
@@ -8365,7 +8188,6 @@
       "id": "18277ea2-fcd3-47a4-a529-29c577513871",
       "filename": "AAM07168_DxO.jpg",
       "genres": [
-        "macro",
         "flower"
       ],
       "collections": [
@@ -9810,8 +9632,7 @@
       "id": "c3807492-98bd-43f1-a899-d16d97906053",
       "filename": "AAMF0648.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2023-12-31T07:20:38Z",
@@ -10626,7 +10447,6 @@
       "id": "65855efe-913a-4724-9f2b-ae2548f2b32a",
       "filename": "AAM_2144.jpg",
       "genres": [
-        "macro",
         "flower"
       ],
       "collections": [],
@@ -10879,8 +10699,7 @@
       "id": "ac9a20b8-f39f-489a-9836-5dd73aea91f9",
       "filename": "ACS_0018.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2024-01-06T06:33:36Z",
@@ -11018,7 +10837,6 @@
       "id": "cfc9ab60-f29e-4357-9c65-a211cceee427",
       "filename": "April_2022_04_13_0016.jpg",
       "genres": [
-        "macro",
         "food"
       ],
       "collections": [],
@@ -12433,9 +12251,8 @@
       "id": "018dcbef-e29e-4f91-97ff-930e7b9ecc92",
       "filename": "DSCF0690.jpg",
       "genres": [
-        "flower",
         "black-and-white",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2022-11-23T10:38:49Z",
@@ -13493,8 +13310,7 @@
       "id": "e0b1ed4e-7adb-4ec8-b979-67b47db1ca0f",
       "filename": "DSCF6880.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2022-05-19T11:05:14Z",
@@ -14868,32 +14684,6 @@
       "source_hash": "473d1a12025e04ac39b970be6be47f2826ebc473e75bfa4ffec2fa63b25925fd"
     },
     {
-      "id": "56e7945b-c1c7-43f0-8b8a-7966c43a13f3",
-      "filename": "DSCF8133.jpg",
-      "genres": [
-        "macro"
-      ],
-      "collections": [],
-      "taken_at": "2022-07-09T00:32:11Z",
-      "uploaded_at": "2026-05-21T14:39:45.864486Z",
-      "width": 3956,
-      "height": 5275,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/56e7945b-c1c7-43f0-8b8a-7966c43a13f3/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/56e7945b-c1c7-43f0-8b8a-7966c43a13f3/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/56e7945b-c1c7-43f0-8b8a-7966c43a13f3/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "7artisans 35mm f/1.2",
-        "iso": 400,
-        "aperture": "f/1.0",
-        "shutter": "1/1000",
-        "focal_length": "35mm"
-      },
-      "source_hash": "c34771615f14f8a72d163f066f701ede60b98f0dd9d107a901ece60f26143545"
-    },
-    {
       "id": "088dab98-bfd0-49c9-b227-8b8b2316deb9",
       "filename": "DSCF8105.jpg",
       "genres": [
@@ -15304,9 +15094,9 @@
       "id": "4c5ee877-af7c-40a0-bc62-135407a3a59b",
       "filename": "DSCF8940_DxO.jpg",
       "genres": [
+        "still-life",
         "black-and-white",
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2023-03-14T10:35:41Z",
@@ -15496,8 +15286,7 @@
       "id": "c2bae869-eb8b-4707-bc3a-3cd4a8ab2680",
       "filename": "DSCF9844.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2024-01-24T03:41:37Z",
@@ -15549,7 +15338,6 @@
       "id": "38c3ea3a-051d-4fa4-acd1-878e644d8bc1",
       "filename": "DSCF9856.jpg",
       "genres": [
-        "macro",
         "flower"
       ],
       "collections": [],
@@ -15576,8 +15364,7 @@
       "id": "c4ba5dbd-2863-486c-b59a-ed91fa5816d2",
       "filename": "DSCF9847.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2024-01-24T03:42:06Z",
@@ -15630,8 +15417,7 @@
       "id": "ec98b0db-0da0-46f9-bd00-76ebdc425f3c",
       "filename": "DSCF9846.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2024-01-24T03:41:55Z",
@@ -16545,35 +16331,6 @@
       "source_hash": "480c47a7a9f4020ff5039c213d6d243ce1afa1a0b9019c9ef596ef0cde332ffa"
     },
     {
-      "id": "091fca9f-24a3-4515-aa4e-d823f73297ce",
-      "filename": "May_2022_05_29_0303.jpg",
-      "genres": [
-        "macro",
-        "black-and-white"
-      ],
-      "collections": [
-        "khulna-railway-station"
-      ],
-      "taken_at": "2022-05-29T11:24:01Z",
-      "uploaded_at": "2026-05-21T14:40:40.523434Z",
-      "width": 3002,
-      "height": 2252,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/091fca9f-24a3-4515-aa4e-d823f73297ce/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/091fca9f-24a3-4515-aa4e-d823f73297ce/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/091fca9f-24a3-4515-aa4e-d823f73297ce/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T3",
-        "lens": "Fujifilm Fujinon XF23mmF1.4 R",
-        "iso": 320,
-        "aperture": "f/4.0",
-        "shutter": "1/250",
-        "focal_length": "23mm"
-      },
-      "source_hash": "65bf75cce7ffea6b1b11d2db26e2431a6b780ee9471cc796a18d3561066b35d9"
-    },
-    {
       "id": "4f5e2d41-b58f-42e5-970e-48a793ce4f28",
       "filename": "May_2022_05_30_0348.jpg",
       "genres": [
@@ -16665,8 +16422,7 @@
       "id": "96c1ee3f-fc3b-4215-9702-8466d46554f3",
       "filename": "51437331596.jpg",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2021-08-14T02:53:31Z",
@@ -16938,32 +16694,6 @@
         "focal_length": "50mm"
       },
       "source_hash": "eece858d26114875fa54dfc62accea047fa9e572b13164d8073c6c908f2e2257"
-    },
-    {
-      "id": "22fa7d2d-ea4f-41b9-b1ab-ab930238339f",
-      "filename": "51879770250.jpg",
-      "genres": [
-        "macro",
-        "flower"
-      ],
-      "collections": [],
-      "taken_at": "2022-02-13T10:31:24Z",
-      "uploaded_at": "2026-05-21T14:41:00.197687Z",
-      "width": 4160,
-      "height": 5547,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/22fa7d2d-ea4f-41b9-b1ab-ab930238339f/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/22fa7d2d-ea4f-41b9-b1ab-ab930238339f/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/22fa7d2d-ea4f-41b9-b1ab-ab930238339f/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T3",
-        "lens": "21.0 mm",
-        "iso": 200,
-        "shutter": "1/1000",
-        "focal_length": "21mm"
-      },
-      "source_hash": "2f947289dc7ac0a5ab60adc9648b705e31fb66a72cd5269065a0e427a3ec5e68"
     },
     {
       "id": "5ced9c1d-9a5f-442d-bf50-8775d869edf0",
@@ -17830,8 +17560,7 @@
       "id": "16ffedf8-0caa-4524-9ef9-3fffb353cbb6",
       "filename": "AE5F9993-0B4A-4D17-9A26-4A4D654C4E65-3809-0000032B309CDD44.JPG",
       "genres": [
-        "flower",
-        "macro"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2021-12-08T07:43:03Z",
@@ -18842,11 +18571,6 @@
       "cover": "04dd312a-38d4-487f-9bff-29b71592dc5e"
     },
     {
-      "slug": "documentary",
-      "name": "ডকুমেন্টারি",
-      "cover": "60f32fb1-38ff-4c8b-8d0e-55658cbdb14e"
-    },
-    {
       "slug": "wildlife",
       "name": "ওয়াইল্ডলাইফ",
       "cover": "cd46262c-1d24-44fa-b478-b4e362778c4f"
@@ -18917,5 +18641,5 @@
       "cover": "b88da03b-8e0e-4064-a2a2-ed8638052e6e"
     }
   ],
-  "updated_at": "2026-05-22T10:54:01.412435Z"
+  "updated_at": "2026-05-22T12:51:34.973177Z"
 }
