@@ -240,7 +240,7 @@
       "filename": "20201119_162857.jpg",
       "genres": [
         "landscape",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -268,7 +268,7 @@
       "filename": "20201128_170141.jpg",
       "genres": [
         "landscape",
-        "night"
+        "low-light"
       ],
       "collections": [
         "khulna-university"
@@ -325,7 +325,7 @@
       "filename": "20201128_165438.jpg",
       "genres": [
         "architecture",
-        "night"
+        "low-light"
       ],
       "collections": [
         "khulna-university"
@@ -353,8 +353,7 @@
       "id": "a10f61a7-5d19-45c3-821f-1d587a708b48",
       "filename": "20221108_212237.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "uploaded_at": "2026-05-21T14:30:19.935714Z",
@@ -371,9 +370,8 @@
       "id": "2a33f86f-3a2d-4a2d-8d4d-cd99242ffed4",
       "filename": "20221026_225822.jpg",
       "genres": [
-        "street",
-        "black-and-white",
-        "documentary"
+        "street-and-documentary",
+        "black-and-white"
       ],
       "collections": [],
       "uploaded_at": "2026-05-21T14:30:22.747633Z",
@@ -486,7 +484,7 @@
       "filename": "2022_1030_17351400-01.jpeg",
       "genres": [
         "architecture",
-        "night",
+        "low-light",
         "black-and-white"
       ],
       "collections": [
@@ -514,9 +512,8 @@
       "id": "0d56a2e8-0848-44ac-8f09-0525316d0198",
       "filename": "2022_1030_17284000-01.jpeg",
       "genres": [
-        "street",
-        "black-and-white",
-        "documentary"
+        "street-and-documentary",
+        "black-and-white"
       ],
       "collections": [
         "khulna-university"
@@ -544,7 +541,7 @@
       "filename": "2022_1030_17375900-01 Copy.JPG",
       "genres": [
         "architecture",
-        "street",
+        "street-and-documentary",
         "black-and-white"
       ],
       "collections": [
@@ -573,7 +570,7 @@
       "filename": "2023_0401_17265000-01.jpeg",
       "genres": [
         "architecture",
-        "night"
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2023-04-01T11:26:50Z",
@@ -710,8 +707,8 @@
       "id": "14f74fab-9914-4a73-9ef6-9cbd0ec3b3d9",
       "filename": "51338093222.jpg",
       "genres": [
-        "street",
-        "wildlife"
+        "street-and-documentary",
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-07-17T11:22:35Z",
@@ -738,7 +735,7 @@
       "filename": "51349269422.jpg",
       "genres": [
         "landscape",
-        "night"
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2021-08-01T12:31:09Z",
@@ -764,7 +761,6 @@
       "id": "9a50d1c8-00fc-477b-a876-a713a08d9b83",
       "filename": "51420094576.jpg",
       "genres": [
-        "documentary",
         "portrait"
       ],
       "collections": [
@@ -791,8 +787,7 @@
       "id": "ad4e57eb-db20-4766-b4e8-0d6a5f116811",
       "filename": "51420095471.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -845,7 +840,7 @@
       "filename": "51420862034.jpg",
       "genres": [
         "macro",
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-08-28T11:23:31Z",
@@ -869,7 +864,7 @@
       "id": "2bf9dc40-4d73-4dfe-a89d-eabf94a08bae",
       "filename": "51430153116.jpg",
       "genres": [
-        "night",
+        "low-light",
         "black-and-white"
       ],
       "collections": [],
@@ -897,7 +892,7 @@
       "filename": "51421047574.jpg",
       "genres": [
         "macro",
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-09-01T10:57:51Z",
@@ -924,7 +919,7 @@
       "filename": "51430393428.jpg",
       "genres": [
         "landscape",
-        "night"
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2021-08-13T12:13:27Z",
@@ -950,7 +945,7 @@
       "id": "e1e97e58-bb23-4ec8-9389-32eb33244e73",
       "filename": "51430293653.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-09-05T11:27:29Z",
@@ -1030,8 +1025,7 @@
       "id": "dce3d9f9-28bd-4636-b369-233858c5d491",
       "filename": "51439662451.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2021-09-09T11:46:23Z",
@@ -1109,8 +1103,7 @@
       "id": "ffa83dcf-627c-4ea6-a6d9-3db96e869a9a",
       "filename": "51506147077.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -1138,8 +1131,7 @@
       "id": "abc66403-763b-484c-a437-6793ef574596",
       "filename": "51506144667.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -1167,8 +1159,7 @@
       "id": "b2ecd7b4-d9d8-4bf8-a29f-c9170294a772",
       "filename": "51507182083.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -1196,8 +1187,7 @@
       "id": "017716af-5937-44f3-b6c7-df60f643c0b4",
       "filename": "51567010901.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2021-10-01T11:25:31Z",
@@ -1223,8 +1213,8 @@
       "id": "06fa0939-47bc-47a3-b25d-06b584b4ceb0",
       "filename": "51515174991.jpg",
       "genres": [
-        "night",
-        "street"
+        "low-light",
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2021-09-25T13:19:56Z",
@@ -1333,8 +1323,7 @@
       "id": "beccb34c-2f47-49ae-933c-8e635323e588",
       "filename": "51605610337.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -1362,8 +1351,7 @@
       "id": "780ee70a-c905-47f4-84cc-08d3423227f7",
       "filename": "51587593802.jpg",
       "genres": [
-        "landscape",
-        "documentary"
+        "landscape"
       ],
       "collections": [
         "khulna-railway-station"
@@ -1392,8 +1380,7 @@
       "filename": "51606443451.jpg",
       "genres": [
         "architecture",
-        "landscape",
-        "documentary"
+        "landscape"
       ],
       "collections": [
         "khulna-university"
@@ -1421,8 +1408,7 @@
       "id": "1409941e-3fd9-4995-b8b3-b184fe4ecd1c",
       "filename": "51607324500.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -1450,8 +1436,8 @@
       "id": "8f111db4-e8fc-4686-bff6-8d10f9c7cc28",
       "filename": "51612071960.jpg",
       "genres": [
-        "night",
-        "street"
+        "low-light",
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2021-10-20T12:42:13Z",
@@ -1477,8 +1463,7 @@
       "id": "c2e0205f-c1f7-4c8b-8d8a-8f3241d235a8",
       "filename": "51607325270.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -1506,8 +1491,7 @@
       "id": "915d9d94-734f-4b77-a7c7-48ebe0eb7ec9",
       "filename": "51607101604.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -1535,7 +1519,7 @@
       "id": "771625b5-cdcd-4289-9436-573df110a961",
       "filename": "51614110541.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [
         "khulna-university"
@@ -1563,7 +1547,7 @@
       "id": "6b334ec4-1cf5-4c2c-ac98-1ebadab98d0f",
       "filename": "51624169336.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [
         "khulna-university"
@@ -1591,7 +1575,7 @@
       "id": "d2efabf1-5f60-48fe-9dbd-dc31e210b372",
       "filename": "51626967577.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-10-25T11:07:02Z",
@@ -1617,7 +1601,7 @@
       "id": "e7f67890-b632-4582-bd6b-0330d6ea8426",
       "filename": "51617838775.jpg",
       "genres": [
-        "night",
+        "low-light",
         "landscape"
       ],
       "collections": [],
@@ -1644,7 +1628,7 @@
       "id": "474a244e-34f6-4ddc-9640-c561f8d531a3",
       "filename": "51635104346.jpg",
       "genres": [
-        "wildlife",
+        "birds-and-wildlife",
         "black-and-white"
       ],
       "collections": [],
@@ -1671,7 +1655,7 @@
       "id": "a0744ded-a3d5-49e3-a655-0d18c51deaec",
       "filename": "51633172370.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-10-21T11:24:22Z",
@@ -1698,7 +1682,7 @@
       "filename": "51622646469.jpg",
       "caption": "বাতাসে বহিছে প্রেম",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [
         "featured",
@@ -1728,7 +1712,7 @@
       "filename": "51647759232.jpg",
       "genres": [
         "landscape",
-        "night"
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2021-10-31T10:56:58Z",
@@ -1755,7 +1739,7 @@
       "filename": "51630605018.jpg",
       "caption": "খাবারের সন্ধানে",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [
         "featured",
@@ -1784,9 +1768,8 @@
       "id": "456d1210-e5eb-42b8-ae6c-5a3a2538e522",
       "filename": "51647936150.jpg",
       "genres": [
-        "night",
-        "street",
-        "documentary"
+        "low-light",
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2021-11-01T12:56:04Z",
@@ -1811,7 +1794,7 @@
       "filename": "51635747649.jpg",
       "genres": [
         "macro",
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-10-28T06:47:33Z",
@@ -1837,7 +1820,7 @@
       "id": "49af2ee8-1dd5-478f-b3ab-088ef3994727",
       "filename": "51630774669.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-10-25T10:24:17Z",
@@ -1863,7 +1846,7 @@
       "id": "16c9f054-6347-4ddb-be14-b992334d677f",
       "filename": "51669931676.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-11-10T10:36:53Z",
@@ -1889,7 +1872,7 @@
       "id": "3f842b0b-0489-48b2-9fbb-0efc1cf80291",
       "filename": "51669873615.jpg",
       "genres": [
-        "wildlife",
+        "birds-and-wildlife",
         "landscape"
       ],
       "collections": [],
@@ -1916,8 +1899,7 @@
       "id": "bba7b38a-9f71-4828-915b-1306c9202c50",
       "filename": "51642437994.jpg",
       "genres": [
-        "wildlife",
-        "documentary"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-10-30T09:28:18Z",
@@ -1943,7 +1925,7 @@
       "id": "d663b299-7d39-429a-8849-b624adda957c",
       "filename": "51673458262.jpg",
       "genres": [
-        "wildlife",
+        "birds-and-wildlife",
         "landscape"
       ],
       "collections": [],
@@ -1971,7 +1953,7 @@
       "filename": "51654123934.jpg",
       "genres": [
         "landscape",
-        "night"
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2021-11-03T11:04:57Z",
@@ -1995,7 +1977,7 @@
       "id": "8865f340-1581-468b-b145-3fd26161b353",
       "filename": "51687948148.jpg",
       "genres": [
-        "night",
+        "low-light",
         "black-and-white"
       ],
       "collections": [],
@@ -2022,8 +2004,8 @@
       "id": "8a2ca84b-5718-4cf5-9014-48c39ed44099",
       "filename": "51687673431.jpg",
       "genres": [
-        "street",
-        "night",
+        "street-and-documentary",
+        "low-light",
         "architecture"
       ],
       "collections": [],
@@ -2050,7 +2032,7 @@
       "id": "81f875d3-16a5-4aad-88ea-3d35a702b45f",
       "filename": "51699880118.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-11-23T09:47:10Z",
@@ -2076,7 +2058,7 @@
       "id": "753b1a05-c47a-4aa0-b968-0298e44ae6bd",
       "filename": "51697673811.jpg",
       "genres": [
-        "food"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2021-11-22T13:18:01Z",
@@ -2102,7 +2084,7 @@
       "id": "8d77efa0-caab-46ad-a518-c06a9bc41ee6",
       "filename": "51702129863.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-11-24T10:02:23Z",
@@ -2128,7 +2110,7 @@
       "id": "9ac237e7-bec4-439b-8187-10f36547c968",
       "filename": "51703016072.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-11-25T10:34:10Z",
@@ -2182,7 +2164,7 @@
       "filename": "51795010145.jpg",
       "caption": "মাছরাঙা",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [
         "featured"
@@ -2210,8 +2192,7 @@
       "id": "87be7027-a3fc-41ef-a9be-a9cadcc0e0b6",
       "filename": "51728218468.jpg",
       "genres": [
-        "documentary",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2021-12-01T06:17:01Z",
@@ -2263,8 +2244,7 @@
       "id": "1e5dd408-1482-47eb-a9b5-39debeacb055",
       "filename": "51802501827.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -2318,9 +2298,8 @@
       "id": "1702efa0-9e9f-4d02-b988-853a50d8ca2f",
       "filename": "51803561833.jpg",
       "genres": [
-        "street",
-        "black-and-white",
-        "documentary"
+        "street-and-documentary",
+        "black-and-white"
       ],
       "collections": [],
       "taken_at": "2022-01-01T12:57:27Z",
@@ -2346,9 +2325,8 @@
       "id": "1568c06d-3201-404e-9bea-210c1a909570",
       "filename": "51803541708.jpg",
       "genres": [
-        "street",
-        "black-and-white",
-        "documentary"
+        "street-and-documentary",
+        "black-and-white"
       ],
       "collections": [
         "khulna-university"
@@ -2376,7 +2354,7 @@
       "id": "98571596-6274-4bd0-96c2-f86d45cfeb73",
       "filename": "51804096775.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-10-29T10:28:40Z",
@@ -2403,7 +2381,7 @@
       "filename": "51804151985.jpg",
       "genres": [
         "architecture",
-        "night",
+        "low-light",
         "black-and-white"
       ],
       "collections": [
@@ -2433,7 +2411,7 @@
       "filename": "51804139990.jpg",
       "genres": [
         "architecture",
-        "night",
+        "low-light",
         "black-and-white"
       ],
       "collections": [
@@ -2463,9 +2441,8 @@
       "filename": "51804148755.jpg",
       "genres": [
         "architecture",
-        "night",
-        "black-and-white",
-        "documentary"
+        "low-light",
+        "black-and-white"
       ],
       "collections": [
         "khulna-university"
@@ -2493,9 +2470,8 @@
       "id": "3531f108-5ccc-458d-8aae-e08c283c5508",
       "filename": "51806410985.jpg",
       "genres": [
-        "night",
-        "street",
-        "documentary"
+        "low-light",
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -2523,7 +2499,7 @@
       "id": "0fd12cc2-9d8f-49cc-b2e5-cb5acb7796e7",
       "filename": "51818875135.jpg",
       "genres": [
-        "night",
+        "low-light",
         "still-life"
       ],
       "collections": [],
@@ -2550,9 +2526,8 @@
       "id": "c450a13b-347a-4d81-af18-706e3d852d79",
       "filename": "51805685856.jpg",
       "genres": [
-        "food",
-        "street",
-        "documentary"
+        "food-related",
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-01-07T14:19:11Z",
@@ -2579,7 +2554,7 @@
       "filename": "51810156868.jpg",
       "genres": [
         "architecture",
-        "night"
+        "low-light"
       ],
       "collections": [
         "khulna-university"
@@ -2608,7 +2583,6 @@
       "filename": "51820748585.jpg",
       "genres": [
         "black-and-white",
-        "documentary",
         "portrait"
       ],
       "collections": [],
@@ -2661,9 +2635,8 @@
       "id": "a5b6c95d-7e46-41c0-b08e-d2dce2bd4187",
       "filename": "51830856130.jpg",
       "genres": [
-        "food",
-        "street",
-        "documentary"
+        "food-related",
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-01-17T13:02:59Z",
@@ -2741,7 +2714,7 @@
       "id": "326bd73f-ede4-4ebc-9180-0e9111335328",
       "filename": "51830250098.jpg",
       "genres": [
-        "food",
+        "food-related",
         "macro"
       ],
       "collections": [],
@@ -2793,7 +2766,7 @@
       "id": "96f3a6cd-ba1d-418f-8acd-7aa0043af75f",
       "filename": "51878159667.jpg",
       "genres": [
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -2821,7 +2794,7 @@
       "filename": "51876158447.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -2849,8 +2822,7 @@
       "id": "d3f7a671-6705-4856-a2eb-5fd4842a17fc",
       "filename": "51876158112.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -2879,8 +2851,7 @@
       "filename": "51878159832.jpg",
       "caption": "কালচার",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "featured",
@@ -2908,7 +2879,7 @@
       "id": "79fcd279-8706-48c8-a7bb-4cb4c4c743e0",
       "filename": "51919015742.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-03-03T10:08:48Z",
@@ -2960,7 +2931,7 @@
       "id": "48485d9e-8f3c-4b37-9aa6-17ef66ebdf38",
       "filename": "51919016112.jpg",
       "genres": [
-        "wildlife",
+        "birds-and-wildlife",
         "nature"
       ],
       "collections": [],
@@ -2987,7 +2958,7 @@
       "id": "b602dbe9-2d38-46b5-ada4-848454ff985a",
       "filename": "51919016262.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-03-03T09:46:20Z",
@@ -3039,9 +3010,8 @@
       "id": "b4ddf3aa-03f7-49c0-8069-04277dddb4fe",
       "filename": "51920077703.jpg",
       "genres": [
-        "night",
-        "street",
-        "documentary"
+        "low-light",
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -3122,9 +3092,8 @@
       "id": "fc875756-9838-4b56-874f-eddc6717553c",
       "filename": "51920339564.jpg",
       "genres": [
-        "food",
-        "street",
-        "documentary"
+        "food-related",
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-02-27T09:25:39Z",
@@ -3150,8 +3119,7 @@
       "id": "07339359-601c-48e0-91ec-98d9c1d7e8a0",
       "filename": "51920087563.jpg",
       "genres": [
-        "food",
-        "documentary"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2022-03-02T06:41:05Z",
@@ -3177,8 +3145,7 @@
       "id": "eabfdfde-5052-4e88-9f06-3d5be564eb22",
       "filename": "51920611845.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-02-28T10:40:13Z",
@@ -3204,7 +3171,7 @@
       "id": "060d94f0-f524-441f-aa5d-b097224f7e91",
       "filename": "51920308639.jpg",
       "genres": [
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -3233,7 +3200,7 @@
       "filename": "51921787276.jpg",
       "genres": [
         "architecture",
-        "street",
+        "street-and-documentary",
         "black-and-white"
       ],
       "collections": [
@@ -3262,8 +3229,7 @@
       "id": "64b5ec21-d088-408c-a0b9-33fddf45c7d0",
       "filename": "51930918597.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-03-11T11:24:17Z",
@@ -3289,7 +3255,6 @@
       "id": "e95e0d61-a5ef-4006-b223-ac69dc5d1a17",
       "filename": "51922411935.jpg",
       "genres": [
-        "documentary",
         "landscape"
       ],
       "collections": [],
@@ -3342,8 +3307,7 @@
       "id": "44424b2b-f631-4dbd-8915-bbeaa6dce548",
       "filename": "51942321940.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -3371,7 +3335,7 @@
       "id": "b56a6e51-fa7f-42d0-ac37-a0535f7680c7",
       "filename": "51920312139.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-03-03T10:01:51Z",
@@ -3427,8 +3391,7 @@
       "filename": "51960323108.jpg",
       "genres": [
         "architecture",
-        "night",
-        "documentary"
+        "low-light"
       ],
       "collections": [
         "khulna-railway-station"
@@ -3456,8 +3419,7 @@
       "id": "233f3be3-81cd-4d85-b164-abc961a8f4d1",
       "filename": "51960321773.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -3486,8 +3448,7 @@
       "filename": "51960322318.jpg",
       "genres": [
         "architecture",
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -3516,8 +3477,7 @@
       "filename": "51963036022.jpg",
       "genres": [
         "architecture",
-        "black-and-white",
-        "documentary"
+        "black-and-white"
       ],
       "collections": [
         "khulna-university"
@@ -3572,8 +3532,7 @@
       "filename": "51948207139.jpg",
       "genres": [
         "landscape",
-        "black-and-white",
-        "documentary"
+        "black-and-white"
       ],
       "collections": [
         "khulna-university"
@@ -3601,8 +3560,7 @@
       "filename": "51964038111.jpg",
       "genres": [
         "macro",
-        "landscape",
-        "documentary"
+        "landscape"
       ],
       "collections": [],
       "taken_at": "2022-03-27T10:24:48Z",
@@ -3628,8 +3586,7 @@
       "id": "5309e147-1a35-47fc-befe-83a41b599144",
       "filename": "51964037676.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -3658,7 +3615,7 @@
       "filename": "51964318764.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -3686,8 +3643,7 @@
       "id": "d642436f-e15c-43bb-9992-616a3cd8babf",
       "filename": "51965653362.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -3744,7 +3700,7 @@
       "id": "75a31c26-a6f7-42ce-a495-a36e2e88174c",
       "filename": "51966363274.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-03-28T07:38:27Z",
@@ -3770,7 +3726,7 @@
       "id": "25c4dfa5-9e97-4882-ac59-4075ec261dbe",
       "filename": "51966081361.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-03-28T07:41:10Z",
@@ -3796,7 +3752,7 @@
       "id": "955eb5bd-4e2a-4870-ae9d-266a34678812",
       "filename": "51970026552.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-03-30T10:59:05Z",
@@ -3879,7 +3835,7 @@
       "id": "d2db2c2c-cc38-4624-8e01-22051c0b735e",
       "filename": "51971029616.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-03-30T10:57:26Z",
@@ -3905,7 +3861,7 @@
       "id": "f4ed9ee6-eba6-4341-8697-210b5521f9c1",
       "filename": "51971320329.jpg",
       "genres": [
-        "wildlife",
+        "birds-and-wildlife",
         "landscape"
       ],
       "collections": [],
@@ -4099,9 +4055,9 @@
       "id": "33a8cfee-4c7d-4307-bac2-4f41f99cd176",
       "filename": "AAM00244.jpg",
       "genres": [
-        "night",
-        "street",
-        "food"
+        "low-light",
+        "street-and-documentary",
+        "food-related"
       ],
       "collections": [
         "artyard-cafe"
@@ -4159,8 +4115,8 @@
       "filename": "AAM00245.jpg",
       "genres": [
         "architecture",
-        "night",
-        "street"
+        "low-light",
+        "street-and-documentary"
       ],
       "collections": [
         "artyard-cafe"
@@ -4188,8 +4144,7 @@
       "id": "da5f185d-b1c9-4064-bdb9-f99a5235aa26",
       "filename": "AAM00236.jpg",
       "genres": [
-        "landscape",
-        "documentary"
+        "landscape"
       ],
       "collections": [
         "khulna-university"
@@ -4243,8 +4198,7 @@
       "id": "352cbcaa-beb7-4d8b-9710-c530ec5d8def",
       "filename": "AAM00317.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "july-reovolution"
@@ -4271,8 +4225,7 @@
       "id": "aec5017a-dc89-42fe-b2e1-a60e2ecffc37",
       "filename": "AAM00306.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "july-reovolution"
@@ -4300,7 +4253,7 @@
       "filename": "AAM00276.jpg",
       "genres": [
         "architecture",
-        "night"
+        "low-light"
       ],
       "collections": [
         "artyard-cafe"
@@ -4356,7 +4309,7 @@
       "filename": "AAM00322.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "artyard-cafe"
@@ -4385,7 +4338,7 @@
       "filename": "AAM00320.jpg",
       "genres": [
         "architecture",
-        "night"
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2025-09-11T12:04:15Z",
@@ -4411,8 +4364,7 @@
       "id": "c6697744-2991-4a40-a349-c845cf305a2b",
       "filename": "AAM00319.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "july-reovolution"
@@ -4440,7 +4392,7 @@
       "filename": "AAM00319(1).jpg",
       "genres": [
         "architecture",
-        "food"
+        "food-related"
       ],
       "collections": [
         "artyard-cafe"
@@ -4468,8 +4420,7 @@
       "id": "9d78c61a-90f8-4ce0-a13f-b8e6c97ebc8f",
       "filename": "AAM00344.jpg",
       "genres": [
-        "food",
-        "documentary"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2025-09-12T11:36:27Z",
@@ -4495,8 +4446,7 @@
       "id": "d0774cf7-4596-496c-afe3-0c9f3340f092",
       "filename": "AAM00326.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "july-reovolution"
@@ -4524,7 +4474,7 @@
       "filename": "AAM00333.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2025-09-12T11:21:02Z",
@@ -4551,8 +4501,7 @@
       "filename": "AAM00334.jpg",
       "caption": "বিজয়ের উৎসব",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "july-reovolution",
@@ -4581,7 +4530,7 @@
       "filename": "AAM00337.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "artyard-cafe"
@@ -4609,8 +4558,7 @@
       "id": "d5df25da-d122-4d00-8d6c-aa7cb89d0640",
       "filename": "AAM00350.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "july-reovolution"
@@ -4637,8 +4585,7 @@
       "id": "b6b36a65-5282-4b81-aa40-b809d0b3ec60",
       "filename": "AAM00339.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "july-reovolution"
@@ -4665,8 +4612,8 @@
       "id": "b2f04f51-eaa4-4dbe-8dca-d851b498bd3d",
       "filename": "AAM00350(1).jpg",
       "genres": [
-        "food",
-        "night"
+        "food-related",
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2025-09-12T12:09:20Z",
@@ -4692,8 +4639,7 @@
       "id": "10977af2-0e4b-4e66-a341-e454d0e1bd1a",
       "filename": "AAM00377.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "july-reovolution"
@@ -4721,8 +4667,7 @@
       "filename": "AAM00381.jpg",
       "caption": "একটি পতাকার জন্য",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "july-reovolution",
@@ -4750,8 +4695,7 @@
       "id": "ec6d28fc-bfa5-4080-bdd5-2e65d464d931",
       "filename": "AAM00388.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "july-reovolution"
@@ -4778,8 +4722,7 @@
       "id": "e2c0b902-6f6f-4c32-b3ed-41e737c686ae",
       "filename": "AAM00358.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "july-reovolution"
@@ -4806,8 +4749,7 @@
       "id": "7123b163-743a-44b5-a1b0-370f0fb3fcc8",
       "filename": "AAM00390.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "july-reovolution"
@@ -4834,8 +4776,7 @@
       "id": "896bf8d4-2f5b-4a09-839e-723022386dc8",
       "filename": "AAM00395.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "july-reovolution"
@@ -4862,8 +4803,7 @@
       "id": "ccc3acb1-678b-4a60-aa75-3635356bba76",
       "filename": "AAM00394.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "july-reovolution"
@@ -4890,8 +4830,7 @@
       "id": "befd63d2-d540-456f-8671-a28d5317b30b",
       "filename": "AAM00397.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "july-reovolution"
@@ -4918,8 +4857,7 @@
       "id": "60f32fb1-38ff-4c8b-8d0e-55658cbdb14e",
       "filename": "AAM00399.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "july-reovolution"
@@ -4947,8 +4885,7 @@
       "filename": "AAM00432.jpg",
       "genres": [
         "landscape",
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -5001,8 +4938,7 @@
       "id": "ad687e3a-9282-40bc-8315-f05ef08a332c",
       "filename": "AAM00402.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "july-reovolution"
@@ -5086,8 +5022,8 @@
       "filename": "AAM00482.jpg",
       "genres": [
         "architecture",
-        "night",
-        "street",
+        "low-light",
+        "street-and-documentary",
         "black-and-white"
       ],
       "collections": [
@@ -5116,8 +5052,7 @@
       "id": "2dbcb4de-3141-4d8f-be39-b9f40356f072",
       "filename": "AAM00489.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [],
       "taken_at": "2024-08-07T12:30:00Z",
@@ -5142,8 +5077,7 @@
       "id": "1161f96a-9f7d-4167-aff4-18f444c7a66d",
       "filename": "AAM00493.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2024-08-07T12:32:13Z",
@@ -5195,8 +5129,8 @@
       "id": "50026fff-536c-440e-bc1b-d2e25364c249",
       "filename": "AAM00495.jpg",
       "genres": [
-        "night",
-        "street",
+        "low-light",
+        "street-and-documentary",
         "black-and-white"
       ],
       "collections": [
@@ -5251,8 +5185,7 @@
       "id": "6697085d-3f1b-4074-82e7-509ba8a21845",
       "filename": "AAM00499.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -5279,9 +5212,8 @@
       "id": "eb19aa6a-d9d2-4449-bcd6-5c1c5d8dc075",
       "filename": "AAM00564.jpg",
       "genres": [
-        "street",
-        "black-and-white",
-        "documentary"
+        "street-and-documentary",
+        "black-and-white"
       ],
       "collections": [
         "khulna-university"
@@ -5310,7 +5242,7 @@
       "filename": "AAM00483.jpg",
       "genres": [
         "architecture",
-        "night"
+        "low-light"
       ],
       "collections": [
         "khulna-university"
@@ -5339,7 +5271,7 @@
       "filename": "AAM00582.jpg",
       "genres": [
         "still-life",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -5368,8 +5300,7 @@
       "filename": "AAM00580.jpg",
       "genres": [
         "architecture",
-        "black-and-white",
-        "documentary"
+        "black-and-white"
       ],
       "collections": [
         "khulna-university"
@@ -5423,8 +5354,7 @@
       "id": "d01a539d-859a-4bc6-b40a-c1b6f262d27f",
       "filename": "AAM00605.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -5507,7 +5437,7 @@
       "filename": "AAM00656.jpg",
       "genres": [
         "black-and-white",
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2025-10-01T11:40:03Z",
@@ -5615,7 +5545,7 @@
       "id": "3e44e5a8-0677-47d6-bd8c-ca415f46a78f",
       "filename": "AAM00912.jpg",
       "genres": [
-        "food"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2025-10-27T09:24:55Z",
@@ -5641,7 +5571,7 @@
       "id": "9c4d6e56-b737-4c56-9e7a-228294a21799",
       "filename": "AAM00911.jpg",
       "genres": [
-        "food"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2025-10-27T09:24:20Z",
@@ -5722,9 +5652,8 @@
       "id": "fd9af051-567f-424e-806b-d532f3167c18",
       "filename": "AAM01008.jpg",
       "genres": [
-        "street",
-        "black-and-white",
-        "documentary"
+        "street-and-documentary",
+        "black-and-white"
       ],
       "collections": [
         "khulna-university"
@@ -5779,8 +5708,7 @@
       "id": "51c4cb36-7b0c-4815-8e41-0e225022355a",
       "filename": "AAM01009.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -5807,8 +5735,7 @@
       "id": "a7037e06-48b0-4adc-beb3-26eb727a2686",
       "filename": "AAM01029 5 Edited.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -5835,8 +5762,8 @@
       "id": "31d8ecd3-38e0-4224-9735-c19a7c41b60a",
       "filename": "AAM01028.jpg",
       "genres": [
-        "night",
-        "street",
+        "low-light",
+        "street-and-documentary",
         "black-and-white"
       ],
       "collections": [
@@ -5951,8 +5878,8 @@
       "id": "60f09add-121b-4010-8f86-b8fd9faacf6a",
       "filename": "AAM01048.jpg",
       "genres": [
-        "night",
-        "street"
+        "low-light",
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2025-11-21T13:47:35Z",
@@ -6006,8 +5933,7 @@
       "id": "81b82385-9cbf-4cbc-9904-175d9bbba5e6",
       "filename": "AAM01056 15 Edited.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -6143,7 +6069,7 @@
       "filename": "AAM01100.jpg",
       "genres": [
         "black-and-white",
-        "street",
+        "street-and-documentary",
         "still-life"
       ],
       "collections": [],
@@ -6199,7 +6125,7 @@
       "filename": "AAM01135.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -6226,8 +6152,7 @@
       "id": "4b65a7a8-f674-4ebc-ac90-bfc235bd6b22",
       "filename": "AAM01133.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -6255,7 +6180,7 @@
       "filename": "AAM01143.jpg",
       "genres": [
         "landscape",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -6283,7 +6208,7 @@
       "filename": "AAM01210.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2025-08-02T09:49:09Z",
@@ -6359,8 +6284,7 @@
       "id": "d1100eaa-33e0-48e5-a16d-3f653bd71bfe",
       "filename": "AAM01218.jpg",
       "genres": [
-        "landscape",
-        "documentary"
+        "landscape"
       ],
       "collections": [],
       "taken_at": "2025-08-02T09:57:41Z",
@@ -6410,8 +6334,7 @@
       "id": "84550651-245f-4a9c-bb26-562a0ec07a19",
       "filename": "AAM01148.jpg",
       "genres": [
-        "landscape",
-        "documentary"
+        "landscape"
       ],
       "collections": [],
       "taken_at": "2025-07-06T10:37:51Z",
@@ -6437,7 +6360,7 @@
       "filename": "AAM01233.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2025-08-02T10:05:52Z",
@@ -6462,8 +6385,7 @@
       "id": "ba5d41a1-fab9-4798-9076-90ecae78937e",
       "filename": "AAM01272.jpg",
       "genres": [
-        "landscape",
-        "documentary"
+        "landscape"
       ],
       "collections": [],
       "taken_at": "2025-09-17T10:29:27Z",
@@ -6488,8 +6410,7 @@
       "id": "356e9f01-b858-4dc3-8f1a-fc38bdc80f00",
       "filename": "AAM01522.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -6517,8 +6438,7 @@
       "id": "bf282513-5ba6-477d-80f5-1d2a351749a9",
       "filename": "AAM01274.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2025-09-17T10:30:18Z",
@@ -6543,8 +6463,7 @@
       "id": "5548626d-a471-49f8-98bb-c9e6b2a6a68a",
       "filename": "AAM01217.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2025-08-02T09:56:57Z",
@@ -6570,8 +6489,7 @@
       "filename": "AAM01329.jpg",
       "genres": [
         "portrait",
-        "documentary",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2025-09-22T11:49:46Z",
@@ -6622,8 +6540,8 @@
       "id": "3c984302-4152-483a-89a0-8f2cf3812ba3",
       "filename": "AAM01593.jpg",
       "genres": [
-        "street",
-        "night"
+        "street-and-documentary",
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2025-10-10T11:09:00Z",
@@ -6649,8 +6567,7 @@
       "id": "7239e0a9-261a-420e-87ed-174b25e9557d",
       "filename": "AAM01592.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2025-10-10T11:08:23Z",
@@ -6733,7 +6650,7 @@
       "filename": "AAM02162.jpg",
       "genres": [
         "landscape",
-        "night"
+        "low-light"
       ],
       "collections": [
         "khulna-university"
@@ -6789,8 +6706,7 @@
       "id": "983a1f52-85e0-4a75-bdcd-75b2c379829d",
       "filename": "AAM02229.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2026-05-04T12:39:08Z",
@@ -6846,7 +6762,7 @@
       "filename": "AAM01608.jpg",
       "caption": "শরতের শৈশব",
       "genres": [
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "featured"
@@ -6928,7 +6844,7 @@
       "id": "28934988-2454-4332-8c43-06b850b65eef",
       "filename": "AAM04643-ARW_DxO_DeepPRIME.jpg",
       "genres": [
-        "night",
+        "low-light",
         "landscape"
       ],
       "collections": [],
@@ -6985,7 +6901,7 @@
       "id": "d6d979f7-87ec-4cda-a04b-b2c9c7861b98",
       "filename": "AAM04817-ARW_DxO_DeepPRIME.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-11-24T10:02:11Z",
@@ -7012,7 +6928,7 @@
       "filename": "AAM04740-ARW_DxO_DeepPRIME.jpg",
       "genres": [
         "macro",
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-11-23T10:14:36Z",
@@ -7038,7 +6954,7 @@
       "id": "f768dd9b-6ee7-424b-9ae3-c07c2ef00a1d",
       "filename": "AAM04668-ARW_DxO_DeepPRIME.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-11-23T09:47:02Z",
@@ -7064,7 +6980,7 @@
       "id": "d9f77187-0efd-4743-b2d4-b5f54db56b48",
       "filename": "AAM04827-ARW_DxO_DeepPRIME.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-11-24T10:07:07Z",
@@ -7119,7 +7035,7 @@
       "id": "5758ff53-d894-4556-b8c0-bc6681f46490",
       "filename": "AAM05183-ARW_DxO_DeepPRIME.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-12-01T06:45:06Z",
@@ -7146,7 +7062,7 @@
       "filename": "AAM05832_DxO.jpg",
       "caption": "মাছরাঙা",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [
         "featured"
@@ -7175,7 +7091,7 @@
       "filename": "AAM04927-ARW_DxO_DeepPRIME.jpg",
       "genres": [
         "landscape",
-        "night"
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2021-11-24T10:51:32Z",
@@ -7201,7 +7117,7 @@
       "id": "af3ec621-0b3b-43b5-a64e-1f00795ec19b",
       "filename": "AAM06085_DxO.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-01-20T09:21:04Z",
@@ -7227,7 +7143,7 @@
       "id": "c7ab6564-4f37-4bc9-922e-5c573081005d",
       "filename": "AAM06090_DxO.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-01-20T09:30:17Z",
@@ -7253,7 +7169,7 @@
       "id": "6e33c99f-446b-406a-a690-11fb9389ac6a",
       "filename": "AAM06127_DxO.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-01-20T10:00:47Z",
@@ -7279,7 +7195,7 @@
       "id": "6a73d800-ac15-4464-9cbb-f2c31ead2285",
       "filename": "AAM06112_DxO.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-01-20T09:49:50Z",
@@ -7305,7 +7221,7 @@
       "id": "643078ef-69a8-4d91-8652-6ed1e2d84041",
       "filename": "AAM06095_DxO.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-01-20T09:31:44Z",
@@ -7331,7 +7247,7 @@
       "id": "395d8364-1139-4ba2-af29-857b76280771",
       "filename": "AAM06286_DxO.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-07-01T11:00:04Z",
@@ -7357,7 +7273,7 @@
       "id": "d2d3d372-52cf-4063-89d4-2e051b05571c",
       "filename": "AAM06382_DxO.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-07-01T11:47:00Z",
@@ -7383,8 +7299,7 @@
       "id": "0eefb2fb-b2c1-4a7a-8ab6-10ea75a2f2e2",
       "filename": "AAM06138_DxO.jpg",
       "genres": [
-        "wildlife",
-        "documentary"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-01-20T10:09:06Z",
@@ -7410,7 +7325,7 @@
       "id": "fbcd31e6-ea0a-4263-88ba-55bc16528cb7",
       "filename": "AAM06434_DxO.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-07-01T11:54:53Z",
@@ -7436,8 +7351,7 @@
       "id": "b83a68d6-7e0d-4892-8bf7-e5b165aff8db",
       "filename": "AAM06473_DxO.jpg",
       "genres": [
-        "wildlife",
-        "documentary"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-11-12T10:10:02Z",
@@ -7463,7 +7377,7 @@
       "id": "476ee8b6-a730-40e2-90db-1b5279e659a1",
       "filename": "AAM06441_DxO.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-07-01T12:01:32Z",
@@ -7489,7 +7403,7 @@
       "id": "ed362a98-462b-492d-8313-cd13c359ce71",
       "filename": "AAM06481_DxO.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-11-12T10:20:43Z",
@@ -7515,7 +7429,7 @@
       "id": "5dc4dcf3-f575-4e5b-8ac8-2bd03f5ecc41",
       "filename": "AAM06480_DxO.jpg",
       "genres": [
-        "wildlife",
+        "birds-and-wildlife",
         "landscape"
       ],
       "collections": [],
@@ -7542,7 +7456,7 @@
       "id": "e705cd8b-c3f3-425f-9c73-f7d3bbac1246",
       "filename": "AAM06329_DxO.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-07-01T11:19:01Z",
@@ -7568,8 +7482,7 @@
       "id": "b8f64a30-a28f-4095-9374-1e63a7149961",
       "filename": "AAM06484_DxO.jpg",
       "genres": [
-        "wildlife",
-        "documentary"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-11-12T10:21:28Z",
@@ -7595,7 +7508,7 @@
       "id": "a3a84b86-7905-46b6-9b20-0962f4526e41",
       "filename": "AAM06563_DxO.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-12-20T10:07:06Z",
@@ -7621,8 +7534,8 @@
       "id": "bbdf7262-0438-46f1-b620-097b12010d50",
       "filename": "AAM06582_DxO.jpg",
       "genres": [
-        "wildlife",
-        "street"
+        "birds-and-wildlife",
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-12-20T10:11:06Z",
@@ -7648,8 +7561,7 @@
       "id": "99f1800d-55fc-4cd7-9ee9-2ca682a1e41d",
       "filename": "AAM06593_DxO.jpg",
       "genres": [
-        "wildlife",
-        "documentary"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-12-20T10:19:09Z",
@@ -7675,7 +7587,7 @@
       "id": "1a62092a-c76b-42ac-9172-23164a5c5995",
       "filename": "AAM06536_DxO.jpg",
       "genres": [
-        "wildlife",
+        "birds-and-wildlife",
         "landscape"
       ],
       "collections": [],
@@ -7702,8 +7614,7 @@
       "id": "5b6311b5-7b74-474d-9afc-3be7dbedbb2d",
       "filename": "AAM06685.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -7732,7 +7643,7 @@
       "filename": "AAM06646_DxO.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -7788,8 +7699,7 @@
       "filename": "AAM06790.jpg",
       "genres": [
         "black-and-white",
-        "documentary",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-05-12T11:48:59Z",
@@ -7815,8 +7725,7 @@
       "id": "d06f7b90-fb9f-4053-a848-e94ebb2917de",
       "filename": "AAM06788.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-05-12T11:42:49Z",
@@ -7842,8 +7751,7 @@
       "id": "0dada6dd-c81a-4f62-8f75-617cdb35185b",
       "filename": "AAM06717.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-05-11T10:17:23Z",
@@ -7870,8 +7778,7 @@
       "filename": "AAM06746.jpg",
       "genres": [
         "architecture",
-        "black-and-white",
-        "documentary"
+        "black-and-white"
       ],
       "collections": [
         "khulna-university"
@@ -7927,8 +7834,7 @@
       "id": "91291565-83d8-46cb-9aa1-f96920bf6833",
       "filename": "AAM07160_DxO.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -7957,7 +7863,7 @@
       "filename": "AAM07178_DxO.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -8042,8 +7948,7 @@
       "id": "e0d8e4ac-2896-4d61-ae89-44ecb0253639",
       "filename": "AAM07249_DxO.jpg",
       "genres": [
-        "landscape",
-        "documentary"
+        "landscape"
       ],
       "collections": [
         "khulna-university"
@@ -8070,8 +7975,7 @@
       "id": "0677813b-9d85-4678-ba73-bd221b8d1b3b",
       "filename": "AAM07261_DxO.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -8099,7 +8003,7 @@
       "filename": "AAM07264_DxO.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -8126,8 +8030,7 @@
       "id": "6308855b-b3b2-41ff-bdda-8f1953e84d00",
       "filename": "AAM07253_DxO.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -8154,8 +8057,7 @@
       "id": "d4545652-916e-4497-b77e-e1f0c111a2f6",
       "filename": "AAM07283_DxO.jpg",
       "genres": [
-        "street",
-        "documentary",
+        "street-and-documentary",
         "portrait"
       ],
       "collections": [],
@@ -8181,8 +8083,7 @@
       "id": "d625c51e-d114-4bb7-8141-c89774a54317",
       "filename": "AAM07278_DxO.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-06-10T11:49:45Z",
@@ -8234,8 +8135,7 @@
       "id": "3e69baf4-5672-4e32-a9d0-b0c0866dc930",
       "filename": "AAM07608.jpg",
       "genres": [
-        "documentary",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-06-26T11:46:01Z",
@@ -8261,8 +8161,7 @@
       "id": "67ece0b8-c664-4985-80e0-8ad3d6b1c5b4",
       "filename": "AAM07402_DxO.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-06-10T12:54:09Z",
@@ -8315,8 +8214,7 @@
       "id": "ffbb9d37-3eb4-44dd-ae31-f5aa5ae05d82",
       "filename": "AAM07655.jpg",
       "genres": [
-        "documentary",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-06-26T11:49:27Z",
@@ -8343,7 +8241,7 @@
       "filename": "AAM07727.jpg",
       "genres": [
         "still-life",
-        "street",
+        "street-and-documentary",
         "black-and-white"
       ],
       "collections": [
@@ -8372,8 +8270,7 @@
       "id": "9c748085-807e-46fd-980f-5a63bb230e6f",
       "filename": "AAM07625.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-06-26T11:47:56Z",
@@ -8399,8 +8296,7 @@
       "id": "e5119b73-24d3-4f03-aded-0c2d5033806e",
       "filename": "AAM07775.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -8428,9 +8324,8 @@
       "id": "7a5a051a-ac30-4789-99f4-540a269beb7e",
       "filename": "AAM07774.jpg",
       "genres": [
-        "street",
-        "black-and-white",
-        "documentary"
+        "street-and-documentary",
+        "black-and-white"
       ],
       "collections": [
         "khulna-railway-station"
@@ -8458,8 +8353,7 @@
       "id": "9a302e38-3651-4ea6-9cbc-39fcbd283894",
       "filename": "AAM07734.jpg",
       "genres": [
-        "documentary",
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [
         "khulna-railway-station"
@@ -8487,8 +8381,7 @@
       "id": "99521298-5499-4271-abbb-4c9de00c53bd",
       "filename": "AAM07850.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-07-03T23:50:24Z",
@@ -8514,7 +8407,6 @@
       "id": "b7de2e71-36df-47f6-b41f-25ebcd974a18",
       "filename": "AAM07841.jpg",
       "genres": [
-        "documentary",
         "portrait"
       ],
       "collections": [
@@ -8544,8 +8436,7 @@
       "filename": "AAM07840.jpg",
       "genres": [
         "architecture",
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -8573,8 +8464,7 @@
       "id": "44238e3a-39db-4eb0-af08-c87f5d2d8312",
       "filename": "AAM07868.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -8629,8 +8519,7 @@
       "id": "f7404e30-fbbe-4581-a367-3ffda27408ac",
       "filename": "AAM07867.jpg",
       "genres": [
-        "landscape",
-        "documentary"
+        "landscape"
       ],
       "collections": [
         "khulna-university"
@@ -8658,7 +8547,6 @@
       "id": "bbcdfd5a-632c-47be-bd62-b4d6ef7b30e6",
       "filename": "AAM07923.jpg",
       "genres": [
-        "documentary",
         "black-and-white"
       ],
       "collections": [],
@@ -8711,7 +8599,7 @@
       "id": "a68f6ff4-a76a-4bec-846b-c5315a5c2384",
       "filename": "AAM07962.jpg",
       "genres": [
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-07-09T11:16:57Z",
@@ -8817,7 +8705,7 @@
       "id": "4b7e4aae-4183-4a81-80c6-be7e5cb58c48",
       "filename": "AAM08036.jpg",
       "genres": [
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-07-11T10:55:27Z",
@@ -8845,8 +8733,7 @@
       "caption": "বেলা শেষে ঘরে ফেরা",
       "genres": [
         "landscape",
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "featured"
@@ -8874,8 +8761,7 @@
       "id": "2d9b0dd2-e0a9-4379-be30-6b027fcb0a49",
       "filename": "AAM08097.jpg",
       "genres": [
-        "documentary",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-07-11T11:21:01Z",
@@ -8927,7 +8813,6 @@
       "id": "7babc3be-0355-4201-b985-ec744e3be35d",
       "filename": "AAM08107.jpg",
       "genres": [
-        "documentary",
         "portrait"
       ],
       "collections": [],
@@ -8954,7 +8839,7 @@
       "id": "e41bab92-4d1b-47f9-b28a-b987b210fe2c",
       "filename": "AAM08278.jpg",
       "genres": [
-        "food"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2022-07-23T12:52:04Z",
@@ -8981,7 +8866,7 @@
       "filename": "AAM08299.jpg",
       "genres": [
         "architecture",
-        "street",
+        "street-and-documentary",
         "black-and-white"
       ],
       "collections": [
@@ -9011,7 +8896,7 @@
       "filename": "AAM08308.jpg",
       "genres": [
         "architecture",
-        "street",
+        "street-and-documentary",
         "black-and-white"
       ],
       "collections": [
@@ -9040,9 +8925,8 @@
       "id": "746011be-5806-4b1a-b146-0a254e0108c6",
       "filename": "AAM08082.jpg",
       "genres": [
-        "street",
-        "portrait",
-        "documentary"
+        "street-and-documentary",
+        "portrait"
       ],
       "collections": [],
       "taken_at": "2022-07-11T11:14:26Z",
@@ -9068,8 +8952,7 @@
       "id": "14049255-8220-4678-89c2-05ddc4dd57d5",
       "filename": "AAM08381_DxO.jpg",
       "genres": [
-        "flower",
-        "documentary"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2022-12-12T09:25:26Z",
@@ -9122,8 +9005,7 @@
       "filename": "AAM08424_DxO.jpg",
       "genres": [
         "architecture",
-        "black-and-white",
-        "documentary"
+        "black-and-white"
       ],
       "collections": [
         "khulna-university"
@@ -9151,7 +9033,7 @@
       "id": "812ab568-2fd9-4e12-bc2c-d820a2efbc14",
       "filename": "AAMF0073.JPG",
       "genres": [
-        "food"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2023-05-31T11:56:17Z",
@@ -9205,8 +9087,7 @@
       "filename": "AAMF0092.JPG",
       "genres": [
         "architecture",
-        "black-and-white",
-        "documentary"
+        "black-and-white"
       ],
       "collections": [
         "khulna-university"
@@ -9233,7 +9114,7 @@
       "id": "c1fcb91f-8fa6-4f0d-9826-0932a236a67c",
       "filename": "AAM08421_DxO.jpg",
       "genres": [
-        "street",
+        "street-and-documentary",
         "flower"
       ],
       "collections": [],
@@ -9288,7 +9169,7 @@
       "id": "a45018c0-06b9-49b5-9c22-539953d6e608",
       "filename": "AAMF0024.JPG",
       "genres": [
-        "food"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2023-05-25T10:56:40Z",
@@ -9313,8 +9194,7 @@
       "id": "fcb5c0b4-4bcb-4c12-970a-6f54f7a0e5e7",
       "filename": "AAMF0097.JPG",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -9452,9 +9332,9 @@
       "id": "165aaaaa-71f7-432d-b5e3-c90cfca84ebc",
       "filename": "AAM_0417.jpg",
       "genres": [
-        "street",
+        "street-and-documentary",
         "black-and-white",
-        "night"
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2025-12-30T11:41:30Z",
@@ -9480,8 +9360,7 @@
       "id": "b3a16279-5de3-4b90-a3d0-491a67059e82",
       "filename": "AAMF0103.JPG",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -9508,7 +9387,7 @@
       "id": "4a6eee4f-0bc4-4858-8196-56a66e240dfc",
       "filename": "AAMF0766.jpg",
       "genres": [
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -9562,7 +9441,7 @@
       "id": "550af79a-56fc-4b5a-915d-ec19ba0743a5",
       "filename": "AAM_0543.jpg",
       "genres": [
-        "night"
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2026-01-10T12:53:16Z",
@@ -9588,9 +9467,8 @@
       "id": "97542a9a-01a6-46e0-b5dc-9ff1bf1bdcd3",
       "filename": "AAM_0501.jpg",
       "genres": [
-        "night",
-        "street",
-        "documentary"
+        "low-light",
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2026-01-09T11:47:01Z",
@@ -9617,7 +9495,7 @@
       "filename": "AAM_0633.jpg",
       "genres": [
         "landscape",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -9645,7 +9523,7 @@
       "id": "11437487-a6f4-478b-a117-9d20ec9c8499",
       "filename": "AAM_0894.jpg",
       "genres": [
-        "food"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2026-02-03T03:13:51Z",
@@ -9698,8 +9576,8 @@
       "id": "845e4fe2-01ca-413f-86c5-4b077e471a56",
       "filename": "AAM_1475.jpg",
       "genres": [
-        "night",
-        "food"
+        "low-light",
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2026-04-04T09:07:47Z",
@@ -9780,8 +9658,7 @@
       "id": "1c8dead1-c259-4daf-8549-36d4ca55453a",
       "filename": "AAM_1493.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [],
       "taken_at": "2026-04-04T12:01:01Z",
@@ -9807,8 +9684,7 @@
       "id": "19bb8762-cfd3-4360-abd0-7592e8ba4177",
       "filename": "AAM_1619.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -9836,8 +9712,7 @@
       "id": "f3ade03c-6796-4bf8-b9cc-ae6cf545dbb1",
       "filename": "AAM_1643.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -9865,8 +9740,7 @@
       "id": "71e701e1-ebfa-469e-931a-4cdea459e54b",
       "filename": "AAM_1693.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -9894,8 +9768,7 @@
       "id": "e2903218-a48d-410c-8a1c-85053fdf5c85",
       "filename": "AAM_1718.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -9923,8 +9796,7 @@
       "id": "90ebba38-b7e4-40eb-b4e2-7012b0d1d513",
       "filename": "AAM_1731.jpg",
       "genres": [
-        "street",
-        "documentary",
+        "street-and-documentary",
         "portrait"
       ],
       "collections": [
@@ -9953,8 +9825,7 @@
       "id": "79151192-4db4-45f3-9c9a-14611654d3ae",
       "filename": "AAM_1683.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2026-04-14T10:45:11Z",
@@ -9980,8 +9851,7 @@
       "id": "c31f77a3-b661-45db-bd6a-026be1adaa00",
       "filename": "AAM_1714.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -10009,8 +9879,7 @@
       "id": "641b0a9e-0e92-439d-a89c-57789d63b065",
       "filename": "AAM_1751.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -10038,8 +9907,7 @@
       "id": "8c821b8b-7590-405f-8d44-083e1c39720a",
       "filename": "AAM_1756.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -10067,8 +9935,7 @@
       "id": "27889092-9869-4da2-a49b-88ba67ccc364",
       "filename": "AAM_1755.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -10096,8 +9963,7 @@
       "id": "335de2a4-3746-484a-8d3b-6efc666f0e6c",
       "filename": "AAM_2086.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -10238,7 +10104,7 @@
       "id": "41fbb76e-0189-4eef-bec0-300d599332a3",
       "filename": "AAM_2167.jpg",
       "genres": [
-        "food"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2026-05-12T12:51:10Z",
@@ -10265,8 +10131,8 @@
       "filename": "AAM_2209.jpg",
       "genres": [
         "architecture",
-        "night",
-        "street"
+        "low-light",
+        "street-and-documentary"
       ],
       "collections": [
         "artyard-cafe"
@@ -10295,8 +10161,8 @@
       "filename": "AAM_2213.jpg",
       "genres": [
         "architecture",
-        "night",
-        "street"
+        "low-light",
+        "street-and-documentary"
       ],
       "collections": [
         "artyard-cafe"
@@ -10353,9 +10219,8 @@
       "id": "d8a86d12-bf64-4cdc-8442-8dde1a544b1f",
       "filename": "AAM_2171.jpg",
       "genres": [
-        "night",
-        "street",
-        "documentary"
+        "low-light",
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2026-05-13T12:31:10Z",
@@ -10381,7 +10246,7 @@
       "id": "c25e89c5-05b4-4434-9292-2a62620fa7a5",
       "filename": "ACS_0011.jpg",
       "genres": [
-        "food"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2023-12-22T10:48:49Z",
@@ -10407,8 +10272,7 @@
       "id": "a072726d-bf75-480d-a9b2-bc7f2c6a2f8e",
       "filename": "ACS_0008.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -10462,7 +10326,7 @@
       "filename": "APC_0190-hdr.jpg",
       "genres": [
         "landscape",
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [
         "khulna-university"
@@ -10518,8 +10382,7 @@
       "id": "bb8bb1bd-7d7c-4636-9d9e-b02741b43f94",
       "filename": "ACS_0028.jpg",
       "genres": [
-        "documentary",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2025-06-07T04:54:54Z",
@@ -10545,7 +10408,7 @@
       "id": "cfc9ab60-f29e-4357-9c65-a211cceee427",
       "filename": "April_2022_04_13_0016.jpg",
       "genres": [
-        "food"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2022-04-13T13:11:58Z",
@@ -10571,8 +10434,7 @@
       "id": "083c1758-5a89-423f-a2d2-845f871ac0ef",
       "filename": "APC_0212-hdr.jpg",
       "genres": [
-        "landscape",
-        "documentary"
+        "landscape"
       ],
       "collections": [],
       "taken_at": "2020-01-01T11:17:24Z",
@@ -10624,7 +10486,7 @@
       "id": "8ff0866b-f180-444a-907c-7115513341ff",
       "filename": "B08A6D6A-63E3-4B89-B09F-8350D072A86A-5345-0000048CBE7FA010.jpg",
       "genres": [
-        "food"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2022-01-29T15:14:20Z",
@@ -10650,8 +10512,7 @@
       "id": "7ea464c2-c88e-4a95-a1df-825f1baa5cd6",
       "filename": "DSC00430.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -10707,8 +10568,7 @@
       "id": "68e36cce-4b66-4e72-8107-6113fb99dbfa",
       "filename": "DSC00413.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -10737,7 +10597,7 @@
       "filename": "CFF0792C-E183-4881-B987-D2E7ACF68FBA-333-000000DDEB11E4BE.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -10794,10 +10654,9 @@
       "id": "6bc6fcd5-e27f-456a-8a6b-07101bf38235",
       "filename": "DSC00854-ARW_DxO_DeepPRIME.jpg",
       "genres": [
-        "night",
-        "street",
-        "black-and-white",
-        "documentary"
+        "low-light",
+        "street-and-documentary",
+        "black-and-white"
       ],
       "collections": [
         "khulna-railway-station"
@@ -10827,7 +10686,7 @@
       "genres": [
         "architecture",
         "black-and-white",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-06-20T17:05:07Z",
@@ -10852,8 +10711,7 @@
       "id": "55811f63-0a21-4dcc-9964-9b69cbc2aa97",
       "filename": "DSCF0017 7 Edited.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-06-20T17:02:27Z",
@@ -10932,8 +10790,8 @@
       "id": "6a6d3c05-529c-4874-9a28-e01fb11e6355",
       "filename": "DSCF0072.jpg",
       "genres": [
-        "night",
-        "street",
+        "low-light",
+        "street-and-documentary",
         "black-and-white"
       ],
       "collections": [],
@@ -10986,7 +10844,7 @@
       "id": "8599cc7a-d94b-438f-b180-680535b2a27d",
       "filename": "DSCF0136_DxO.jpg",
       "genres": [
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-10-13T07:08:25Z",
@@ -11067,9 +10925,8 @@
       "id": "f56c106a-af5a-40d6-95f6-be9cee911f0d",
       "filename": "DSCF0233_DxO.jpg",
       "genres": [
-        "street",
-        "night",
-        "documentary"
+        "street-and-documentary",
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2022-10-20T13:03:39Z",
@@ -11123,7 +10980,7 @@
       "id": "baf9a431-ab9e-4c28-a471-3e2384931bb9",
       "filename": "DSCF0251_DxO.jpg",
       "genres": [
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-10-20T13:16:40Z",
@@ -11231,8 +11088,7 @@
       "id": "f43046c2-ed76-4d93-88a9-6b68297e9020",
       "filename": "DSCF0340.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -11288,8 +11144,7 @@
       "filename": "DSCF0151 3 Edited.jpg",
       "genres": [
         "architecture",
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -11343,8 +11198,7 @@
       "filename": "DSCF0348.jpg",
       "genres": [
         "landscape",
-        "black-and-white",
-        "documentary"
+        "black-and-white"
       ],
       "collections": [
         "khulna-university"
@@ -11427,8 +11281,7 @@
       "id": "6f38d519-26f3-427b-b56b-219060c76b00",
       "filename": "DSCF0182.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -11540,8 +11393,7 @@
       "id": "b9d9f258-c367-4cb4-a922-1b5c841969cd",
       "filename": "DSCF0556_DxO.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -11598,7 +11450,7 @@
       "filename": "DSCF0572_DxO.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -11627,7 +11479,7 @@
       "filename": "DSCF0567_DxO.jpg",
       "genres": [
         "architecture",
-        "street",
+        "street-and-documentary",
         "black-and-white"
       ],
       "collections": [
@@ -11656,8 +11508,7 @@
       "id": "a5031385-2fb6-4b7e-887c-95ec030d7574",
       "filename": "DSCF0573.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -11685,8 +11536,7 @@
       "id": "fd946946-1f5e-4e61-9a8d-3470f85be699",
       "filename": "DSCF0559_DxO.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-11-18T10:14:55Z",
@@ -11712,8 +11562,7 @@
       "id": "999281c0-1e4b-4da4-bff6-37525a6f1510",
       "filename": "DSCF0573_DxO.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-11-18T10:28:10Z",
@@ -11739,7 +11588,7 @@
       "id": "1a0e0741-ddb1-48c9-b4b3-a1e3f488cf2d",
       "filename": "DSCF0574_DxO.jpg",
       "genres": [
-        "street",
+        "street-and-documentary",
         "black-and-white",
         "architecture"
       ],
@@ -11767,7 +11616,7 @@
       "id": "f11927b5-3f7a-4616-9901-e90ada87e896",
       "filename": "DSCF0575_DxO.jpg",
       "genres": [
-        "street",
+        "street-and-documentary",
         "architecture"
       ],
       "collections": [],
@@ -11794,7 +11643,7 @@
       "filename": "DSCF0597_DxO.jpg",
       "genres": [
         "portrait",
-        "street",
+        "street-and-documentary",
         "flower"
       ],
       "collections": [],
@@ -11847,8 +11696,7 @@
       "id": "eda4a8d2-1b7b-4c17-9876-0cde71dd23a4",
       "filename": "DSCF0579.jpg",
       "genres": [
-        "landscape",
-        "documentary"
+        "landscape"
       ],
       "collections": [
         "khulna-university"
@@ -11876,8 +11724,7 @@
       "id": "f5da9f5d-c0cf-483c-bd5e-f0fa6195fdba",
       "filename": "DSCF0610_DxO.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-11-18T11:27:07Z",
@@ -11903,9 +11750,8 @@
       "id": "41d6b6f4-c841-4915-9c25-c9dbccd01fdd",
       "filename": "DSCF0676.jpg",
       "genres": [
-        "street",
-        "black-and-white",
-        "documentary"
+        "street-and-documentary",
+        "black-and-white"
       ],
       "collections": [],
       "taken_at": "2022-11-23T10:10:26Z",
@@ -11930,8 +11776,7 @@
       "id": "4cbd1264-dd81-4ef0-8ad2-e6a14a93bbad",
       "filename": "DSCF0699_DxO.jpg",
       "genres": [
-        "black-and-white",
-        "documentary"
+        "black-and-white"
       ],
       "collections": [],
       "taken_at": "2022-11-25T11:05:51Z",
@@ -12039,7 +11884,7 @@
       "filename": "DSCF0719_DxO.jpg",
       "genres": [
         "architecture",
-        "night"
+        "low-light"
       ],
       "collections": [
         "khulna-university"
@@ -12068,7 +11913,7 @@
       "filename": "DSCF0725_DxO.jpg",
       "genres": [
         "architecture",
-        "night"
+        "low-light"
       ],
       "collections": [
         "khulna-university"
@@ -12097,7 +11942,7 @@
       "filename": "DSCF0726_DxO.jpg",
       "genres": [
         "architecture",
-        "night"
+        "low-light"
       ],
       "collections": [
         "khulna-university"
@@ -12125,8 +11970,8 @@
       "id": "af5e9f42-107e-43d0-9162-d0f030376988",
       "filename": "DSCF0715_DxO.jpg",
       "genres": [
-        "night",
-        "street"
+        "low-light",
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -12155,7 +12000,7 @@
       "filename": "DSCF0737_DxO.jpg",
       "genres": [
         "architecture",
-        "night"
+        "low-light"
       ],
       "collections": [
         "khulna-university"
@@ -12183,9 +12028,8 @@
       "id": "c50642b3-f5b5-4c62-a5b6-b2ce9034d6d5",
       "filename": "DSCF0734_DxO.jpg",
       "genres": [
-        "night",
-        "street",
-        "documentary"
+        "low-light",
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -12214,7 +12058,7 @@
       "filename": "DSCF0782.jpg",
       "genres": [
         "landscape",
-        "night"
+        "low-light"
       ],
       "collections": [
         "khulna-university"
@@ -12242,7 +12086,7 @@
       "filename": "DSCF0801.jpg",
       "genres": [
         "architecture",
-        "street",
+        "street-and-documentary",
         "black-and-white"
       ],
       "collections": [
@@ -12270,8 +12114,7 @@
       "id": "c336acb7-ddc0-43b4-9f61-d6bd703ea4fb",
       "filename": "DSCF0762.jpg",
       "genres": [
-        "landscape",
-        "documentary"
+        "landscape"
       ],
       "collections": [
         "khulna-university"
@@ -12326,7 +12169,7 @@
       "id": "05b07b2c-6ce6-4634-8985-81e5601198a3",
       "filename": "DSCF0821 3 Edited.jpg",
       "genres": [
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -12355,7 +12198,7 @@
       "filename": "DSCF0825 4 Edited.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -12384,8 +12227,7 @@
       "filename": "DSCF0877_DxO.jpg",
       "genres": [
         "landscape",
-        "black-and-white",
-        "documentary"
+        "black-and-white"
       ],
       "collections": [
         "khulna-university"
@@ -12443,7 +12285,7 @@
       "filename": "DSCF0896_DxO.jpg",
       "genres": [
         "landscape",
-        "night"
+        "low-light"
       ],
       "collections": [
         "khulna-university"
@@ -12471,8 +12313,7 @@
       "id": "e03ceca0-9004-4cd1-b32b-a9402e525846",
       "filename": "DSCF0833 7 Edited.jpg",
       "genres": [
-        "documentary",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2025-06-07T01:38:29Z",
@@ -12498,8 +12339,7 @@
       "id": "5fa61e16-ba34-4eda-af65-ddc213b45080",
       "filename": "DSCF0913.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-12-29T10:10:49Z",
@@ -12550,7 +12390,7 @@
       "filename": "DSCF0830 5 Edited.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2025-06-07T01:37:40Z",
@@ -12577,8 +12417,7 @@
       "filename": "DSCF0926.jpg",
       "genres": [
         "black-and-white",
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-12-29T10:16:43Z",
@@ -12604,7 +12443,7 @@
       "filename": "DSCF0981.jpg",
       "genres": [
         "architecture",
-        "street",
+        "street-and-documentary",
         "black-and-white"
       ],
       "collections": [
@@ -12633,7 +12472,7 @@
       "filename": "DSCF0990.jpg",
       "genres": [
         "architecture",
-        "street",
+        "street-and-documentary",
         "black-and-white"
       ],
       "collections": [
@@ -12662,7 +12501,7 @@
       "filename": "DSCF0914.jpg",
       "genres": [
         "black-and-white",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-12-29T10:11:55Z",
@@ -12713,8 +12552,8 @@
       "id": "a4a6439e-195b-44a1-a4e3-09615429286b",
       "filename": "DSCF1206.jpg",
       "genres": [
-        "street",
-        "night"
+        "street-and-documentary",
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2025-09-30T12:21:35Z",
@@ -12740,7 +12579,7 @@
       "id": "e0f18e6f-274e-4508-983a-f11df2437531",
       "filename": "DSCF1051.jpg",
       "genres": [
-        "street",
+        "street-and-documentary",
         "architecture"
       ],
       "collections": [],
@@ -12767,8 +12606,7 @@
       "id": "300872eb-bc68-4cde-9007-91974eb33229",
       "filename": "DSCF1516.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "artyard-cafe"
@@ -12905,8 +12743,7 @@
       "id": "d55cf335-c0d3-449a-a863-14427dd2f509",
       "filename": "DSCF6860.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-05-19T10:48:59Z",
@@ -12958,8 +12795,7 @@
       "id": "619e5d96-251f-4935-8c4e-31b5966fb181",
       "filename": "DSCF6990_DxO.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -13068,7 +12904,7 @@
       "filename": "DSCF7109.jpg",
       "genres": [
         "macro",
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-05-23T11:49:30Z",
@@ -13148,7 +12984,7 @@
       "filename": "DSCF7133.jpg",
       "genres": [
         "landscape",
-        "night"
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2022-05-23T12:23:25Z",
@@ -13174,8 +13010,7 @@
       "id": "9c7e097c-404a-41b8-8df2-7da5f6dced5a",
       "filename": "DSCF7220_DxO.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-railway-station"
@@ -13204,7 +13039,7 @@
       "filename": "DSCF7218_DxO.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -13233,7 +13068,7 @@
       "filename": "DSCF7189.jpg",
       "genres": [
         "macro",
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-05-24T11:38:01Z",
@@ -13260,7 +13095,7 @@
       "filename": "DSCF7162.jpg",
       "genres": [
         "architecture",
-        "street",
+        "street-and-documentary",
         "black-and-white"
       ],
       "collections": [
@@ -13290,8 +13125,7 @@
       "filename": "DSCF7221_DxO.jpg",
       "genres": [
         "architecture",
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -13320,7 +13154,7 @@
       "filename": "DSCF7256_DxO.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -13348,7 +13182,7 @@
       "id": "11cb27f5-e554-435b-9be0-14e67da3ecb7",
       "filename": "DSCF7285_DxO.jpg",
       "genres": [
-        "night"
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2022-05-26T13:25:28Z",
@@ -13375,8 +13209,7 @@
       "filename": "DSCF7238_DxO.jpg",
       "genres": [
         "architecture",
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -13404,8 +13237,7 @@
       "id": "8e2b1401-e29b-48a8-9d0a-912e86a3f650",
       "filename": "DSCF7302_DxO.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-05-28T11:54:01Z",
@@ -13430,8 +13262,7 @@
       "id": "82f7df3d-e7ba-427b-bf20-46ade294ff8b",
       "filename": "DSCF7236_DxO.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -13459,8 +13290,7 @@
       "id": "b8a0e292-d1c6-4482-a671-0f6740cdf33a",
       "filename": "DSCF7322_DxO.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-05-28T11:57:46Z",
@@ -13485,8 +13315,7 @@
       "id": "ec42aa44-0ba7-44f0-b403-0bc7c081ee29",
       "filename": "DSCF7516_DxO.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -13514,8 +13343,7 @@
       "id": "f2928d29-7834-4cdc-8526-4a6cc8430c05",
       "filename": "DSCF7562_DxO.jpg",
       "genres": [
-        "food",
-        "documentary"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2022-06-11T10:49:14Z",
@@ -13542,8 +13370,7 @@
       "filename": "DSCF7574_DxO.jpg",
       "genres": [
         "black-and-white",
-        "documentary",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-06-11T11:04:47Z",
@@ -13569,8 +13396,7 @@
       "id": "20133849-3795-4b31-afce-86ba3d5f4d46",
       "filename": "DSCF7550_DxO.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -13599,8 +13425,8 @@
       "filename": "DSCF7615_DxO.jpg",
       "genres": [
         "architecture",
-        "night",
-        "street"
+        "low-light",
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -13628,8 +13454,7 @@
       "id": "aa207afe-e9a8-448f-b762-05f5295df9e3",
       "filename": "DSCF7339_DxO.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-05-28T12:28:39Z",
@@ -13654,8 +13479,7 @@
       "id": "56de8987-8c2c-4980-9e38-a311f9a59cab",
       "filename": "DSCF7627_DxO.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -13683,8 +13507,7 @@
       "id": "be92494c-10f6-441b-abaf-2d63ad95473c",
       "filename": "DSCF7340_DxO.jpg",
       "genres": [
-        "street",
-        "documentary",
+        "street-and-documentary",
         "portrait"
       ],
       "collections": [],
@@ -13710,8 +13533,7 @@
       "id": "a0e848f8-9175-4f11-8df8-6930aae670ae",
       "filename": "DSCF7797_DxO.jpg",
       "genres": [
-        "street",
-        "documentary",
+        "street-and-documentary",
         "landscape"
       ],
       "collections": [],
@@ -13738,8 +13560,7 @@
       "id": "b7997542-2a0c-42e2-9a8f-6994995ce6e3",
       "filename": "DSCF7745_DxO.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [],
       "taken_at": "2022-06-17T11:47:45Z",
@@ -13765,8 +13586,7 @@
       "id": "22f7696e-0bb8-4052-9d77-fd56a1e823a2",
       "filename": "DSCF7838_DxO 9 Edited.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -13795,7 +13615,7 @@
       "filename": "DSCF7842_DxO 10 Edited.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -13823,8 +13643,7 @@
       "id": "f7aa0616-33b9-4d1b-8c85-4a5ddab3999b",
       "filename": "DSCF7846_DxO 11 Edited.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -13852,8 +13671,7 @@
       "id": "caad1f1b-6503-4463-88ae-fc9f84bd8b82",
       "filename": "DSCF7871.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -13881,8 +13699,7 @@
       "id": "13b64540-645c-45e8-8006-e0c2aebaf855",
       "filename": "DSCF7875.jpg",
       "genres": [
-        "street",
-        "documentary",
+        "street-and-documentary",
         "portrait"
       ],
       "collections": [],
@@ -13910,7 +13727,7 @@
       "filename": "DSCF7868.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -13938,7 +13755,7 @@
       "id": "a7a5d3ac-6185-435a-9cba-3659cf4dbb2e",
       "filename": "DSCF7780_DxO.jpg",
       "genres": [
-        "street",
+        "street-and-documentary",
         "architecture"
       ],
       "collections": [],
@@ -13965,7 +13782,6 @@
       "id": "40886ee9-dab5-44bb-8560-6233507c29a2",
       "filename": "DSCF7884.jpg",
       "genres": [
-        "documentary",
         "landscape"
       ],
       "collections": [],
@@ -13992,8 +13808,7 @@
       "id": "eb0f8967-afc5-437f-b59c-e0d733837de2",
       "filename": "DSCF7910.jpg",
       "genres": [
-        "documentary",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-06-24T11:52:35Z",
@@ -14019,8 +13834,7 @@
       "id": "81c0dba9-a4ad-4089-9419-4eed7ad59810",
       "filename": "DSCF7924.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-06-24T11:53:29Z",
@@ -14046,8 +13860,7 @@
       "id": "04f30ebc-dc54-4d96-9551-9cdb4039224d",
       "filename": "DSCF7886.jpg",
       "genres": [
-        "documentary",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-06-24T11:41:01Z",
@@ -14073,8 +13886,7 @@
       "id": "cb40a2d6-52ed-4d89-913d-668cd16793b1",
       "filename": "DSCF7933.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-06-24T11:56:17Z",
@@ -14129,9 +13941,9 @@
       "id": "d3fd2e9c-6de6-4f41-8e97-ba16b7f13aaf",
       "filename": "DSCF7946.jpg",
       "genres": [
-        "street",
+        "street-and-documentary",
         "black-and-white",
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [
         "khulna-railway-station"
@@ -14189,7 +14001,7 @@
       "filename": "DSCF8026.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -14246,8 +14058,7 @@
       "id": "d1cc07af-fb9e-4397-a799-a5c929669c71",
       "filename": "DSCF7968.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -14304,8 +14115,7 @@
       "id": "37fe5754-724b-4ac7-a1cc-d598ca7cb484",
       "filename": "DSCF8058.jpg",
       "genres": [
-        "landscape",
-        "documentary"
+        "landscape"
       ],
       "collections": [
         "khulna-university"
@@ -14334,7 +14144,7 @@
       "filename": "DSCF8101.jpg",
       "genres": [
         "still-life",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -14417,7 +14227,7 @@
       "id": "fbf14c08-54ff-4c95-86e8-9c05aeaef8ca",
       "filename": "DSCF8549_DxO.jpg",
       "genres": [
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-10-01T11:16:45Z",
@@ -14606,8 +14416,7 @@
       "id": "d1469a63-858f-47e9-b84c-72a9ce756386",
       "filename": "DSCF8615_DxO.jpg",
       "genres": [
-        "portrait",
-        "documentary"
+        "portrait"
       ],
       "collections": [],
       "taken_at": "2022-10-05T11:43:12Z",
@@ -14634,7 +14443,7 @@
       "filename": "DSCF8649.jpg",
       "genres": [
         "still-life",
-        "food"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2022-10-07T12:06:12Z",
@@ -14688,7 +14497,7 @@
       "filename": "DSCF8657.jpg",
       "genres": [
         "still-life",
-        "food"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2022-10-07T12:18:39Z",
@@ -14714,7 +14523,7 @@
       "id": "cfd964de-5ab5-4ea6-9659-36fe90b5bed3",
       "filename": "DSCF8656.jpg",
       "genres": [
-        "food"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2022-10-07T12:10:24Z",
@@ -14740,7 +14549,7 @@
       "id": "0cf37a11-9a90-4a8d-bf26-3f56f4b19ab2",
       "filename": "DSCF8828.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2023-02-11T10:39:46Z",
@@ -14793,8 +14602,7 @@
       "filename": "DSCF8825.jpg",
       "genres": [
         "black-and-white",
-        "wildlife",
-        "documentary"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2023-02-11T10:38:39Z",
@@ -14820,8 +14628,7 @@
       "id": "d9c2a64a-a9b4-40bb-a5ca-0898776db81d",
       "filename": "DSCF9427_DxO.jpg",
       "genres": [
-        "food",
-        "documentary"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2023-03-27T12:16:43Z",
@@ -14847,8 +14654,7 @@
       "id": "77a17fdd-8fd3-4d98-a519-93785ca789c1",
       "filename": "DSCF9620.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2023-07-04T11:10:30Z",
@@ -14874,9 +14680,8 @@
       "id": "2d6bd64e-7cf7-4be7-98ce-7b2683755372",
       "filename": "DSCF9490 1 Edited.jpg",
       "genres": [
-        "street",
-        "black-and-white",
-        "documentary"
+        "street-and-documentary",
+        "black-and-white"
       ],
       "collections": [],
       "taken_at": "2023-05-11T10:39:38Z",
@@ -14902,7 +14707,7 @@
       "id": "5acb42f0-23cd-4a0a-ad0b-0963c9b1d328",
       "filename": "DSCF9631.jpg",
       "genres": [
-        "food"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2023-07-04T12:19:10Z",
@@ -14930,7 +14735,7 @@
       "genres": [
         "architecture",
         "black-and-white",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2023-05-11T10:44:38Z",
@@ -14982,7 +14787,7 @@
       "id": "3fa5c5c7-9d61-4b5a-867c-79c048eb0aca",
       "filename": "F3B0FA90-A86F-4C6D-A9FB-C7721A886899.jpg",
       "genres": [
-        "food"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2019-12-07T08:26:52Z",
@@ -15061,7 +14866,7 @@
       "filename": "FvpB2qc-0_21sizeoriginal.jpg",
       "genres": [
         "landscape",
-        "night"
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2021-10-29T11:07:02Z",
@@ -15141,8 +14946,8 @@
       "id": "6804d23b-3ea7-4454-a993-c334a013fd94",
       "filename": "IMG_0779.jpg",
       "genres": [
-        "night",
-        "street"
+        "low-light",
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2019-12-26T12:46:43Z",
@@ -15169,7 +14974,7 @@
       "filename": "IMG_0456.jpg",
       "genres": [
         "architecture",
-        "night"
+        "low-light"
       ],
       "collections": [
         "khulna-university"
@@ -15198,7 +15003,7 @@
       "filename": "IMG_0847.JPG",
       "genres": [
         "architecture",
-        "street",
+        "street-and-documentary",
         "landscape"
       ],
       "collections": [],
@@ -15226,7 +15031,7 @@
       "genres": [
         "architecture",
         "black-and-white",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2024-12-20T10:26:41Z",
@@ -15251,8 +15056,8 @@
       "id": "b0a84aab-b85d-4d77-9fca-2fb4f24853c4",
       "filename": "IMG_0822.jpg",
       "genres": [
-        "night",
-        "street"
+        "low-light",
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2019-12-26T13:48:14Z",
@@ -15278,8 +15083,7 @@
       "id": "c117e0a1-2d12-4f3f-9d55-2a35d8dd1d87",
       "filename": "IMG_0850.JPG",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [],
       "taken_at": "2024-12-20T10:14:31Z",
@@ -15305,7 +15109,7 @@
       "filename": "IMG_0845.JPG",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2024-12-20T10:26:49Z",
@@ -15330,7 +15134,7 @@
       "id": "67f137c8-8f35-4ffc-8888-67518bd5597f",
       "filename": "IMG_1696.jpg",
       "genres": [
-        "street",
+        "street-and-documentary",
         "landscape"
       ],
       "collections": [],
@@ -15357,8 +15161,7 @@
       "id": "12fa90ca-7ea1-4866-8d6a-cfb7f9ec3fef",
       "filename": "IMG_1852.jpg",
       "genres": [
-        "landscape",
-        "documentary"
+        "landscape"
       ],
       "collections": [],
       "taken_at": "2019-12-31T11:09:19Z",
@@ -15385,7 +15188,7 @@
       "filename": "IMG_1795.jpg",
       "genres": [
         "landscape",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2019-12-31T10:45:06Z",
@@ -15412,7 +15215,7 @@
       "filename": "IMG_1974.jpg",
       "genres": [
         "landscape",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2020-01-01T10:58:41Z",
@@ -15439,7 +15242,7 @@
       "filename": "IMG_1863.jpg",
       "genres": [
         "landscape",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2019-12-31T11:11:05Z",
@@ -15466,7 +15269,7 @@
       "filename": "IMG_2021_09_05_1487-CR3_DxO_DeepPRIME.jpg",
       "genres": [
         "black-and-white",
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-09-05T11:37:04Z",
@@ -15492,7 +15295,7 @@
       "id": "ad210871-642e-4abf-b982-77b127906689",
       "filename": "IMG_2021_09_05_1447-CR3_DxO_DeepPRIME.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-09-05T11:23:57Z",
@@ -15519,7 +15322,7 @@
       "filename": "IMG_2021_09_07_1655-CR3_DxO_DeepPRIME.jpg",
       "genres": [
         "black-and-white",
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-09-07T04:35:44Z",
@@ -15589,7 +15392,7 @@
       "filename": "IMG_2021_09_07_1661-CR3_DxO_DeepPRIME.jpg",
       "genres": [
         "black-and-white",
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-09-07T04:36:52Z",
@@ -15689,8 +15492,8 @@
       "id": "b6b61495-64eb-46e1-b827-04098d99815b",
       "filename": "May_2022_05_07_0007.jpg",
       "genres": [
-        "food",
-        "night"
+        "food-related",
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2022-05-07T12:31:18Z",
@@ -15743,8 +15546,7 @@
       "id": "aa3442f3-c0b7-43d1-a3ab-f1ffc6fc7aea",
       "filename": "May_2022_05_07_0083.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-university"
@@ -15802,7 +15604,7 @@
       "filename": "May_2022_05_07_0074.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -15830,9 +15632,8 @@
       "id": "192a940b-63db-4ce8-a583-cecfaaa372c8",
       "filename": "May_2022_05_08_0127.jpg",
       "genres": [
-        "food",
-        "street",
-        "documentary"
+        "food-related",
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-05-08T12:03:02Z",
@@ -15859,8 +15660,7 @@
       "filename": "May_2022_05_29_0239.jpg",
       "genres": [
         "black-and-white",
-        "documentary",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-05-29T12:02:40Z",
@@ -15886,8 +15686,7 @@
       "id": "a8d16a89-bb59-4335-a3f1-31c348cd0ab9",
       "filename": "May_2022_05_08_0130.jpg",
       "genres": [
-        "documentary",
-        "street",
+        "street-and-documentary",
         "portrait"
       ],
       "collections": [],
@@ -15915,8 +15714,7 @@
       "filename": "May_2022_05_29_0300.jpg",
       "genres": [
         "architecture",
-        "black-and-white",
-        "documentary"
+        "black-and-white"
       ],
       "collections": [
         "khulna-railway-station"
@@ -15944,8 +15742,7 @@
       "id": "a9162e3c-2bd8-4501-9fab-c910bc741bba",
       "filename": "May_2022_05_08_0145.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [
         "khulna-railway-station"
@@ -16032,9 +15829,8 @@
       "id": "4b4c2482-06db-4aa0-bbef-a82ce2cab9cf",
       "filename": "May_2022_05_29_0301.jpg",
       "genres": [
-        "street",
-        "black-and-white",
-        "documentary"
+        "street-and-documentary",
+        "black-and-white"
       ],
       "collections": [
         "khulna-railway-station"
@@ -16117,7 +15913,7 @@
       "filename": "May_2022_05_07_0086.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -16145,7 +15941,7 @@
       "id": "af828a0a-da6d-43f3-a525-ca03ef73571f",
       "filename": "51431126135.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-08-20T08:48:40Z",
@@ -16199,7 +15995,7 @@
       "id": "6cf2e663-cc12-46f5-a772-5f881a99dd7c",
       "filename": "51694648896.jpg",
       "genres": [
-        "wildlife",
+        "birds-and-wildlife",
         "landscape"
       ],
       "collections": [],
@@ -16228,7 +16024,7 @@
       "caption": "একাকী দুপুর",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "featured"
@@ -16285,7 +16081,7 @@
       "id": "487f96cd-cfd5-4733-a8db-f96d30c5eccd",
       "filename": "51857341446.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-11-23T10:17:01Z",
@@ -16311,9 +16107,8 @@
       "id": "151a7b6d-1a0e-4cf5-a48c-873c6214ae69",
       "filename": "51803420886.jpg",
       "genres": [
-        "street",
-        "food",
-        "documentary"
+        "street-and-documentary",
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2022-01-06T12:25:20Z",
@@ -16339,8 +16134,8 @@
       "id": "c17093ba-30e8-4ffc-a795-80e851b6ccfa",
       "filename": "51812246286.jpg",
       "genres": [
-        "street",
-        "night"
+        "street-and-documentary",
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2022-01-10T12:37:06Z",
@@ -16367,8 +16162,7 @@
       "filename": "51964594380.jpg",
       "genres": [
         "black-and-white",
-        "documentary",
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [
         "khulna-university"
@@ -16396,8 +16190,7 @@
       "id": "4ea8dd05-5679-4f80-9475-045811dfb380",
       "filename": "51922411540.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-03-06T10:58:03Z",
@@ -16478,8 +16271,7 @@
       "id": "d1d3c9e5-9823-4195-ba68-5590b163ad0a",
       "filename": "51970024622.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [],
       "taken_at": "2022-03-30T11:30:17Z",
@@ -16535,7 +16327,7 @@
       "filename": "AAM00491.jpg",
       "genres": [
         "architecture",
-        "street",
+        "street-and-documentary",
         "black-and-white"
       ],
       "collections": [],
@@ -16561,8 +16353,7 @@
       "id": "3fee348e-0ad5-4004-9c59-dd0a398cd13c",
       "filename": "AAM00352.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "july-reovolution"
@@ -16590,8 +16381,7 @@
       "filename": "AAM00373.jpg",
       "caption": "দুর্গম গিরি, কান্তার মরু...",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "july-reovolution",
@@ -16619,7 +16409,7 @@
       "id": "c0a08712-258d-40f0-986e-3c95087fa593",
       "filename": "AAM00910.jpg",
       "genres": [
-        "food"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2025-10-27T09:23:59Z",
@@ -16645,7 +16435,7 @@
       "id": "d897a94d-0070-4f41-b479-82fe45b403df",
       "filename": "AAM00515.jpg",
       "genres": [
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2025-09-21T11:22:24Z",
@@ -16752,7 +16542,7 @@
       "filename": "AAM01033.jpg",
       "genres": [
         "architecture",
-        "night"
+        "low-light"
       ],
       "collections": [
         "khulna-university"
@@ -16781,7 +16571,7 @@
       "filename": "AAM05828_DxO.jpg",
       "caption": "মাছরাঙা",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [
         "featured"
@@ -16893,8 +16683,7 @@
       "id": "709b1051-e1a6-458f-a556-977168d6148e",
       "filename": "AAM06518_DxO.jpg",
       "genres": [
-        "wildlife",
-        "documentary"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-11-12T10:27:00Z",
@@ -16920,7 +16709,7 @@
       "id": "93bfa093-8cca-4a69-a925-7cd1afe4aab1",
       "filename": "AAM07022.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [
         "khulna-university"
@@ -16978,7 +16767,7 @@
       "filename": "AAM07762.jpg",
       "genres": [
         "architecture",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -17006,7 +16795,7 @@
       "id": "bd5e3147-adde-4fde-9d46-d6acea7b123c",
       "filename": "AAM07986.jpg",
       "genres": [
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-07-09T11:34:51Z",
@@ -17033,7 +16822,7 @@
       "filename": "AAM06534_DxO.jpg",
       "genres": [
         "landscape",
-        "night"
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2022-11-16T10:42:11Z",
@@ -17085,8 +16874,7 @@
       "id": "749b737a-a103-4e28-be82-cea14ebe8c71",
       "filename": "AAM07641.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-06-26T11:48:49Z",
@@ -17112,8 +16900,8 @@
       "id": "eabcbbe9-d67d-4fee-aeae-3264d86bf377",
       "filename": "AAM_1478.jpg",
       "genres": [
-        "food",
-        "night"
+        "food-related",
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2026-04-04T09:20:17Z",
@@ -17139,8 +16927,7 @@
       "id": "ed1e245d-01ee-4fa4-bd4f-347b548c9e13",
       "filename": "AAM_1651.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -17168,8 +16955,7 @@
       "id": "9398b9e5-8067-4146-a523-a59a2ff3401e",
       "filename": "AAM_1894.jpg",
       "genres": [
-        "architecture",
-        "documentary"
+        "architecture"
       ],
       "collections": [],
       "taken_at": "2026-04-17T12:24:58Z",
@@ -17196,9 +16982,8 @@
       "filename": "AAM_0411.jpg",
       "caption": "কর্ম ব্যস্ততা",
       "genres": [
-        "street",
-        "documentary",
-        "food"
+        "street-and-documentary",
+        "food-related"
       ],
       "collections": [
         "featured"
@@ -17278,8 +17063,7 @@
       "id": "9cea2e30-4b1d-4e6b-8e4b-acdd26ba0e30",
       "filename": "DSCF0098_DxO.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-10-11T11:44:04Z",
@@ -17306,7 +17090,7 @@
       "filename": "DSCF0367.jpg",
       "genres": [
         "still-life",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -17334,7 +17118,7 @@
       "filename": "DSCF0570_DxO.jpg",
       "genres": [
         "architecture",
-        "street",
+        "street-and-documentary",
         "black-and-white"
       ],
       "collections": [
@@ -17391,7 +17175,7 @@
       "filename": "DSCF0580.jpg",
       "genres": [
         "landscape",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -17447,7 +17231,7 @@
       "filename": "DSCF1041.jpg",
       "genres": [
         "architecture",
-        "night"
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2025-08-09T11:44:42Z",
@@ -17473,8 +17257,7 @@
       "id": "32ebf279-62ae-4be9-8e1f-af42c3e60781",
       "filename": "DSCF1520.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "artyard-cafe"
@@ -17503,8 +17286,7 @@
       "filename": "DSCF0717_DxO.jpg",
       "genres": [
         "architecture",
-        "night",
-        "documentary"
+        "low-light"
       ],
       "collections": [
         "khulna-university"
@@ -17532,8 +17314,7 @@
       "id": "42b3531a-88f5-4a1c-8c24-0b7682efdb51",
       "filename": "DSCF7299_DxO.jpg",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-05-28T11:51:16Z",
@@ -17586,8 +17367,7 @@
       "id": "e4e7f0cc-bd9a-4e56-b7a2-fc284741050e",
       "filename": "DSCF7995.jpg",
       "genres": [
-        "flower",
-        "documentary"
+        "flower"
       ],
       "collections": [],
       "taken_at": "2022-06-30T00:11:06Z",
@@ -17613,7 +17393,7 @@
       "id": "a6fb6ae3-737e-4862-acbb-aa14ad47fb1a",
       "filename": "DSCF6993_DxO.jpg",
       "genres": [
-        "food"
+        "food-related"
       ],
       "collections": [],
       "taken_at": "2022-05-21T12:33:32Z",
@@ -17639,7 +17419,7 @@
       "filename": "DSCF8624_DxO.jpg",
       "genres": [
         "architecture",
-        "night",
+        "low-light",
         "black-and-white"
       ],
       "collections": [
@@ -17668,7 +17448,6 @@
       "filename": "DSCF9035_DxO.jpg",
       "genres": [
         "black-and-white",
-        "documentary",
         "architecture"
       ],
       "collections": [],
@@ -17696,8 +17475,7 @@
       "filename": "DSCF7931.jpg",
       "caption": "উচ্ছল শৈশব",
       "genres": [
-        "street",
-        "documentary"
+        "street-and-documentary"
       ],
       "collections": [
         "featured"
@@ -17779,7 +17557,7 @@
       "filename": "DSCF9501 5 Edited.jpg",
       "genres": [
         "architecture",
-        "night"
+        "low-light"
       ],
       "collections": [],
       "taken_at": "2023-05-11T10:55:41Z",
@@ -17805,7 +17583,7 @@
       "id": "0e534640-1822-4606-9528-9c150b65d2ab",
       "filename": "IMG_2021_09_04_1354-CR3_DxO_DeepPRIME.jpg",
       "genres": [
-        "wildlife"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2021-09-04T11:42:06Z",
@@ -17831,7 +17609,7 @@
       "id": "b121889d-50dd-41c1-acee-3eddebc1e1f3",
       "filename": "DSCF7765_DxO.jpg",
       "genres": [
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-06-17T12:02:58Z",
@@ -17857,8 +17635,7 @@
       "id": "63e7d244-5ee4-4bb0-aa6d-59ffdcb54618",
       "filename": "May_2022_05_08_0138.jpg",
       "genres": [
-        "documentary",
-        "street"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-05-08T12:00:14Z",
@@ -17884,7 +17661,7 @@
       "id": "b263e331-c109-44ca-a971-55b4442370e5",
       "filename": "IMG_1785.jpg",
       "genres": [
-        "street",
+        "street-and-documentary",
         "landscape"
       ],
       "collections": [],
@@ -17982,13 +17759,13 @@
       "cover": "99dc454b-be1d-4b50-8c1c-27648ec7a470"
     },
     {
-      "slug": "night",
-      "name": "নাইট",
+      "slug": "low-light",
+      "name": "লো লাইট",
       "cover": "cb68590c-eac8-4ad9-86f8-06b3a89ca1f1"
     },
     {
-      "slug": "street",
-      "name": "স্ট্রিট",
+      "slug": "street-and-documentary",
+      "name": "স্ট্রিট অ্যান্ড ডকুমেন্টারি",
       "cover": "fe778eda-a310-4625-9d51-1dbbdd7a3e67",
       "order": [
         "fe778eda-a310-4625-9d51-1dbbdd7a3e67",
@@ -18234,8 +18011,8 @@
       "cover": "04dd312a-38d4-487f-9bff-29b71592dc5e"
     },
     {
-      "slug": "wildlife",
-      "name": "ওয়াইল্ডলাইফ",
+      "slug": "birds-and-wildlife",
+      "name": "বার্ডস অ্যান্ড ওয়াইল্ডলাইফ",
       "cover": "cd46262c-1d24-44fa-b478-b4e362778c4f"
     },
     {
@@ -18244,8 +18021,8 @@
       "cover": "7babc3be-0355-4201-b985-ec744e3be35d"
     },
     {
-      "slug": "food",
-      "name": "ফুড",
+      "slug": "food-related",
+      "name": "ফুড রিলেটেড",
       "cover": "c25e89c5-05b4-4434-9292-2a62620fa7a5"
     },
     {
