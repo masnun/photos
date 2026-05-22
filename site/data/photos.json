@@ -618,35 +618,6 @@
       "source_hash": "736f607c02f32190b1bcafad35dc35456d538c21d723c672c201b082d3373adb"
     },
     {
-      "id": "8a4cdb0d-05ef-4f10-8f53-5cee016d744f",
-      "filename": "20230720_180724.jpg",
-      "genres": [
-        "architecture",
-        "landscape"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2023-07-20T12:07:25Z",
-      "uploaded_at": "2026-05-21T14:30:36.90468Z",
-      "width": 8154,
-      "height": 6116,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/8a4cdb0d-05ef-4f10-8f53-5cee016d744f/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/8a4cdb0d-05ef-4f10-8f53-5cee016d744f/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/8a4cdb0d-05ef-4f10-8f53-5cee016d744f/full.jpg"
-      },
-      "exif": {
-        "camera": "samsung Galaxy S23 Ultra",
-        "lens": "Samsung Galaxy S23 Ultra Rear Wide Camera",
-        "iso": 10,
-        "aperture": "f/1.7",
-        "shutter": "1/440",
-        "focal_length": "6mm"
-      },
-      "source_hash": "fe94aa24c7a2b4696aaae82a02cefa773adb907bbcf9db4e9ca57acda8345322"
-    },
-    {
       "id": "8d71420d-b3eb-4906-b2b0-0fd2447686ea",
       "filename": "51318338290.jpg",
       "genres": [
@@ -782,58 +753,6 @@
         "shutter": "1/1600"
       },
       "source_hash": "714cafa13322fecbf1d7d2f0526253447c25fde87ef4b9c02b4d3f74546539b4"
-    },
-    {
-      "id": "ad4e57eb-db20-4766-b4e8-0d6a5f116811",
-      "filename": "51420095471.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2021-08-28T10:58:38Z",
-      "uploaded_at": "2026-05-21T14:30:41.627572Z",
-      "width": 5252,
-      "height": 3501,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/ad4e57eb-db20-4766-b4e8-0d6a5f116811/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/ad4e57eb-db20-4766-b4e8-0d6a5f116811/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/ad4e57eb-db20-4766-b4e8-0d6a5f116811/full.jpg"
-      },
-      "exif": {
-        "camera": "Canon EOS M50",
-        "lens": "0.0 mm f/0.0",
-        "iso": 200,
-        "shutter": "1/1600"
-      },
-      "source_hash": "cbbd9d654418ab2bd0c30f545fb812ba25cefd5cdfc66fef148d17cffdd0eb0b"
-    },
-    {
-      "id": "487740a2-35f1-4bcb-a7d8-afe210a687e8",
-      "filename": "51419354407.jpg",
-      "genres": [
-        "architecture"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2021-08-28T11:02:02Z",
-      "uploaded_at": "2026-05-21T14:30:43.032394Z",
-      "width": 3999,
-      "height": 5330,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/487740a2-35f1-4bcb-a7d8-afe210a687e8/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/487740a2-35f1-4bcb-a7d8-afe210a687e8/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/487740a2-35f1-4bcb-a7d8-afe210a687e8/full.jpg"
-      },
-      "exif": {
-        "camera": "Canon EOS M50",
-        "lens": "0.0 mm f/0.0",
-        "iso": 100,
-        "shutter": "1/1600"
-      },
-      "source_hash": "19e80812ae49b4e0c11c671c036d11ab847fbbcab2eec6cd69347a9258a21d32"
     },
     {
       "id": "e7b4a02e-e517-4bd1-a4ae-c6a5ef103086",
@@ -1100,34 +1019,6 @@
       "source_hash": "2e0dee044f6c3c45e1d30dd6591075d3301c1d6114c4a66c08c0fb50b7abcce1"
     },
     {
-      "id": "ffa83dcf-627c-4ea6-a6d9-3db96e869a9a",
-      "filename": "51506147077.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2021-09-23T11:22:48Z",
-      "uploaded_at": "2026-05-21T14:31:00.108665Z",
-      "width": 2899,
-      "height": 3865,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/ffa83dcf-627c-4ea6-a6d9-3db96e869a9a/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/ffa83dcf-627c-4ea6-a6d9-3db96e869a9a/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/ffa83dcf-627c-4ea6-a6d9-3db96e869a9a/full.jpg"
-      },
-      "exif": {
-        "camera": "SONY ILCE-7C",
-        "lens": "24-70mm F2.8 DG DN | Art 019",
-        "iso": 100,
-        "aperture": "f/2.8",
-        "shutter": "1/250",
-        "focal_length": "70mm"
-      },
-      "source_hash": "700fecfa46ed75f021b58b3a7681ee746176486b321dd7f44ce701bad97f02e5"
-    },
-    {
       "id": "abc66403-763b-484c-a437-6793ef574596",
       "filename": "51506144667.jpg",
       "genres": [
@@ -1154,34 +1045,6 @@
         "focal_length": "24mm"
       },
       "source_hash": "1447cc06c755fbcf209d03a25c49ddb38ea56080116f565aee83b37e0eff1e37"
-    },
-    {
-      "id": "b2ecd7b4-d9d8-4bf8-a29f-c9170294a772",
-      "filename": "51507182083.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2021-09-23T10:51:36Z",
-      "uploaded_at": "2026-05-21T14:31:01.568554Z",
-      "width": 3924,
-      "height": 5232,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/b2ecd7b4-d9d8-4bf8-a29f-c9170294a772/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/b2ecd7b4-d9d8-4bf8-a29f-c9170294a772/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/b2ecd7b4-d9d8-4bf8-a29f-c9170294a772/full.jpg"
-      },
-      "exif": {
-        "camera": "SONY ILCE-7C",
-        "lens": "24-70mm F2.8 DG DN | Art 019",
-        "iso": 125,
-        "aperture": "f/2.8",
-        "shutter": "1/90",
-        "focal_length": "45mm"
-      },
-      "source_hash": "22441f800af92588448ad3b6ea141ea1d10be963df365e9350798f0449edab00"
     },
     {
       "id": "017716af-5937-44f3-b6c7-df60f643c0b4",
@@ -1486,34 +1349,6 @@
         "focal_length": "24mm"
       },
       "source_hash": "4512bf62de794dc62da414ea73e7f4f6425ea9f75f0a0e9f1d77f24ac91df16f"
-    },
-    {
-      "id": "915d9d94-734f-4b77-a7c7-48ebe0eb7ec9",
-      "filename": "51607101604.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2021-10-19T08:17:32Z",
-      "uploaded_at": "2026-05-21T14:31:18.980768Z",
-      "width": 3976,
-      "height": 2982,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/915d9d94-734f-4b77-a7c7-48ebe0eb7ec9/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/915d9d94-734f-4b77-a7c7-48ebe0eb7ec9/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/915d9d94-734f-4b77-a7c7-48ebe0eb7ec9/full.jpg"
-      },
-      "exif": {
-        "camera": "SONY ILCE-7C",
-        "lens": "24-70mm F2.8 DG DN | Art 019",
-        "iso": 400,
-        "aperture": "f/2.8",
-        "shutter": "1/200",
-        "focal_length": "36mm"
-      },
-      "source_hash": "74718fbc4cf2cb013786fe85ad35b5127a935b0e7dd8641070cc23d8f32bd2b9"
     },
     {
       "id": "771625b5-cdcd-4289-9436-573df110a961",
@@ -2407,36 +2242,6 @@
       "source_hash": "20c69868c3b7277e211985680d645807364e8a1fbe7bdd7a451859c85d2e37fa"
     },
     {
-      "id": "0060a677-7c4d-43f9-b272-e4e2b03354ac",
-      "filename": "51804139990.jpg",
-      "genres": [
-        "architecture",
-        "low-light",
-        "black-and-white"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2022-01-06T12:51:21Z",
-      "uploaded_at": "2026-05-21T14:32:01.026186Z",
-      "width": 5197,
-      "height": 3898,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/0060a677-7c4d-43f9-b272-e4e2b03354ac/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/0060a677-7c4d-43f9-b272-e4e2b03354ac/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/0060a677-7c4d-43f9-b272-e4e2b03354ac/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T3",
-        "lens": "XF23mmF1.4 R",
-        "iso": 1600,
-        "aperture": "f/2.8",
-        "shutter": "1/60",
-        "focal_length": "23mm"
-      },
-      "source_hash": "fdbe8999b5b6a21c8ce2372d0f66ae473dfaf1f264446a0be9bab30fb0c9f475"
-    },
-    {
       "id": "1384ead7-cbb5-405d-8d83-97094ad5cdb0",
       "filename": "51804148755.jpg",
       "genres": [
@@ -3006,35 +2811,6 @@
       "source_hash": "59684c944aa21058d86aa1be53ad35ccf905fae90be603ab2cf742dc1c569a3a"
     },
     {
-      "id": "b4ddf3aa-03f7-49c0-8069-04277dddb4fe",
-      "filename": "51920077703.jpg",
-      "genres": [
-        "low-light",
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2022-03-03T13:26:01Z",
-      "uploaded_at": "2026-05-21T14:32:24.919159Z",
-      "width": 3602,
-      "height": 4802,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/b4ddf3aa-03f7-49c0-8069-04277dddb4fe/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/b4ddf3aa-03f7-49c0-8069-04277dddb4fe/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/b4ddf3aa-03f7-49c0-8069-04277dddb4fe/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "XF18-55mmF2.8-4 R LM OIS",
-        "iso": 10000,
-        "aperture": "f/2.8",
-        "shutter": "1/40",
-        "focal_length": "18mm"
-      },
-      "source_hash": "af408756674d57f86ec5ba8522e3adfcd34e01a8b401c9320dcbc6b3d9ce06cb"
-    },
-    {
       "id": "4ef22c9b-4431-4393-a207-87bbdd372982",
       "filename": "51920095873.jpg",
       "genres": [
@@ -3165,34 +2941,6 @@
         "focal_length": "23mm"
       },
       "source_hash": "6770842e3599be1b95a390c7311a0f143abe9f28ed86fd8565d625665aae7710"
-    },
-    {
-      "id": "060d94f0-f524-441f-aa5d-b097224f7e91",
-      "filename": "51920308639.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2022-03-03T13:31:42Z",
-      "uploaded_at": "2026-05-21T14:32:34.47994Z",
-      "width": 3491,
-      "height": 2618,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/060d94f0-f524-441f-aa5d-b097224f7e91/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/060d94f0-f524-441f-aa5d-b097224f7e91/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/060d94f0-f524-441f-aa5d-b097224f7e91/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "XF18-55mmF2.8-4 R LM OIS",
-        "iso": 12800,
-        "aperture": "f/2.8",
-        "shutter": "1/40",
-        "focal_length": "18mm"
-      },
-      "source_hash": "d98a37b762a2d450bb44fa09a1b06e98b53ebc39c6dab26559b195a8781f64ae"
     },
     {
       "id": "4631d374-fe24-43e8-97e1-306045e6125f",
@@ -3582,34 +3330,6 @@
       "source_hash": "3e919e4ad1c4378ca4b6b3fb2c05473e7b32f6d44278e48cd44c44ed3f9d0dca"
     },
     {
-      "id": "5309e147-1a35-47fc-befe-83a41b599144",
-      "filename": "51964037676.jpg",
-      "genres": [
-        "architecture"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2022-03-27T11:11:40Z",
-      "uploaded_at": "2026-05-21T14:32:47.585754Z",
-      "width": 4124,
-      "height": 5499,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/5309e147-1a35-47fc-befe-83a41b599144/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/5309e147-1a35-47fc-befe-83a41b599144/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/5309e147-1a35-47fc-befe-83a41b599144/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "XF35mmF1.4 R",
-        "iso": 160,
-        "aperture": "f/8.0",
-        "shutter": "1/180",
-        "focal_length": "35mm"
-      },
-      "source_hash": "9e221e48b576b6643e4fc8968dcfb30a3c5d058622f482cd5c5fdb0f75656c9b"
-    },
-    {
       "id": "7b5e4821-35c5-467d-8568-0e23c4fae101",
       "filename": "51964318764.jpg",
       "genres": [
@@ -3801,34 +3521,6 @@
         "focal_length": "35mm"
       },
       "source_hash": "9fbc3a534f062c1a7bf2904f319b4dc739f954e042092492cd18a91b9355ef91"
-    },
-    {
-      "id": "69ab28eb-80f5-4c23-b426-bf712db46ed3",
-      "filename": "AAM00064.jpg",
-      "genres": [
-        "architecture",
-        "black-and-white"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2024-03-27T11:47:29Z",
-      "uploaded_at": "2026-05-21T14:32:59.141334Z",
-      "width": 5054,
-      "height": 6738,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/69ab28eb-80f5-4c23-b426-bf712db46ed3/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/69ab28eb-80f5-4c23-b426-bf712db46ed3/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/69ab28eb-80f5-4c23-b426-bf712db46ed3/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100VI",
-        "iso": 250,
-        "aperture": "f/2.8",
-        "shutter": "1/125",
-        "focal_length": "23mm"
-      },
-      "source_hash": "a0e5eebaa3cbc927b397ce9cafd520b1e01ba8f2fee486ccd0f0e2d531ac1d3b"
     },
     {
       "id": "d2db2c2c-cc38-4624-8e01-22051c0b735e",
@@ -4054,6 +3746,7 @@
       "id": "33a8cfee-4c7d-4307-bac2-4f41f99cd176",
       "filename": "AAM00244.jpg",
       "genres": [
+        "architecture",
         "low-light",
         "street-and-documentary",
         "food-related"
@@ -4140,40 +3833,14 @@
       "source_hash": "53f0b79bb734b7f2a8e0c81373d64014afcb635d66ca2133eee75a29cacfd31d"
     },
     {
-      "id": "da5f185d-b1c9-4064-bdb9-f99a5235aa26",
-      "filename": "AAM00236.jpg",
-      "genres": [
-        "landscape"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2023-07-20T12:10:15Z",
-      "uploaded_at": "2026-05-21T14:33:07.027Z",
-      "width": 4160,
-      "height": 5546,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/da5f185d-b1c9-4064-bdb9-f99a5235aa26/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/da5f185d-b1c9-4064-bdb9-f99a5235aa26/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/da5f185d-b1c9-4064-bdb9-f99a5235aa26/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-Pro3",
-        "lens": "XF35mmF2 R WR",
-        "iso": 160,
-        "aperture": "f/2.8",
-        "shutter": "1/2000",
-        "focal_length": "35mm"
-      },
-      "source_hash": "830c54f4998be9f4b9155dfe53fdae9d928ea88027484f6ebc8ebc44d41075fc"
-    },
-    {
       "id": "393856f8-e236-4c7f-a36c-462422b6736d",
       "filename": "AAM00271.jpg",
       "genres": [
         "architecture"
       ],
-      "collections": [],
+      "collections": [
+        "artyard-cafe"
+      ],
       "taken_at": "2025-09-06T12:12:42Z",
       "uploaded_at": "2026-05-21T14:33:09.277052Z",
       "width": 4139,
@@ -4331,33 +3998,6 @@
         "focal_length": "18mm"
       },
       "source_hash": "f30999aa643488bfdba614376d4e1057b15e72b805c154078170e0b90fe49283"
-    },
-    {
-      "id": "c22fe674-6b80-4255-9f74-213779ca44c5",
-      "filename": "AAM00320.jpg",
-      "genres": [
-        "architecture",
-        "low-light"
-      ],
-      "collections": [],
-      "taken_at": "2025-09-11T12:04:15Z",
-      "uploaded_at": "2026-05-21T14:33:17.468741Z",
-      "width": 4150,
-      "height": 5534,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/c22fe674-6b80-4255-9f74-213779ca44c5/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/c22fe674-6b80-4255-9f74-213779ca44c5/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/c22fe674-6b80-4255-9f74-213779ca44c5/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-M5",
-        "lens": "XF18mmF2 R",
-        "iso": 2500,
-        "aperture": "f/4.0",
-        "shutter": "1/80",
-        "focal_length": "18mm"
-      },
-      "source_hash": "6614b917f9819c97883095ab591b21417b0af0821a4c9c90ddb2667cb96a74dc"
     },
     {
       "id": "c6697744-2991-4a40-a349-c845cf305a2b",
@@ -4880,60 +4520,6 @@
       "source_hash": "ab0e6f5d92bd28b916240a3ece5b327fa2c5765d1451621884e3b4a60c918fb6"
     },
     {
-      "id": "8e599449-b26c-45e3-a4f3-ddf6383e8bc6",
-      "filename": "AAM00432.jpg",
-      "genres": [
-        "landscape",
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2024-08-05T11:57:59Z",
-      "uploaded_at": "2026-05-21T14:33:41.466359Z",
-      "width": 5214,
-      "height": 3910,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/8e599449-b26c-45e3-a4f3-ddf6383e8bc6/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/8e599449-b26c-45e3-a4f3-ddf6383e8bc6/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/8e599449-b26c-45e3-a4f3-ddf6383e8bc6/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100VI",
-        "iso": 200,
-        "aperture": "f/2.0",
-        "shutter": "1/250",
-        "focal_length": "23mm"
-      },
-      "source_hash": "4817947ab4b607ace60be9ebecc9edd7fc0694261afb90d44f2e95f23f3f4721"
-    },
-    {
-      "id": "e3a6966b-f567-49c2-9694-69461e3f1d4a",
-      "filename": "AAM00461.jpg",
-      "genres": [
-        "flower"
-      ],
-      "collections": [],
-      "taken_at": "2025-11-25T03:41:37Z",
-      "uploaded_at": "2026-05-21T14:33:42.733874Z",
-      "width": 2560,
-      "height": 3413,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/e3a6966b-f567-49c2-9694-69461e3f1d4a/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/e3a6966b-f567-49c2-9694-69461e3f1d4a/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/e3a6966b-f567-49c2-9694-69461e3f1d4a/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E5",
-        "lens": "XF23mmF2.8 R WR",
-        "iso": 160,
-        "aperture": "f/2.8",
-        "shutter": "1/1000",
-        "focal_length": "23mm"
-      },
-      "source_hash": "fc67bdea07b0c40e45dca8c7ba4bbbcf0c323d38a52426842f2745a0aa2f4066"
-    },
-    {
       "id": "ad687e3a-9282-40bc-8315-f05ef08a332c",
       "filename": "AAM00402.jpg",
       "genres": [
@@ -4987,34 +4573,6 @@
         "focal_length": "45mm"
       },
       "source_hash": "26a5eb6d0f64deccd3ac2ba8f7aa603027028355d6f1b6de07e77d5cbebfe2ff"
-    },
-    {
-      "id": "24e39989-7884-467b-a92c-b156f505e2b7",
-      "filename": "AAM00413.jpg",
-      "genres": [
-        "architecture",
-        "landscape"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2024-08-05T11:50:30Z",
-      "uploaded_at": "2026-05-21T14:33:45.301026Z",
-      "width": 6835,
-      "height": 5126,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/24e39989-7884-467b-a92c-b156f505e2b7/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/24e39989-7884-467b-a92c-b156f505e2b7/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/24e39989-7884-467b-a92c-b156f505e2b7/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100VI",
-        "iso": 500,
-        "aperture": "f/5.6",
-        "shutter": "1/250",
-        "focal_length": "23mm"
-      },
-      "source_hash": "200b2fbe838634b20132fa1049b79817758ee9b2687db9455473684a4d2d0054"
     },
     {
       "id": "e77ff596-4bb4-4b71-978e-019e0364dc04",
@@ -5237,35 +4795,6 @@
       "source_hash": "53ea4a639e4087cac6b2fe7e0837ba143ff30744664251a20508a5960e8c3c81"
     },
     {
-      "id": "a7b311f1-20fd-410f-8bd0-5c9fc5985308",
-      "filename": "AAM00483.jpg",
-      "genres": [
-        "architecture",
-        "low-light"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2025-11-25T12:33:08Z",
-      "uploaded_at": "2026-05-21T14:33:54.974851Z",
-      "width": 4583,
-      "height": 6111,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/a7b311f1-20fd-410f-8bd0-5c9fc5985308/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/a7b311f1-20fd-410f-8bd0-5c9fc5985308/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/a7b311f1-20fd-410f-8bd0-5c9fc5985308/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E5",
-        "lens": "XF23mmF2.8 R WR",
-        "iso": 6400,
-        "aperture": "f/2.8",
-        "shutter": "1/60",
-        "focal_length": "23mm"
-      },
-      "source_hash": "da0e5976cafca34fe7978447ae1df898170bd7ed4d2fcdd4b96e19b069ce42a9"
-    },
-    {
       "id": "d4b7f282-493b-445f-9873-526e394f350b",
       "filename": "AAM00582.jpg",
       "genres": [
@@ -5322,32 +4851,6 @@
         "focal_length": "21mm"
       },
       "source_hash": "dbfb8c1d695d4349711ba20acc8a9beb86d87c96210ca5ea6a094e0158e99264"
-    },
-    {
-      "id": "5672bb69-70b7-4447-bc7d-4c245df577b7",
-      "filename": "AAM00614.JPG",
-      "genres": [
-        "landscape"
-      ],
-      "collections": [],
-      "taken_at": "2025-09-23T11:54:12Z",
-      "uploaded_at": "2026-05-21T14:33:58.065832Z",
-      "width": 4160,
-      "height": 5547,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/5672bb69-70b7-4447-bc7d-4c245df577b7/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/5672bb69-70b7-4447-bc7d-4c245df577b7/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/5672bb69-70b7-4447-bc7d-4c245df577b7/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-M5",
-        "lens": "XF18mmF2 R",
-        "iso": 1250,
-        "aperture": "f/4.0",
-        "shutter": "1/100",
-        "focal_length": "18mm"
-      },
-      "source_hash": "7e99cc6c4793d4fc9f76f268cdc9b9424e7b863a5416dd4798f6040204a5fe86"
     },
     {
       "id": "d01a539d-859a-4bc6-b40a-c1b6f262d27f",
@@ -5435,8 +4938,8 @@
       "id": "f6c115f3-2d78-455e-b554-34a10618a1ca",
       "filename": "AAM00656.jpg",
       "genres": [
-        "black-and-white",
-        "birds-and-wildlife"
+        "landscape",
+        "black-and-white"
       ],
       "collections": [],
       "taken_at": "2025-10-01T11:40:03Z",
@@ -5484,34 +4987,6 @@
         "focal_length": "23mm"
       },
       "source_hash": "977c613ab10819888e7f138e2159f2eed5485f4fde7dd5b837e67a620ff1f271"
-    },
-    {
-      "id": "96aced09-541b-4dcd-9cfa-3a87475bb497",
-      "filename": "AAM00887.jpg",
-      "genres": [
-        "landscape"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2025-10-27T07:56:49Z",
-      "uploaded_at": "2026-05-21T14:34:02.433623Z",
-      "width": 2969,
-      "height": 3959,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/96aced09-541b-4dcd-9cfa-3a87475bb497/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/96aced09-541b-4dcd-9cfa-3a87475bb497/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/96aced09-541b-4dcd-9cfa-3a87475bb497/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-M5",
-        "lens": "VOIGTLANDER ULTRON 27mm F2",
-        "iso": 80,
-        "aperture": "f/8.0",
-        "shutter": "1/320",
-        "focal_length": "27mm"
-      },
-      "source_hash": "feffcc03718c3e39e8c185149547f004eb720663220ae07c1a1d4be1845cfafb"
     },
     {
       "id": "672cb5bd-e874-4a94-ad92-923a192cb6ef",
@@ -5596,7 +5071,6 @@
       "id": "31f7c09d-da23-4ce1-ac66-596a0560cb17",
       "filename": "AAM00789.jpg",
       "genres": [
-        "architecture",
         "landscape"
       ],
       "collections": [
@@ -5682,9 +5156,7 @@
       "genres": [
         "flower"
       ],
-      "collections": [
-        "khulna-university"
-      ],
+      "collections": [],
       "taken_at": "2025-06-08T10:36:16Z",
       "uploaded_at": "2026-05-21T14:34:10.83669Z",
       "width": 6048,
@@ -5872,33 +5344,6 @@
         "focal_length": "23mm"
       },
       "source_hash": "bf3d71b79767631e7c773b489a620097ca8388675ff38f10de1f9e255fc167f7"
-    },
-    {
-      "id": "60f09add-121b-4010-8f86-b8fd9faacf6a",
-      "filename": "AAM01048.jpg",
-      "genres": [
-        "low-light",
-        "street-and-documentary"
-      ],
-      "collections": [],
-      "taken_at": "2025-11-21T13:47:35Z",
-      "uploaded_at": "2026-05-21T14:34:14.734779Z",
-      "width": 3872,
-      "height": 5162,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/60f09add-121b-4010-8f86-b8fd9faacf6a/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/60f09add-121b-4010-8f86-b8fd9faacf6a/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/60f09add-121b-4010-8f86-b8fd9faacf6a/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-Pro3",
-        "lens": "XF23mmF2 R WR",
-        "iso": 250,
-        "aperture": "f/2.8",
-        "shutter": "1/60",
-        "focal_length": "23mm"
-      },
-      "source_hash": "fdf45a1f78de39a19e1eb1a3111c037ce42530edac78afe4a17d50b37e33b47b"
     },
     {
       "id": "f2f8d256-e405-46c0-8c97-7ff00ccf99d8",
@@ -6209,7 +5654,9 @@
         "architecture",
         "street-and-documentary"
       ],
-      "collections": [],
+      "collections": [
+        "artyard-cafe"
+      ],
       "taken_at": "2025-08-02T09:49:09Z",
       "uploaded_at": "2026-05-21T14:34:32.56125Z",
       "width": 5138,
@@ -6285,7 +5732,9 @@
       "genres": [
         "landscape"
       ],
-      "collections": [],
+      "collections": [
+        "artyard-cafe"
+      ],
       "taken_at": "2025-08-02T09:57:41Z",
       "uploaded_at": "2026-05-21T14:34:36.655967Z",
       "width": 6790,
@@ -6361,7 +5810,9 @@
         "architecture",
         "street-and-documentary"
       ],
-      "collections": [],
+      "collections": [
+        "artyard-cafe"
+      ],
       "taken_at": "2025-08-02T10:05:52Z",
       "uploaded_at": "2026-05-21T14:34:41.225676Z",
       "width": 5152,
@@ -6406,34 +5857,6 @@
       "source_hash": "1101ac0f7488d8abc64b2cfaade117c88d269d22b09865f4932d323971511351"
     },
     {
-      "id": "356e9f01-b858-4dc3-8f1a-fc38bdc80f00",
-      "filename": "AAM01522.jpg",
-      "genres": [
-        "architecture"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2022-01-27T01:17:12Z",
-      "uploaded_at": "2026-05-21T14:34:48.039864Z",
-      "width": 4160,
-      "height": 5547,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/356e9f01-b858-4dc3-8f1a-fc38bdc80f00/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/356e9f01-b858-4dc3-8f1a-fc38bdc80f00/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/356e9f01-b858-4dc3-8f1a-fc38bdc80f00/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T3",
-        "lens": "AF 85/1.8 II XF",
-        "iso": 250,
-        "aperture": "f/1.8",
-        "shutter": "1/250",
-        "focal_length": "85mm"
-      },
-      "source_hash": "004e8a563a24e8ac8a2151c59c03768dbee430f176fcfaa5b0ba872f54a511c5"
-    },
-    {
       "id": "bf282513-5ba6-477d-80f5-1d2a351749a9",
       "filename": "AAM01274.jpg",
       "genres": [
@@ -6464,7 +5887,9 @@
       "genres": [
         "street-and-documentary"
       ],
-      "collections": [],
+      "collections": [
+        "artyard-cafe"
+      ],
       "taken_at": "2025-08-02T09:56:57Z",
       "uploaded_at": "2026-05-21T14:34:48.562498Z",
       "width": 6341,
@@ -6589,35 +6014,6 @@
       "source_hash": "42ebf75a6af461b3b18ce8fe8165e107d1a1a92fa7c12f6789e7181c39a74d5c"
     },
     {
-      "id": "95f5f9e1-ba8a-47c6-82a0-703d90395fed",
-      "filename": "AAM01563.jpg",
-      "genres": [
-        "architecture",
-        "landscape"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2025-10-10T10:42:47Z",
-      "uploaded_at": "2026-05-21T14:34:53.970014Z",
-      "width": 4863,
-      "height": 6484,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/95f5f9e1-ba8a-47c6-82a0-703d90395fed/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/95f5f9e1-ba8a-47c6-82a0-703d90395fed/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/95f5f9e1-ba8a-47c6-82a0-703d90395fed/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T50",
-        "lens": "XF23mmF2 R WR",
-        "iso": 500,
-        "aperture": "f/5.6",
-        "shutter": "1/125",
-        "focal_length": "23mm"
-      },
-      "source_hash": "2e0fd7f477617947702dbf7bfbd0af6e73d8e778c4bfacc7f9d435aabbb40b3c"
-    },
-    {
       "id": "e810bb1d-f4f2-482d-bcd6-c7cec62c321c",
       "filename": "AAM01991.jpg",
       "genres": [
@@ -6677,9 +6073,8 @@
       "id": "28704f01-4d40-43bf-9863-670a594a227a",
       "filename": "AAM01972.jpg",
       "genres": [
-        "black-and-white",
         "landscape",
-        "architecture"
+        "black-and-white"
       ],
       "collections": [],
       "taken_at": "2025-10-28T08:26:51Z",
@@ -6731,8 +6126,8 @@
       "id": "3ec37bad-e568-44a4-b5f7-842b17c9d8c6",
       "filename": "AAM02164.jpg",
       "genres": [
-        "architecture",
-        "landscape"
+        "landscape",
+        "low-light"
       ],
       "collections": [
         "khulna-university"
@@ -6761,6 +6156,7 @@
       "filename": "AAM01608.jpg",
       "caption": "শরতের শৈশব",
       "genres": [
+        "landscape",
         "street-and-documentary"
       ],
       "collections": [
@@ -7858,35 +7254,6 @@
       "source_hash": "aabd62a41164e7272b9719bfb4bc60f3d68a3c22538ff9c8ed4bb34f2b00ccae"
     },
     {
-      "id": "08edde9e-6b72-4fb8-8b22-178e0a170393",
-      "filename": "AAM07178_DxO.jpg",
-      "genres": [
-        "architecture",
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2022-05-31T11:00:14Z",
-      "uploaded_at": "2026-05-21T14:35:44.330984Z",
-      "width": 5399,
-      "height": 4049,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/08edde9e-6b72-4fb8-8b22-178e0a170393/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/08edde9e-6b72-4fb8-8b22-178e0a170393/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/08edde9e-6b72-4fb8-8b22-178e0a170393/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T3",
-        "lens": "XF35mmF2 R WR",
-        "iso": 320,
-        "aperture": "f/2.0",
-        "shutter": "1/1000",
-        "focal_length": "35mm"
-      },
-      "source_hash": "fc4c73ac76074940fd358a5a97b4d770bc50e066de6e660b49a40048f2848c3d"
-    },
-    {
       "id": "2f1f1600-e51b-41c0-972b-ec85429c72b9",
       "filename": "AAM07180_DxO.jpg",
       "genres": [
@@ -7996,34 +7363,6 @@
         "focal_length": "21mm"
       },
       "source_hash": "c39b8053e8dbe42d4e59bbe48d97d7b2efdc7eba54e16f74ed119207a935ed83"
-    },
-    {
-      "id": "15526eb1-8dd7-46e7-a0a6-cff5e61872a5",
-      "filename": "AAM07264_DxO.jpg",
-      "genres": [
-        "architecture",
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2022-06-09T10:58:46Z",
-      "uploaded_at": "2026-05-21T14:35:50.043799Z",
-      "width": 3354,
-      "height": 4476,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/15526eb1-8dd7-46e7-a0a6-cff5e61872a5/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/15526eb1-8dd7-46e7-a0a6-cff5e61872a5/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/15526eb1-8dd7-46e7-a0a6-cff5e61872a5/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T3",
-        "lens": "21.0 mm",
-        "iso": 200,
-        "shutter": "1/125",
-        "focal_length": "21mm"
-      },
-      "source_hash": "63319c571700e98bfa2101d9f8f4fa03e6504bd1b75f4da15a5c4cf7ba423f15"
     },
     {
       "id": "6308855b-b3b2-41ff-bdda-8f1953e84d00",
@@ -9439,7 +8778,8 @@
       "id": "550af79a-56fc-4b5a-915d-ec19ba0743a5",
       "filename": "AAM_0543.jpg",
       "genres": [
-        "low-light"
+        "low-light",
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2026-01-10T12:53:16Z",
@@ -9521,6 +8861,7 @@
       "id": "11437487-a6f4-478b-a117-9d20ec9c8499",
       "filename": "AAM_0894.jpg",
       "genres": [
+        "still-life",
         "food-related"
       ],
       "collections": [],
@@ -9574,6 +8915,7 @@
       "id": "845e4fe2-01ca-413f-86c5-4b077e471a56",
       "filename": "AAM_1475.jpg",
       "genres": [
+        "still-life",
         "low-light",
         "food-related"
       ],
@@ -9656,7 +8998,8 @@
       "id": "1c8dead1-c259-4daf-8549-36d4ca55453a",
       "filename": "AAM_1493.jpg",
       "genres": [
-        "architecture"
+        "architecture",
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2026-04-04T12:01:01Z",
@@ -10267,33 +9610,6 @@
       "source_hash": "1e834e86d04ba326ea1194015102580ec0e3ff8ab056ed09f8b5c03d26b42986"
     },
     {
-      "id": "a072726d-bf75-480d-a9b2-bc7f2c6a2f8e",
-      "filename": "ACS_0008.jpg",
-      "genres": [
-        "architecture"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2024-03-27T11:46:51Z",
-      "uploaded_at": "2026-05-21T14:36:57.011326Z",
-      "width": 5024,
-      "height": 6699,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/a072726d-bf75-480d-a9b2-bc7f2c6a2f8e/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/a072726d-bf75-480d-a9b2-bc7f2c6a2f8e/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/a072726d-bf75-480d-a9b2-bc7f2c6a2f8e/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100VI",
-        "iso": 250,
-        "aperture": "f/2.8",
-        "shutter": "1/125",
-        "focal_length": "23mm"
-      },
-      "source_hash": "3e645c8fc20871be71d8779cc302419e456c4f275571493513b4ec1b291c4b95"
-    },
-    {
       "id": "ac9a20b8-f39f-489a-9836-5dd73aea91f9",
       "filename": "ACS_0018.jpg",
       "genres": [
@@ -10507,34 +9823,6 @@
       "source_hash": "811dce8f01b151be01e31bf6a8bf86fccc791735debbd50f3874aff5ac89da72"
     },
     {
-      "id": "7ea464c2-c88e-4a95-a1df-825f1baa5cd6",
-      "filename": "DSC00430.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2021-09-30T11:04:48Z",
-      "uploaded_at": "2026-05-21T14:37:09.988808Z",
-      "width": 4168,
-      "height": 3126,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/7ea464c2-c88e-4a95-a1df-825f1baa5cd6/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/7ea464c2-c88e-4a95-a1df-825f1baa5cd6/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/7ea464c2-c88e-4a95-a1df-825f1baa5cd6/full.jpg"
-      },
-      "exif": {
-        "camera": "SONY ILCE-7C",
-        "lens": "24-70mm F2.8 DG DN | Art 019",
-        "iso": 100,
-        "aperture": "f/2.8",
-        "shutter": "1/350",
-        "focal_length": "70mm"
-      },
-      "source_hash": "71d8b3f815e0610619b7991b180caa5be672580a8fcc238bafa40a87684203ee"
-    },
-    {
       "id": "d25f0836-b9df-4014-bd28-a918911b504f",
       "filename": "C6E410DB-9E4F-43EC-98D5-117FFEF97E92-333-000000DE94273233.jpg",
       "genres": [
@@ -10561,34 +9849,6 @@
         "focal_length": "18mm"
       },
       "source_hash": "b9209c589181f748df7ccf26d3c9292df422565536243a10a14df56a7517b599"
-    },
-    {
-      "id": "68e36cce-4b66-4e72-8107-6113fb99dbfa",
-      "filename": "DSC00413.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2021-09-30T11:02:06Z",
-      "uploaded_at": "2026-05-21T14:37:11.171576Z",
-      "width": 3055,
-      "height": 4074,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/68e36cce-4b66-4e72-8107-6113fb99dbfa/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/68e36cce-4b66-4e72-8107-6113fb99dbfa/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/68e36cce-4b66-4e72-8107-6113fb99dbfa/full.jpg"
-      },
-      "exif": {
-        "camera": "SONY ILCE-7C",
-        "lens": "24-70mm F2.8 DG DN | Art 019",
-        "iso": 100,
-        "aperture": "f/2.8",
-        "shutter": "1/350",
-        "focal_length": "70mm"
-      },
-      "source_hash": "5843e912b8e41421ab22688cf5f47a4054ac948358399edc8b258fbdc09428c5"
     },
     {
       "id": "46881d56-3902-47c1-a590-f6838434ffd2",
@@ -11248,34 +10508,6 @@
       "source_hash": "2e00ce4d2d7bc9d798f1ec6ae18308b17575577827486baa74e47fb597aa2351"
     },
     {
-      "id": "46346a7b-1731-412d-9d88-3ffce151792f",
-      "filename": "DSCF0403.jpg",
-      "genres": [
-        "architecture"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2024-09-10T10:59:10Z",
-      "uploaded_at": "2026-05-21T14:37:39.167295Z",
-      "width": 4118,
-      "height": 5491,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/46346a7b-1731-412d-9d88-3ffce151792f/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/46346a7b-1731-412d-9d88-3ffce151792f/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/46346a7b-1731-412d-9d88-3ffce151792f/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "7artisans 35mm f/1.2",
-        "iso": 125,
-        "aperture": "f/1.0",
-        "shutter": "1/250",
-        "focal_length": "35mm"
-      },
-      "source_hash": "3d467c5d5ca08cfd7b304cc1d164f8a1a35684eb9c26d7a9d1517461505e1ac3"
-    },
-    {
       "id": "6f38d519-26f3-427b-b56b-219060c76b00",
       "filename": "DSCF0182.jpg",
       "genres": [
@@ -11328,35 +10560,6 @@
         "focal_length": "27mm"
       },
       "source_hash": "cd71613c237e6e7b18d63a2ae3aae90ab104a11293b6149fa6773705b4221d95"
-    },
-    {
-      "id": "5f2318bf-8e28-472c-9a93-4a312b03c418",
-      "filename": "DSCF0562_DxO.jpg",
-      "genres": [
-        "architecture",
-        "black-and-white"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2022-11-18T10:17:35Z",
-      "uploaded_at": "2026-05-21T14:37:42.238715Z",
-      "width": 4092,
-      "height": 5456,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/5f2318bf-8e28-472c-9a93-4a312b03c418/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/5f2318bf-8e28-472c-9a93-4a312b03c418/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/5f2318bf-8e28-472c-9a93-4a312b03c418/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100V",
-        "lens": "23.0 mm f/2.0",
-        "iso": 125,
-        "aperture": "f/5.6",
-        "shutter": "1/200",
-        "focal_length": "23mm"
-      },
-      "source_hash": "ba1a2dc5ef01d631a18e0689092400fb22b86dff8c588ac7ee66f89918d563f4"
     },
     {
       "id": "368d090e-04ec-4875-b636-e73a0e5a69a3",
@@ -11503,34 +10706,6 @@
       "source_hash": "d368a72eb6f633a38e31d8cd9ab48e7cd439f28753ba47e2908f64147c6d2367"
     },
     {
-      "id": "a5031385-2fb6-4b7e-887c-95ec030d7574",
-      "filename": "DSCF0573.jpg",
-      "genres": [
-        "architecture"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2024-10-25T07:06:03Z",
-      "uploaded_at": "2026-05-21T14:37:46.82196Z",
-      "width": 3977,
-      "height": 5302,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/a5031385-2fb6-4b7e-887c-95ec030d7574/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/a5031385-2fb6-4b7e-887c-95ec030d7574/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/a5031385-2fb6-4b7e-887c-95ec030d7574/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "VOIGTLANDER NOKTON 35mm F1.2",
-        "iso": 160,
-        "aperture": "f/5.6",
-        "shutter": "1/160",
-        "focal_length": "35mm"
-      },
-      "source_hash": "bbaa4735e19c20630ee631bc44f9526dac4f5c65546983b1995b489e207fa761"
-    },
-    {
       "id": "fd946946-1f5e-4e61-9a8d-3470f85be699",
       "filename": "DSCF0559_DxO.jpg",
       "genres": [
@@ -11614,10 +10789,12 @@
       "id": "f11927b5-3f7a-4616-9901-e90ada87e896",
       "filename": "DSCF0575_DxO.jpg",
       "genres": [
-        "street-and-documentary",
-        "architecture"
+        "architecture",
+        "street-and-documentary"
       ],
-      "collections": [],
+      "collections": [
+        "khulna-university"
+      ],
       "uploaded_at": "2026-05-21T14:37:51.020177Z",
       "width": 3937,
       "height": 5249,
@@ -11689,34 +10866,6 @@
         "focal_length": "35mm"
       },
       "source_hash": "6a13870a1d1ca00a56fd1e71351fd0746668d51d55392ca763b6d8c5b626fc69"
-    },
-    {
-      "id": "eda4a8d2-1b7b-4c17-9876-0cde71dd23a4",
-      "filename": "DSCF0579.jpg",
-      "genres": [
-        "landscape"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2024-10-25T08:17:05Z",
-      "uploaded_at": "2026-05-21T14:37:52.419066Z",
-      "width": 5536,
-      "height": 4152,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/eda4a8d2-1b7b-4c17-9876-0cde71dd23a4/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/eda4a8d2-1b7b-4c17-9876-0cde71dd23a4/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/eda4a8d2-1b7b-4c17-9876-0cde71dd23a4/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "VOIGTLANDER NOKTON 35mm F1.2",
-        "iso": 1600,
-        "aperture": "f/4.0",
-        "shutter": "1/160",
-        "focal_length": "35mm"
-      },
-      "source_hash": "1c80e27947e58a4e4ff7c5f30b331946f858ff119751dd6cae75a31abf299182"
     },
     {
       "id": "f5da9f5d-c0cf-483c-bd5e-f0fa6195fdba",
@@ -11821,35 +10970,6 @@
         "focal_length": "23mm"
       },
       "source_hash": "b3f52d12e1c9e6e9cbf150e6b041c63b9c374075d26a7bd49747682af16e35bc"
-    },
-    {
-      "id": "986dbaf6-dce8-415b-8461-1c0432486ee0",
-      "filename": "DSCF0706_DxO.jpg",
-      "genres": [
-        "architecture",
-        "black-and-white"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2022-11-25T11:17:08Z",
-      "uploaded_at": "2026-05-21T14:37:56.259681Z",
-      "width": 5415,
-      "height": 4061,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/986dbaf6-dce8-415b-8461-1c0432486ee0/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/986dbaf6-dce8-415b-8461-1c0432486ee0/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/986dbaf6-dce8-415b-8461-1c0432486ee0/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100V",
-        "lens": "23.0 mm f/2.0",
-        "iso": 200,
-        "aperture": "f/2.0",
-        "shutter": "1/160",
-        "focal_length": "23mm"
-      },
-      "source_hash": "fbac523200259256ca6bfc7a35c8c44fc5ba8ff90671e1c87cc5b21a727570e2"
     },
     {
       "id": "02caa469-ca14-416d-8bca-f28631bc63d4",
@@ -12078,35 +11198,6 @@
         "focal_length": "23mm"
       },
       "source_hash": "349e7c76cf2a3fbf422143fac3d5416e46cfafdb1b2b92a5f2cbf885f7d70a6c"
-    },
-    {
-      "id": "ba25db9e-6fb9-44a5-860a-485c1363a734",
-      "filename": "DSCF0801.jpg",
-      "genres": [
-        "architecture",
-        "street-and-documentary",
-        "black-and-white"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2022-12-01T11:10:55Z",
-      "uploaded_at": "2026-05-21T14:38:02.046709Z",
-      "width": 4160,
-      "height": 5546,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/ba25db9e-6fb9-44a5-860a-485c1363a734/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/ba25db9e-6fb9-44a5-860a-485c1363a734/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/ba25db9e-6fb9-44a5-860a-485c1363a734/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100V",
-        "iso": 1250,
-        "aperture": "f/4.0",
-        "shutter": "1/125",
-        "focal_length": "23mm"
-      },
-      "source_hash": "3f9bfc8f0cbad59da46571a90afbfdf02e9267a47ebf8f3c1f3c688027a8cdd4"
     },
     {
       "id": "c336acb7-ddc0-43b4-9f61-d6bd703ea4fb",
@@ -12577,10 +11668,12 @@
       "id": "e0f18e6f-274e-4508-983a-f11df2437531",
       "filename": "DSCF1051.jpg",
       "genres": [
-        "street-and-documentary",
-        "architecture"
+        "architecture",
+        "street-and-documentary"
       ],
-      "collections": [],
+      "collections": [
+        "artyard-cafe"
+      ],
       "taken_at": "2025-08-09T12:15:46Z",
       "uploaded_at": "2026-05-21T14:38:20.825429Z",
       "width": 5215,
@@ -12655,33 +11748,6 @@
         "focal_length": "23mm"
       },
       "source_hash": "24acf86783ef18ef8d356b69e44c0cea281e1c921635d7729b2fac0d190b6a7e"
-    },
-    {
-      "id": "98cfa411-e97c-465e-ab7b-058193391227",
-      "filename": "DSCF1108.jpg",
-      "genres": [
-        "still-life",
-        "architecture"
-      ],
-      "collections": [],
-      "taken_at": "2025-08-23T12:09:36Z",
-      "uploaded_at": "2026-05-21T14:38:22.733845Z",
-      "width": 4146,
-      "height": 5528,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/98cfa411-e97c-465e-ab7b-058193391227/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/98cfa411-e97c-465e-ab7b-058193391227/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/98cfa411-e97c-465e-ab7b-058193391227/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "VOIGTLANDER ULTRON 27mm F2",
-        "iso": 640,
-        "aperture": "f/4.0",
-        "shutter": "1/60",
-        "focal_length": "27mm"
-      },
-      "source_hash": "0ff0158f6e690ac75e50fb894275993c8fbf6c3b2d59f25d4c8ef333e5a543a9"
     },
     {
       "id": "a0bd5aba-67eb-436b-aa00-e1fb8dd4d03e",
@@ -13993,35 +13059,6 @@
         "focal_length": "27mm"
       },
       "source_hash": "7c3c271df935198492cc7f0e5dab4ab87ea79ae0fd3d21f277097680beb79d0b"
-    },
-    {
-      "id": "152f9eb1-b599-4927-b8e6-61b4d7afd04a",
-      "filename": "DSCF8026.jpg",
-      "genres": [
-        "architecture",
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2022-06-30T00:42:01Z",
-      "uploaded_at": "2026-05-21T14:39:42.194635Z",
-      "width": 3289,
-      "height": 4385,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/152f9eb1-b599-4927-b8e6-61b4d7afd04a/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/152f9eb1-b599-4927-b8e6-61b4d7afd04a/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/152f9eb1-b599-4927-b8e6-61b4d7afd04a/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "XF27mmF2.8 R WR",
-        "iso": 200,
-        "aperture": "f/5.6",
-        "shutter": "1/250",
-        "focal_length": "27mm"
-      },
-      "source_hash": "76b63bebc23283a2e689d9abd3860dd8984f767a3cf036ec68800b69dd3d4879"
     },
     {
       "id": "99dc454b-be1d-4b50-8c1c-27648ec7a470",
@@ -15540,34 +14577,6 @@
       "source_hash": "b8b8fa0679df5807fada1fc7946adfeb854b0e77d805adbf52731cf78163d5f3"
     },
     {
-      "id": "aa3442f3-c0b7-43d1-a3ab-f1ffc6fc7aea",
-      "filename": "May_2022_05_07_0083.jpg",
-      "genres": [
-        "architecture"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2022-05-07T10:47:07Z",
-      "uploaded_at": "2026-05-21T14:40:30.21315Z",
-      "width": 3873,
-      "height": 5164,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/aa3442f3-c0b7-43d1-a3ab-f1ffc6fc7aea/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/aa3442f3-c0b7-43d1-a3ab-f1ffc6fc7aea/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/aa3442f3-c0b7-43d1-a3ab-f1ffc6fc7aea/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "Fujifilm Fujinon XF35mmF1.4 R",
-        "iso": 250,
-        "aperture": "f/5.6",
-        "shutter": "1/640",
-        "focal_length": "35mm"
-      },
-      "source_hash": "96e882ad74abb5cc9c45d633b1411dbb0b2a5427000c464cfcfc7da7bf48b425"
-    },
-    {
       "id": "b9830b5d-ee00-4069-a87a-35e4bb18aa47",
       "filename": "May_2022_05_07_0089.jpg",
       "genres": [
@@ -15961,34 +14970,6 @@
       "source_hash": "57d906d7c1eebbd590807ec95300614a7af8f6b386a2aecae206e3459a825aa0"
     },
     {
-      "id": "f0d2a237-f604-411c-96be-7e4e5a9a93da",
-      "filename": "51507666019.jpg",
-      "genres": [
-        "architecture"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2021-09-23T10:55:56Z",
-      "uploaded_at": "2026-05-21T14:40:51.82113Z",
-      "width": 3964,
-      "height": 5285,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/f0d2a237-f604-411c-96be-7e4e5a9a93da/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/f0d2a237-f604-411c-96be-7e4e5a9a93da/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/f0d2a237-f604-411c-96be-7e4e5a9a93da/full.jpg"
-      },
-      "exif": {
-        "camera": "SONY ILCE-7C",
-        "lens": "24-70mm F2.8 DG DN | Art 019",
-        "iso": 100,
-        "aperture": "f/2.8",
-        "shutter": "1/90",
-        "focal_length": "44mm"
-      },
-      "source_hash": "19c0a5663c41d505289f74d97113fa46b64f623a740a1b1734c700f454d7df93"
-    },
-    {
       "id": "6cf2e663-cc12-46f5-a772-5f881a99dd7c",
       "filename": "51694648896.jpg",
       "genres": [
@@ -16244,7 +15225,9 @@
       "genres": [
         "architecture"
       ],
-      "collections": [],
+      "collections": [
+        "artyard-cafe"
+      ],
       "taken_at": "2025-09-06T11:42:34Z",
       "uploaded_at": "2026-05-21T14:41:05.162492Z",
       "width": 4160,
@@ -16455,34 +15438,6 @@
       "source_hash": "882cab80c6658f8a52598e39c13be88c3ea53061d90c051b9206206a559f0ed5"
     },
     {
-      "id": "7ed0bcd8-3030-4447-b6a2-e1d0efaaf974",
-      "filename": "AAM00998 1 Edited.jpg",
-      "genres": [
-        "architecture",
-        "landscape"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2025-06-08T10:20:16Z",
-      "uploaded_at": "2026-05-21T14:41:14.483992Z",
-      "width": 6048,
-      "height": 6048,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/7ed0bcd8-3030-4447-b6a2-e1d0efaaf974/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/7ed0bcd8-3030-4447-b6a2-e1d0efaaf974/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/7ed0bcd8-3030-4447-b6a2-e1d0efaaf974/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100VI",
-        "iso": 100,
-        "aperture": "f/8.0",
-        "shutter": "1/250",
-        "focal_length": "23mm"
-      },
-      "source_hash": "8c1a382d8830dfd5df1a8288a9b33520ad81fa63dba8ea85ea98162ab25581e0"
-    },
-    {
       "id": "1a7bb56a-afe3-47c0-b5fc-96270163df53",
       "filename": "AAM01096.jpg",
       "genres": [
@@ -16625,9 +15580,8 @@
       "id": "f7c6c6fe-b635-42ab-aa6d-0c4d6c36c3c8",
       "filename": "AAM01974.jpg",
       "genres": [
-        "black-and-white",
         "landscape",
-        "architecture"
+        "black-and-white"
       ],
       "collections": [],
       "taken_at": "2025-10-28T08:27:30Z",
@@ -16952,7 +15906,7 @@
       "id": "9398b9e5-8067-4146-a523-a59a2ff3401e",
       "filename": "AAM_1894.jpg",
       "genres": [
-        "architecture"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2026-04-17T12:24:58Z",
@@ -16979,8 +15933,8 @@
       "filename": "AAM_0411.jpg",
       "caption": "কর্ম ব্যস্ততা",
       "genres": [
-        "street-and-documentary",
-        "food-related"
+        "low-light",
+        "street-and-documentary"
       ],
       "collections": [
         "featured"
@@ -18067,8 +17021,8 @@
     },
     {
       "slug": "artyard-cafe",
-      "name": "আর্টইয়ার্ড ক্যাফে",
-      "description": "আমার পছন্দের ক্যাফে, আলো, বাতাস আর সুন্দর ইনটেরিয়র",
+      "name": "আর্টইয়ার্ড ক্যাফে (এবং উল্লাস পার্ক)",
+      "description": "আমার পছন্দের ক্যাফে, আলো, বাতাস আর সুন্দর ইনটেরিয়র । সেই সাথে উল্লাস পার্কের ছবিও আছে । ",
       "cover": "06375593-e327-430a-b59c-6893174ef2c1"
     },
     {
@@ -18078,5 +17032,5 @@
       "cover": "b88da03b-8e0e-4064-a2a2-ed8638052e6e"
     }
   ],
-  "updated_at": "2026-05-22T13:11:57.580939Z"
+  "updated_at": "2026-05-22T14:01:27.093544Z"
 }
