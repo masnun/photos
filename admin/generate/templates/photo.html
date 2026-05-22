@@ -2,7 +2,16 @@
 {{define "head"}}<meta property="og:title" content="{{if .Photo.Caption}}{{.Photo.Caption}}{{else}}masnun.photos{{end}}">
   <meta property="og:type" content="article">
   {{with .Photo.Caption}}<meta property="og:description" content="{{.}}">{{end}}
-  <script type="application/ld+json">{{.JSONLD}}</script>{{end}}
+  <script type="application/ld+json">{{.JSONLD}}</script>
+  <script>
+    document.addEventListener("keydown", function (e) {
+      if (e.defaultPrevented || e.ctrlKey || e.metaKey || e.altKey) return;
+      var sel = e.key === "ArrowRight" ? "a.next" : e.key === "ArrowLeft" ? "a.prev" : null;
+      if (!sel) return;
+      var link = document.querySelector(".photo-nav " + sel);
+      if (link && link.href) window.location.href = link.href;
+    });
+  </script>{{end}}
 {{define "content"}}
 {{if .ContextURL}}
 <p class="context-back"><a href="{{.ContextURL}}">← {{.ContextName}}</a></p>
@@ -15,13 +24,13 @@
 </figure>
 {{if or .PrevURL .NextURL}}
 <nav class="photo-nav">
-  {{if .PrevURL}}<a class="prev" href="{{.PrevURL}}" rel="prev">← আগের</a>{{else}}<span class="prev disabled">← আগের</span>{{end}}
-  {{if .NextURL}}<a class="next" href="{{.NextURL}}" rel="next">পরের →</a>{{else}}<span class="next disabled">পরের →</span>{{end}}
+  {{if .PrevURL}}<a class="prev" href="{{.PrevURL}}" rel="prev">← পূর্ববর্তী</a>{{else}}<span class="prev disabled">← পূর্ববর্তী</span>{{end}}
+  {{if .NextURL}}<a class="next" href="{{.NextURL}}" rel="next">পরবর্তী →</a>{{else}}<span class="next disabled">পরবর্তী →</span>{{end}}
 </nav>
 {{end}}
 <div class="photo-meta">
   {{with .TakenFormatted}}<p><strong>তোলা হয়েছে:</strong> {{.}}</p>{{end}}
-  {{with .GenreLinks}}<p><strong>ধরন:</strong> {{range $i, $g := .}}{{if $i}}, {{end}}<a href="/genre/{{$g.Slug}}/">{{$g.Name}}</a>{{end}}</p>{{end}}
+  {{with .GenreLinks}}<p><strong>জনরা:</strong> {{range $i, $g := .}}{{if $i}}, {{end}}<a href="/genre/{{$g.Slug}}/">{{$g.Name}}</a>{{end}}</p>{{end}}
   {{with .CollectionLinks}}<p><strong>কালেকশন:</strong> {{range $i, $c := .}}{{if $i}}, {{end}}<a href="/collection/{{$c.Slug}}/">{{$c.Name}}</a>{{end}}</p>{{end}}
   {{with .Photo.EXIF}}
   <dl class="exif">

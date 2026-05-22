@@ -22,7 +22,7 @@ const (
 	siteBaseURL     = "https://masnun.photos"
 	siteName        = "masnun.photos"
 	siteLocale      = "bn_BD"
-	siteDescription = "আবু আশরাফ মাসনুনের ছবি — ধরন, কালেকশন ও তারিখ অনুযায়ী গ্যালারি।"
+	siteDescription = "আবু আশরাফ মাসনুনের ছবি — জনরা, কালেকশন ও তারিখ অনুযায়ী গ্যালারি।"
 )
 
 // seoMeta carries the per-page fields the base template needs for canonical,
@@ -180,6 +180,10 @@ func Run(opts Options) error {
 		rc.colBySlug[c.Slug] = c
 	}
 
+	if err := cleanOutput(rc.outDir); err != nil {
+		return fmt.Errorf("clean output: %w", err)
+	}
+
 	if err := renderIndex(rc); err != nil {
 		return err
 	}
@@ -210,9 +214,29 @@ func Run(opts Options) error {
 	return nil
 }
 
+// cleanOutput removes previously generated artifacts from outDir so stale files
+// (e.g. orphaned photo pages left behind after a genre/collection slug rename)
+// don't linger. Only build artifacts are removed; the checked-in assets/, data/,
+// and CNAME are left untouched.
+func cleanOutput(outDir string) error {
+	dirs := []string{"genre", "collection", "photo", "calendar"}
+	files := []string{"index.html", "sitemap.xml", "robots.txt", "site.webmanifest"}
+	for _, d := range dirs {
+		if err := os.RemoveAll(filepath.Join(outDir, d)); err != nil {
+			return err
+		}
+	}
+	for _, f := range files {
+		if err := os.Remove(filepath.Join(outDir, f)); err != nil && !os.IsNotExist(err) {
+			return err
+		}
+	}
+	return nil
+}
+
 func renderTaxonomyIndexes(rc *renderCtx) error {
 	data := buildIndexData(rc)
-	data.SEO = newSEO("/genre/", "ধরন অনুযায়ী ছবি দেখুন।", "")
+	data.SEO = newSEO("/genre/", "জনরা অনুযায়ী ছবি দেখুন।", "")
 	if err := writeTemplate(rc.tmpls["genres-index.html"], filepath.Join(rc.outDir, "genre", "index.html"), data); err != nil {
 		return fmt.Errorf("genres index: %w", err)
 	}
@@ -379,7 +403,7 @@ func renderGenres(rc *renderCtx) error {
 		data := listData{Genre: &gCopy, Cover: cover, Photos: photos, MonthGroups: buildMonthGroups(photos)}
 		desc := g.Description
 		if strings.TrimSpace(desc) == "" {
-			desc = fmt.Sprintf("%s ধরনের ছবি।", g.Name)
+			desc = fmt.Sprintf("%s জনরার ছবি।", g.Name)
 		}
 		data.SEO = newSEO(fmt.Sprintf("/genre/%s/", g.Slug), desc, coverURL(cover))
 		path := filepath.Join(rc.outDir, "genre", g.Slug, "index.html")
