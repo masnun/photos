@@ -106,33 +106,6 @@
       "source_hash": "bb9ea127c55817291cf91092ab958215798bdb0068738c46540859a89136e68a"
     },
     {
-      "id": "7ed65611-b166-429b-a948-c36ad68aafba",
-      "filename": "20201119_162857.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2020-11-19T10:28:57Z",
-      "uploaded_at": "2026-05-21T14:30:17.851451Z",
-      "width": 3024,
-      "height": 4032,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/7ed65611-b166-429b-a948-c36ad68aafba/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/7ed65611-b166-429b-a948-c36ad68aafba/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/7ed65611-b166-429b-a948-c36ad68aafba/full.jpg"
-      },
-      "exif": {
-        "camera": "samsung SM-F916N",
-        "iso": 40,
-        "aperture": "f/1.8",
-        "shutter": "1/1050",
-        "focal_length": "5mm"
-      },
-      "source_hash": "c2c743cec82301e5f04a484fa4d9c70fe78127584bc8f2e3b76dac84812a1e23"
-    },
-    {
       "id": "1bf6bc92-e055-4b2b-851c-a02450eeba25",
       "filename": "20200926_171202.jpg",
       "genres": [
@@ -176,24 +149,6 @@
         "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/a10f61a7-5d19-45c3-821f-1d587a708b48/full.jpg"
       },
       "source_hash": "aa067f061938274599c236770e264c248c1c0c986f1314918eda9962774dc6b8"
-    },
-    {
-      "id": "2a33f86f-3a2d-4a2d-8d4d-cd99242ffed4",
-      "filename": "20221026_225822.jpg",
-      "genres": [
-        "street-and-documentary",
-        "black-and-white"
-      ],
-      "collections": [],
-      "uploaded_at": "2026-05-21T14:30:22.747633Z",
-      "width": 5353,
-      "height": 5353,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/2a33f86f-3a2d-4a2d-8d4d-cd99242ffed4/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/2a33f86f-3a2d-4a2d-8d4d-cd99242ffed4/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/2a33f86f-3a2d-4a2d-8d4d-cd99242ffed4/full.jpg"
-      },
-      "source_hash": "4edd77ae15d05f249262ab3e54664090843c5c89e35f3856ffeb284b47bd1d9a"
     },
     {
       "id": "240bd4b5-dfc2-4130-b071-5ab3b7a9211c",
@@ -288,62 +243,6 @@
         "focal_length": "23mm"
       },
       "source_hash": "678b74d7ab50abcba8e708908125d088267b9847e64bd0f29bcf8263ebf9a343"
-    },
-    {
-      "id": "0d56a2e8-0848-44ac-8f09-0525316d0198",
-      "filename": "2022_1030_17284000-01.jpeg",
-      "genres": [
-        "street-and-documentary",
-        "black-and-white"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2022-10-30T11:28:40Z",
-      "uploaded_at": "2026-05-21T14:30:30.617665Z",
-      "width": 5442,
-      "height": 4082,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/0d56a2e8-0848-44ac-8f09-0525316d0198/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/0d56a2e8-0848-44ac-8f09-0525316d0198/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/0d56a2e8-0848-44ac-8f09-0525316d0198/full.jpeg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100V",
-        "iso": 400,
-        "aperture": "f/2.8",
-        "shutter": "1/125",
-        "focal_length": "23mm"
-      },
-      "source_hash": "0db70ad32d4a7f582fddea9efc20fdf61722241a6e58411b5426eb6918bd2455"
-    },
-    {
-      "id": "972d2fe4-99ed-44e9-8ad5-d097dbdef2d4",
-      "filename": "2022_1030_17375900-01 Copy.JPG",
-      "genres": [
-        "street-and-documentary",
-        "black-and-white"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2022-10-30T11:37:59Z",
-      "uploaded_at": "2026-05-21T14:30:31.269793Z",
-      "width": 2795,
-      "height": 3726,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/972d2fe4-99ed-44e9-8ad5-d097dbdef2d4/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/972d2fe4-99ed-44e9-8ad5-d097dbdef2d4/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/972d2fe4-99ed-44e9-8ad5-d097dbdef2d4/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100V",
-        "iso": 1000,
-        "aperture": "f/2.8",
-        "shutter": "1/125",
-        "focal_length": "23mm"
-      },
-      "source_hash": "1a58043401ff36d42d74d269d6c928df6e5c02c345512ee10b694e2ef81a0152"
     },
     {
       "id": "8d71420d-b3eb-4906-b2b0-0fd2447686ea",
@@ -2042,35 +1941,6 @@
       "source_hash": "c661e7c34e9b3ac56914f7c9b8a93d9b4594aeb74646c8569897979594fe987b"
     },
     {
-      "id": "33a8cfee-4c7d-4307-bac2-4f41f99cd176",
-      "filename": "AAM00244.jpg",
-      "genres": [
-        "low-light",
-        "street-and-documentary"
-      ],
-      "collections": [
-        "artyard-cafe"
-      ],
-      "taken_at": "2025-11-15T12:02:51Z",
-      "uploaded_at": "2026-05-21T14:33:05.827016Z",
-      "width": 3241,
-      "height": 2431,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/33a8cfee-4c7d-4307-bac2-4f41f99cd176/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/33a8cfee-4c7d-4307-bac2-4f41f99cd176/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/33a8cfee-4c7d-4307-bac2-4f41f99cd176/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E5",
-        "lens": "XF23mmF2.8 R WR",
-        "iso": 2000,
-        "aperture": "f/2.8",
-        "shutter": "1/125",
-        "focal_length": "23mm"
-      },
-      "source_hash": "7d1d585cfe2d8f949a47c20a1d41becd05c2e6a068109d7a180245820bfcfaed"
-    },
-    {
       "id": "ad23a053-2d9e-4e7c-a369-5c4c16d06492",
       "filename": "AAM00245.jpg",
       "genres": [
@@ -2782,36 +2652,6 @@
       "source_hash": "26a5eb6d0f64deccd3ac2ba8f7aa603027028355d6f1b6de07e77d5cbebfe2ff"
     },
     {
-      "id": "e77ff596-4bb4-4b71-978e-019e0364dc04",
-      "filename": "AAM00482.jpg",
-      "genres": [
-        "low-light",
-        "street-and-documentary",
-        "black-and-white"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2025-11-25T12:31:19Z",
-      "uploaded_at": "2026-05-21T14:33:46.947836Z",
-      "width": 4485,
-      "height": 5980,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/e77ff596-4bb4-4b71-978e-019e0364dc04/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/e77ff596-4bb4-4b71-978e-019e0364dc04/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/e77ff596-4bb4-4b71-978e-019e0364dc04/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E5",
-        "lens": "XF23mmF2.8 R WR",
-        "iso": 6400,
-        "aperture": "f/4.0",
-        "shutter": "1/60",
-        "focal_length": "23mm"
-      },
-      "source_hash": "d1392cf6ab2b460a86734c9fe05f02952cba233970c83fc9759eef69a451c439"
-    },
-    {
       "id": "50026fff-536c-440e-bc1b-d2e25364c249",
       "filename": "AAM00495.jpg",
       "genres": [
@@ -2896,34 +2736,6 @@
         "focal_length": "21mm"
       },
       "source_hash": "53ea4a639e4087cac6b2fe7e0837ba143ff30744664251a20508a5960e8c3c81"
-    },
-    {
-      "id": "d4b7f282-493b-445f-9873-526e394f350b",
-      "filename": "AAM00582.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2023-04-29T00:23:52Z",
-      "uploaded_at": "2026-05-21T14:33:56.135936Z",
-      "width": 4160,
-      "height": 5546,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/d4b7f282-493b-445f-9873-526e394f350b/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/d4b7f282-493b-445f-9873-526e394f350b/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/d4b7f282-493b-445f-9873-526e394f350b/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-Pro3",
-        "lens": "21.0 mm",
-        "iso": 100,
-        "aperture": "f/1.0",
-        "shutter": "1/125",
-        "focal_length": "21mm"
-      },
-      "source_hash": "f67a19f652cf751cea86324ad3363cb8d293acfa83250f58bfecbeb469f4b51a"
     },
     {
       "id": "7b0561eb-b185-41b2-9a87-d4704b778f89",
@@ -3362,33 +3174,6 @@
       "source_hash": "282cc614095f03e94102eab7556cfb03e6b5c57ac4875bfb0c355d13c2f472d6"
     },
     {
-      "id": "d1100eaa-33e0-48e5-a16d-3f653bd71bfe",
-      "filename": "AAM01218.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [
-        "artyard-cafe"
-      ],
-      "taken_at": "2025-08-02T09:57:41Z",
-      "uploaded_at": "2026-05-21T14:34:36.655967Z",
-      "width": 6790,
-      "height": 5092,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/d1100eaa-33e0-48e5-a16d-3f653bd71bfe/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/d1100eaa-33e0-48e5-a16d-3f653bd71bfe/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/d1100eaa-33e0-48e5-a16d-3f653bd71bfe/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100VI",
-        "iso": 160,
-        "aperture": "f/4.0",
-        "shutter": "1/160",
-        "focal_length": "23mm"
-      },
-      "source_hash": "8831be3b29cd5ece0df88468b891d2f7f50aa5473493b58be871793682e76a92"
-    },
-    {
       "id": "22e59e14-348d-4cbb-8175-881d35d8caa5",
       "filename": "AAM01267.jpg",
       "genres": [
@@ -3515,32 +3300,6 @@
         "focal_length": "23mm"
       },
       "source_hash": "a0e89227aa5e746009613da1184b087926a3b7e090b465a9265517fbec641911"
-    },
-    {
-      "id": "7239e0a9-261a-420e-87ed-174b25e9557d",
-      "filename": "AAM01592.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [],
-      "taken_at": "2025-10-10T11:08:23Z",
-      "uploaded_at": "2026-05-21T14:34:53.492129Z",
-      "width": 4659,
-      "height": 6212,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/7239e0a9-261a-420e-87ed-174b25e9557d/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/7239e0a9-261a-420e-87ed-174b25e9557d/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/7239e0a9-261a-420e-87ed-174b25e9557d/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T50",
-        "lens": "XF23mmF2 R WR",
-        "iso": 800,
-        "aperture": "f/4.0",
-        "shutter": "1/125",
-        "focal_length": "23mm"
-      },
-      "source_hash": "42ebf75a6af461b3b18ce8fe8165e107d1a1a92fa7c12f6789e7181c39a74d5c"
     },
     {
       "id": "80993ca7-b49f-4703-bdb2-5ca6524fbec4",
@@ -4313,38 +4072,10 @@
       "source_hash": "f372277911d8cf74cd4bdd50c6d2b32bd357f8c0b29ba7cd63e0a6ded2e03d9a"
     },
     {
-      "id": "a4aedc6f-1f1b-49f7-85d3-1ce8282edcf3",
-      "filename": "AAM06790.jpg",
-      "genres": [
-        "black-and-white",
-        "street-and-documentary"
-      ],
-      "collections": [],
-      "taken_at": "2022-05-12T11:48:59Z",
-      "uploaded_at": "2026-05-21T14:35:33.785179Z",
-      "width": 4830,
-      "height": 3621,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/a4aedc6f-1f1b-49f7-85d3-1ce8282edcf3/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/a4aedc6f-1f1b-49f7-85d3-1ce8282edcf3/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/a4aedc6f-1f1b-49f7-85d3-1ce8282edcf3/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T3",
-        "lens": "XF35mmF2 R WR",
-        "iso": 160,
-        "aperture": "f/8.0",
-        "shutter": "1/30",
-        "focal_length": "35mm"
-      },
-      "source_hash": "19cd16c8127a9c1eadc99d8899328f7ea43b6be21ff1ed703d6f1dd0756f8a53"
-    },
-    {
       "id": "f26e78c4-4a69-4a28-b7db-771a7ba64d10",
       "filename": "AAM06746.jpg",
       "genres": [
-        "architecture-and-interior",
-        "street-and-documentary"
+        "architecture-and-interior"
       ],
       "collections": [
         "khulna-university"
@@ -4631,32 +4362,6 @@
         "focal_length": "32mm"
       },
       "source_hash": "b8314839a72c6fcbb24ff9aadf570860a4db41a96d9381ff86be90853965223b"
-    },
-    {
-      "id": "9c748085-807e-46fd-980f-5a63bb230e6f",
-      "filename": "AAM07625.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [],
-      "taken_at": "2022-06-26T11:47:56Z",
-      "uploaded_at": "2026-05-21T14:35:59.731972Z",
-      "width": 4741,
-      "height": 3556,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/9c748085-807e-46fd-980f-5a63bb230e6f/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/9c748085-807e-46fd-980f-5a63bb230e6f/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/9c748085-807e-46fd-980f-5a63bb230e6f/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T3",
-        "lens": "XF18-55mmF2.8-4 R LM OIS",
-        "iso": 160,
-        "aperture": "f/4.0",
-        "shutter": "1/250",
-        "focal_length": "42mm"
-      },
-      "source_hash": "cead384f85e059dc8ef0dbfa65f8fdb0d1a72cbeba9075c8e4ddbac00cdb4c2e"
     },
     {
       "id": "e5119b73-24d3-4f03-aded-0c2d5033806e",
@@ -5253,34 +4958,6 @@
       "source_hash": "ab6ca2fa90f07bc60c99628b89ae4db6d0a578487ff343ce61cbdcbcfb0f666a"
     },
     {
-      "id": "165aaaaa-71f7-432d-b5e3-c90cfca84ebc",
-      "filename": "AAM_0417.jpg",
-      "genres": [
-        "street-and-documentary",
-        "black-and-white",
-        "low-light"
-      ],
-      "collections": [],
-      "taken_at": "2025-12-30T11:41:30Z",
-      "uploaded_at": "2026-05-21T14:36:31.998233Z",
-      "width": 5079,
-      "height": 3809,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/165aaaaa-71f7-432d-b5e3-c90cfca84ebc/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/165aaaaa-71f7-432d-b5e3-c90cfca84ebc/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/165aaaaa-71f7-432d-b5e3-c90cfca84ebc/full.jpg"
-      },
-      "exif": {
-        "camera": "NIKON CORPORATION NIKON Z f",
-        "lens": "NIKKOR Z 40mm f/2",
-        "iso": 1250,
-        "aperture": "f/4.0",
-        "shutter": "1/125",
-        "focal_length": "40mm"
-      },
-      "source_hash": "b53081ed82a76b201787c257867ac5c8576e1f046c02c568a3aaedfd1c2fbc29"
-    },
-    {
       "id": "4a6eee4f-0bc4-4858-8196-56a66e240dfc",
       "filename": "AAMF0766.jpg",
       "genres": [
@@ -5473,8 +5150,7 @@
       "id": "1c8dead1-c259-4daf-8549-36d4ca55453a",
       "filename": "AAM_1493.jpg",
       "genres": [
-        "architecture-and-interior",
-        "street-and-documentary"
+        "architecture-and-interior"
       ],
       "collections": [],
       "taken_at": "2026-04-04T12:01:01Z",
@@ -5495,34 +5171,6 @@
         "focal_length": "28mm"
       },
       "source_hash": "4ab359103e5498e7aad9147a7ce9c2a08ba2ab7ee0d08f9e88bf7e3936e7912e"
-    },
-    {
-      "id": "19bb8762-cfd3-4360-abd0-7592e8ba4177",
-      "filename": "AAM_1619.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2026-04-13T11:53:14Z",
-      "uploaded_at": "2026-05-21T14:36:40.403317Z",
-      "width": 4803,
-      "height": 3602,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/19bb8762-cfd3-4360-abd0-7592e8ba4177/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/19bb8762-cfd3-4360-abd0-7592e8ba4177/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/19bb8762-cfd3-4360-abd0-7592e8ba4177/full.jpg"
-      },
-      "exif": {
-        "camera": "NIKON CORPORATION NIKON Z f",
-        "lens": "THYPOCH SIMERA",
-        "iso": 400,
-        "aperture": "f/4.0",
-        "shutter": "1/250",
-        "focal_length": "28mm"
-      },
-      "source_hash": "ac379d3567035d82317c1eb946a31a50e5232f8ae3ec88054dd240cdddb23261"
     },
     {
       "id": "f3ade03c-6796-4bf8-b9cc-ae6cf545dbb1",
@@ -5662,90 +5310,6 @@
         "focal_length": "28mm"
       },
       "source_hash": "7c735a7c6b26b560d4359626b642dbe341f06705f73f82e07abc077f5bf7dbd8"
-    },
-    {
-      "id": "c31f77a3-b661-45db-bd6a-026be1adaa00",
-      "filename": "AAM_1714.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2026-04-14T11:38:38Z",
-      "uploaded_at": "2026-05-21T14:36:44.970205Z",
-      "width": 5307,
-      "height": 3980,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/c31f77a3-b661-45db-bd6a-026be1adaa00/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/c31f77a3-b661-45db-bd6a-026be1adaa00/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/c31f77a3-b661-45db-bd6a-026be1adaa00/full.jpg"
-      },
-      "exif": {
-        "camera": "NIKON CORPORATION NIKON Z f",
-        "lens": "THYPOCH SIMERA",
-        "iso": 320,
-        "aperture": "f/4.0",
-        "shutter": "1/250",
-        "focal_length": "28mm"
-      },
-      "source_hash": "9a1521c046251bb331c92a37c90a8c1a914e1b59246afc9dd18d97e8035e7d6c"
-    },
-    {
-      "id": "641b0a9e-0e92-439d-a89c-57789d63b065",
-      "filename": "AAM_1751.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2026-04-14T12:12:06Z",
-      "uploaded_at": "2026-05-21T14:36:45.237388Z",
-      "width": 4323,
-      "height": 3240,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/641b0a9e-0e92-439d-a89c-57789d63b065/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/641b0a9e-0e92-439d-a89c-57789d63b065/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/641b0a9e-0e92-439d-a89c-57789d63b065/full.jpg"
-      },
-      "exif": {
-        "camera": "NIKON CORPORATION NIKON Z f",
-        "lens": "THYPOCH SIMERA",
-        "iso": 1250,
-        "aperture": "f/4.0",
-        "shutter": "1/250",
-        "focal_length": "28mm"
-      },
-      "source_hash": "7ae1535b38c8d20f4bdf38c6f75e019f5e2c3eacb7c68fcffb7dbafa1135ac44"
-    },
-    {
-      "id": "8c821b8b-7590-405f-8d44-083e1c39720a",
-      "filename": "AAM_1756.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2026-04-14T12:31:24Z",
-      "uploaded_at": "2026-05-21T14:36:46.206345Z",
-      "width": 5150,
-      "height": 3862,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/8c821b8b-7590-405f-8d44-083e1c39720a/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/8c821b8b-7590-405f-8d44-083e1c39720a/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/8c821b8b-7590-405f-8d44-083e1c39720a/full.jpg"
-      },
-      "exif": {
-        "camera": "NIKON CORPORATION NIKON Z f",
-        "lens": "THYPOCH SIMERA",
-        "iso": 1600,
-        "aperture": "f/2.0",
-        "shutter": "1/250",
-        "focal_length": "28mm"
-      },
-      "source_hash": "e034f502d91a545f8e384169a799213e8b823fb16073b211557c4b9034be6eb4"
     },
     {
       "id": "27889092-9869-4da2-a49b-88ba67ccc364",
@@ -5970,33 +5534,6 @@
       "source_hash": "63a75d2643d2c9caf82d650e6d66d96e4b2c67b22a51d6ce06ec203ea0a93689"
     },
     {
-      "id": "d8a86d12-bf64-4cdc-8442-8dde1a544b1f",
-      "filename": "AAM_2171.jpg",
-      "genres": [
-        "low-light",
-        "street-and-documentary"
-      ],
-      "collections": [],
-      "taken_at": "2026-05-13T12:31:10Z",
-      "uploaded_at": "2026-05-21T14:36:54.058107Z",
-      "width": 4027,
-      "height": 5370,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/d8a86d12-bf64-4cdc-8442-8dde1a544b1f/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/d8a86d12-bf64-4cdc-8442-8dde1a544b1f/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/d8a86d12-bf64-4cdc-8442-8dde1a544b1f/full.jpg"
-      },
-      "exif": {
-        "camera": "NIKON CORPORATION NIKON Z f",
-        "lens": "NIKKOR Z 40mm f/2",
-        "iso": 5000,
-        "aperture": "f/5.6",
-        "shutter": "1/125",
-        "focal_length": "40mm"
-      },
-      "source_hash": "e65b85f3bd6c53b5f8227c665b319043e54efa7427f0b0d0f48abac4c93f3ee0"
-    },
-    {
       "id": "c25e89c5-05b4-4434-9292-2a62620fa7a5",
       "filename": "ACS_0011.jpg",
       "genres": [
@@ -6181,31 +5718,6 @@
       "source_hash": "811dce8f01b151be01e31bf6a8bf86fccc791735debbd50f3874aff5ac89da72"
     },
     {
-      "id": "55811f63-0a21-4dcc-9964-9b69cbc2aa97",
-      "filename": "DSCF0017 7 Edited.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [],
-      "taken_at": "2022-06-20T17:02:27Z",
-      "uploaded_at": "2026-05-21T14:37:17.592964Z",
-      "width": 2355,
-      "height": 2944,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/55811f63-0a21-4dcc-9964-9b69cbc2aa97/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/55811f63-0a21-4dcc-9964-9b69cbc2aa97/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/55811f63-0a21-4dcc-9964-9b69cbc2aa97/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM FI019",
-        "iso": 100,
-        "aperture": "f/2.0",
-        "shutter": "1/1900",
-        "focal_length": "2mm"
-      },
-      "source_hash": "8ddcafb58071daeba6a3ff40311935ae84e05c87cdba6eb369652271a91e2f54"
-    },
-    {
       "id": "5cb1f4ef-e420-4b3a-87f9-d1240827161e",
       "filename": "DSCF0022_DxO.jpg",
       "genres": [
@@ -6367,32 +5879,6 @@
         "focal_length": "35mm"
       },
       "source_hash": "41aa4c323002face93c3ecb061f2c29fdf40d67161491813d4987845fda99d06"
-    },
-    {
-      "id": "baf9a431-ab9e-4c28-a471-3e2384931bb9",
-      "filename": "DSCF0251_DxO.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [],
-      "taken_at": "2022-10-20T13:16:40Z",
-      "uploaded_at": "2026-05-21T14:37:29.522776Z",
-      "width": 4100,
-      "height": 5467,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/baf9a431-ab9e-4c28-a471-3e2384931bb9/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/baf9a431-ab9e-4c28-a471-3e2384931bb9/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/baf9a431-ab9e-4c28-a471-3e2384931bb9/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100V",
-        "lens": "23.0 mm f/2.0",
-        "iso": 6400,
-        "aperture": "f/2.0",
-        "shutter": "1/60",
-        "focal_length": "23mm"
-      },
-      "source_hash": "6d3f7d69bd38781702690f90e5a9c8afd2c8397ebc371eb7dae4805e25e9c3cf"
     },
     {
       "id": "44170aa2-831d-4e3f-8f0d-9608589e6077",
@@ -6560,34 +6046,6 @@
       "source_hash": "808b8cfb567dd85086aa4f6c7638b674fd6a5a9a40df4687518f25c92ca098cf"
     },
     {
-      "id": "6f38d519-26f3-427b-b56b-219060c76b00",
-      "filename": "DSCF0182.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2024-05-04T12:10:12Z",
-      "uploaded_at": "2026-05-21T14:37:39.341911Z",
-      "width": 5152,
-      "height": 6869,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/6f38d519-26f3-427b-b56b-219060c76b00/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/6f38d519-26f3-427b-b56b-219060c76b00/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/6f38d519-26f3-427b-b56b-219060c76b00/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T5",
-        "lens": "XF35mmF2 R WR",
-        "iso": 320,
-        "aperture": "f/2.0",
-        "shutter": "1/250",
-        "focal_length": "35mm"
-      },
-      "source_hash": "65cc71b4bba1fa997611b12db42c19c5b698772bc86a527118aae838e02710df"
-    },
-    {
       "id": "b9d9f258-c367-4cb4-a922-1b5c841969cd",
       "filename": "DSCF0556_DxO.jpg",
       "genres": [
@@ -6670,85 +6128,6 @@
       "source_hash": "2a4f3c8f574d5659ea36ed44de47744e9a116c6caefbdc7f7fe8227e530ce1e6"
     },
     {
-      "id": "999281c0-1e4b-4da4-bff6-37525a6f1510",
-      "filename": "DSCF0573_DxO.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [],
-      "taken_at": "2022-11-18T10:28:10Z",
-      "uploaded_at": "2026-05-21T14:37:48.593938Z",
-      "width": 4127,
-      "height": 5503,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/999281c0-1e4b-4da4-bff6-37525a6f1510/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/999281c0-1e4b-4da4-bff6-37525a6f1510/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/999281c0-1e4b-4da4-bff6-37525a6f1510/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100V",
-        "lens": "23.0 mm f/2.0",
-        "iso": 1600,
-        "aperture": "f/5.6",
-        "shutter": "1/125",
-        "focal_length": "23mm"
-      },
-      "source_hash": "0df9f2e3943feae6b416ce69aa3cf083925bdc1ba1cc3d294789aff8f8736eae"
-    },
-    {
-      "id": "0c840799-1a6f-49b9-844a-5de36a77f3f9",
-      "filename": "DSCF0597_DxO.jpg",
-      "genres": [
-        "street-and-documentary",
-        "portrait"
-      ],
-      "collections": [],
-      "taken_at": "2022-11-18T10:55:52Z",
-      "uploaded_at": "2026-05-21T14:37:51.254113Z",
-      "width": 4094,
-      "height": 5458,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/0c840799-1a6f-49b9-844a-5de36a77f3f9/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/0c840799-1a6f-49b9-844a-5de36a77f3f9/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/0c840799-1a6f-49b9-844a-5de36a77f3f9/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100V",
-        "lens": "23.0 mm f/2.0",
-        "iso": 1250,
-        "aperture": "f/5.6",
-        "shutter": "1/125",
-        "focal_length": "23mm"
-      },
-      "source_hash": "83f4294473cfafaaa95e41730d5a9df95fdbc37bc5c8f01e3c4ee32d5d2790f7"
-    },
-    {
-      "id": "41d6b6f4-c841-4915-9c25-c9dbccd01fdd",
-      "filename": "DSCF0676.jpg",
-      "genres": [
-        "street-and-documentary",
-        "black-and-white"
-      ],
-      "collections": [],
-      "taken_at": "2022-11-23T10:10:26Z",
-      "uploaded_at": "2026-05-21T14:37:53.934233Z",
-      "width": 3565,
-      "height": 4753,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/41d6b6f4-c841-4915-9c25-c9dbccd01fdd/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/41d6b6f4-c841-4915-9c25-c9dbccd01fdd/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/41d6b6f4-c841-4915-9c25-c9dbccd01fdd/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100V",
-        "iso": 1250,
-        "aperture": "f/2.0",
-        "shutter": "1/500",
-        "focal_length": "23mm"
-      },
-      "source_hash": "7fce88b014fd12bcd0d35e8b1f0f154ef68a03edb07f927fecf40c2bfb23a4c5"
-    },
-    {
       "id": "4cbd1264-dd81-4ef0-8ad2-e6a14a93bbad",
       "filename": "DSCF0699_DxO.jpg",
       "genres": [
@@ -6799,35 +6178,6 @@
         "focal_length": "23mm"
       },
       "source_hash": "b3f52d12e1c9e6e9cbf150e6b041c63b9c374075d26a7bd49747682af16e35bc"
-    },
-    {
-      "id": "87b357aa-50d9-4a2f-9906-9329d7faa08a",
-      "filename": "DSCF0726_DxO.jpg",
-      "genres": [
-        "low-light",
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2022-11-25T11:40:37Z",
-      "uploaded_at": "2026-05-21T14:37:58.642416Z",
-      "width": 4160,
-      "height": 5546,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/87b357aa-50d9-4a2f-9906-9329d7faa08a/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/87b357aa-50d9-4a2f-9906-9329d7faa08a/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/87b357aa-50d9-4a2f-9906-9329d7faa08a/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100V",
-        "lens": "23.0 mm f/2.0",
-        "iso": 1600,
-        "aperture": "f/2.0",
-        "shutter": "1/60",
-        "focal_length": "23mm"
-      },
-      "source_hash": "0d5c8b24ec191611a88a9b4f8a217da73049586755300114bbc51cdc8f95d62b"
     },
     {
       "id": "af5e9f42-107e-43d0-9162-d0f030376988",
@@ -6917,6 +6267,7 @@
       "id": "05b07b2c-6ce6-4634-8985-81e5601198a3",
       "filename": "DSCF0821 3 Edited.jpg",
       "genres": [
+        "architecture-and-interior",
         "street-and-documentary"
       ],
       "collections": [
@@ -7077,32 +6428,6 @@
         "focal_length": "23mm"
       },
       "source_hash": "7253fba93ae8e72805d4e16cbe74712e07c07d7eeceb83c16fd6aced7676252a"
-    },
-    {
-      "id": "0e7c6296-cb2f-45eb-b845-b5b184c56ae6",
-      "filename": "DSCF0830 5 Edited.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [],
-      "taken_at": "2025-06-07T01:37:40Z",
-      "uploaded_at": "2026-05-21T14:38:14.770523Z",
-      "width": 6048,
-      "height": 6048,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/0e7c6296-cb2f-45eb-b845-b5b184c56ae6/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/0e7c6296-cb2f-45eb-b845-b5b184c56ae6/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/0e7c6296-cb2f-45eb-b845-b5b184c56ae6/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "XF27mmF2.8 R WR",
-        "iso": 1250,
-        "aperture": "f/4.0",
-        "shutter": "1/180",
-        "focal_length": "27mm"
-      },
-      "source_hash": "f77f707058930e77c730d208fd69d606ffe0b775521c9dcc337a4958e4d4af61"
     },
     {
       "id": "13a70343-6578-4a8d-852d-50b6ec5bef3b",
@@ -7725,33 +7050,6 @@
       "source_hash": "a1bd35b84e06891d1f186e87a1fb63e3fdb4f74b78573dc5be564b1e6398a149"
     },
     {
-      "id": "611d8181-b245-4724-a420-f30278c5935d",
-      "filename": "DSCF7574_DxO.jpg",
-      "genres": [
-        "black-and-white",
-        "street-and-documentary"
-      ],
-      "collections": [],
-      "taken_at": "2022-06-11T11:04:47Z",
-      "uploaded_at": "2026-05-21T14:39:21.957199Z",
-      "width": 4118,
-      "height": 5491,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/611d8181-b245-4724-a420-f30278c5935d/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/611d8181-b245-4724-a420-f30278c5935d/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/611d8181-b245-4724-a420-f30278c5935d/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "XF35mmF1.4 R",
-        "iso": 125,
-        "aperture": "f/4.0",
-        "shutter": "1/250",
-        "focal_length": "35mm"
-      },
-      "source_hash": "80a40f0c0df56310686237707a5f0eddac67a3095cf617748e8a685a1d540450"
-    },
-    {
       "id": "b88da03b-8e0e-4064-a2a2-ed8638052e6e",
       "filename": "DSCF7615_DxO.jpg",
       "genres": [
@@ -7834,34 +7132,6 @@
       "source_hash": "8067e7b167674c83b7fdcea172897c0aae4824617a1689d2b90a10136ec8e9d6"
     },
     {
-      "id": "22f7696e-0bb8-4052-9d77-fd56a1e823a2",
-      "filename": "DSCF7838_DxO 9 Edited.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-railway-station"
-      ],
-      "taken_at": "2022-06-21T11:41:35Z",
-      "uploaded_at": "2026-05-21T14:39:30.137263Z",
-      "width": 4839,
-      "height": 6048,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/22f7696e-0bb8-4052-9d77-fd56a1e823a2/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/22f7696e-0bb8-4052-9d77-fd56a1e823a2/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/22f7696e-0bb8-4052-9d77-fd56a1e823a2/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "XF27mmF2.8 R WR",
-        "iso": 500,
-        "aperture": "f/4.0",
-        "shutter": "1/500",
-        "focal_length": "27mm"
-      },
-      "source_hash": "cef516886b5bd6f057905cb2461938717cbd975553d95248ab244faa0cf6f675"
-    },
-    {
       "id": "541cbf55-d640-483c-8a06-c57fb8df4c76",
       "filename": "DSCF7842_DxO 10 Edited.jpg",
       "genres": [
@@ -7916,89 +7186,6 @@
         "focal_length": "27mm"
       },
       "source_hash": "0cfba3fd235b058b91689a902dc99901bf76027ac11938d21f9cb97acc562a04"
-    },
-    {
-      "id": "caad1f1b-6503-4463-88ae-fc9f84bd8b82",
-      "filename": "DSCF7871.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-railway-station"
-      ],
-      "taken_at": "2022-06-24T11:07:24Z",
-      "uploaded_at": "2026-05-21T14:39:32.802459Z",
-      "width": 5346,
-      "height": 4010,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/caad1f1b-6503-4463-88ae-fc9f84bd8b82/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/caad1f1b-6503-4463-88ae-fc9f84bd8b82/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/caad1f1b-6503-4463-88ae-fc9f84bd8b82/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "XF35mmF2 R WR",
-        "iso": 250,
-        "aperture": "f/5.0",
-        "shutter": "1/500",
-        "focal_length": "35mm"
-      },
-      "source_hash": "43f965ed851c7c0440ed0b830bb0d6fc4312a1f4d54336cd15315bd325dcbe9d"
-    },
-    {
-      "id": "13b64540-645c-45e8-8006-e0c2aebaf855",
-      "filename": "DSCF7875.jpg",
-      "genres": [
-        "street-and-documentary",
-        "portrait"
-      ],
-      "collections": [],
-      "taken_at": "2022-06-24T11:16:51Z",
-      "uploaded_at": "2026-05-21T14:39:33.581507Z",
-      "width": 3777,
-      "height": 2832,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/13b64540-645c-45e8-8006-e0c2aebaf855/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/13b64540-645c-45e8-8006-e0c2aebaf855/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/13b64540-645c-45e8-8006-e0c2aebaf855/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "XF35mmF2 R WR",
-        "iso": 200,
-        "aperture": "f/5.0",
-        "shutter": "1/250",
-        "focal_length": "35mm"
-      },
-      "source_hash": "ccfe354632bf037633e684180dbf25b8a8ada0f0115a175c84a48a6d91d1676c"
-    },
-    {
-      "id": "0c677d3d-3f59-457c-83d5-d854a09ed3b4",
-      "filename": "DSCF7868.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-railway-station"
-      ],
-      "taken_at": "2022-06-24T11:03:53Z",
-      "uploaded_at": "2026-05-21T14:39:34.556809Z",
-      "width": 5547,
-      "height": 4160,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/0c677d3d-3f59-457c-83d5-d854a09ed3b4/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/0c677d3d-3f59-457c-83d5-d854a09ed3b4/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/0c677d3d-3f59-457c-83d5-d854a09ed3b4/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "XF35mmF2 R WR",
-        "iso": 250,
-        "aperture": "f/8.0",
-        "shutter": "1/1000",
-        "focal_length": "35mm"
-      },
-      "source_hash": "272b38dbdaf6423c36d833b6904aa92326e8999115f898e7f5e7e4c3b8f907f1"
     },
     {
       "id": "a7a5d3ac-6185-435a-9cba-3659cf4dbb2e",
@@ -8858,32 +8045,6 @@
       "source_hash": "c9660b9a225f919df3db96adc53dcb1a38b2f41e5f27d155078d860320f80832"
     },
     {
-      "id": "22012478-a9ab-43a2-8b43-d9d670abca07",
-      "filename": "IMG_0846.JPG",
-      "genres": [
-        "street-and-documentary",
-        "black-and-white"
-      ],
-      "collections": [],
-      "taken_at": "2024-12-20T10:26:41Z",
-      "uploaded_at": "2026-05-21T14:40:11.290127Z",
-      "width": 2047,
-      "height": 2048,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/22012478-a9ab-43a2-8b43-d9d670abca07/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/22012478-a9ab-43a2-8b43-d9d670abca07/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/22012478-a9ab-43a2-8b43-d9d670abca07/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100VI",
-        "iso": 125,
-        "aperture": "f/2.0",
-        "shutter": "1/500",
-        "focal_length": "23mm"
-      },
-      "source_hash": "b0e264bb1d1fff6a8e6980ad5b48b3b034da256f2ad2be0e6e27ca1028c7e49d"
-    },
-    {
       "id": "708ecd27-53e7-4d21-82f2-aff3f32791ff",
       "filename": "IMG_1974.jpg",
       "genres": [
@@ -9226,33 +8387,6 @@
         "focal_length": "23mm"
       },
       "source_hash": "3d43e7748b127137640a961795f9ed5234b82c077c9635a67d2051f41b471e32"
-    },
-    {
-      "id": "a8d16a89-bb59-4335-a3f1-31c348cd0ab9",
-      "filename": "May_2022_05_08_0130.jpg",
-      "genres": [
-        "street-and-documentary",
-        "portrait"
-      ],
-      "collections": [],
-      "taken_at": "2022-05-08T12:02:01Z",
-      "uploaded_at": "2026-05-21T14:40:37.246826Z",
-      "width": 4160,
-      "height": 5547,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/a8d16a89-bb59-4335-a3f1-31c348cd0ab9/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/a8d16a89-bb59-4335-a3f1-31c348cd0ab9/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/a8d16a89-bb59-4335-a3f1-31c348cd0ab9/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T3",
-        "lens": "AF 56/1.4 XF",
-        "iso": 200,
-        "aperture": "f/2.0",
-        "shutter": "1/200",
-        "focal_length": "56mm"
-      },
-      "source_hash": "28446d228f040dcf373f3252bbd8299ce0f054856458ec1062d5b224dc4dc78d"
     },
     {
       "id": "4f5e2d41-b58f-42e5-970e-48a793ce4f28",
@@ -9667,35 +8801,6 @@
       "source_hash": "288784fcf419bfbf6643d9b043de76d92cda2727e9bc95d0d0e8d9515633d223"
     },
     {
-      "id": "6e1e606f-16ff-4601-8dca-15d49745ed89",
-      "filename": "AAM01033.jpg",
-      "genres": [
-        "low-light",
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2025-11-21T11:34:44Z",
-      "uploaded_at": "2026-05-21T14:41:16.790111Z",
-      "width": 3838,
-      "height": 5118,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/6e1e606f-16ff-4601-8dca-15d49745ed89/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/6e1e606f-16ff-4601-8dca-15d49745ed89/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/6e1e606f-16ff-4601-8dca-15d49745ed89/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-Pro3",
-        "lens": "XF23mmF2 R WR",
-        "iso": 2500,
-        "aperture": "f/2.8",
-        "shutter": "1/125",
-        "focal_length": "23mm"
-      },
-      "source_hash": "de78c8a38312d85a8bd4f5aaa48c7ff38f94472cfbe180d0fbab143156bf8439"
-    },
-    {
       "id": "91503d65-a7e4-46ba-864c-7fd28a3c5d79",
       "filename": "AAM05828_DxO.jpg",
       "caption": "মাছরাঙা",
@@ -10026,31 +9131,6 @@
       "source_hash": "3fd56cd2473ed1d9f50fe9ca561d93b6f552c6b0476fe9743c178b672365a858"
     },
     {
-      "id": "42b3531a-88f5-4a1c-8c24-0b7682efdb51",
-      "filename": "DSCF7299_DxO.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [],
-      "taken_at": "2022-05-28T11:51:16Z",
-      "uploaded_at": "2026-05-21T14:41:49.837077Z",
-      "width": 3724,
-      "height": 4965,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/42b3531a-88f5-4a1c-8c24-0b7682efdb51/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/42b3531a-88f5-4a1c-8c24-0b7682efdb51/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/42b3531a-88f5-4a1c-8c24-0b7682efdb51/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "23.0 mm",
-        "iso": 160,
-        "shutter": "1/250",
-        "focal_length": "23mm"
-      },
-      "source_hash": "5a0b9d7d0678ee7c26d762e5ea8067c0eb9e9bad3996000058f7f426c12b4732"
-    },
-    {
       "id": "283e22ed-1aec-4619-9e1f-35ca60cba99a",
       "filename": "DSCF0897_DxO.jpg",
       "genres": [
@@ -10207,32 +9287,6 @@
         "focal_length": "37mm"
       },
       "source_hash": "dcdedf77f3aaf8f64a2a6b08ef7cb80297670115ef7fc78556d95515cdc91dba"
-    },
-    {
-      "id": "63e7d244-5ee4-4bb0-aa6d-59ffdcb54618",
-      "filename": "May_2022_05_08_0138.jpg",
-      "genres": [
-        "street-and-documentary"
-      ],
-      "collections": [],
-      "taken_at": "2022-05-08T12:00:14Z",
-      "uploaded_at": "2026-05-21T14:42:06.609599Z",
-      "width": 4813,
-      "height": 3610,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/63e7d244-5ee4-4bb0-aa6d-59ffdcb54618/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/63e7d244-5ee4-4bb0-aa6d-59ffdcb54618/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/63e7d244-5ee4-4bb0-aa6d-59ffdcb54618/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T3",
-        "lens": "AF 56/1.4 XF",
-        "iso": 200,
-        "aperture": "f/2.0",
-        "shutter": "1/200",
-        "focal_length": "56mm"
-      },
-      "source_hash": "5497ea5eb33be146132ac916468bf48885958b5bce00095c8a078edfb63ecc9d"
     },
     {
       "id": "b263e331-c109-44ca-a971-55b4442370e5",
@@ -10486,241 +9540,119 @@
       "name": "স্ট্রিট অ্যান্ড ডকুমেন্টারি",
       "cover": "fe778eda-a310-4625-9d51-1dbbdd7a3e67",
       "order": [
+        "6421998f-fc31-439e-a932-2289a0a40b1f",
+        "749b737a-a103-4e28-be82-cea14ebe8c71",
+        "cb40a2d6-52ed-4d89-913d-668cd16793b1",
+        "3e69baf4-5672-4e32-a9d0-b0c0866dc930",
+        "eb0f8967-afc5-437f-b59c-e0d733837de2",
+        "81c0dba9-a4ad-4089-9419-4eed7ad59810",
         "fe778eda-a310-4625-9d51-1dbbdd7a3e67",
         "6a6d3c05-529c-4874-9a28-e01fb11e6355",
-        "4da7a360-dcc4-4aad-8b03-87526787edd7",
         "8e2b1401-e29b-48a8-9d0a-912e86a3f650",
-        "42b3531a-88f5-4a1c-8c24-0b7682efdb51",
-        "6804d23b-3ea7-4454-a993-c334a013fd94",
-        "b0a84aab-b85d-4d77-9fca-2fb4f24853c4",
-        "67f137c8-8f35-4ffc-8888-67518bd5597f",
-        "b263e331-c109-44ca-a971-55b4442370e5",
-        "8f1d2156-244e-4506-bcde-9aaa011ca724",
-        "080f7ebe-5629-4e24-b1ef-aa59dfe1167d",
-        "7ed65611-b166-429b-a948-c36ad68aafba",
-        "14f74fab-9914-4a73-9ef6-9cbd0ec3b3d9",
-        "ad4e57eb-db20-4766-b4e8-0d6a5f116811",
-        "dce3d9f9-28bd-4636-b369-233858c5d491",
-        "b2ecd7b4-d9d8-4bf8-a29f-c9170294a772",
-        "ffa83dcf-627c-4ea6-a6d9-3db96e869a9a",
-        "06fa0939-47bc-47a3-b25d-06b584b4ceb0",
-        "68e36cce-4b66-4e72-8107-6113fb99dbfa",
-        "7ea464c2-c88e-4a95-a1df-825f1baa5cd6",
+        "b8a0e292-d1c6-4482-a671-0f6740cdf33a",
+        "4da7a360-dcc4-4aad-8b03-87526787edd7",
+        "192a940b-63db-4ce8-a583-cecfaaa372c8",
+        "d4545652-916e-4497-b77e-e1f0c111a2f6",
         "017716af-5937-44f3-b6c7-df60f643c0b4",
-        "6bc6fcd5-e27f-456a-8a6b-07101bf38235",
-        "1409941e-3fd9-4995-b8b3-b184fe4ecd1c",
-        "915d9d94-734f-4b77-a7c7-48ebe0eb7ec9",
-        "beccb34c-2f47-49ae-933c-8e635323e588",
+        "b263e331-c109-44ca-a971-55b4442370e5",
         "8f111db4-e8fc-4686-bff6-8d10f9c7cc28",
-        "456d1210-e5eb-42b8-ae6c-5a3a2538e522",
-        "8a2ca84b-5718-4cf5-9014-48c39ed44099",
-        "46881d56-3902-47c1-a590-f6838434ffd2",
-        "87be7027-a3fc-41ef-a9be-a9cadcc0e0b6",
-        "1702efa0-9e9f-4d02-b988-853a50d8ca2f",
         "1568c06d-3201-404e-9bea-210c1a909570",
-        "151a7b6d-1a0e-4cf5-a48c-873c6214ae69",
-        "3531f108-5ccc-458d-8aae-e08c283c5508",
         "c450a13b-347a-4d81-af18-706e3d852d79",
-        "c17093ba-30e8-4ffc-a795-80e851b6ccfa",
+        "cc8833be-1b77-4d10-9b25-66ebc5cc45ac",
         "a5b6c95d-7e46-41c0-b08e-d2dce2bd4187",
-        "d3df613e-179a-408d-ae9e-375fcaecbece",
         "d3f7a671-6705-4856-a2eb-5fd4842a17fc",
-        "96f3a6cd-ba1d-418f-8acd-7aa0043af75f",
-        "fc875756-9838-4b56-874f-eddc6717553c",
-        "eabfdfde-5052-4e88-9f06-3d5be564eb22",
-        "b4ddf3aa-03f7-49c0-8069-04277dddb4fe",
-        "060d94f0-f524-441f-aa5d-b097224f7e91",
-        "4ea8dd05-5679-4f80-9475-045811dfb380",
         "4631d374-fe24-43e8-97e1-306045e6125f",
-        "64b5ec21-d088-408c-a0b9-33fddf45c7d0",
         "8f99ccac-7a5e-4dc0-acb3-31c0f6aeac82",
         "233f3be3-81cd-4d85-b164-abc961a8f4d1",
-        "7b5e4821-35c5-467d-8568-0e23c4fae101",
         "d642436f-e15c-43bb-9992-616a3cd8babf",
-        "cc8833be-1b77-4d10-9b25-66ebc5cc45ac",
-        "517b1e18-cb9a-4026-99ae-7b25e0c147f6",
-        "b8a0e292-d1c6-4482-a671-0f6740cdf33a",
-        "a8d16a89-bb59-4335-a3f1-31c348cd0ab9",
-        "192a940b-63db-4ce8-a583-cecfaaa372c8",
-        "1286a6f6-6b2b-4623-9cd3-45652ff84d94",
-        "0dada6dd-c81a-4f62-8f75-617cdb35185b",
-        "d06f7b90-fb9f-4053-a848-e94ebb2917de",
-        "a4aedc6f-1f1b-49f7-85d3-1ce8282edcf3",
-        "d55cf335-c0d3-449a-a863-14427dd2f509",
-        "63e7d244-5ee4-4bb0-aa6d-59ffdcb54618",
-        "7023e664-db96-4603-9d4f-5d6c3c1ac0f8",
-        "f1e7de77-6578-4352-8b71-ca59686469cf",
-        "4b4c2482-06db-4aa0-bbef-a82ce2cab9cf",
-        "d4545652-916e-4497-b77e-e1f0c111a2f6",
-        "75d3c653-82bc-4a82-9b0d-54cd12400e29",
-        "82f7df3d-e7ba-427b-bf20-46ade294ff8b",
-        "f14c719e-c85e-4cb9-aa84-533f09bbbfdd",
-        "aa207afe-e9a8-448f-b762-05f5295df9e3",
-        "be92494c-10f6-441b-abaf-2d63ad95473c",
         "67e13d63-4d76-4ecc-a50e-39d51c10ad9f",
-        "91291565-83d8-46cb-9aa1-f96920bf6833",
-        "08edde9e-6b72-4fb8-8b22-178e0a170393",
-        "ec42aa44-0ba7-44f0-b403-0bc7c081ee29",
-        "20133849-3795-4b31-afce-86ba3d5f4d46",
-        "0677813b-9d85-4678-ba73-bd221b8d1b3b",
-        "15526eb1-8dd7-46e7-a0a6-cff5e61872a5",
-        "d625c51e-d114-4bb7-8141-c89774a54317",
-        "749b737a-a103-4e28-be82-cea14ebe8c71",
-        "9c748085-807e-46fd-980f-5a63bb230e6f",
-        "6421998f-fc31-439e-a932-2289a0a40b1f",
-        "67ece0b8-c664-4985-80e0-8ad3d6b1c5b4",
-        "3e69baf4-5672-4e32-a9d0-b0c0866dc930",
-        "611d8181-b245-4724-a420-f30278c5935d",
-        "eb0f8967-afc5-437f-b59c-e0d733837de2",
-        "b88da03b-8e0e-4064-a2a2-ed8638052e6e",
-        "81c0dba9-a4ad-4089-9419-4eed7ad59810",
-        "ffbb9d37-3eb4-44dd-ae31-f5aa5ae05d82",
-        "cb40a2d6-52ed-4d89-913d-668cd16793b1",
-        "56de8987-8c2c-4980-9e38-a311f9a59cab",
-        "a7a5d3ac-6185-435a-9cba-3659cf4dbb2e",
-        "a0e848f8-9175-4f11-8df8-6930aae670ae",
-        "55811f63-0a21-4dcc-9964-9b69cbc2aa97",
-        "f16c4ccc-eae9-4646-9ffe-9450c748e241",
-        "22f7696e-0bb8-4052-9d77-fd56a1e823a2",
-        "541cbf55-d640-483c-8a06-c57fb8df4c76",
+        "4b4c2482-06db-4aa0-bbef-a82ce2cab9cf",
         "f7aa0616-33b9-4d1b-8c85-4a5ddab3999b",
-        "0c677d3d-3f59-457c-83d5-d854a09ed3b4",
-        "caad1f1b-6503-4463-88ae-fc9f84bd8b82",
-        "13b64540-645c-45e8-8006-e0c2aebaf855",
+        "67ece0b8-c664-4985-80e0-8ad3d6b1c5b4",
+        "6804d23b-3ea7-4454-a993-c334a013fd94",
+        "c17093ba-30e8-4ffc-a795-80e851b6ccfa",
+        "82f7df3d-e7ba-427b-bf20-46ade294ff8b",
+        "2fcacab1-51aa-412b-83fb-daeca9f61cc1",
+        "aa207afe-e9a8-448f-b762-05f5295df9e3",
+        "91291565-83d8-46cb-9aa1-f96920bf6833",
+        "ec42aa44-0ba7-44f0-b403-0bc7c081ee29",
+        "d625c51e-d114-4bb7-8141-c89774a54317",
+        "ffbb9d37-3eb4-44dd-ae31-f5aa5ae05d82",
+        "56de8987-8c2c-4980-9e38-a311f9a59cab",
+        "541cbf55-d640-483c-8a06-c57fb8df4c76",
         "04f30ebc-dc54-4d96-9551-9cdb4039224d",
         "d3fd2e9c-6de6-4f41-8e97-ba16b7f13aaf",
         "d1cc07af-fb9e-4397-a799-a5c929669c71",
-        "152f9eb1-b599-4927-b8e6-61b4d7afd04a",
-        "d4db13cf-142d-4e87-94d1-d937ec7f6ccd",
-        "3d32206c-1930-4d28-92cc-bff77a441257",
-        "d8c763e6-e03a-4b15-ad45-8b0d4ac3d45f",
         "7a5a051a-ac30-4789-99f4-540a269beb7e",
         "e5119b73-24d3-4f03-aded-0c2d5033806e",
-        "f517bf65-34d6-40d7-95f5-3d68506d5eac",
-        "99521298-5499-4271-abbb-4c9de00c53bd",
-        "a68f6ff4-a76a-4bec-846b-c5315a5c2384",
-        "bd5e3147-adde-4fde-9d46-d6acea7b123c",
         "275818ec-af87-4819-8e63-748fe220708e",
         "746011be-5806-4b1a-b146-0a254e0108c6",
         "2d9b0dd2-e0a9-4379-be30-6b027fcb0a49",
         "df288e92-5798-4417-944e-f1064dcce315",
-        "f747c9ea-f8ea-42e4-9128-e52fa594b0f0",
         "fbf14c08-54ff-4c95-86e8-9c05aeaef8ca",
-        "9cea2e30-4b1d-4e6b-8e4b-acdd26ba0e30",
-        "8599cc7a-d94b-438f-b180-680535b2a27d",
-        "f56c106a-af5a-40d6-95f6-be9cee911f0d",
-        "baf9a431-ab9e-4c28-a471-3e2384931bb9",
         "84a4eb8b-e656-430c-9576-57c382051a95",
-        "0d56a2e8-0848-44ac-8f09-0525316d0198",
-        "972d2fe4-99ed-44e9-8ad5-d097dbdef2d4",
         "fd946946-1f5e-4e61-9a8d-3470f85be699",
-        "07ebdad3-8920-4274-ad55-3db8f64624ca",
-        "fc116c0c-1243-48b7-882d-f5085384893b",
-        "8e59cf8f-c1f5-4f9d-9c3d-95dcd80d021a",
-        "999281c0-1e4b-4da4-bff6-37525a6f1510",
-        "1a0e0741-ddb1-48c9-b4b3-a1e3f488cf2d",
-        "0c840799-1a6f-49b9-844a-5de36a77f3f9",
-        "f5da9f5d-c0cf-483c-bd5e-f0fa6195fdba",
-        "41d6b6f4-c841-4915-9c25-c9dbccd01fdd",
         "af5e9f42-107e-43d0-9162-d0f030376988",
-        "c50642b3-f5b5-4c62-a5b6-b2ce9034d6d5",
-        "ba25db9e-6fb9-44a5-860a-485c1363a734",
-        "bbdf7262-0438-46f1-b620-097b12010d50",
-        "5fa61e16-ba34-4eda-af65-ddc213b45080",
         "af0e8d07-6c63-4944-845a-fde0420bc334",
         "13a70343-6578-4a8d-852d-50b6ec5bef3b",
-        "2fcacab1-51aa-412b-83fb-daeca9f61cc1",
-        "cb79d1d4-e7ab-4f5a-91aa-e326a01a18e7",
+        "8d9ead73-138b-46ce-8529-3a2aa2d08987",
+        "a4a6439e-195b-44a1-a4e3-09615429286b",
         "eb19aa6a-d9d2-4449-bcd6-5c1c5d8dc075",
-        "d4b7f282-493b-445f-9873-526e394f350b",
         "2d6bd64e-7cf7-4be7-98ce-7b2683755372",
-        "208cabc8-d297-4df8-8228-798398a3c0ff",
-        "77a17fdd-8fd3-4d98-a519-93785ca789c1",
         "4a6eee4f-0bc4-4858-8196-56a66e240dfc",
         "892f726e-2701-4575-9e09-03cd68f16b07",
-        "6f38d519-26f3-427b-b56b-219060c76b00",
-        "aec5017a-dc89-42fe-b2e1-a60e2ecffc37",
-        "352cbcaa-beb7-4d8b-9710-c530ec5d8def",
-        "c6697744-2991-4a40-a349-c845cf305a2b",
-        "d0774cf7-4596-496c-afe3-0c9f3340f092",
-        "371a3a21-d20f-4279-affd-f7081a1b483d",
-        "b6b36a65-5282-4b81-aa40-b809d0b3ec60",
-        "d5df25da-d122-4d00-8d6c-aa7cb89d0640",
-        "3fee348e-0ad5-4004-9c59-dd0a398cd13c",
-        "e2c0b902-6f6f-4c32-b3ed-41e737c686ae",
-        "697cf320-09f9-4447-9212-9194a3fa449d",
-        "10977af2-0e4b-4e66-a341-e454d0e1bd1a",
-        "74654b05-7e9d-4ebd-9b59-d37b7be81ebb",
-        "ec6d28fc-bfa5-4080-bdd5-2e65d464d931",
-        "7123b163-743a-44b5-a1b0-370f0fb3fcc8",
-        "ccc3acb1-678b-4a60-aa75-3635356bba76",
-        "896bf8d4-2f5b-4a09-839e-723022386dc8",
-        "befd63d2-d540-456f-8671-a28d5317b30b",
-        "60f32fb1-38ff-4c8b-8d0e-55658cbdb14e",
-        "ad687e3a-9282-40bc-8315-f05ef08a332c",
-        "8e599449-b26c-45e3-a4f3-ddf6383e8bc6",
-        "1161f96a-9f7d-4167-aff4-18f444c7a66d",
-        "b3b43031-0718-4802-9a51-e0914cc8fbf0",
-        "eacf624e-ff97-4c97-b0d8-3d444b4055c9",
-        "22012478-a9ab-43a2-8b43-d9d670abca07",
-        "9d3ff2c7-44ed-44d0-98b8-68ea4a23ab9e",
+        "a10f61a7-5d19-45c3-821f-1d587a708b48",
+        "f78b820d-eecc-4a91-9143-87b0594ada0e",
+        "f075888a-2f3d-45b9-812d-1e9f321ca78b",
+        "550af79a-56fc-4b5a-915d-ec19ba0743a5",
         "e03ceca0-9004-4cd1-b32b-a9402e525846",
         "bb8bb1bd-7d7c-4636-9d9e-b02741b43f94",
-        "54cb6f56-c90f-4ce5-aa18-7b6aad117b6b",
-        "51c4cb36-7b0c-4815-8e41-0e225022355a",
         "a7037e06-48b0-4adc-beb3-26eb727a2686",
-        "d1d73931-74eb-449c-bb17-34a0b66d5fc6",
-        "eceffb62-71f4-4834-aea5-618808abb886",
-        "1562dd49-5c5e-4498-81e6-109100c6e86b",
-        "5548626d-a471-49f8-98bb-c9e6b2a6a68a",
-        "b1807bed-d40a-4c03-87bc-09d8a7d1c912",
         "e0f18e6f-274e-4508-983a-f11df2437531",
-        "98cfa411-e97c-465e-ab7b-058193391227",
-        "f86ea600-1060-46c3-aff6-deca589e50e0",
-        "b84b146c-7cad-4a11-90ca-08bec5bb72ad",
-        "44a947d2-bce9-4e2c-92ad-b5ee24c65cfd",
+        "04dd312a-38d4-487f-9bff-29b71592dc5e",
         "bf282513-5ba6-477d-80f5-1d2a351749a9",
         "d897a94d-0070-4f41-b479-82fe45b403df",
-        "409d36f1-910d-4d2e-a2d3-30f2dc3ec8db",
-        "a4a6439e-195b-44a1-a4e3-09615429286b",
-        "7239e0a9-261a-420e-87ed-174b25e9557d",
-        "3c984302-4152-483a-89a0-8f2cf3812ba3",
-        "f075888a-2f3d-45b9-812d-1e9f321ca78b",
         "1976a821-2b6d-46e2-89e7-bca3bbbd1184",
-        "97dd83db-135f-412b-987b-843ef34d4190",
-        "33a8cfee-4c7d-4307-bac2-4f41f99cd176",
         "ad23a053-2d9e-4e7c-a369-5c4c16d06492",
         "32ebf279-62ae-4be9-8e1f-af42c3e60781",
         "fd9af051-567f-424e-806b-d532f3167c18",
         "31d8ecd3-38e0-4224-9735-c19a7c41b60a",
-        "60f09add-121b-4010-8f86-b8fd9faacf6a",
-        "e77ff596-4bb4-4b71-978e-019e0364dc04",
         "50026fff-536c-440e-bc1b-d2e25364c249",
         "e8e32116-07f3-44dd-b542-388c01f616e4",
-        "165aaaaa-71f7-432d-b5e3-c90cfca84ebc",
-        "97542a9a-01a6-46e0-b5dc-9ff1bf1bdcd3",
-        "e43bd642-6caf-4f31-86f8-8bf6664ac17a",
-        "19bb8762-cfd3-4360-abd0-7592e8ba4177",
         "f3ade03c-6796-4bf8-b9cc-ae6cf545dbb1",
         "ed1e245d-01ee-4fa4-bd4f-347b548c9e13",
         "79151192-4db4-45f3-9c9a-14611654d3ae",
         "71e701e1-ebfa-469e-931a-4cdea459e54b",
-        "c31f77a3-b661-45db-bd6a-026be1adaa00",
         "e2903218-a48d-410c-8a1c-85053fdf5c85",
         "90ebba38-b7e4-40eb-b4e2-7012b0d1d513",
-        "641b0a9e-0e92-439d-a89c-57789d63b065",
         "27889092-9869-4da2-a49b-88ba67ccc364",
-        "8c821b8b-7590-405f-8d44-083e1c39720a",
-        "983a1f52-85e0-4a75-bdcd-75b2c379829d",
-        "1a7bb56a-afe3-47c0-b5fc-96270163df53",
         "335de2a4-3746-484a-8d3b-6efc666f0e6c",
-        "d8a86d12-bf64-4cdc-8442-8dde1a544b1f",
-        "06375593-e327-430a-b59c-6893174ef2c1",
-        "21f49cdc-67ce-469b-bdca-541f446fd36c",
-        "a10f61a7-5d19-45c3-821f-1d587a708b48",
-        "bf958ad8-e240-42a0-87f4-2cb88ac4fc78",
-        "2a33f86f-3a2d-4a2d-8d4d-cd99242ffed4",
-        "f11927b5-3f7a-4616-9901-e90ada87e896"
+        "b121889d-50dd-41c1-acee-3eddebc1e1f3",
+        "488fe93d-2d15-4a6b-9afb-50ef59196b0e",
+        "4b7e4aae-4183-4a81-80c6-be7e5cb58c48",
+        "b9316a5d-d82e-45de-b86a-491f204a98b5",
+        "ba5d41a1-fab9-4798-9076-90ecae78937e",
+        "05b07b2c-6ce6-4634-8985-81e5601198a3",
+        "4214271e-13ac-4874-8ef9-634d9605c199",
+        "ec6d28fc-bfa5-4080-bdd5-2e65d464d931",
+        "352cbcaa-beb7-4d8b-9710-c530ec5d8def",
+        "697cf320-09f9-4447-9212-9194a3fa449d",
+        "e2c0b902-6f6f-4c32-b3ed-41e737c686ae",
+        "d5df25da-d122-4d00-8d6c-aa7cb89d0640",
+        "b6b36a65-5282-4b81-aa40-b809d0b3ec60",
+        "3fee348e-0ad5-4004-9c59-dd0a398cd13c",
+        "ccc3acb1-678b-4a60-aa75-3635356bba76",
+        "74654b05-7e9d-4ebd-9b59-d37b7be81ebb",
+        "aec5017a-dc89-42fe-b2e1-a60e2ecffc37",
+        "896bf8d4-2f5b-4a09-839e-723022386dc8",
+        "c6697744-2991-4a40-a349-c845cf305a2b",
+        "ad687e3a-9282-40bc-8315-f05ef08a332c",
+        "60f32fb1-38ff-4c8b-8d0e-55658cbdb14e",
+        "7123b163-743a-44b5-a1b0-370f0fb3fcc8",
+        "befd63d2-d540-456f-8671-a28d5317b30b",
+        "10977af2-0e4b-4e66-a341-e454d0e1bd1a",
+        "371a3a21-d20f-4279-affd-f7081a1b483d",
+        "d0774cf7-4596-496c-afe3-0c9f3340f092"
       ]
     },
     {
@@ -10986,5 +9918,5 @@
       "cover": "b88da03b-8e0e-4064-a2a2-ed8638052e6e"
     }
   ],
-  "updated_at": "2026-05-22T21:00:50.489237Z"
+  "updated_at": "2026-05-22T21:25:03.783116Z"
 }
