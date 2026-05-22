@@ -4,7 +4,7 @@
       "id": "a8c03798-c2f0-47fd-8451-1ef4f64eeb0f",
       "filename": "1000017593.jpg",
       "genres": [
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [],
       "taken_at": "2023-11-14T10:43:05Z",
@@ -400,7 +400,7 @@
       "id": "fb84b86d-7016-4f77-9139-a63046fbdc7a",
       "filename": "20230720_183538.jpg",
       "genres": [
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [
         "khulna-university"
@@ -586,7 +586,7 @@
       "id": "e6d53a39-d287-4e6e-a367-90e6816643bd",
       "filename": "51437329596.jpg",
       "genres": [
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [
         "khulna-university"
@@ -664,7 +664,7 @@
       "id": "3a022bb8-d12c-4196-8025-1bfc6cd0267d",
       "filename": "51438080294.jpg",
       "genres": [
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [
         "khulna-university"
@@ -821,34 +821,6 @@
         "focal_length": "61mm"
       },
       "source_hash": "4f95e752772887d25cc1a28dfd4709be8dc8a314aa54937e32d1761640a3fe3a"
-    },
-    {
-      "id": "c2e0205f-c1f7-4c8b-8d8a-8f3241d235a8",
-      "filename": "51607325270.jpg",
-      "genres": [
-        "architecture"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2021-10-19T08:05:47Z",
-      "uploaded_at": "2026-05-21T14:31:17.61167Z",
-      "width": 3915,
-      "height": 5873,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/c2e0205f-c1f7-4c8b-8d8a-8f3241d235a8/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/c2e0205f-c1f7-4c8b-8d8a-8f3241d235a8/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/c2e0205f-c1f7-4c8b-8d8a-8f3241d235a8/full.jpg"
-      },
-      "exif": {
-        "camera": "SONY ILCE-7C",
-        "lens": "24-70mm F2.8 DG DN | Art 019",
-        "iso": 100,
-        "aperture": "f/2.8",
-        "shutter": "1/90",
-        "focal_length": "24mm"
-      },
-      "source_hash": "4512bf62de794dc62da414ea73e7f4f6425ea9f75f0a0e9f1d77f24ac91df16f"
     },
     {
       "id": "771625b5-cdcd-4289-9436-573df110a961",
@@ -1552,7 +1524,7 @@
       "id": "cb68590c-eac8-4ad9-86f8-06b3a89ca1f1",
       "filename": "51810156868.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "low-light"
       ],
       "collections": [
@@ -2093,7 +2065,7 @@
       "id": "8f99ccac-7a5e-4dc0-acb3-31c0f6aeac82",
       "filename": "51960322318.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "street-and-documentary"
       ],
       "collections": [
@@ -2122,7 +2094,7 @@
       "id": "845ffdb8-862e-45de-945d-cf40ce061ba9",
       "filename": "51963036022.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "black-and-white"
       ],
       "collections": [
@@ -2306,35 +2278,6 @@
       "source_hash": "1fd5d96e2d599d4d0376db31671e8261db03c1d8d5b87debafaaf95817c3186b"
     },
     {
-      "id": "c7f7da88-c019-4353-b147-f2e2f8f51218",
-      "filename": "51966942464.jpg",
-      "genres": [
-        "architecture",
-        "black-and-white"
-      ],
-      "collections": [
-        "khulna-railway-station"
-      ],
-      "taken_at": "2022-03-28T11:11:23Z",
-      "uploaded_at": "2026-05-21T14:32:55.478223Z",
-      "width": 5543,
-      "height": 4157,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/c7f7da88-c019-4353-b147-f2e2f8f51218/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/c7f7da88-c019-4353-b147-f2e2f8f51218/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/c7f7da88-c019-4353-b147-f2e2f8f51218/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "XF35mmF1.4 R",
-        "iso": 160,
-        "aperture": "f/3.6",
-        "shutter": "1/1000",
-        "focal_length": "35mm"
-      },
-      "source_hash": "9fbc3a534f062c1a7bf2904f319b4dc739f954e042092492cd18a91b9355ef91"
-    },
-    {
       "id": "d2db2c2c-cc38-4624-8e01-22051c0b735e",
       "filename": "51971029616.jpg",
       "genres": [
@@ -2385,63 +2328,6 @@
         "focal_length": "600mm"
       },
       "source_hash": "3c4fe8c04ee2bb99fdb556d9ac4d986fc622fcda484af07914564006ffec85b4"
-    },
-    {
-      "id": "881c1d71-4310-4837-b91f-cbb1caad3f71",
-      "filename": "AAM00188.jpg",
-      "genres": [
-        "architecture"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2023-07-20T11:42:20Z",
-      "uploaded_at": "2026-05-21T14:33:02.868481Z",
-      "width": 4109,
-      "height": 5478,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/881c1d71-4310-4837-b91f-cbb1caad3f71/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/881c1d71-4310-4837-b91f-cbb1caad3f71/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/881c1d71-4310-4837-b91f-cbb1caad3f71/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-Pro3",
-        "lens": "XF35mmF2 R WR",
-        "iso": 100,
-        "aperture": "f/11.0",
-        "shutter": "1/125",
-        "focal_length": "35mm"
-      },
-      "source_hash": "d0cdf6084ce02cd5d6acd2fd27e24129f35e9b5ce1dd4f72b62a2f48f4d70cab"
-    },
-    {
-      "id": "29e7d0fc-47ad-4110-9ebb-cd2903f07e6f",
-      "filename": "AAM00207.jpg",
-      "genres": [
-        "architecture",
-        "black-and-white"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2023-07-20T11:49:13Z",
-      "uploaded_at": "2026-05-21T14:33:03.315222Z",
-      "width": 3881,
-      "height": 5175,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/29e7d0fc-47ad-4110-9ebb-cd2903f07e6f/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/29e7d0fc-47ad-4110-9ebb-cd2903f07e6f/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/29e7d0fc-47ad-4110-9ebb-cd2903f07e6f/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-Pro3",
-        "lens": "XF35mmF2 R WR",
-        "iso": 100,
-        "aperture": "f/10.0",
-        "shutter": "1/125",
-        "focal_length": "35mm"
-      },
-      "source_hash": "501c6f7d21cbbf42f0893fdf8d235dffe49753e7731434ff16631d64caf44552"
     },
     {
       "id": "cfefbb14-f39b-4e3f-a2ea-d94bf8aea30a",
@@ -2501,7 +2387,7 @@
       "id": "5d7c00d8-6c5b-4088-94bd-23199e49dd69",
       "filename": "AAM00237.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "landscape"
       ],
       "collections": [
@@ -2588,7 +2474,7 @@
       "id": "393856f8-e236-4c7f-a36c-462422b6736d",
       "filename": "AAM00271.jpg",
       "genres": [
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [
         "artyard-cafe"
@@ -2670,7 +2556,7 @@
       "id": "f32892ed-9f50-438b-b1a3-bebb238858f8",
       "filename": "AAM00276.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "low-light"
       ],
       "collections": [
@@ -2752,7 +2638,7 @@
       "id": "36b1c0f6-d52c-4d42-b1e9-d10f9eff78bb",
       "filename": "AAM00319(1).jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "food-related"
       ],
       "collections": [
@@ -2834,7 +2720,7 @@
       "id": "b84b146c-7cad-4a11-90ca-08bec5bb72ad",
       "filename": "AAM00333.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "street-and-documentary"
       ],
       "collections": [],
@@ -3384,7 +3270,7 @@
       "id": "6697085d-3f1b-4074-82e7-509ba8a21845",
       "filename": "AAM00499.jpg",
       "genres": [
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [
         "khulna-university"
@@ -3468,7 +3354,7 @@
       "id": "7b0561eb-b185-41b2-9a87-d4704b778f89",
       "filename": "AAM00580.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "black-and-white"
       ],
       "collections": [
@@ -3497,7 +3383,7 @@
       "id": "d01a539d-859a-4bc6-b40a-c1b6f262d27f",
       "filename": "AAM00605.jpg",
       "genres": [
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [
         "khulna-university"
@@ -3520,33 +3406,6 @@
         "focal_length": "35mm"
       },
       "source_hash": "e0e372c2a20e588630582dc997ace838c80e0d02af1391ac1f2845e96edbadbf"
-    },
-    {
-      "id": "37795770-2955-4647-aeab-cf6131b17ed7",
-      "filename": "AAM00661.jpg",
-      "genres": [
-        "architecture",
-        "black-and-white"
-      ],
-      "collections": [],
-      "taken_at": "2025-09-24T11:21:39Z",
-      "uploaded_at": "2026-05-21T14:33:58.888859Z",
-      "width": 4148,
-      "height": 5530,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/37795770-2955-4647-aeab-cf6131b17ed7/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/37795770-2955-4647-aeab-cf6131b17ed7/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/37795770-2955-4647-aeab-cf6131b17ed7/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-M5",
-        "lens": "XF27mmF2.8 R WR",
-        "iso": 320,
-        "aperture": "f/4.0",
-        "shutter": "1/160",
-        "focal_length": "27mm"
-      },
-      "source_hash": "ddd2a1d6c0ce7e399cd38e0709af925f5a883425aca7bb269c457113109b4d4f"
     },
     {
       "id": "806d1419-8564-41bd-9694-b8e5aae2e30d",
@@ -3632,7 +3491,7 @@
       "id": "672cb5bd-e874-4a94-ad92-923a192cb6ef",
       "filename": "AAM00669.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "street-and-documentary",
         "black-and-white"
       ],
@@ -3823,7 +3682,6 @@
       "id": "c1428b09-8eda-4a73-83ba-cc5e6a6d5724",
       "filename": "AAM01034 6 Edited.jpg",
       "genres": [
-        "architecture",
         "landscape"
       ],
       "collections": [
@@ -3878,7 +3736,7 @@
       "id": "81b82385-9cbf-4cbc-9904-175d9bbba5e6",
       "filename": "AAM01056 15 Edited.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "landscape"
       ],
       "collections": [
@@ -3985,7 +3843,7 @@
       "id": "b1807bed-d40a-4c03-87bc-09d8a7d1c912",
       "filename": "AAM01233.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "street-and-documentary"
       ],
       "collections": [
@@ -4251,33 +4109,6 @@
       "source_hash": "75d2220ec83d98c16f713c53ee496bf3cc66ee90119df7e87023fa450e95935c"
     },
     {
-      "id": "9c45f5d8-2a3e-48eb-91e1-cf107ec6b6cb",
-      "filename": "AAM02334.jpg",
-      "genres": [
-        "architecture",
-        "black-and-white"
-      ],
-      "collections": [],
-      "taken_at": "2025-11-15T07:04:36Z",
-      "uploaded_at": "2026-05-21T14:35:00.424577Z",
-      "width": 4920,
-      "height": 6560,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/9c45f5d8-2a3e-48eb-91e1-cf107ec6b6cb/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/9c45f5d8-2a3e-48eb-91e1-cf107ec6b6cb/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/9c45f5d8-2a3e-48eb-91e1-cf107ec6b6cb/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T50",
-        "lens": "VOIGTLANDER NOKTON 35mm F1.2",
-        "iso": 160,
-        "aperture": "f/8.0",
-        "shutter": "1/1000",
-        "focal_length": "35mm"
-      },
-      "source_hash": "27b91e62ef159d6ffe4d909facfc1b96b9ed51826b840d9024bf9c62260e31b8"
-    },
-    {
       "id": "d6d979f7-87ec-4cda-a04b-b2c9c7861b98",
       "filename": "AAM04817-ARW_DxO_DeepPRIME.jpg",
       "genres": [
@@ -4386,7 +4217,7 @@
       "id": "624c59e2-30fd-478f-b126-81cbf8001e93",
       "filename": "AAM02392.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "landscape"
       ],
       "collections": [
@@ -4965,7 +4796,7 @@
       "id": "1286a6f6-6b2b-4623-9cd3-45652ff84d94",
       "filename": "AAM06646_DxO.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "street-and-documentary"
       ],
       "collections": [
@@ -5073,7 +4904,7 @@
       "id": "f26e78c4-4a69-4a28-b7db-771a7ba64d10",
       "filename": "AAM06746.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "street-and-documentary"
       ],
       "collections": [
@@ -5262,7 +5093,7 @@
       "id": "7378acac-a28c-4d53-bfa1-718c344dcc06",
       "filename": "AAM07494.jpg",
       "genres": [
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [],
       "taken_at": "2022-06-22T11:36:57Z",
@@ -5339,7 +5170,7 @@
       "id": "7db1968d-d812-418d-a827-69641e0eb0b7",
       "filename": "AAM07497.jpg",
       "genres": [
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [
         "khulna-university"
@@ -5721,7 +5552,7 @@
       "id": "cd286c18-6984-4a5f-8174-402975ee2257",
       "filename": "AAM07983.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "black-and-white"
       ],
       "collections": [],
@@ -5748,7 +5579,7 @@
       "id": "10d96c7b-9a9b-4084-b577-935dc7a2645f",
       "filename": "AAM08024.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "black-and-white"
       ],
       "collections": [],
@@ -5909,7 +5740,7 @@
       "id": "df288e92-5798-4417-944e-f1064dcce315",
       "filename": "AAM08299.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "street-and-documentary",
         "black-and-white"
       ],
@@ -5966,7 +5797,7 @@
       "id": "7365f983-93e6-4a27-b668-b24632419adf",
       "filename": "AAMF0015.JPG",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "black-and-white"
       ],
       "collections": [],
@@ -6012,34 +5843,6 @@
         "focal_length": "23mm"
       },
       "source_hash": "cd587152132f27fc099b586385867e3fc03014e8cc310a3ce6d2366a104fb839"
-    },
-    {
-      "id": "329bab45-3464-4af5-87c0-5ea638910658",
-      "filename": "AAMF0092.JPG",
-      "genres": [
-        "architecture",
-        "black-and-white"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2023-06-03T09:51:31Z",
-      "uploaded_at": "2026-05-21T14:36:24.241498Z",
-      "width": 4100,
-      "height": 5466,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/329bab45-3464-4af5-87c0-5ea638910658/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/329bab45-3464-4af5-87c0-5ea638910658/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/329bab45-3464-4af5-87c0-5ea638910658/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100V",
-        "iso": 125,
-        "aperture": "f/4.0",
-        "shutter": "1/500",
-        "focal_length": "23mm"
-      },
-      "source_hash": "bd957072387c008a84ef9457306a43b16b87d1015fde3f0f3f0642ae25ec44a0"
     },
     {
       "id": "a45018c0-06b9-49b5-9c22-539953d6e608",
@@ -6394,7 +6197,7 @@
       "id": "1c8dead1-c259-4daf-8549-36d4ca55453a",
       "filename": "AAM_1493.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "street-and-documentary"
       ],
       "collections": [],
@@ -6808,7 +6611,7 @@
       "id": "06375593-e327-430a-b59c-6893174ef2c1",
       "filename": "AAM_2209.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "low-light",
         "street-and-documentary"
       ],
@@ -6838,7 +6641,7 @@
       "id": "21f49cdc-67ce-469b-bdca-541f446fd36c",
       "filename": "AAM_2213.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "low-light",
         "street-and-documentary"
       ],
@@ -7055,7 +6858,7 @@
       "id": "ebf1695d-d511-4383-a7a0-4de700a3e897",
       "filename": "BA424185-01F8-484F-9E8A-93EC418452CB-333-0000004AD3483249.jpg",
       "genres": [
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [],
       "taken_at": "2021-11-29T06:35:37Z",
@@ -7406,7 +7209,7 @@
       "id": "f43046c2-ed76-4d93-88a9-6b68297e9020",
       "filename": "DSCF0340.jpg",
       "genres": [
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [
         "khulna-university"
@@ -7433,7 +7236,7 @@
       "id": "d86c4931-856e-452a-9845-32ce2e169635",
       "filename": "DSCF0359.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "landscape"
       ],
       "collections": [
@@ -7461,7 +7264,7 @@
       "id": "892f726e-2701-4575-9e09-03cd68f16b07",
       "filename": "DSCF0151 3 Edited.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "street-and-documentary"
       ],
       "collections": [
@@ -7571,7 +7374,7 @@
       "id": "b9d9f258-c367-4cb4-a922-1b5c841969cd",
       "filename": "DSCF0556_DxO.jpg",
       "genres": [
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [
         "khulna-university"
@@ -7599,7 +7402,7 @@
       "id": "401b4c05-0db6-411a-9a0c-feddcae401bf",
       "filename": "DSCF0402.jpg",
       "genres": [
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [
         "khulna-university"
@@ -7627,7 +7430,7 @@
       "id": "8e59cf8f-c1f5-4f9d-9c3d-95dcd80d021a",
       "filename": "DSCF0572_DxO.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "street-and-documentary"
       ],
       "collections": [
@@ -7764,7 +7567,7 @@
       "id": "f11927b5-3f7a-4616-9901-e90ada87e896",
       "filename": "DSCF0575_DxO.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "street-and-documentary"
       ],
       "collections": [
@@ -8394,7 +8197,7 @@
       "id": "2fcacab1-51aa-412b-83fb-daeca9f61cc1",
       "filename": "DSCF0981.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "street-and-documentary",
         "black-and-white"
       ],
@@ -8423,7 +8226,7 @@
       "id": "cb79d1d4-e7ab-4f5a-91aa-e326a01a18e7",
       "filename": "DSCF0990.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "street-and-documentary",
         "black-and-white"
       ],
@@ -8559,7 +8362,7 @@
       "id": "d48ab9b9-eaa0-415d-b2e5-f077426ca90c",
       "filename": "DSCF1518.jpg",
       "genres": [
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [
         "artyard-cafe"
@@ -8587,7 +8390,7 @@
       "id": "ee4c9df3-a96e-4146-a7bc-e93a06364e73",
       "filename": "DSCF1519.jpg",
       "genres": [
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [
         "artyard-cafe"
@@ -8667,7 +8470,7 @@
       "id": "e80915fd-0b9f-461a-a407-530e1760c49d",
       "filename": "DSCF6991_DxO.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "landscape"
       ],
       "collections": [
@@ -8748,7 +8551,7 @@
       "id": "f9d567f5-e415-4e2e-a0b8-f46c1358a09d",
       "filename": "DSCF6881.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "street-and-documentary"
       ],
       "collections": [],
@@ -8857,7 +8660,7 @@
       "id": "7023e664-db96-4603-9d4f-5d6c3c1ac0f8",
       "filename": "DSCF7162.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "street-and-documentary",
         "black-and-white"
       ],
@@ -9128,7 +8931,7 @@
       "id": "b88da03b-8e0e-4064-a2a2-ed8638052e6e",
       "filename": "DSCF7615_DxO.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "low-light",
         "street-and-documentary"
       ],
@@ -9405,7 +9208,7 @@
       "filename": "DSCF7780_DxO.jpg",
       "genres": [
         "street-and-documentary",
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [],
       "taken_at": "2022-06-17T12:11:51Z",
@@ -9594,7 +9397,7 @@
       "id": "6001794a-8d32-48e6-809c-4bfdc755900f",
       "filename": "DSCF8003.jpg",
       "genres": [
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [
         "khulna-university"
@@ -9731,35 +9534,6 @@
       "source_hash": "473d1a12025e04ac39b970be6be47f2826ebc473e75bfa4ffec2fa63b25925fd"
     },
     {
-      "id": "088dab98-bfd0-49c9-b227-8b8b2316deb9",
-      "filename": "DSCF8105.jpg",
-      "genres": [
-        "architecture",
-        "black-and-white"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2022-07-02T00:41:35Z",
-      "uploaded_at": "2026-05-21T14:39:46.197608Z",
-      "width": 5543,
-      "height": 4157,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/088dab98-bfd0-49c9-b227-8b8b2316deb9/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/088dab98-bfd0-49c9-b227-8b8b2316deb9/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/088dab98-bfd0-49c9-b227-8b8b2316deb9/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "XF27mmF2.8 R WR",
-        "iso": 160,
-        "aperture": "f/7.1",
-        "shutter": "1/500",
-        "focal_length": "27mm"
-      },
-      "source_hash": "17936f365d21e29a2b4f7653e54cc9c069a4128f7e3bdad42b2b6d1d5d1b8f6e"
-    },
-    {
       "id": "b0c65612-ba56-40e4-ba85-081bab8d9ff7",
       "filename": "DSCF8365.jpg",
       "genres": [
@@ -9815,7 +9589,7 @@
       "id": "7b10536b-edd2-40e5-8bcc-6d62b4ffeb13",
       "filename": "DSCF8600_DxO.jpg",
       "genres": [
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [
         "khulna-university"
@@ -9921,7 +9695,7 @@
       "id": "e0850838-65fc-4191-ac84-159e7fbdc7ae",
       "filename": "DSCF8610_DxO.jpg",
       "genres": [
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [
         "khulna-university"
@@ -10002,7 +9776,7 @@
       "id": "0839c3cd-6da5-4ac7-85be-b5a8cae204f2",
       "filename": "DSCF8645.jpg",
       "genres": [
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [],
       "taken_at": "2022-10-07T11:58:40Z",
@@ -10553,27 +10327,6 @@
       "source_hash": "d857d5651526ed80bf94698a388a6131f09c800b359d167af9ec2cb942039ebe"
     },
     {
-      "id": "694f1865-2c60-49ff-aa00-ef26e92c1b86",
-      "filename": "IMG_3365.JPG",
-      "genres": [
-        "architecture",
-        "black-and-white"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2025-10-23T10:20:06Z",
-      "uploaded_at": "2026-05-21T14:40:20.840403Z",
-      "width": 1500,
-      "height": 2000,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/694f1865-2c60-49ff-aa00-ef26e92c1b86/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/694f1865-2c60-49ff-aa00-ef26e92c1b86/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/694f1865-2c60-49ff-aa00-ef26e92c1b86/full.jpg"
-      },
-      "source_hash": "a791c4d775981a857db8bd228630f4f40652d3ca2f64d30a69386b366473b06a"
-    },
-    {
       "id": "1253b0fa-a797-4b21-95a9-bdf28677d397",
       "filename": "IMG_2021_09_07_1661-CR3_DxO_DeepPRIME.jpg",
       "genres": [
@@ -10631,7 +10384,7 @@
       "id": "26fd6653-ba64-4595-878c-ca43a6c8cbc5",
       "filename": "IMG_3363.JPG",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "black-and-white"
       ],
       "collections": [
@@ -10705,7 +10458,7 @@
       "id": "4f5f0d1c-8c44-4ace-88c1-085e09fa7cb6",
       "filename": "IMG_5350.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "landscape"
       ],
       "collections": [],
@@ -10732,7 +10485,7 @@
       "id": "b9830b5d-ee00-4069-a87a-35e4bb18aa47",
       "filename": "May_2022_05_07_0089.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "black-and-white"
       ],
       "collections": [
@@ -10899,7 +10652,7 @@
       "id": "4f5e2d41-b58f-42e5-970e-48a793ce4f28",
       "filename": "May_2022_05_30_0348.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "black-and-white"
       ],
       "collections": [
@@ -11038,7 +10791,7 @@
       "filename": "51717439998.jpg",
       "caption": "একাকী দুপুর",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "street-and-documentary"
       ],
       "collections": [
@@ -11419,35 +11172,6 @@
       "source_hash": "f02b74b0143c4817418a6ea7f7f05c4bd038793671502bab89d52388aab56100"
     },
     {
-      "id": "74b15860-8abf-4a87-afde-94530268afdf",
-      "filename": "AAM02394.jpg",
-      "genres": [
-        "architecture",
-        "landscape"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2026-05-11T12:03:00Z",
-      "uploaded_at": "2026-05-21T14:41:20.762219Z",
-      "width": 3701,
-      "height": 4935,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/74b15860-8abf-4a87-afde-94530268afdf/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/74b15860-8abf-4a87-afde-94530268afdf/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/74b15860-8abf-4a87-afde-94530268afdf/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T30 III",
-        "lens": "VOIGTLANDER ULTRON 27mm F2",
-        "iso": 160,
-        "aperture": "f/10.0",
-        "shutter": "1/125",
-        "focal_length": "27mm"
-      },
-      "source_hash": "aa3090e40538a596f1f4886b1adf9edffb5f25bd4fa1a0ceccd5edcbbda7938c"
-    },
-    {
       "id": "709b1051-e1a6-458f-a556-977168d6148e",
       "filename": "AAM06518_DxO.jpg",
       "genres": [
@@ -11748,7 +11472,7 @@
       "id": "935de98d-b3e8-4a04-8dc6-389e025a699c",
       "filename": "ACS_0006 Edited.jpg",
       "genres": [
-        "architecture"
+        "architecture-and-interior"
       ],
       "collections": [
         "khulna-university"
@@ -11775,7 +11499,7 @@
       "id": "120040fb-f07f-4574-9a60-dd9841e65177",
       "filename": "DSCF1041.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "low-light"
       ],
       "collections": [],
@@ -11830,7 +11554,7 @@
       "id": "d210c449-0b05-4777-a9b9-0c2e211d969f",
       "filename": "DSCF0717_DxO.jpg",
       "genres": [
-        "architecture",
+        "architecture-and-interior",
         "low-light"
       ],
       "collections": [
@@ -11931,35 +11655,6 @@
         "focal_length": "35mm"
       },
       "source_hash": "a4b0dd4e25b27fb59929237a4404b9fe301a0a8a782dd9397d789023b29eb5a5"
-    },
-    {
-      "id": "39bb7cbb-fdbf-4db2-9b40-a05326ded8ae",
-      "filename": "DSCF8624_DxO.jpg",
-      "genres": [
-        "architecture",
-        "low-light",
-        "black-and-white"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2022-10-05T11:49:59Z",
-      "uploaded_at": "2026-05-21T14:41:55.660682Z",
-      "width": 4136,
-      "height": 5514,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/39bb7cbb-fdbf-4db2-9b40-a05326ded8ae/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/39bb7cbb-fdbf-4db2-9b40-a05326ded8ae/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/39bb7cbb-fdbf-4db2-9b40-a05326ded8ae/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "iso": 100,
-        "aperture": "f/2.0",
-        "shutter": "1/180",
-        "focal_length": "18mm"
-      },
-      "source_hash": "212619a5e8118dc9ca7a600bd932792ed444f174b4ab121d98526cacd3fa3b90"
     },
     {
       "id": "4dfde6fe-5291-4ed8-9917-760428bd2c64",
@@ -12237,91 +11932,69 @@
       ]
     },
     {
-      "slug": "architecture",
-      "name": "আর্কিটেকচার",
+      "slug": "architecture-and-interior",
+      "name": "আর্কিটেকচার অ্যান্ড ইন্টেরিয়র",
       "cover": "f9d567f5-e415-4e2e-a0b8-f46c1358a09d",
       "order": [
-        "4da7a360-dcc4-4aad-8b03-87526787edd7",
-        "ebf1695d-d511-4383-a7a0-4de700a3e897",
         "a8c03798-c2f0-47fd-8451-1ef4f64eeb0f",
         "f9d567f5-e415-4e2e-a0b8-f46c1358a09d",
+        "ebf1695d-d511-4383-a7a0-4de700a3e897",
         "cb68590c-eac8-4ad9-86f8-06b3a89ca1f1",
-        "b7584d40-80da-4a73-85d8-8cb3381c15c2",
         "845ffdb8-862e-45de-945d-cf40ce061ba9",
         "b9830b5d-ee00-4069-a87a-35e4bb18aa47",
+        "e80915fd-0b9f-461a-a407-530e1760c49d",
+        "f43046c2-ed76-4d93-88a9-6b68297e9020",
+        "d210c449-0b05-4777-a9b9-0c2e211d969f",
         "7b0561eb-b185-41b2-9a87-d4704b778f89",
         "f26e78c4-4a69-4a28-b7db-771a7ba64d10",
-        "c2e0205f-c1f7-4c8b-8d8a-8f3241d235a8",
         "3a022bb8-d12c-4196-8025-1bfc6cd0267d",
         "e6d53a39-d287-4e6e-a367-90e6816643bd",
         "4f5f0d1c-8c44-4ace-88c1-085e09fa7cb6",
-        "8f99ccac-7a5e-4dc0-acb3-31c0f6aeac82",
-        "c7f7da88-c019-4353-b147-f2e2f8f51218",
-        "1286a6f6-6b2b-4623-9cd3-45652ff84d94",
-        "e80915fd-0b9f-461a-a407-530e1760c49d",
-        "7023e664-db96-4603-9d4f-5d6c3c1ac0f8",
-        "f1e7de77-6578-4352-8b71-ca59686469cf",
-        "d2c7adf5-52fe-4c43-8b79-cb67db35ae9f",
-        "4f5e2d41-b58f-42e5-970e-48a793ce4f28",
-        "b88da03b-8e0e-4064-a2a2-ed8638052e6e",
-        "a7a5d3ac-6185-435a-9cba-3659cf4dbb2e",
-        "541cbf55-d640-483c-8a06-c57fb8df4c76",
-        "2fcacab1-51aa-412b-83fb-daeca9f61cc1",
-        "df288e92-5798-4417-944e-f1064dcce315",
-        "7378acac-a28c-4d53-bfa1-718c344dcc06",
         "cb79d1d4-e7ab-4f5a-91aa-e326a01a18e7",
-        "7db1968d-d812-418d-a827-69641e0eb0b7",
-        "0c677d3d-3f59-457c-83d5-d854a09ed3b4",
-        "6001794a-8d32-48e6-809c-4bfdc755900f",
-        "99dc454b-be1d-4b50-8c1c-27648ec7a470",
-        "162cba3a-774f-48c3-9018-0502a6a94491",
-        "088dab98-bfd0-49c9-b227-8b8b2316deb9",
-        "d8c763e6-e03a-4b15-ad45-8b0d4ac3d45f",
-        "2a3d52c4-6e43-4e1d-a18c-1e3089a39998",
-        "cd286c18-6984-4a5f-8174-402975ee2257",
-        "10d96c7b-9a9b-4084-b577-935dc7a2645f",
-        "401b4c05-0db6-411a-9a0c-feddcae401bf",
-        "f747c9ea-f8ea-42e4-9128-e52fa594b0f0",
-        "7b10536b-edd2-40e5-8bcc-6d62b4ffeb13",
-        "e0850838-65fc-4191-ac84-159e7fbdc7ae",
-        "39bb7cbb-fdbf-4db2-9b40-a05326ded8ae",
-        "0839c3cd-6da5-4ac7-85be-b5a8cae204f2",
-        "f43046c2-ed76-4d93-88a9-6b68297e9020",
+        "df288e92-5798-4417-944e-f1064dcce315",
+        "2fcacab1-51aa-412b-83fb-daeca9f61cc1",
+        "b88da03b-8e0e-4064-a2a2-ed8638052e6e",
+        "8f99ccac-7a5e-4dc0-acb3-31c0f6aeac82",
+        "7023e664-db96-4603-9d4f-5d6c3c1ac0f8",
         "d86c4931-856e-452a-9845-32ce2e169635",
-        "b9d9f258-c367-4cb4-a922-1b5c841969cd",
-        "8e59cf8f-c1f5-4f9d-9c3d-95dcd80d021a",
-        "d210c449-0b05-4777-a9b9-0c2e211d969f",
-        "7365f983-93e6-4a27-b668-b24632419adf",
-        "b84b146c-7cad-4a11-90ca-08bec5bb72ad",
-        "694f1865-2c60-49ff-aa00-ef26e92c1b86",
-        "329bab45-3464-4af5-87c0-5ea638910658",
-        "672cb5bd-e874-4a94-ad92-923a192cb6ef",
-        "81b82385-9cbf-4cbc-9904-175d9bbba5e6",
-        "881c1d71-4310-4837-b91f-cbb1caad3f71",
-        "29e7d0fc-47ad-4110-9ebb-cd2903f07e6f",
-        "37795770-2955-4647-aeab-cf6131b17ed7",
-        "5d7c00d8-6c5b-4088-94bd-23199e49dd69",
-        "fb84b86d-7016-4f77-9139-a63046fbdc7a",
-        "892f726e-2701-4575-9e09-03cd68f16b07",
-        "935de98d-b3e8-4a04-8dc6-389e025a699c",
-        "6697085d-3f1b-4074-82e7-509ba8a21845",
-        "c1428b09-8eda-4a73-83ba-cc5e6a6d5724",
-        "b1807bed-d40a-4c03-87bc-09d8a7d1c912",
-        "120040fb-f07f-4574-9a60-dd9841e65177",
-        "d01a539d-859a-4bc6-b40a-c1b6f262d27f",
-        "393856f8-e236-4c7f-a36c-462422b6736d",
-        "f32892ed-9f50-438b-b1a3-bebb238858f8",
-        "36b1c0f6-d52c-4d42-b1e9-d10f9eff78bb",
-        "26fd6653-ba64-4595-878c-ca43a6c8cbc5",
-        "9c45f5d8-2a3e-48eb-91e1-cf107ec6b6cb",
-        "d48ab9b9-eaa0-415d-b2e5-f077426ca90c",
-        "ee4c9df3-a96e-4146-a7bc-e93a06364e73",
-        "1c8dead1-c259-4daf-8549-36d4ca55453a",
         "624c59e2-30fd-478f-b126-81cbf8001e93",
-        "74b15860-8abf-4a87-afde-94530268afdf",
+        "e0850838-65fc-4191-ac84-159e7fbdc7ae",
+        "4f5e2d41-b58f-42e5-970e-48a793ce4f28",
+        "401b4c05-0db6-411a-9a0c-feddcae401bf",
+        "892f726e-2701-4575-9e09-03cd68f16b07",
+        "b9d9f258-c367-4cb4-a922-1b5c841969cd",
+        "6001794a-8d32-48e6-809c-4bfdc755900f",
+        "81b82385-9cbf-4cbc-9904-175d9bbba5e6",
+        "1286a6f6-6b2b-4623-9cd3-45652ff84d94",
+        "5d7c00d8-6c5b-4088-94bd-23199e49dd69",
+        "f11927b5-3f7a-4616-9901-e90ada87e896",
+        "8e59cf8f-c1f5-4f9d-9c3d-95dcd80d021a",
+        "7db1968d-d812-418d-a827-69641e0eb0b7",
+        "fb84b86d-7016-4f77-9139-a63046fbdc7a",
+        "7b10536b-edd2-40e5-8bcc-6d62b4ffeb13",
+        "6697085d-3f1b-4074-82e7-509ba8a21845",
+        "935de98d-b3e8-4a04-8dc6-389e025a699c",
+        "d01a539d-859a-4bc6-b40a-c1b6f262d27f",
+        "26fd6653-ba64-4595-878c-ca43a6c8cbc5",
+        "7378acac-a28c-4d53-bfa1-718c344dcc06",
+        "4da7a360-dcc4-4aad-8b03-87526787edd7",
+        "a7a5d3ac-6185-435a-9cba-3659cf4dbb2e",
+        "672cb5bd-e874-4a94-ad92-923a192cb6ef",
+        "10d96c7b-9a9b-4084-b577-935dc7a2645f",
+        "cd286c18-6984-4a5f-8174-402975ee2257",
+        "7365f983-93e6-4a27-b668-b24632419adf",
+        "0839c3cd-6da5-4ac7-85be-b5a8cae204f2",
+        "1c8dead1-c259-4daf-8549-36d4ca55453a",
         "06375593-e327-430a-b59c-6893174ef2c1",
         "21f49cdc-67ce-469b-bdca-541f446fd36c",
-        "f11927b5-3f7a-4616-9901-e90ada87e896"
+        "b1807bed-d40a-4c03-87bc-09d8a7d1c912",
+        "36b1c0f6-d52c-4d42-b1e9-d10f9eff78bb",
+        "120040fb-f07f-4574-9a60-dd9841e65177",
+        "f32892ed-9f50-438b-b1a3-bebb238858f8",
+        "d48ab9b9-eaa0-415d-b2e5-f077426ca90c",
+        "ee4c9df3-a96e-4146-a7bc-e93a06364e73",
+        "393856f8-e236-4c7f-a36c-462422b6736d",
+        "b84b146c-7cad-4a11-90ca-08bec5bb72ad"
       ]
     },
     {
@@ -12894,5 +12567,5 @@
       "cover": "b88da03b-8e0e-4064-a2a2-ed8638052e6e"
     }
   ],
-  "updated_at": "2026-05-22T20:27:51.968881Z"
+  "updated_at": "2026-05-22T20:45:41.730382Z"
 }
