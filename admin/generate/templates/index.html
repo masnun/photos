@@ -1,18 +1,18 @@
-{{define "title"}}Abu Ashraf Masnun - masnun.photos{{end}}
-{{define "head"}}<meta property="og:title" content="Abu Ashraf Masnun - masnun.photos">
+{{define "title"}}আবু আশরাফ মাসনুন - masnun.photos{{end}}
+{{define "head"}}<meta property="og:title" content="আবু আশরাফ মাসনুন - masnun.photos">
   <meta property="og:type" content="website">{{end}}
 {{define "content"}}
 <section class="hero">
   <div class="hero-photo">
-    <img src="/assets/img/profile.jpg" alt="Abu Ashraf Masnun" loading="eager" fetchpriority="high">
+    <img src="/assets/img/profile.jpg" alt="আবু আশরাফ মাসনুন" loading="eager" fetchpriority="high">
   </div>
   <div class="hero-text">
-    <h1 class="hero-name">Abu Ashraf Masnun</h1>
-    <p class="hero-tag">Photographs from wherever I happen to be.</p>
-    {{if .Collections}}
-    <h3 class="hero-cta">Featured Collections</h3>
+    <h1 class="hero-name">আবু আশরাফ মাসনুন</h1>
+    <p class="hero-tag">চলতি পথে দেখতে শেখা, ছবির তালে গল্প লেখা</p>
+    {{if .HeroCollections}}
+    <h3 class="hero-cta">নির্বাচিত</h3>
     <div class="hero-collections">
-      {{range .Collections}}
+      {{range .HeroCollections}}
       <a class="hc-card" href="/collection/{{.Slug}}/">
         <div class="hc-thumb">{{with .Cover}}<img src="{{.URLs.Thumb}}" alt="" loading="lazy">{{end}}</div>
         <div class="hc-text">
@@ -23,6 +23,7 @@
       {{end}}
     </div>
     {{end}}
+    <p class="hero-all-collections"><a class="btn-all-collections" href="/collection/">সব কালেকশন</a></p>
   </div>
 </section>
 {{if .Featured}}

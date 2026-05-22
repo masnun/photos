@@ -5,12 +5,12 @@
 {{define "content"}}
 <h2>{{.Genre.Name}}</h2>
 {{with .Genre.Description}}<div class="lede prose">{{. | markdown}}</div>{{end}}
-{{if not .Photos}}<p class="empty">No photos yet.</p>{{else}}
+{{if not .Photos}}<p class="empty">এখনো কোনো ছবি নেই।</p>{{else}}
 <div class="view-switch">
   <input type="radio" id="view-curated" name="view" class="view-radio view-radio-curated" checked>
-  <label for="view-curated">Curated</label>
+  <label for="view-curated">নির্বাচিত</label>
   <input type="radio" id="view-month" name="view" class="view-radio view-radio-month">
-  <label for="view-month">By month</label>
+  <label for="view-month">মাস অনুযায়ী</label>
 
   <div class="view-panel view-panel-curated">
     <div class="gallery">

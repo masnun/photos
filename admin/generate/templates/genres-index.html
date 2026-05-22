@@ -1,11 +1,11 @@
-{{define "title"}}Genres · masnun.photos{{end}}
-{{define "head"}}<meta property="og:title" content="Genres · masnun.photos">
+{{define "title"}}ধরন · masnun.photos{{end}}
+{{define "head"}}<meta property="og:title" content="ধরন · masnun.photos">
   <meta property="og:type" content="website">{{end}}
 {{define "content"}}
 <section id="genres-section">
-  <h2>Genres</h2>
+  <h2>ধরন</h2>
   <div class="tile-grid">
-    {{if not .Genres}}<p class="empty">Nothing here yet.</p>{{end}}
+    {{if not .Genres}}<p class="empty">এখনো কিছু নেই।</p>{{end}}
     {{range .Genres}}
     <a class="tile tile-title-top" href="/genre/{{.Slug}}/">
       <div class="tile-label"><strong>{{.Name}}</strong>{{with .Description}}<span>{{. | markdownInline}}</span>{{end}}</div>

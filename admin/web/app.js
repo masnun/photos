@@ -302,16 +302,19 @@ function renderCollectionEdit(li, c) {
     <code>${escapeHtml(c.slug)}</code>
     <input class="edit-name" value="${escapeHtml(c.name)}" placeholder="Name">
     <textarea class="edit-desc" rows="3" placeholder="Description (Markdown supported)">${escapeHtml(c.description || '')}</textarea>
+    <label class="edit-hero"><input type="checkbox" class="edit-hero-cb" ${c.hero ? 'checked' : ''}> Featured</label>
     <button class="save-btn">Save</button>
     <button class="cancel-btn">Cancel</button>`;
   const nameInput = li.querySelector('.edit-name');
   const descInput = li.querySelector('.edit-desc');
+  const heroInput = li.querySelector('.edit-hero-cb');
   li.querySelector('.save-btn').addEventListener('click', async () => {
     const payload = {
       slug: c.slug,
       name: nameInput.value.trim() || c.name,
       description: descInput.value,
       cover: c.cover || '',
+      hero: heroInput.checked,
     };
     await api('/collections', {
       method: 'POST',

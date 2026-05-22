@@ -82,9 +82,28 @@ main { max-width: 1400px; margin: 0 auto; padding: 2rem; }
 }
 .hero-collections {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: 1fr;
   gap: 0.6rem;
-  max-width: 1000px;
+  width: 100%;
+  max-width: none;
+}
+.hero-all-collections { margin: 1rem 0 0; }
+.btn-all-collections {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  border: 1px solid #7c3aed;
+  border-radius: 6px;
+  color: #7c3aed;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: background 0.15s, color 0.15s;
+}
+.btn-all-collections:hover {
+  background: #7c3aed;
+  color: #fff;
+  text-decoration: none;
 }
 .hc-card {
   display: flex;

@@ -57,4 +57,5 @@ type Collection struct {
 	Description string   `json:"description,omitempty"`
 	Cover       string   `json:"cover,omitempty"`
 	Order       []string `json:"order,omitempty"`
+	Hero        bool     `json:"hero,omitempty"`
 }

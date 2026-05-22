@@ -3,9 +3,9 @@
   <meta property="og:type" content="website">{{end}}
 {{define "content"}}
 <h2>{{.Month.Label}}</h2>
-<p class="lede">{{.Month.Count}} photo{{if ne .Month.Count 1}}s{{end}}</p>
+<p class="lede">{{.Month.Count}}টি ছবি</p>
 <div class="gallery">
-  {{if not .Photos}}<p class="empty">No photos.</p>{{end}}
+  {{if not .Photos}}<p class="empty">কোনো ছবি নেই।</p>{{end}}
   {{range .Photos}}
   <a class="gallery-item" href="/calendar/{{$.Month.Slug}}/photo/{{.ID}}/">
     <div class="gallery-img"><img src="{{.URLs.Web}}" alt="{{.Caption}}" loading="lazy"></div>
