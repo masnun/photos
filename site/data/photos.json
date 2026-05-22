@@ -2931,8 +2931,7 @@
       "id": "48485d9e-8f3c-4b37-9aa6-17ef66ebdf38",
       "filename": "51919016112.jpg",
       "genres": [
-        "birds-and-wildlife",
-        "nature"
+        "birds-and-wildlife"
       ],
       "collections": [],
       "taken_at": "2022-03-03T09:55:11Z",
@@ -9414,7 +9413,6 @@
       "id": "6a133768-7c62-4dad-8b10-e54fbff5453d",
       "filename": "AAM_0892.jpg",
       "genres": [
-        "interior",
         "architecture"
       ],
       "collections": [],
@@ -14469,8 +14467,7 @@
       "id": "0839c3cd-6da5-4ac7-85be-b5a8cae204f2",
       "filename": "DSCF8645.jpg",
       "genres": [
-        "interior",
-        "event"
+        "architecture"
       ],
       "collections": [],
       "taken_at": "2022-10-07T11:58:40Z",
