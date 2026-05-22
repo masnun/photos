@@ -130,8 +130,19 @@ function renderDateRow(box) {
   });
 }
 
-function sortedPhotos() {
-  return [...photos].sort((a, b) => {
+function selectedTaxonomy() {
+  if (collectionFilter !== 'all' && collectionFilter !== 'untagged')
+    return collections.find(c => c.slug === collectionFilter) || null;
+  if (genreFilter !== 'all' && genreFilter !== 'untagged')
+    return genres.find(g => g.slug === genreFilter) || null;
+  return null;
+}
+
+function displayedPhotos() {
+  const list = photos.filter(photoMatchesFilter);
+  const tax = selectedTaxonomy();
+  if (tax) return orderedMembers(list, tax.order);
+  return [...list].sort((a, b) => {
     const ad = a.taken_at || a.uploaded_at || '';
     const bd = b.taken_at || b.uploaded_at || '';
     if (ad === bd) return 0;
@@ -142,7 +153,7 @@ function sortedPhotos() {
 function renderPhotos() {
   const grid = $('#photo-grid');
   grid.innerHTML = '';
-  sortedPhotos().filter(photoMatchesFilter).forEach(p => {
+  displayedPhotos().forEach(p => {
     const el = document.createElement('div');
     el.className = 'photo-card';
     if (selectMode && selected.has(p.id)) el.classList.add('selected');
