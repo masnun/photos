@@ -2344,8 +2344,9 @@
       "id": "59b2614a-2154-4524-b2ab-17d1bc6ca55f",
       "filename": "51960323108.jpg",
       "genres": [
-        "architecture",
-        "low-light"
+        "landscape",
+        "low-light",
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -3099,7 +3100,6 @@
       "id": "9ad544f3-4ffe-4463-8429-3ae35a93a2da",
       "filename": "AAM00308.jpg",
       "genres": [
-        "architecture",
         "street-and-documentary"
       ],
       "collections": [],
@@ -4037,6 +4037,7 @@
       "filename": "AAM00669.jpg",
       "genres": [
         "architecture",
+        "street-and-documentary",
         "black-and-white"
       ],
       "collections": [],
@@ -4414,34 +4415,6 @@
       "source_hash": "0222c3263c9d1c388792663f07dea507bde3d416184f1f983027c4047d5ac900"
     },
     {
-      "id": "c7e1c43a-7929-4cb3-924d-61561bd91f26",
-      "filename": "AAM01059 16 Edited.jpg",
-      "genres": [
-        "architecture",
-        "landscape"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2025-06-08T11:13:12Z",
-      "uploaded_at": "2026-05-21T14:34:21.446586Z",
-      "width": 6048,
-      "height": 6048,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/c7e1c43a-7929-4cb3-924d-61561bd91f26/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/c7e1c43a-7929-4cb3-924d-61561bd91f26/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/c7e1c43a-7929-4cb3-924d-61561bd91f26/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100VI",
-        "iso": 250,
-        "aperture": "f/8.0",
-        "shutter": "1/250",
-        "focal_length": "23mm"
-      },
-      "source_hash": "0162a341bd093da04bdd3f82eac8cb3b067f807a0243c4491d13be3ab3a65135"
-    },
-    {
       "id": "1976a821-2b6d-46e2-89e7-bca3bbbd1184",
       "filename": "AAM01100.jpg",
       "genres": [
@@ -4577,31 +4550,6 @@
         "focal_length": "23mm"
       },
       "source_hash": "e447e20681082f3fda1a5819bb4cea8383c666e60b79f3391cbe3a10782252a8"
-    },
-    {
-      "id": "eb7b9031-73b3-43f6-b324-7fdf774096ff",
-      "filename": "AAM01160.jpg",
-      "genres": [
-        "architecture"
-      ],
-      "collections": [],
-      "taken_at": "2025-07-20T08:43:40Z",
-      "uploaded_at": "2026-05-21T14:34:34.72006Z",
-      "width": 7639,
-      "height": 7638,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/eb7b9031-73b3-43f6-b324-7fdf774096ff/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/eb7b9031-73b3-43f6-b324-7fdf774096ff/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/eb7b9031-73b3-43f6-b324-7fdf774096ff/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100VI",
-        "iso": 80,
-        "aperture": "f/5.0",
-        "shutter": "1/125",
-        "focal_length": "23mm"
-      },
-      "source_hash": "39ab460f78864ec928a119c4c37db56eaa010fd38120868f15ac2ae7417e16af"
     },
     {
       "id": "d1100eaa-33e0-48e5-a16d-3f653bd71bfe",
@@ -5805,7 +5753,8 @@
       "id": "5b6311b5-7b74-474d-9afc-3be7dbedbb2d",
       "filename": "AAM06685.jpg",
       "genres": [
-        "architecture"
+        "architecture",
+        "landscape"
       ],
       "collections": [
         "khulna-university"
@@ -5942,7 +5891,7 @@
       "filename": "AAM06746.jpg",
       "genres": [
         "architecture",
-        "black-and-white"
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-university"
@@ -6507,35 +6456,6 @@
         "focal_length": "35mm"
       },
       "source_hash": "03b5dc01e5373d981cde98aabd243f28db498a00ab56f07c817484ce8202b574"
-    },
-    {
-      "id": "f517bf65-34d6-40d7-95f5-3d68506d5eac",
-      "filename": "AAM07840.jpg",
-      "genres": [
-        "architecture",
-        "street-and-documentary"
-      ],
-      "collections": [
-        "khulna-railway-station"
-      ],
-      "taken_at": "2022-07-02T12:24:34Z",
-      "uploaded_at": "2026-05-21T14:36:04.734515Z",
-      "width": 5485,
-      "height": 4114,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/f517bf65-34d6-40d7-95f5-3d68506d5eac/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/f517bf65-34d6-40d7-95f5-3d68506d5eac/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/f517bf65-34d6-40d7-95f5-3d68506d5eac/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T3",
-        "lens": "XF35mmF1.4 R",
-        "iso": 250,
-        "aperture": "f/6.4",
-        "shutter": "1/250",
-        "focal_length": "35mm"
-      },
-      "source_hash": "5ba0b54fb297408bb83448adc8f005fb9364c2e411c0502ab4da8b9109e11f9e"
     },
     {
       "id": "44238e3a-39db-4eb0-af08-c87f5d2d8312",
@@ -7103,34 +7023,6 @@
         "focal_length": "23mm"
       },
       "source_hash": "bd957072387c008a84ef9457306a43b16b87d1015fde3f0f3f0642ae25ec44a0"
-    },
-    {
-      "id": "a424e899-888c-4f0a-9753-731a17c322ee",
-      "filename": "AAMF0088.JPG",
-      "genres": [
-        "architecture",
-        "black-and-white"
-      ],
-      "collections": [
-        "khulna-university"
-      ],
-      "taken_at": "2023-06-03T09:50:18Z",
-      "uploaded_at": "2026-05-21T14:36:25.036701Z",
-      "width": 4086,
-      "height": 5447,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/a424e899-888c-4f0a-9753-731a17c322ee/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/a424e899-888c-4f0a-9753-731a17c322ee/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/a424e899-888c-4f0a-9753-731a17c322ee/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100V",
-        "iso": 640,
-        "aperture": "f/2.0",
-        "shutter": "1/500",
-        "focal_length": "23mm"
-      },
-      "source_hash": "72d3e60afd50f3029ea7f2f1a0b085c805a37689540ba07d211405659bb1a3d2"
     },
     {
       "id": "a45018c0-06b9-49b5-9c22-539953d6e608",
@@ -9662,7 +9554,6 @@
       "id": "4214271e-13ac-4874-8ef9-634d9605c199",
       "filename": "DSCF0825 4 Edited.jpg",
       "genres": [
-        "architecture",
         "street-and-documentary"
       ],
       "collections": [
@@ -9854,7 +9745,6 @@
       "id": "0e7c6296-cb2f-45eb-b845-b5b184c56ae6",
       "filename": "DSCF0830 5 Edited.jpg",
       "genres": [
-        "architecture",
         "street-and-documentary"
       ],
       "collections": [],
@@ -10044,7 +9934,6 @@
       "id": "e0f18e6f-274e-4508-983a-f11df2437531",
       "filename": "DSCF1051.jpg",
       "genres": [
-        "architecture",
         "street-and-documentary"
       ],
       "collections": [
@@ -10181,7 +10070,8 @@
       "id": "b7584d40-80da-4a73-85d8-8cb3381c15c2",
       "filename": "DSCF6883.jpg",
       "genres": [
-        "architecture"
+        "architecture",
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-05-19T11:07:38Z",
@@ -10233,7 +10123,8 @@
       "id": "873afa28-c4a1-4771-838c-afdfb0813332",
       "filename": "DSCF6980_DxO.jpg",
       "genres": [
-        "architecture"
+        "architecture",
+        "landscape"
       ],
       "collections": [
         "khulna-university"
@@ -10342,7 +10233,8 @@
       "id": "f9d567f5-e415-4e2e-a0b8-f46c1358a09d",
       "filename": "DSCF6881.jpg",
       "genres": [
-        "architecture"
+        "architecture",
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-05-19T11:06:17Z",
@@ -12274,31 +12166,6 @@
       "source_hash": "5ea43c90c4b934bf7a815e08785cd6adf5c7bf27079cd9dde71b2a8bf79b5da0"
     },
     {
-      "id": "c117e0a1-2d12-4f3f-9d55-2a35d8dd1d87",
-      "filename": "IMG_0850.JPG",
-      "genres": [
-        "architecture"
-      ],
-      "collections": [],
-      "taken_at": "2024-12-20T10:14:31Z",
-      "uploaded_at": "2026-05-21T14:40:12.599775Z",
-      "width": 2047,
-      "height": 2048,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/c117e0a1-2d12-4f3f-9d55-2a35d8dd1d87/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/c117e0a1-2d12-4f3f-9d55-2a35d8dd1d87/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/c117e0a1-2d12-4f3f-9d55-2a35d8dd1d87/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X100VI",
-        "iso": 1600,
-        "aperture": "f/4.0",
-        "shutter": "1/125",
-        "focal_length": "23mm"
-      },
-      "source_hash": "ca4a585251e1f26f7935cc413c2f58be49dd7b3e69b814e13159e73e6d8833cf"
-    },
-    {
       "id": "9d3ff2c7-44ed-44d0-98b8-68ea4a23ab9e",
       "filename": "IMG_0845.JPG",
       "genres": [
@@ -12908,7 +12775,8 @@
       "id": "a9162e3c-2bd8-4501-9fab-c910bc741bba",
       "filename": "May_2022_05_08_0145.jpg",
       "genres": [
-        "architecture"
+        "architecture",
+        "street-and-documentary"
       ],
       "collections": [
         "khulna-railway-station"
@@ -13106,7 +12974,6 @@
       "id": "36372473-ecf2-491c-ae8d-fb4f4132f8bb",
       "filename": "51605614047.jpg",
       "genres": [
-        "architecture",
         "landscape"
       ],
       "collections": [
@@ -14230,7 +14097,6 @@
       "id": "4dfde6fe-5291-4ed8-9917-760428bd2c64",
       "filename": "DSCF9035_DxO.jpg",
       "genres": [
-        "architecture",
         "street-and-documentary",
         "black-and-white"
       ],
@@ -14335,33 +14201,6 @@
         "focal_length": "18mm"
       },
       "source_hash": "df73335e3c9e51192fb95c46b2d11f0e5e4cc597410ac3b990d69dcd28a9195b"
-    },
-    {
-      "id": "d509f672-3b2c-46cd-92cc-0d7e5bdab6df",
-      "filename": "DSCF9501 5 Edited.jpg",
-      "genres": [
-        "architecture",
-        "low-light"
-      ],
-      "collections": [],
-      "taken_at": "2023-05-11T10:55:41Z",
-      "uploaded_at": "2026-05-21T14:42:00.770512Z",
-      "width": 6029,
-      "height": 6029,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/d509f672-3b2c-46cd-92cc-0d7e5bdab6df/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/d509f672-3b2c-46cd-92cc-0d7e5bdab6df/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/d509f672-3b2c-46cd-92cc-0d7e5bdab6df/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "7artisans 35mm f/1.2",
-        "iso": 3200,
-        "aperture": "f/1.0",
-        "shutter": "1/125",
-        "focal_length": "35mm"
-      },
-      "source_hash": "a06fc78ee17b4399497e742fe2b0cd3e5547f29acaa4e85dc7e23e3ba7708966"
     },
     {
       "id": "0e534640-1822-4606-9528-9c150b65d2ab",
@@ -15077,5 +14916,5 @@
       "cover": "b88da03b-8e0e-4064-a2a2-ed8638052e6e"
     }
   ],
-  "updated_at": "2026-05-22T16:09:26.968103Z"
+  "updated_at": "2026-05-22T16:14:13.321285Z"
 }
