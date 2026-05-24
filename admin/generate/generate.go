@@ -105,6 +105,7 @@ type monthView struct {
 
 type indexData struct {
 	SEO             seoMeta
+	Bio             string
 	Genres          []genreView
 	Collections     []collectionView
 	HeroCollections []collectionView
@@ -355,6 +356,7 @@ func parseTemplates() (map[string]*template.Template, error) {
 
 func renderIndex(rc *renderCtx) error {
 	data := buildIndexData(rc)
+	data.Bio = heroBio
 	// Social share preview uses the hero/profile image.
 	heroImg := siteBaseURL + "/assets/img/profile.jpg"
 	data.SEO = newSEO("/", heroBio, heroImg)
