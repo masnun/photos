@@ -63,6 +63,22 @@ func (h *Taxonomy) SetCollectionCover(w http.ResponseWriter, r *http.Request) {
 	writeJSON(w, http.StatusOK, map[string]string{"slug": r.PathValue("slug"), "cover": body.Cover})
 }
 
+// ReorderGenres sets the order of the genre list itself (not photos within a genre).
+func (h *Taxonomy) ReorderGenres(w http.ResponseWriter, r *http.Request) {
+	var body struct {
+		Order []string `json:"order"`
+	}
+	if err := json.NewDecoder(r.Body).Decode(&body); err != nil {
+		writeErr(w, http.StatusBadRequest, err)
+		return
+	}
+	if err := h.Store.SetGenresOrder(body.Order); err != nil {
+		writeErr(w, http.StatusInternalServerError, err)
+		return
+	}
+	w.WriteHeader(http.StatusNoContent)
+}
+
 func (h *Taxonomy) SetGenreOrder(w http.ResponseWriter, r *http.Request) {
 	var body struct {
 		Order []string `json:"order"`

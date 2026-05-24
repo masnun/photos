@@ -22,6 +22,7 @@ func New(store *manifest.Store, r2 *storage.R2) http.Handler {
 
 	mux.HandleFunc("GET /api/genres", tx.ListGenres)
 	mux.HandleFunc("POST /api/genres", tx.UpsertGenre)
+	mux.HandleFunc("PUT /api/genres/order", tx.ReorderGenres)
 	mux.HandleFunc("PUT /api/genres/{slug}/cover", tx.SetGenreCover)
 	mux.HandleFunc("PUT /api/genres/{slug}/order", tx.SetGenreOrder)
 	mux.HandleFunc("DELETE /api/genres/{slug}", tx.DeleteGenre)

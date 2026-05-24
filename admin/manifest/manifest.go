@@ -157,6 +157,33 @@ func (s *Store) SetGenreOrder(slug string, order []string) error {
 	return fmt.Errorf("genre %s not found", slug)
 }
 
+// SetGenresOrder reorders the genre list to match the given slug order. Slugs
+// not present in the manifest are ignored; any existing genres missing from the
+// order list are appended in their current relative order so none are dropped.
+func (s *Store) SetGenresOrder(order []string) error {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	bySlug := make(map[string]Genre, len(s.data.Genres))
+	for _, g := range s.data.Genres {
+		bySlug[g.Slug] = g
+	}
+	reordered := make([]Genre, 0, len(s.data.Genres))
+	seen := make(map[string]bool, len(order))
+	for _, slug := range order {
+		if g, ok := bySlug[slug]; ok && !seen[slug] {
+			reordered = append(reordered, g)
+			seen[slug] = true
+		}
+	}
+	for _, g := range s.data.Genres {
+		if !seen[g.Slug] {
+			reordered = append(reordered, g)
+		}
+	}
+	s.data.Genres = reordered
+	return s.save()
+}
+
 func (s *Store) SetGenreCover(slug, photoID string) error {
 	s.mu.Lock()
 	defer s.mu.Unlock()

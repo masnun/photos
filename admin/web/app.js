@@ -225,20 +225,38 @@ async function bulkAdd(kind, slug) {
 function renderGenres() {
   const ul = $('#genre-list');
   ul.innerHTML = '';
-  genres.forEach(g => {
+  genres.forEach((g, i) => {
     const li = document.createElement('li');
-    renderGenreRow(li, g);
+    renderGenreRow(li, g, i);
     ul.appendChild(li);
   });
 }
 
-function renderGenreRow(li, g) {
+// moveGenre shifts a genre one step up (-1) or down (+1) in the list order and
+// persists the new order. The site honors this manifest order on next generate.
+async function moveGenre(idx, delta) {
+  const target = idx + delta;
+  if (target < 0 || target >= genres.length) return;
+  [genres[idx], genres[target]] = [genres[target], genres[idx]];
+  renderGenres();
+  await api('/genres/order', {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ order: genres.map(g => g.slug) }),
+  });
+}
+
+function renderGenreRow(li, g, idx) {
   li.classList.remove('edit-row');
   li.innerHTML = `<strong>${escapeHtml(g.name)}</strong> <code>${escapeHtml(g.slug)}</code>
     <span>${escapeHtml(g.description || '')}</span>
+    <button class="move-up" ${idx === 0 ? 'disabled' : ''} title="Move up">▲</button>
+    <button class="move-down" ${idx === genres.length - 1 ? 'disabled' : ''} title="Move down">▼</button>
     <button class="reorder-btn">Reorder</button>
     <button class="edit-btn">Edit</button>
     <button class="danger">Delete</button>`;
+  li.querySelector('.move-up').addEventListener('click', () => moveGenre(idx, -1));
+  li.querySelector('.move-down').addEventListener('click', () => moveGenre(idx, 1));
   li.querySelector('.reorder-btn').addEventListener('click', () => openReorder('genres', g));
   li.querySelector('.edit-btn').addEventListener('click', () => renderGenreEdit(li, g));
   li.querySelector('.danger').addEventListener('click', async () => {
@@ -272,7 +290,7 @@ function renderGenreEdit(li, g) {
     });
     refresh();
   });
-  li.querySelector('.cancel-btn').addEventListener('click', () => renderGenreRow(li, g));
+  li.querySelector('.cancel-btn').addEventListener('click', () => renderGenreRow(li, g, genres.indexOf(g)));
   nameInput.focus();
 }
 

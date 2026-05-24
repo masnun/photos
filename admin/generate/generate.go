@@ -157,29 +157,8 @@ func Run(opts Options) error {
 		return fmt.Errorf("load manifest: %w", err)
 	}
 
-	// Pinned genres render first in this exact order; everything else follows,
-	// alphabetical by name. Index = display priority (lower = earlier).
-	genreOrder := map[string]int{
-		"street-and-documentary":    0,
-		"landscape":                 1,
-		"architecture-and-interior": 2,
-		"birds-and-wildlife":        3,
-		"flower":                    4,
-		"macro":                     5,
-	}
-	rank := func(slug string) int {
-		if r, ok := genreOrder[slug]; ok {
-			return r
-		}
-		return len(genreOrder) // unpinned sort after all pinned
-	}
-	sort.SliceStable(m.Genres, func(i, j int) bool {
-		ri, rj := rank(m.Genres[i].Slug), rank(m.Genres[j].Slug)
-		if ri != rj {
-			return ri < rj
-		}
-		return strings.ToLower(m.Genres[i].Name) < strings.ToLower(m.Genres[j].Name)
-	})
+	// Genre display order follows the manifest array order, which the operator
+	// controls via the admin UI (PUT /api/genres/order). No sort here.
 
 	tmpls, err := parseTemplates()
 	if err != nil {
