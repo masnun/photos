@@ -963,32 +963,6 @@
       "source_hash": "7756380abc789792ab6dfc4593224c6d1299c031f5d9becab6ac79c346fe3546"
     },
     {
-      "id": "753b1a05-c47a-4aa0-b968-0298e44ae6bd",
-      "filename": "51697673811.jpg",
-      "genres": [
-        "food-related"
-      ],
-      "collections": [],
-      "taken_at": "2021-11-22T13:18:01Z",
-      "uploaded_at": "2026-05-21T14:31:45.294367Z",
-      "width": 3850,
-      "height": 5134,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/753b1a05-c47a-4aa0-b968-0298e44ae6bd/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/753b1a05-c47a-4aa0-b968-0298e44ae6bd/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/753b1a05-c47a-4aa0-b968-0298e44ae6bd/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-T3",
-        "lens": "XF18-55mmF2.8-4 R LM OIS",
-        "iso": 3200,
-        "aperture": "f/2.8",
-        "shutter": "1/2000",
-        "focal_length": "18mm"
-      },
-      "source_hash": "97d1476d0e391fe29cf810e6097f35890d8a486148c65ff1c00c3d13942fc4a6"
-    },
-    {
       "id": "8d77efa0-caab-46ad-a518-c06a9bc41ee6",
       "filename": "51702129863.jpg",
       "genres": [
@@ -1154,7 +1128,6 @@
       "id": "a5b6c95d-7e46-41c0-b08e-d2dce2bd4187",
       "filename": "51830856130.jpg",
       "genres": [
-        "food-related",
         "street-and-documentary"
       ],
       "collections": [],
@@ -1307,32 +1280,6 @@
         "focal_length": "600mm"
       },
       "source_hash": "d87cfd578a4caed0fa0cadf7cea777d9e4a7dd80c99cb0109bbaa31f8a99b3d3"
-    },
-    {
-      "id": "07339359-601c-48e0-91ec-98d9c1d7e8a0",
-      "filename": "51920087563.jpg",
-      "genres": [
-        "food-related"
-      ],
-      "collections": [],
-      "taken_at": "2022-03-02T06:41:05Z",
-      "uploaded_at": "2026-05-21T14:32:32.379242Z",
-      "width": 3910,
-      "height": 5214,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/07339359-601c-48e0-91ec-98d9c1d7e8a0/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/07339359-601c-48e0-91ec-98d9c1d7e8a0/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/07339359-601c-48e0-91ec-98d9c1d7e8a0/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "33mmF1.4XM",
-        "iso": 160,
-        "aperture": "f/8.0",
-        "shutter": "1/125",
-        "focal_length": "33mm"
-      },
-      "source_hash": "acadfe6865804efd560980df53e99fc1f31e516b75820c8974a2338b919b011a"
     },
     {
       "id": "4631d374-fe24-43e8-97e1-306045e6125f",
@@ -2020,8 +1967,7 @@
       "id": "36b1c0f6-d52c-4d42-b1e9-d10f9eff78bb",
       "filename": "AAM00319(1).jpg",
       "genres": [
-        "architecture-and-interior",
-        "food-related"
+        "architecture-and-interior"
       ],
       "collections": [
         "artyard-cafe"
@@ -5266,32 +5212,6 @@
       "source_hash": "ad8e71c4023b734116bab60fd61a34f3ffa52881af2ffffb17d9c6d6dd2fa934"
     },
     {
-      "id": "cfc9ab60-f29e-4357-9c65-a211cceee427",
-      "filename": "April_2022_04_13_0016.jpg",
-      "genres": [
-        "food-related"
-      ],
-      "collections": [],
-      "taken_at": "2022-04-13T13:11:58Z",
-      "uploaded_at": "2026-05-21T14:37:03.678004Z",
-      "width": 5450,
-      "height": 4087,
-      "urls": {
-        "thumb": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/cfc9ab60-f29e-4357-9c65-a211cceee427/thumb.jpg",
-        "web": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/cfc9ab60-f29e-4357-9c65-a211cceee427/web.jpg",
-        "full": "https://pub-0dae52791f7a404c941575186c7e153c.r2.dev/photos/cfc9ab60-f29e-4357-9c65-a211cceee427/full.jpg"
-      },
-      "exif": {
-        "camera": "FUJIFILM X-E4",
-        "lens": "7artisans 35mm f/1.2",
-        "iso": 400,
-        "aperture": "f/1.0",
-        "shutter": "1/60",
-        "focal_length": "35mm"
-      },
-      "source_hash": "774c0d260d2f7671b6a0bbf355dcbc9a60f89e913cbe743d2b4fd6b387d152ce"
-    },
-    {
       "id": "083c1758-5a89-423f-a2d2-845f871ac0ef",
       "filename": "APC_0212-hdr.jpg",
       "genres": [
@@ -6569,7 +6489,7 @@
       "id": "f2928d29-7834-4cdc-8526-4a6cc8430c05",
       "filename": "DSCF7562_DxO.jpg",
       "genres": [
-        "food-related"
+        "street-and-documentary"
       ],
       "collections": [],
       "taken_at": "2022-06-11T10:49:14Z",
@@ -7242,8 +7162,7 @@
       "id": "7a1db50e-d2f0-4a96-aa42-06539bb71bb0",
       "filename": "DSCF8657.jpg",
       "genres": [
-        "architecture-and-interior",
-        "food-related"
+        "architecture-and-interior"
       ],
       "collections": [],
       "taken_at": "2022-10-07T12:18:39Z",
@@ -7821,7 +7740,6 @@
       "id": "192a940b-63db-4ce8-a583-cecfaaa372c8",
       "filename": "May_2022_05_08_0127.jpg",
       "genres": [
-        "food-related",
         "street-and-documentary"
       ],
       "collections": [],
@@ -8858,6 +8776,7 @@
         "9a50d1c8-00fc-477b-a876-a713a08d9b83",
         "d1469a63-858f-47e9-b84c-72a9ce756386",
         "aa207afe-e9a8-448f-b762-05f5295df9e3",
+        "f2928d29-7834-4cdc-8526-4a6cc8430c05",
         "233f3be3-81cd-4d85-b164-abc961a8f4d1",
         "d642436f-e15c-43bb-9992-616a3cd8babf",
         "0cf37a11-9a90-4a8d-bf26-3f56f4b19ab2",
@@ -9174,7 +9093,30 @@
     {
       "slug": "food-related",
       "name": "ফুড রিলেটেড",
-      "cover": "c25e89c5-05b4-4434-9292-2a62620fa7a5"
+      "cover": "c25e89c5-05b4-4434-9292-2a62620fa7a5",
+      "order": [
+        "41fbb76e-0189-4eef-bec0-300d599332a3",
+        "3e44e5a8-0677-47d6-bd8c-ca415f46a78f",
+        "b2f04f51-eaa4-4dbe-8dca-d851b498bd3d",
+        "8ff0866b-f180-444a-907c-7115513341ff",
+        "b6b61495-64eb-46e1-b827-04098d99815b",
+        "5acb42f0-23cd-4a0a-ad0b-0963c9b1d328",
+        "845e4fe2-01ca-413f-86c5-4b077e471a56",
+        "e41bab92-4d1b-47f9-b28a-b987b210fe2c",
+        "cfd964de-5ab5-4ea6-9659-36fe90b5bed3",
+        "a6fb6ae3-737e-4862-acbb-aa14ad47fb1a",
+        "9d78c61a-90f8-4ce0-a13f-b8e6c97ebc8f",
+        "c25e89c5-05b4-4434-9292-2a62620fa7a5",
+        "c450a13b-347a-4d81-af18-706e3d852d79",
+        "eabcbbe9-d67d-4fee-aeae-3264d86bf377",
+        "3fa5c5c7-9d61-4b5a-867c-79c048eb0aca",
+        "326bd73f-ede4-4ebc-9180-0e9111335328",
+        "192a940b-63db-4ce8-a583-cecfaaa372c8",
+        "f2928d29-7834-4cdc-8526-4a6cc8430c05",
+        "d9c2a64a-a9b4-40bb-a5ca-0898776db81d",
+        "a45018c0-06b9-49b5-9c22-539953d6e608",
+        "812ab568-2fd9-4e12-bc2c-d820a2efbc14"
+      ]
     },
     {
       "slug": "black-and-white",
@@ -9397,5 +9339,5 @@
       "cover": "b88da03b-8e0e-4064-a2a2-ed8638052e6e"
     }
   ],
-  "updated_at": "2026-05-24T03:48:44.924847Z"
+  "updated_at": "2026-05-24T03:59:24.152505Z"
 }
