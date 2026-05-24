@@ -158,10 +158,8 @@ function renderPhotos() {
     el.className = 'photo-card';
     if (selectMode && selected.has(p.id)) el.classList.add('selected');
     const genreTags = p.genres.map(t => `<span class="pill pill-genre">${escapeHtml(t)}</span>`).join('');
-    const colTags = p.collections.map(t => {
-      const cls = t === 'featured' ? 'pill pill-featured' : 'pill pill-collection';
-      return `<span class="${cls}">${escapeHtml(t)}</span>`;
-    }).join('');
+    const colTags = p.collections.map(t =>
+      `<span class="pill pill-collection">${escapeHtml(t)}</span>`).join('');
     const tags = genreTags + colTags;
     el.innerHTML = `
       <div class="photo-frame"><img src="${escapeHtml(p.urls.thumb)}" alt=""></div>
@@ -297,9 +295,7 @@ function renderGenreEdit(li, g) {
 function renderCollections() {
   const ul = $('#collection-list');
   ul.innerHTML = '';
-  const featured = collections.find(c => c.slug === 'featured');
-  const rest = collections.filter(c => c.slug !== 'featured');
-  for (const c of featured ? [featured, ...rest] : rest) {
+  for (const c of collections) {
     const li = document.createElement('li');
     renderCollectionRow(li, c);
     ul.appendChild(li);
@@ -307,14 +303,12 @@ function renderCollections() {
 }
 
 function renderCollectionRow(li, c) {
-  const isFeatured = c.slug === 'featured';
   li.innerHTML = `<strong>${escapeHtml(c.name)}</strong> <code>${escapeHtml(c.slug)}</code>
     <span>${escapeHtml(c.description || '')}</span>
     <button class="reorder-btn">Reorder</button>
-    ${isFeatured ? '' : `<button class="edit-btn">Edit</button>
-    <button class="danger">Delete</button>`}`;
+    <button class="edit-btn">Edit</button>
+    <button class="danger">Delete</button>`;
   li.querySelector('.reorder-btn').addEventListener('click', () => openReorder('collections', c));
-  if (isFeatured) return;
   li.querySelector('.edit-btn').addEventListener('click', () => renderCollectionEdit(li, c));
   li.querySelector('.danger').addEventListener('click', async () => {
     if (!confirm(`Delete collection "${c.slug}"? Photos referencing it will keep the dangling slug.`)) return;

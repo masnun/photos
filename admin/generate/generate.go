@@ -21,8 +21,8 @@ import (
 const (
 	siteBaseURL     = "https://masnun.photos"
 	siteName        = "masnun.photos"
-	siteLocale      = "bn_BD"
-	siteDescription = "আবু আশরাফ মাসনুনের ছবি — জনরা, কালেকশন ও তারিখ অনুযায়ী গ্যালারি।"
+	siteLocale      = "en_US"
+	siteDescription = "Photographs by Abu Ashraf Masnun — a gallery by genre, collection, and date."
 )
 
 // seoMeta carries the per-page fields the base template needs for canonical,
@@ -103,7 +103,6 @@ type monthView struct {
 
 type indexData struct {
 	SEO             seoMeta
-	Featured        []manifest.Photo
 	Genres          []genreView
 	Collections     []collectionView
 	HeroCollections []collectionView
@@ -237,11 +236,11 @@ func renderTaxonomyIndexes(rc *renderCtx) error {
 	data := buildIndexData(rc)
 	// No standalone /genre/ index page: the genre list is shown on the homepage,
 	// and tiles link directly to per-genre pages (/genre/<slug>/).
-	data.SEO = newSEO("/collection/", "নির্বাচিত ছবির কালেকশন দেখুন।", "")
+	data.SEO = newSEO("/collection/", "Browse curated photo collections.", "")
 	if err := writeTemplate(rc.tmpls["collections-index.html"], filepath.Join(rc.outDir, "collection", "index.html"), data); err != nil {
 		return fmt.Errorf("collections index: %w", err)
 	}
-	data.SEO = newSEO("/calendar/", "মাস অনুযায়ী ছবি দেখুন।", "")
+	data.SEO = newSEO("/calendar/", "Browse photos by month.", "")
 	if err := writeTemplate(rc.tmpls["calendar-index.html"], filepath.Join(rc.outDir, "calendar", "index.html"), data); err != nil {
 		return fmt.Errorf("calendar index: %w", err)
 	}
@@ -306,7 +305,7 @@ func renderCalendar(rc *renderCtx) error {
 		photos := filterByMonth(rc.m.Photos, mv.Slug)
 		mvCopy := mv
 		data := listData{Month: &mvCopy, Cover: mv.Cover, Photos: photos}
-		data.SEO = newSEO(fmt.Sprintf("/calendar/%s/", mv.Slug), fmt.Sprintf("%s-এর ছবি।", mv.Label), coverURL(mv.Cover))
+		data.SEO = newSEO(fmt.Sprintf("/calendar/%s/", mv.Slug), fmt.Sprintf("Photos from %s.", mv.Label), coverURL(mv.Cover))
 		path := filepath.Join(rc.outDir, "calendar", mv.Slug, "index.html")
 		if err := writeTemplate(rc.tmpls["calendar.html"], path, data); err != nil {
 			return fmt.Errorf("calendar %s: %w", mv.Slug, err)
@@ -355,8 +354,8 @@ func parseTemplates() (map[string]*template.Template, error) {
 func renderIndex(rc *renderCtx) error {
 	data := buildIndexData(rc)
 	var heroImg string
-	if len(data.Featured) > 0 {
-		heroImg = data.Featured[0].URLs.Web
+	if len(data.HeroCollections) > 0 && data.HeroCollections[0].Cover != nil {
+		heroImg = data.HeroCollections[0].Cover.URLs.Web
 	}
 	data.SEO = newSEO("/", siteDescription, heroImg)
 	return writeTemplate(rc.tmpls["index.html"], filepath.Join(rc.outDir, "index.html"), data)
@@ -377,16 +376,12 @@ func buildIndexData(rc *renderCtx) indexData {
 		data.Genres = append(data.Genres, genreView{Genre: g, Cover: findGenreCover(rc.m.Photos, g), ThumbsJSON: string(buf)})
 	}
 	for _, c := range rc.m.Collections {
-		if c.Slug == manifest.FeaturedSlug {
-			continue
-		}
 		cv := collectionView{Collection: c, Cover: findCollectionCover(rc.m.Photos, c)}
 		data.Collections = append(data.Collections, cv)
 		if c.Hero {
 			data.HeroCollections = append(data.HeroCollections, cv)
 		}
 	}
-	data.Featured = filterByCollection(rc.m.Photos, manifest.FeaturedSlug, rc.colBySlug[manifest.FeaturedSlug].Order)
 	data.Months = buildMonths(rc.m.Photos)
 	return data
 }
@@ -399,7 +394,7 @@ func renderGenres(rc *renderCtx) error {
 		data := listData{Genre: &gCopy, Cover: cover, Photos: photos, MonthGroups: buildMonthGroups(photos)}
 		desc := g.Description
 		if strings.TrimSpace(desc) == "" {
-			desc = fmt.Sprintf("%s জনরার ছবি।", g.Name)
+			desc = fmt.Sprintf("Photographs in %s.", g.Name)
 		}
 		data.SEO = newSEO(fmt.Sprintf("/genre/%s/", g.Slug), desc, coverURL(cover))
 		path := filepath.Join(rc.outDir, "genre", g.Slug, "index.html")
@@ -421,7 +416,7 @@ func renderCollections(rc *renderCtx) error {
 		data := listData{Collection: &cCopy, Cover: cover, Photos: photos, MonthGroups: buildMonthGroups(photos)}
 		desc := c.Description
 		if strings.TrimSpace(desc) == "" {
-			desc = fmt.Sprintf("%s কালেকশনের ছবি।", c.Name)
+			desc = fmt.Sprintf("Photographs in the %s collection.", c.Name)
 		}
 		data.SEO = newSEO(fmt.Sprintf("/collection/%s/", c.Slug), desc, coverURL(cover))
 		path := filepath.Join(rc.outDir, "collection", c.Slug, "index.html")
@@ -669,11 +664,11 @@ func photoJSONLD(p manifest.Photo) template.JS {
 		"url":          fmt.Sprintf("%s/photo/%s/", siteBaseURL, p.ID),
 		"creator": map[string]any{
 			"@type": "Person",
-			"name":  "আবু আশরাফ মাসনুন",
+			"name":  "Abu Ashraf Masnun",
 		},
 		"copyrightHolder": map[string]any{
 			"@type": "Person",
-			"name":  "আবু আশরাফ মাসনুন",
+			"name":  "Abu Ashraf Masnun",
 		},
 	}
 	if p.Width > 0 {

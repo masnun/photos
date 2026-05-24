@@ -1,35 +1,22 @@
-{{define "title"}}আবু আশরাফ মাসনুন - masnun.photos{{end}}
-{{define "head"}}<meta property="og:title" content="আবু আশরাফ মাসনুন - masnun.photos">
+{{define "title"}}Abu Ashraf Masnun - masnun.photos{{end}}
+{{define "head"}}<meta property="og:title" content="Abu Ashraf Masnun - masnun.photos">
   <meta property="og:type" content="website">{{end}}
 {{define "content"}}
 <section class="hero">
   <div class="hero-photo">
-    <img src="/assets/img/profile.jpg" alt="আবু আশরাফ মাসনুন" loading="eager" fetchpriority="high">
+    <img src="/assets/img/profile.jpg" alt="Abu Ashraf Masnun" loading="eager" fetchpriority="high">
   </div>
   <div class="hero-text">
-    <h1 class="hero-name">আবু আশরাফ মাসনুন</h1>
-    <p class="hero-tag">চলতি পথে দেখতে শেখা<br>ছবির ফ্রেমে গল্প আঁকা</p>
-    {{if .HeroCollections}}
-    <h3 class="hero-cta">নির্বাচিত</h3>
-    <div class="hero-collections">
-      {{range .HeroCollections}}
-      <a class="hc-card" href="/collection/{{.Slug}}/">
-        <div class="hc-thumb">{{with .Cover}}<img src="{{.URLs.Thumb}}" alt="" loading="lazy">{{end}}</div>
-        <div class="hc-text">
-          <strong>{{.Name}}</strong>
-          {{with .Description}}<span>{{. | markdownInline}}</span>{{end}}
-        </div>
-      </a>
-      {{end}}
-    </div>
-    {{end}}
-    <p class="hero-all-collections"><a class="btn-all-collections" href="/collection/">সব কালেকশন</a></p>
+    <h1 class="hero-name">Abu Ashraf Masnun</h1>
+    <p class="hero-tag">Capturing stories, one frame at a time</p>
+    <p class="hero-bio">Based in Khulna, Bangladesh. A software developer by trade and a photographer by passion — drawn most to street and documentary work, with a knack for landscapes and architecture.</p>
+    <p class="hero-all-collections"><a class="btn-all-collections" href="/collection/">All Collections</a></p>
   </div>
 </section>
 <section id="genres-section">
-  <h2>জনরা</h2>
+  <h2>Genres</h2>
   <div class="tile-grid">
-    {{if not .Genres}}<p class="empty">এখনো কিছু নেই।</p>{{end}}
+    {{if not .Genres}}<p class="empty">Nothing here yet.</p>{{end}}
     {{range .Genres}}
     <a class="tile tile-title-top" href="/genre/{{.Slug}}/">
       <div class="tile-label"><strong>{{.Name}}</strong>{{with .Description}}<span>{{. | markdownInline}}</span>{{end}}</div>

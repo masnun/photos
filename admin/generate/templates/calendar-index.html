@@ -1,14 +1,14 @@
-{{define "title"}}ক্যালেন্ডার · masnun.photos{{end}}
-{{define "head"}}<meta property="og:title" content="ক্যালেন্ডার · masnun.photos">
+{{define "title"}}Calendar · masnun.photos{{end}}
+{{define "head"}}<meta property="og:title" content="Calendar · masnun.photos">
   <meta property="og:type" content="website">{{end}}
 {{define "content"}}
 <section id="calendar-section">
-  <h2>ক্যালেন্ডার</h2>
+  <h2>Calendar</h2>
   <div class="tile-grid">
-    {{if not .Months}}<p class="empty">এখনো কিছু নেই।</p>{{end}}
+    {{if not .Months}}<p class="empty">Nothing here yet.</p>{{end}}
     {{range .Months}}
     <a class="tile tile-title-top" href="/calendar/{{.Slug}}/">
-      <div class="tile-label"><strong>{{.Label}}</strong><span>{{.Count}}টি ছবি</span></div>
+      <div class="tile-label"><strong>{{.Label}}</strong><span>{{.Count}} photos</span></div>
       <div class="tile-img-wrap">{{with .Cover}}<img src="{{.URLs.Web}}" alt="" loading="lazy">{{else}}<div class="tile-empty"></div>{{end}}</div>
     </a>
     {{end}}

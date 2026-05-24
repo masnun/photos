@@ -67,9 +67,16 @@ main { max-width: 1400px; margin: 0 auto; padding: 2rem; }
   font-size: 1.35rem;
   font-style: italic;
   color: #555;
-  margin: 0 0 2.75rem;
+  margin: 0 0 1.25rem;
   line-height: 1.5;
   max-width: 42ch;
+}
+.hero-bio {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 0 0 2.75rem;
+  line-height: 1.65;
+  max-width: 52ch;
 }
 .hero-cta {
   font-family: "Crimson Pro", Georgia, serif;

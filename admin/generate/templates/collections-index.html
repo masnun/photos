@@ -1,11 +1,11 @@
-{{define "title"}}কালেকশন · masnun.photos{{end}}
-{{define "head"}}<meta property="og:title" content="কালেকশন · masnun.photos">
+{{define "title"}}Collections · masnun.photos{{end}}
+{{define "head"}}<meta property="og:title" content="Collections · masnun.photos">
   <meta property="og:type" content="website">{{end}}
 {{define "content"}}
 <section id="collections-section">
-  <h2>কালেকশন</h2>
+  <h2>Collections</h2>
   <div class="tile-grid">
-    {{if not .Collections}}<p class="empty">এখনো কিছু নেই।</p>{{end}}
+    {{if not .Collections}}<p class="empty">Nothing here yet.</p>{{end}}
     {{range .Collections}}
     <a class="tile tile-title-top" href="/collection/{{.Slug}}/">
       <div class="tile-label"><strong>{{.Name}}</strong>{{with .Description}}<span>{{. | markdownInline}}</span>{{end}}</div>

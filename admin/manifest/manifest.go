@@ -53,23 +53,7 @@ func (s *Store) load() error {
 	if s.data.Collections == nil {
 		s.data.Collections = []Collection{}
 	}
-	return s.ensureFeatured()
-}
-
-// ensureFeatured guarantees the reserved "featured" collection exists.
-// Photos tagged with this slug power the home-page slideshow.
-func (s *Store) ensureFeatured() error {
-	for _, c := range s.data.Collections {
-		if c.Slug == FeaturedSlug {
-			return nil
-		}
-	}
-	s.data.Collections = append(s.data.Collections, Collection{
-		Slug:        FeaturedSlug,
-		Name:        "Featured",
-		Description: "Highlights shown in the home-page slideshow.",
-	})
-	return s.save()
+	return nil
 }
 
 func (s *Store) save() error {

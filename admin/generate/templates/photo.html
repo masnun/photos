@@ -22,24 +22,24 @@
 </figure>
 {{if or .PrevURL .NextURL}}
 <nav class="photo-nav">
-  {{if .PrevURL}}<a class="prev" href="{{.PrevURL}}" rel="prev">← পূর্ববর্তী</a>{{else}}<span class="prev disabled">← পূর্ববর্তী</span>{{end}}
-  {{if .NextURL}}<a class="next" href="{{.NextURL}}" rel="next">পরবর্তী →</a>{{else}}<span class="next disabled">পরবর্তী →</span>{{end}}
+  {{if .PrevURL}}<a class="prev" href="{{.PrevURL}}" rel="prev">← Previous</a>{{else}}<span class="prev disabled">← Previous</span>{{end}}
+  {{if .NextURL}}<a class="next" href="{{.NextURL}}" rel="next">Next →</a>{{else}}<span class="next disabled">Next →</span>{{end}}
 </nav>
 {{end}}
 <div class="photo-meta">
-  {{with .TakenFormatted}}<p><strong>তোলা হয়েছে:</strong> {{.}}</p>{{end}}
-  {{with .GenreLinks}}<p><strong>জনরা:</strong> {{range $i, $g := .}}{{if $i}}, {{end}}<a href="/genre/{{$g.Slug}}/">{{$g.Name}}</a>{{end}}</p>{{end}}
-  {{with .CollectionLinks}}<p><strong>কালেকশন:</strong> {{range $i, $c := .}}{{if $i}}, {{end}}<a href="/collection/{{$c.Slug}}/">{{$c.Name}}</a>{{end}}</p>{{end}}
+  {{with .TakenFormatted}}<p><strong>Taken:</strong> {{.}}</p>{{end}}
+  {{with .GenreLinks}}<p><strong>Genres:</strong> {{range $i, $g := .}}{{if $i}}, {{end}}<a href="/genre/{{$g.Slug}}/">{{$g.Name}}</a>{{end}}</p>{{end}}
+  {{with .CollectionLinks}}<p><strong>Collections:</strong> {{range $i, $c := .}}{{if $i}}, {{end}}<a href="/collection/{{$c.Slug}}/">{{$c.Name}}</a>{{end}}</p>{{end}}
   {{with .Photo.EXIF}}
   <dl class="exif">
-    {{with .Camera}}<dt>ক্যামেরা</dt><dd>{{.}}</dd>{{end}}
-    {{with .Lens}}<dt>লেন্স</dt><dd>{{.}}</dd>{{end}}
+    {{with .Camera}}<dt>Camera</dt><dd>{{.}}</dd>{{end}}
+    {{with .Lens}}<dt>Lens</dt><dd>{{.}}</dd>{{end}}
     {{if or .FocalLength .Aperture .Shutter .ISO}}
-    <dt>সেটিংস</dt><dd>{{with .FocalLength}}{{.}}{{end}}{{if and .FocalLength .Aperture}} · {{end}}{{with .Aperture}}{{.}}{{end}}{{if and (or .FocalLength .Aperture) .Shutter}} · {{end}}{{with .Shutter}}{{.}}{{end}}{{if and (or .FocalLength .Aperture .Shutter) .ISO}} · {{end}}{{with .ISO}}ISO {{.}}{{end}}</dd>
+    <dt>Settings</dt><dd>{{with .FocalLength}}{{.}}{{end}}{{if and .FocalLength .Aperture}} · {{end}}{{with .Aperture}}{{.}}{{end}}{{if and (or .FocalLength .Aperture) .Shutter}} · {{end}}{{with .Shutter}}{{.}}{{end}}{{if and (or .FocalLength .Aperture .Shutter) .ISO}} · {{end}}{{with .ISO}}ISO {{.}}{{end}}</dd>
     {{end}}
   </dl>
   {{end}}
-  <p><a href="{{.Photo.URLs.Full}}" target="_blank" rel="noopener">পূর্ণ আকারে দেখুন</a></p>
+  <p><a href="{{.Photo.URLs.Full}}" target="_blank" rel="noopener">View full size</a></p>
 </div>
 {{end}}
 {{template "base" .}}

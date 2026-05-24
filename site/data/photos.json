@@ -702,7 +702,6 @@
         "birds-and-wildlife"
       ],
       "collections": [
-        "featured",
         "khulna-university"
       ],
       "taken_at": "2021-10-23T10:46:54Z",
@@ -731,7 +730,6 @@
         "birds-and-wildlife"
       ],
       "collections": [
-        "featured",
         "khulna-university"
       ],
       "taken_at": "2021-10-26T10:13:21Z",
@@ -1020,9 +1018,7 @@
       "genres": [
         "birds-and-wildlife"
       ],
-      "collections": [
-        "featured"
-      ],
+      "collections": [],
       "taken_at": "2022-01-02T09:55:41Z",
       "uploaded_at": "2026-05-21T14:31:51.11872Z",
       "width": 4611,
@@ -1182,7 +1178,6 @@
         "street-and-documentary"
       ],
       "collections": [
-        "featured",
         "khulna-railway-station"
       ],
       "taken_at": "2022-02-13T11:36:34Z",
@@ -2077,8 +2072,7 @@
         "street-and-documentary"
       ],
       "collections": [
-        "july-reovolution",
-        "featured"
+        "july-reovolution"
       ],
       "taken_at": "2024-08-05T10:45:24Z",
       "uploaded_at": "2026-05-21T14:33:24.152898Z",
@@ -2213,8 +2207,7 @@
         "street-and-documentary"
       ],
       "collections": [
-        "july-reovolution",
-        "featured"
+        "july-reovolution"
       ],
       "taken_at": "2024-08-05T10:59:30Z",
       "uploaded_at": "2026-05-21T14:33:31.374921Z",
@@ -3164,9 +3157,7 @@
         "landscape",
         "street-and-documentary"
       ],
-      "collections": [
-        "featured"
-      ],
+      "collections": [],
       "taken_at": "2025-10-11T10:25:12Z",
       "uploaded_at": "2026-05-21T14:34:59.832476Z",
       "width": 3833,
@@ -3351,9 +3342,7 @@
       "genres": [
         "birds-and-wildlife"
       ],
-      "collections": [
-        "featured"
-      ],
+      "collections": [],
       "taken_at": "2022-01-02T09:53:17Z",
       "uploaded_at": "2026-05-21T14:35:07.855595Z",
       "width": 3364,
@@ -4438,9 +4427,7 @@
         "landscape",
         "street-and-documentary"
       ],
-      "collections": [
-        "featured"
-      ],
+      "collections": [],
       "taken_at": "2022-07-11T11:11:59Z",
       "uploaded_at": "2026-05-21T14:36:13.783635Z",
       "width": 4130,
@@ -4728,7 +4715,6 @@
         "landscape"
       ],
       "collections": [
-        "featured",
         "khulna-university"
       ],
       "taken_at": "2024-03-11T02:17:25Z",
@@ -7934,9 +7920,7 @@
         "architecture-and-interior",
         "street-and-documentary"
       ],
-      "collections": [
-        "featured"
-      ],
+      "collections": [],
       "taken_at": "2021-12-01T05:58:16Z",
       "uploaded_at": "2026-05-21T14:40:54.214313Z",
       "width": 3893,
@@ -8100,8 +8084,7 @@
         "street-and-documentary"
       ],
       "collections": [
-        "july-reovolution",
-        "featured"
+        "july-reovolution"
       ],
       "taken_at": "2024-08-05T10:57:44Z",
       "uploaded_at": "2026-05-21T14:41:11.02119Z",
@@ -8179,9 +8162,7 @@
       "genres": [
         "birds-and-wildlife"
       ],
-      "collections": [
-        "featured"
-      ],
+      "collections": [],
       "taken_at": "2022-01-02T09:52:51Z",
       "uploaded_at": "2026-05-21T14:41:19.321346Z",
       "width": 3202,
@@ -8315,9 +8296,7 @@
         "low-light",
         "street-and-documentary"
       ],
-      "collections": [
-        "featured"
-      ],
+      "collections": [],
       "taken_at": "2025-12-30T11:38:20Z",
       "uploaded_at": "2026-05-21T14:41:33.897012Z",
       "width": 3524,
@@ -8559,9 +8538,7 @@
       "genres": [
         "street-and-documentary"
       ],
-      "collections": [
-        "featured"
-      ],
+      "collections": [],
       "taken_at": "2022-06-24T11:56:17Z",
       "uploaded_at": "2026-05-21T14:41:57.361681Z",
       "width": 5229,
@@ -8689,7 +8666,7 @@
   "genres": [
     {
       "slug": "street-and-documentary",
-      "name": "স্ট্রিট অ্যান্ড ডকুমেন্টারি",
+      "name": "Street and Documentary",
       "cover": "fe778eda-a310-4625-9d51-1dbbdd7a3e67",
       "order": [
         "fe778eda-a310-4625-9d51-1dbbdd7a3e67",
@@ -8809,7 +8786,7 @@
     },
     {
       "slug": "landscape",
-      "name": "ল্যান্ডস্কেপ",
+      "name": "Landscape",
       "cover": "99dc454b-be1d-4b50-8c1c-27648ec7a470",
       "order": [
         "7bb716f3-5920-4fed-b356-77781a73c77f",
@@ -8869,7 +8846,7 @@
     },
     {
       "slug": "architecture-and-interior",
-      "name": "আর্কিটেকচার অ্যান্ড ইন্টেরিয়র",
+      "name": "Architecture and Interior",
       "cover": "f9d567f5-e415-4e2e-a0b8-f46c1358a09d",
       "order": [
         "a8c03798-c2f0-47fd-8451-1ef4f64eeb0f",
@@ -8935,7 +8912,7 @@
     },
     {
       "slug": "birds-and-wildlife",
-      "name": "বার্ডস অ্যান্ড ওয়াইল্ডলাইফ",
+      "name": "Birds and Wildlife",
       "cover": "cd46262c-1d24-44fa-b478-b4e362778c4f",
       "order": [
         "5eba9214-2885-443d-9be9-6d246c3503de",
@@ -9003,7 +8980,7 @@
     },
     {
       "slug": "flower",
-      "name": "ফ্লাওয়ার",
+      "name": "Flower",
       "cover": "65855efe-913a-4724-9f2b-ae2548f2b32a",
       "order": [
         "65855efe-913a-4724-9f2b-ae2548f2b32a",
@@ -9035,7 +9012,7 @@
     },
     {
       "slug": "macro",
-      "name": "ম্যাক্রো",
+      "name": "Macro",
       "cover": "a36a5480-361f-427a-b661-07f63ab006b9",
       "order": [
         "a36a5480-361f-427a-b661-07f63ab006b9",
@@ -9092,7 +9069,7 @@
     },
     {
       "slug": "food-related",
-      "name": "ফুড রিলেটেড",
+      "name": "Food Related",
       "cover": "c25e89c5-05b4-4434-9292-2a62620fa7a5",
       "order": [
         "41fbb76e-0189-4eef-bec0-300d599332a3",
@@ -9120,49 +9097,27 @@
     },
     {
       "slug": "black-and-white",
-      "name": "ব্ল্যাক অ্যান্ড হোয়াইট",
+      "name": "Black and White",
       "cover": "283e22ed-1aec-4619-9e1f-35ca60cba99a"
     },
     {
       "slug": "low-light",
-      "name": "লো লাইট",
+      "name": "Low Light",
       "cover": "cb68590c-eac8-4ad9-86f8-06b3a89ca1f1"
     }
   ],
   "collections": [
     {
       "slug": "july-reovolution",
-      "name": "জুলাই বিপ্লব",
-      "description": "২৪ এর জুলাই এর গনবিপ্লব, ফ্যাসিজম এর পতনে খুলনার জনমানুষের উদযাপন ",
+      "name": "July Revolution",
+      "description": "People celebrating on the street of Khulna after ousting the fascist regime of 17 years. ",
       "cover": "371a3a21-d20f-4279-affd-f7081a1b483d",
       "hero": true
     },
     {
-      "slug": "featured",
-      "name": "ফিচার্ড",
-      "description": "Highlights shown in the home-page slideshow.",
-      "order": [
-        "fe778eda-a310-4625-9d51-1dbbdd7a3e67",
-        "e8791c4e-ef86-41c4-b3b9-197bc48dffc2",
-        "5eba9214-2885-443d-9be9-6d246c3503de",
-        "c36b490d-7370-4cd0-a2e1-8c06529f6490",
-        "4da7a360-dcc4-4aad-8b03-87526787edd7",
-        "f075888a-2f3d-45b9-812d-1e9f321ca78b",
-        "91503d65-a7e4-46ba-864c-7fd28a3c5d79",
-        "4a2aa4f0-7c71-4512-b9f5-01cfa335b1df",
-        "cd46262c-1d24-44fa-b478-b4e362778c4f",
-        "6421998f-fc31-439e-a932-2289a0a40b1f",
-        "e8e32116-07f3-44dd-b542-388c01f616e4",
-        "275818ec-af87-4819-8e63-748fe220708e",
-        "697cf320-09f9-4447-9212-9194a3fa449d",
-        "74654b05-7e9d-4ebd-9b59-d37b7be81ebb",
-        "371a3a21-d20f-4279-affd-f7081a1b483d"
-      ]
-    },
-    {
       "slug": "khulna-university",
-      "name": "খুলনা ইউনিভার্সিটি",
-      "description": "আমার বিশ্ববিদ্যালয়, বাড়ির কাছে হওয়ায় নিত্যদিনের ফটোগ্রাফির জায়গা",
+      "name": "Khulna University",
+      "description": "My alma mater, somewhere I have taken a lot of photos",
       "cover": "7bb716f3-5920-4fed-b356-77781a73c77f",
       "order": [
         "24558c44-3e4c-463a-a438-efd87e06b07b",
@@ -9328,16 +9283,16 @@
     },
     {
       "slug": "artyard-cafe",
-      "name": "আর্টইয়ার্ড ক্যাফে (এবং উল্লাস পার্ক)",
-      "description": "আমার পছন্দের ক্যাফে, আলো, বাতাস আর সুন্দর ইনটেরিয়র । সেই সাথে উল্লাস পার্কের ছবিও আছে । ",
+      "name": "Artyard Cafe and Ullash",
+      "description": "A beautiful park and an accompanying restaurant that I visit regularly. ",
       "cover": "06375593-e327-430a-b59c-6893174ef2c1"
     },
     {
       "slug": "khulna-railway-station",
-      "name": "খুলনা রেলওয়ে স্টেশন",
-      "description": "খুলনা রেলওয়ে স্টেশনের যত ফটো",
+      "name": "Khulna Railway Station",
+      "description": "Photos from the local railway station - a lot of street photos here",
       "cover": "b88da03b-8e0e-4064-a2a2-ed8638052e6e"
     }
   ],
-  "updated_at": "2026-05-24T04:02:39.877773Z"
+  "updated_at": "2026-05-24T04:18:42.634624Z"
 }
