@@ -235,10 +235,8 @@ func cleanOutput(outDir string) error {
 
 func renderTaxonomyIndexes(rc *renderCtx) error {
 	data := buildIndexData(rc)
-	data.SEO = newSEO("/genre/", "জনরা অনুযায়ী ছবি দেখুন।", "")
-	if err := writeTemplate(rc.tmpls["genres-index.html"], filepath.Join(rc.outDir, "genre", "index.html"), data); err != nil {
-		return fmt.Errorf("genres index: %w", err)
-	}
+	// No standalone /genre/ index page: the genre list is shown on the homepage,
+	// and tiles link directly to per-genre pages (/genre/<slug>/).
 	data.SEO = newSEO("/collection/", "নির্বাচিত ছবির কালেকশন দেখুন।", "")
 	if err := writeTemplate(rc.tmpls["collections-index.html"], filepath.Join(rc.outDir, "collection", "index.html"), data); err != nil {
 		return fmt.Errorf("collections index: %w", err)
@@ -340,7 +338,6 @@ func parseTemplates() (map[string]*template.Template, error) {
 		"collection.html",
 		"photo.html",
 		"calendar.html",
-		"genres-index.html",
 		"collections-index.html",
 		"calendar-index.html",
 	}
@@ -700,7 +697,7 @@ func photoJSONLD(p manifest.Photo) template.JS {
 // back to /photo/<id>/.
 func renderSitemap(rc *renderCtx) error {
 	var urls []string
-	urls = append(urls, "/", "/genre/", "/collection/", "/calendar/")
+	urls = append(urls, "/", "/collection/", "/calendar/")
 	for _, g := range rc.m.Genres {
 		urls = append(urls, fmt.Sprintf("/genre/%s/", g.Slug))
 	}
