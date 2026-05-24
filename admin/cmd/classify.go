@@ -54,7 +54,7 @@ func Classify(args []string) {
 	defer f.Close()
 
 	if newFile {
-		fmt.Fprintln(f, "path\tsha256\tgenres\tcaption\tcollection")
+		fmt.Fprintln(f, "path\tsha256\tgenres\tcollection")
 	}
 
 	var writeMu sync.Mutex
@@ -104,7 +104,6 @@ func Classify(args []string) {
 				rel,
 				hash,
 				strings.Join(result.Genres, ","),
-				sanitizeCell(result.Caption),
 				sanitizeCell(result.CollectionHint),
 			}, "\t")
 			writeRow(row)
@@ -113,8 +112,8 @@ func Classify(args []string) {
 			done++
 			n := done
 			doneMu.Unlock()
-			log.Printf("[%d/%d] %s -> [%s] %s", n, len(paths), rel,
-				strings.Join(result.Genres, ","), truncateStr(result.Caption, 60))
+			log.Printf("[%d/%d] %s -> [%s]", n, len(paths), rel,
+				strings.Join(result.Genres, ","))
 		}(p, rel)
 	}
 	wg.Wait()
@@ -178,11 +177,4 @@ func sanitizeCell(s string) string {
 	s = strings.ReplaceAll(s, "\r", " ")
 	s = strings.ReplaceAll(s, "\n", " ")
 	return strings.TrimSpace(s)
-}
-
-func truncateStr(s string, n int) string {
-	if len(s) <= n {
-		return s
-	}
-	return s[:n] + "…"
 }

@@ -19,7 +19,6 @@ type Row struct {
 	Path       string   `json:"path"`
 	Hash       string   `json:"hash"`
 	Genres     []string `json:"genres"`
-	Caption    string   `json:"caption"`
 	Collection string   `json:"collection"`
 }
 
@@ -63,7 +62,7 @@ func (s *store) load() error {
 			continue
 		}
 		parts := strings.Split(line, "\t")
-		for len(parts) < 5 {
+		for len(parts) < 4 {
 			parts = append(parts, "")
 		}
 		genres := []string{}
@@ -73,13 +72,14 @@ func (s *store) load() error {
 				genres = append(genres, g)
 			}
 		}
+		// collection is the last column; reading it from the end keeps stale
+		// 5-column (caption-bearing) TSVs parsing correctly.
 		rows = append(rows, Row{
 			Idx:        len(rows),
 			Path:       strings.TrimSpace(parts[0]),
 			Hash:       strings.TrimSpace(parts[1]),
 			Genres:     genres,
-			Caption:    parts[3],
-			Collection: strings.TrimSpace(parts[4]),
+			Collection: strings.TrimSpace(parts[len(parts)-1]),
 		})
 	}
 	s.rows = rows
@@ -92,16 +92,15 @@ func (s *store) save() error {
 	if err != nil {
 		return err
 	}
-	if _, err := fmt.Fprintln(f, "path\tsha256\tgenres\tcaption\tcollection"); err != nil {
+	if _, err := fmt.Fprintln(f, "path\tsha256\tgenres\tcollection"); err != nil {
 		f.Close()
 		os.Remove(tmp)
 		return err
 	}
 	for _, r := range s.rows {
-		_, err := fmt.Fprintf(f, "%s\t%s\t%s\t%s\t%s\n",
+		_, err := fmt.Fprintf(f, "%s\t%s\t%s\t%s\n",
 			r.Path, r.Hash,
 			strings.Join(r.Genres, ","),
-			sanitize(r.Caption),
 			sanitize(r.Collection),
 		)
 		if err != nil {
@@ -143,7 +142,6 @@ func (s *store) list(w http.ResponseWriter, r *http.Request) {
 
 type patchBody struct {
 	Genres     *[]string `json:"genres,omitempty"`
-	Caption    *string   `json:"caption,omitempty"`
 	Collection *string   `json:"collection,omitempty"`
 }
 
@@ -162,9 +160,6 @@ func (s *store) update(w http.ResponseWriter, r *http.Request) {
 	}
 	if body.Genres != nil {
 		s.rows[idx].Genres = normalize(*body.Genres)
-	}
-	if body.Caption != nil {
-		s.rows[idx].Caption = *body.Caption
 	}
 	if body.Collection != nil {
 		s.rows[idx].Collection = strings.TrimSpace(*body.Collection)

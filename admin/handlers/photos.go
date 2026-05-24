@@ -113,7 +113,6 @@ func (h *Photos) Upload(w http.ResponseWriter, r *http.Request) {
 }
 
 type photoPatch struct {
-	Caption     *string   `json:"caption,omitempty"`
 	Genres      *[]string `json:"genres,omitempty"`
 	Collections *[]string `json:"collections,omitempty"`
 }
@@ -126,9 +125,6 @@ func (h *Photos) Patch(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	err := h.Store.UpdatePhoto(id, func(p *manifest.Photo) {
-		if body.Caption != nil {
-			p.Caption = *body.Caption
-		}
 		if body.Genres != nil {
 			p.Genres = *body.Genres
 		}

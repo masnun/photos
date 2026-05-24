@@ -129,7 +129,6 @@ func Ingest(args []string) {
 			p := manifest.Photo{
 				ID:          id,
 				Filename:    filepath.Base(row.Path),
-				Caption:     row.Caption,
 				Genres:      row.Genres,
 				Collections: collections,
 				TakenAt:     takenAt,
@@ -159,7 +158,6 @@ type tsvRow struct {
 	Path       string
 	Hash       string
 	Genres     []string
-	Caption    string
 	Collection string
 }
 
@@ -183,7 +181,7 @@ func readTSV(path string) ([]tsvRow, error) {
 			continue
 		}
 		parts := strings.Split(line, "\t")
-		for len(parts) < 5 {
+		for len(parts) < 4 {
 			parts = append(parts, "")
 		}
 		genres := []string{}
@@ -193,12 +191,13 @@ func readTSV(path string) ([]tsvRow, error) {
 				genres = append(genres, g)
 			}
 		}
+		// collection is the last column; reading it positionally from the end
+		// keeps stale 5-column (caption-bearing) TSVs parsing correctly.
 		rows = append(rows, tsvRow{
 			Path:       strings.TrimSpace(parts[0]),
 			Hash:       strings.TrimSpace(parts[1]),
 			Genres:     genres,
-			Caption:    parts[3],
-			Collection: strings.TrimSpace(parts[4]),
+			Collection: strings.TrimSpace(parts[len(parts)-1]),
 		})
 	}
 	return rows, sc.Err()

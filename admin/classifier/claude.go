@@ -17,14 +17,13 @@ const endpoint = "https://api.anthropic.com/v1/messages"
 const SystemPrompt = `You classify photographs by genre. Respond with strict JSON only, no markdown fences.
 
 Schema:
-{"genres": ["..."], "caption": "...", "collection_hint": "..."}
+{"genres": ["..."], "collection_hint": "..."}
 
 Available genres (kebab-case slugs). Pick all that apply — multi-label is encouraged. You MAY propose a new slug only if none of these fit:
-street, portrait, landscape, architecture, nature, wildlife, macro, abstract, documentary, travel, urban, black-and-white, still-life, event, sports, fashion, food, astrophotography, night, candid, minimalism, cityscape, interior
+street, landscape, architecture, nature, wildlife, macro, abstract, documentary, travel, urban, black-and-white, event, sports, fashion, food, astrophotography, night, candid, minimalism, cityscape, interior
 
 Rules:
 - genres: 1-4 slugs, lowercase, kebab-case.
-- caption: under 100 chars, concrete description of the scene. Empty string if unsure.
 - collection_hint: optional kebab-case slug suggesting a logical group (e.g. "tokyo-street", "winter-fog"). Empty string if no obvious grouping.
 - If the image is monochrome, always include "black-and-white".`
 
@@ -44,7 +43,6 @@ func New(apiKey, model string) *Client {
 
 type Result struct {
 	Genres         []string `json:"genres"`
-	Caption        string   `json:"caption"`
 	CollectionHint string   `json:"collection_hint"`
 }
 
@@ -144,14 +142,13 @@ func lockedSystemPrompt(allowed []string) string {
 	return `You classify photographs by genre. Respond with strict JSON only, no markdown fences.
 
 Schema:
-{"genres": ["..."], "caption": "...", "collection_hint": "..."}
+{"genres": ["..."], "collection_hint": "..."}
 
 Available genres (kebab-case slugs). You MUST pick only from this list. Do NOT invent new slugs:
 ` + strings.Join(allowed, ", ") + `
 
 Rules:
 - genres: 1-4 slugs from the list above, lowercase, kebab-case. No new slugs.
-- caption: under 100 chars, concrete description of the scene. Empty string if unsure.
 - collection_hint: optional kebab-case slug suggesting a logical group. Empty string if no obvious grouping.
 - If the image is monochrome and "black-and-white" is in the list, always include it.`
 }

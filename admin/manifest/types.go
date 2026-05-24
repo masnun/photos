@@ -16,7 +16,6 @@ type Manifest struct {
 type Photo struct {
 	ID          string     `json:"id"`
 	Filename    string     `json:"filename"`
-	Caption     string     `json:"caption,omitempty"`
 	Genres      []string   `json:"genres"`
 	Collections []string   `json:"collections"`
 	TakenAt     *time.Time `json:"taken_at,omitempty"`

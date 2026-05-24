@@ -25,7 +25,6 @@ func Reclassify(args []string) {
 	model := fs.String("model", "claude-haiku-4-5-20251001", "Anthropic model id")
 	dryRun := fs.Bool("dry-run", false, "log proposed changes without saving")
 	only := fs.String("only", "", "process only this photo id (debug)")
-	keepCaption := fs.Bool("keep-caption", false, "preserve existing caption (default: clear)")
 	fs.Parse(args)
 
 	apiKey := os.Getenv("ANTHROPIC_API_KEY")
@@ -112,9 +111,6 @@ func Reclassify(args []string) {
 			}
 			if err := store.UpdatePhoto(ph.ID, func(p *manifest.Photo) {
 				p.Genres = res.Genres
-				if !*keepCaption {
-					p.Caption = ""
-				}
 			}); err != nil {
 				log.Printf("FAIL %s save: %v", ph.ID, err)
 				atomic.AddInt64(&failCount, 1)

@@ -163,11 +163,9 @@ function renderPhotos() {
       return `<span class="${cls}">${escapeHtml(t)}</span>`;
     }).join('');
     const tags = genreTags + colTags;
-    const caption = p.caption ? `<div class="caption">${escapeHtml(p.caption)}</div>` : '';
     el.innerHTML = `
       <div class="photo-frame"><img src="${escapeHtml(p.urls.thumb)}" alt=""></div>
       <div class="meta">
-        ${caption}
         <div class="tags">${tags || '<em>untagged</em>'}</div>
       </div>`;
     el.addEventListener('click', () => {
@@ -344,7 +342,6 @@ function renderCollectionEdit(li, c) {
 function openEdit(p) {
   const dlg = $('#edit-photo');
   $('[name=id]', dlg).value = p.id;
-  $('[name=caption]', dlg).value = p.caption || '';
 
   $('#edit-genres').innerHTML = genres.map(g => `
     <label><input type="checkbox" value="${escapeHtml(g.slug)}" ${p.genres.includes(g.slug) ? 'checked' : ''}> ${escapeHtml(g.name)}</label>
@@ -416,13 +413,12 @@ $('#edit-photo').addEventListener('close', async (e) => {
   const dlg = e.currentTarget;
   if (dlg.returnValue !== 'save') return;
   const id = $('[name=id]', dlg).value;
-  const caption = $('[name=caption]', dlg).value;
   const selectedGenres = $$('#edit-genres input:checked').map(i => i.value);
   const selectedCols = $$('#edit-collections input:checked').map(i => i.value);
   await api(`/photos/${encodeURIComponent(id)}`, {
     method: 'PATCH',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ caption, genres: selectedGenres, collections: selectedCols })
+    body: JSON.stringify({ genres: selectedGenres, collections: selectedCols })
   });
   refresh();
 });

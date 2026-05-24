@@ -1,7 +1,6 @@
-{{define "title"}}{{if .Photo.Caption}}{{.Photo.Caption}} · {{end}}masnun.photos{{end}}
-{{define "head"}}<meta property="og:title" content="{{if .Photo.Caption}}{{.Photo.Caption}}{{else}}masnun.photos{{end}}">
+{{define "title"}}masnun.photos{{end}}
+{{define "head"}}<meta property="og:title" content="masnun.photos">
   <meta property="og:type" content="article">
-  {{with .Photo.Caption}}<meta property="og:description" content="{{.}}">{{end}}
   <script type="application/ld+json">{{.JSONLD}}</script>
   <script>
     document.addEventListener("keydown", function (e) {
@@ -18,9 +17,8 @@
 {{end}}
 <figure class="photo-detail">
   <div class="photo-frame">
-    <img src="{{.Photo.URLs.Web}}" alt="{{.Photo.Caption}}">
+    <img src="{{.Photo.URLs.Web}}" alt="">
   </div>
-  {{with .Photo.Caption}}<figcaption>{{.}}</figcaption>{{end}}
 </figure>
 {{if or .PrevURL .NextURL}}
 <nav class="photo-nav">

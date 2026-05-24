@@ -31,8 +31,7 @@
   <div class="gallery">
     {{range .Featured}}
     <a class="gallery-item" href="/collection/featured/photo/{{.ID}}/">
-      <div class="gallery-img"><img src="{{.URLs.Web}}" alt="{{.Caption}}" loading="lazy"></div>
-      {{with .Caption}}<div class="gallery-caption">{{.}}</div>{{end}}
+      <div class="gallery-img"><img src="{{.URLs.Web}}" alt="" loading="lazy"></div>
     </a>
     {{end}}
   </div>

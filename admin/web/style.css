@@ -152,16 +152,6 @@ button.danger:hover { border-color: #c0392b; }
   display: block;
 }
 .photo-card .meta { padding: 0.6rem 0.7rem; font-size: 0.8rem; min-height: 2rem; }
-.photo-card .caption {
-  color: #222;
-  font-size: 0.85rem;
-  line-height: 1.35;
-  margin-bottom: 0.45rem;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
 .tags span,
 .pill {
   display: inline-block;

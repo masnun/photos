@@ -40,7 +40,7 @@ function filtered() {
   return rows.filter(r => {
     if (untagged && r.genres.length > 0) return false;
     if (g && !r.genres.includes(g)) return false;
-    if (q && !r.path.toLowerCase().includes(q) && !r.caption.toLowerCase().includes(q)) return false;
+    if (q && !r.path.toLowerCase().includes(q)) return false;
     return true;
   });
 }
@@ -73,9 +73,6 @@ function card(r) {
         <label>genres (comma-sep)
           <input class="genres" value="${escapeHtml(r.genres.join(', '))}">
         </label>
-        <label>caption
-          <textarea class="caption" rows="2">${escapeHtml(r.caption)}</textarea>
-        </label>
         <label>collection
           <input class="collection" value="${escapeHtml(r.collection)}">
         </label>
@@ -90,7 +87,6 @@ function card(r) {
 
 async function save(idx, el) {
   const genres = $('.genres', el).value.split(',').map(s => s.trim()).filter(Boolean);
-  const caption = $('.caption', el).value;
   const collection = $('.collection', el).value;
   const status = $('.status', el);
   status.textContent = '…';
@@ -98,7 +94,7 @@ async function save(idx, el) {
     const updated = await api(`/api/rows/${idx}`, {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ genres, caption, collection })
+      body: JSON.stringify({ genres, collection })
     });
     const i = rows.findIndex(r => r.idx === idx);
     if (i >= 0) rows[i] = updated;

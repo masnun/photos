@@ -157,7 +157,27 @@ func Run(opts Options) error {
 		return fmt.Errorf("load manifest: %w", err)
 	}
 
+	// Pinned genres render first in this exact order; everything else follows,
+	// alphabetical by name. Index = display priority (lower = earlier).
+	genreOrder := map[string]int{
+		"street-and-documentary":    0,
+		"landscape":                 1,
+		"architecture-and-interior": 2,
+		"birds-and-wildlife":        3,
+		"flower":                    4,
+		"macro":                     5,
+	}
+	rank := func(slug string) int {
+		if r, ok := genreOrder[slug]; ok {
+			return r
+		}
+		return len(genreOrder) // unpinned sort after all pinned
+	}
 	sort.SliceStable(m.Genres, func(i, j int) bool {
+		ri, rj := rank(m.Genres[i].Slug), rank(m.Genres[j].Slug)
+		if ri != rj {
+			return ri < rj
+		}
 		return strings.ToLower(m.Genres[i].Name) < strings.ToLower(m.Genres[j].Name)
 	})
 
@@ -452,11 +472,7 @@ func renderPhotos(rc *renderCtx) error {
 
 func buildPhotoData(rc *renderCtx, p manifest.Photo) photoData {
 	data := photoData{Photo: p}
-	desc := p.Caption
-	if strings.TrimSpace(desc) == "" {
-		desc = siteDescription
-	}
-	data.SEO = newSEO(fmt.Sprintf("/photo/%s/", p.ID), desc, p.URLs.Web)
+	data.SEO = newSEO(fmt.Sprintf("/photo/%s/", p.ID), siteDescription, p.URLs.Web)
 	data.JSONLD = photoJSONLD(p)
 	if p.TakenAt != nil {
 		data.TakenFormatted = p.TakenAt.Format("January 2, 2006")
@@ -683,11 +699,6 @@ func photoJSONLD(p manifest.Photo) template.JS {
 			"@type": "Person",
 			"name":  "আবু আশরাফ মাসনুন",
 		},
-	}
-	if p.Caption != "" {
-		ld["name"] = p.Caption
-		ld["description"] = p.Caption
-		ld["caption"] = p.Caption
 	}
 	if p.Width > 0 {
 		ld["width"] = p.Width

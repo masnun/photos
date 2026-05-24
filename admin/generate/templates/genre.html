@@ -16,8 +16,7 @@
     <div class="gallery">
       {{range .Photos}}
       <a class="gallery-item" href="/genre/{{$.Genre.Slug}}/photo/{{.ID}}/">
-        <div class="gallery-img"><img src="{{.URLs.Web}}" alt="{{.Caption}}" loading="lazy"></div>
-        {{with .Caption}}<div class="gallery-caption">{{.}}</div>{{end}}
+        <div class="gallery-img"><img src="{{.URLs.Web}}" alt="" loading="lazy"></div>
       </a>
       {{end}}
     </div>
@@ -30,8 +29,7 @@
       <div class="gallery">
         {{range .Photos}}
         <a class="gallery-item" href="/genre/{{$.Genre.Slug}}/photo/{{.ID}}/">
-          <div class="gallery-img"><img src="{{.URLs.Web}}" alt="{{.Caption}}" loading="lazy"></div>
-          {{with .Caption}}<div class="gallery-caption">{{.}}</div>{{end}}
+          <div class="gallery-img"><img src="{{.URLs.Web}}" alt="" loading="lazy"></div>
         </a>
         {{end}}
       </div>
