@@ -23,6 +23,8 @@ const (
 	siteName        = "masnun.photos"
 	siteLocale      = "en_US"
 	siteDescription = "Photographs by Abu Ashraf Masnun — a gallery by genre, collection, and date."
+	// heroBio matches the hero bio paragraph in index.html; used as the homepage SEO description.
+	heroBio = "Based in Khulna, Bangladesh. A software developer by trade and a photographer by passion — drawn most to street and documentary work, with a knack for landscapes and architecture."
 )
 
 // seoMeta carries the per-page fields the base template needs for canonical,
@@ -355,7 +357,7 @@ func renderIndex(rc *renderCtx) error {
 	data := buildIndexData(rc)
 	// Social share preview uses the hero/profile image.
 	heroImg := siteBaseURL + "/assets/img/profile.jpg"
-	data.SEO = newSEO("/", siteDescription, heroImg)
+	data.SEO = newSEO("/", heroBio, heroImg)
 	return writeTemplate(rc.tmpls["index.html"], filepath.Join(rc.outDir, "index.html"), data)
 }
 
