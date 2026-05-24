@@ -353,10 +353,8 @@ func parseTemplates() (map[string]*template.Template, error) {
 
 func renderIndex(rc *renderCtx) error {
 	data := buildIndexData(rc)
-	var heroImg string
-	if len(data.HeroCollections) > 0 && data.HeroCollections[0].Cover != nil {
-		heroImg = data.HeroCollections[0].Cover.URLs.Web
-	}
+	// Social share preview uses the hero/profile image.
+	heroImg := siteBaseURL + "/assets/img/profile.jpg"
 	data.SEO = newSEO("/", siteDescription, heroImg)
 	return writeTemplate(rc.tmpls["index.html"], filepath.Join(rc.outDir, "index.html"), data)
 }
